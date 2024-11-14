@@ -33,7 +33,7 @@ variables:
   value: 'OTHER_CODE_SIGN_FLAGS="--timestamp" CURRENT_PROJECT_VERSION="$(Build.BuildNumber)"'
 
 pool:
-  vmImage: 'macOS-14'
+  vmImage: 'macOS-15'
 
 stages:
   - stage: build
@@ -44,6 +44,9 @@ stages:
           inputs:
             certSecureFile: 'raising_the_floor_5AAXYGZ428.p12'
             certPwd: '$(P12_PASSWORD)'  
+            # opensslPkcsArgs: '-legacy'
+            # -legacy is a temporary patch for Azure pipeline while Microsoft updates macos-15 VMs' OpenSSL support
+            # see: https://github.com/microsoft/azure-pipelines-tasks/issues/20628
         - task: InstallAppleProvisioningProfile@1
           inputs:
             provProfileSecureFile: 'Morphic_Launcher_for_macOS.provisionprofile'
