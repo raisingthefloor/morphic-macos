@@ -1,4 +1,4 @@
-// Copyright 2020-2022 Raising the Floor - US, Inc.
+// Copyright 2020-2025 Raising the Floor - US, Inc.
 //
 // Licensed under the New BSD license. You may not use this file except in
 // compliance with this License.
@@ -48,7 +48,7 @@ public class SplitGroupUIElement : UIElement {
 
                     result.append(splitGroupChild)
                 } else {
-                    // even elements hsould be splitters
+                    // even elements should be splitters
                     guard splitGroupChild.role == .splitter else {
                         throw MorphicError.unspecified
                     }
@@ -57,7 +57,7 @@ public class SplitGroupUIElement : UIElement {
         } catch let error {
             throw error
         }
-        
+
         return result
     }
 

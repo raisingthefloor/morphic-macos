@@ -1,4 +1,4 @@
-// Copyright 2020-2022 Raising the Floor - US, Inc.
+// Copyright 2020-2025 Raising the Floor - US, Inc.
 //
 // Licensed under the New BSD license. You may not use this file except in
 // compliance with this License.
@@ -166,358 +166,268 @@ public class SystemSettingsApp {
         
         switch view {
         case .accessibility:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                do {
-                    let groupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
-                    groupUIElementWrapper = SystemSettingsAccessibilityCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            do {
+                let groupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
+                groupUIElementWrapper = SystemSettingsAccessibilityCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
+            } catch let error {
+                throw error
             }
         case .accessibilityDisplay:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                let accessibilityCategoryGroupUIElement: GroupUIElement
-                do {
-                    accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-                
-                let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
-                do {
-                    let groupUIElement = try await accessibilityCategoryPane.navigateTo(.display, waitAtMost: subCategoryNavigationWaitMaximum)
-                    groupUIElementWrapper = SystemSettingsAccessibilityDisplayCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            let accessibilityCategoryGroupUIElement: GroupUIElement
+            do {
+                accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
+            }
+            
+            let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
+            do {
+                let groupUIElement = try await accessibilityCategoryPane.navigateTo(.display, waitAtMost: subCategoryNavigationWaitMaximum)
+                groupUIElementWrapper = SystemSettingsAccessibilityDisplayCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
+            } catch let error {
+                throw error
             }
         case .accessibilitySpokenContent:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                let accessibilityCategoryGroupUIElement: GroupUIElement
-                do {
-                    accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-                
-                let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
-                do {
-                    let groupUIElement = try await accessibilityCategoryPane.navigateTo(.spokenContent, waitAtMost: subCategoryNavigationWaitMaximum)
-                    groupUIElementWrapper = SystemSettingsAccessibilitySpokenContentCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            let accessibilityCategoryGroupUIElement: GroupUIElement
+            do {
+                accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
+            }
+            
+            let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
+            do {
+                let groupUIElement = try await accessibilityCategoryPane.navigateTo(.spokenContent, waitAtMost: subCategoryNavigationWaitMaximum)
+                groupUIElementWrapper = SystemSettingsAccessibilitySpokenContentCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
+            } catch let error {
+                throw error
             }
         case .accessibilityVoiceOver:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                let accessibilityCategoryGroupUIElement: GroupUIElement
-                do {
-                    accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-                
-                let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
-                do {
-                    let groupUIElement = try await accessibilityCategoryPane.navigateTo(.voiceOver, waitAtMost: subCategoryNavigationWaitMaximum)
-                    groupUIElementWrapper = SystemSettingsAccessibilityVoiceOverCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            let accessibilityCategoryGroupUIElement: GroupUIElement
+            do {
+                accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
+            }
+            
+            let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
+            do {
+                let groupUIElement = try await accessibilityCategoryPane.navigateTo(.voiceOver, waitAtMost: subCategoryNavigationWaitMaximum)
+                groupUIElementWrapper = SystemSettingsAccessibilityVoiceOverCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
+            } catch let error {
+                throw error
             }
         case .accessibilityZoom:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                let accessibilityCategoryGroupUIElement: GroupUIElement
-                do {
-                    accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-                
-                let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
-                do {
-                    let groupUIElement = try await accessibilityCategoryPane.navigateTo(.zoom, waitAtMost: subCategoryNavigationWaitMaximum)
-                    groupUIElementWrapper = SystemSettingsAccessibilityZoomCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            let accessibilityCategoryGroupUIElement: GroupUIElement
+            do {
+                accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
+            }
+            
+            let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
+            do {
+                let groupUIElement = try await accessibilityCategoryPane.navigateTo(.zoom, waitAtMost: subCategoryNavigationWaitMaximum)
+                groupUIElementWrapper = SystemSettingsAccessibilityZoomCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
+            } catch let error {
+                throw error
             }
         case .appearance:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                do {
-                    _ = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.appearance, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            do {
+                _ = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.appearance, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
             }
         case .colorFilters:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                let accessibilityCategoryGroupUIElement: GroupUIElement
-                do {
-                    accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-                
-                let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
-                do {
-                    _ = try await accessibilityCategoryPane.navigateTo(.display, waitAtMost: subCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            let accessibilityCategoryGroupUIElement: GroupUIElement
+            do {
+                accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
+            }
+            
+            let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
+            do {
+                _ = try await accessibilityCategoryPane.navigateTo(.display, waitAtMost: subCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
             }
         case .contrast:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                let accessibilityCategoryGroupUIElement: GroupUIElement
-                do {
-                    accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-                
-                let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
-                do {
-                    _ = try await accessibilityCategoryPane.navigateTo(.display, waitAtMost: subCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            let accessibilityCategoryGroupUIElement: GroupUIElement
+            do {
+                accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
+            }
+            
+            let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
+            do {
+                _ = try await accessibilityCategoryPane.navigateTo(.display, waitAtMost: subCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
             }
         case .displayBrightness:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                do {
-                    _ = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.displays, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            do {
+                _ = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.displays, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
             }
         case .general:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                do {
-                    let groupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.general, waitAtMost: mainCategoryNavigationWaitMaximum)
-                    groupUIElementWrapper = SystemSettingsGeneralCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            do {
+                let groupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.general, waitAtMost: mainCategoryNavigationWaitMaximum)
+                groupUIElementWrapper = SystemSettingsGeneralCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
+            } catch let error {
+                throw error
             }
         case .keyboard:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                do {
-                    let groupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.keyboard, waitAtMost: mainCategoryNavigationWaitMaximum)
-                    groupUIElementWrapper = SystemSettingsKeyboardCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            do {
+                let groupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.keyboard, waitAtMost: mainCategoryNavigationWaitMaximum)
+                groupUIElementWrapper = SystemSettingsKeyboardCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: groupUIElement)
+            } catch let error {
+                throw error
             }
         case .languageAndRegion:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                let generalCategoryGroupUIElement: GroupUIElement
-                do {
-                    generalCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.general, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-                
-                let generalCategoryPane = SystemSettingsGeneralCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: generalCategoryGroupUIElement)
-                do {
-                    _ = try await generalCategoryPane.navigateTo(.languageAndRegion, waitAtMost: subCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            let generalCategoryGroupUIElement: GroupUIElement
+            do {
+                generalCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.general, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
+            }
+            
+            let generalCategoryPane = SystemSettingsGeneralCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: generalCategoryGroupUIElement)
+            do {
+                _ = try await generalCategoryPane.navigateTo(.languageAndRegion, waitAtMost: subCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
             }
         case .mouse:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                do {
-                    _ = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.mouse, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            do {
+                _ = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.mouse, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
             }
         case .nightShift:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                let displaysCategoryGroupUIElement: GroupUIElement
-                do {
-                    displaysCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.displays, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-                
-                // find the "Night Shift..." button and press it
-                let displaysCategoryPane = SystemSettingsDisplaysCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: displaysCategoryGroupUIElement)
-                do {
-                    _ = try displaysCategoryPane.pressButton(forButtonWithLabel: SystemSettingsDisplaysCategoryPane_macOS13.Button.nightShift)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            let displaysCategoryGroupUIElement: GroupUIElement
+            do {
+                displaysCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.displays, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
+            }
+            
+            // find the "Night Shift..." button and press it
+            let displaysCategoryPane = SystemSettingsDisplaysCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: displaysCategoryGroupUIElement)
+            do {
+                _ = try displaysCategoryPane.pressButton(forButtonWithLabel: SystemSettingsDisplaysCategoryPane.Button.nightShift)
+            } catch let error {
+                throw error
             }
         case .pointerSize:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                let accessibilityCategoryGroupUIElement: GroupUIElement
-                do {
-                    accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-                
-                let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
-                do {
-                    _ = try await accessibilityCategoryPane.navigateTo(.display, waitAtMost: subCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            let accessibilityCategoryGroupUIElement: GroupUIElement
+            do {
+                accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
+            }
+            
+            let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
+            do {
+                _ = try await accessibilityCategoryPane.navigateTo(.display, waitAtMost: subCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
             }
         case .screenshotKeyboardShortcuts:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                let keyboardCategoryGroupUIElement: GroupUIElement
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            let keyboardCategoryGroupUIElement: GroupUIElement
+            do {
+                keyboardCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.keyboard, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
+            }
+            
+            // find the "Keyboard Shortcuts..." button and press it
+            let keyboardCategoryPane = SystemSettingsKeyboardCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: keyboardCategoryGroupUIElement)
+            do {
+                _ = try keyboardCategoryPane.pressButton(forButtonWithLabel: SystemSettingsKeyboardCategoryPane.Button.keyboardShortcuts)
+            } catch let error {
+                throw error
+            }
+            
+            // now find the sheet
+            var sheet: SheetUIElement?
+            let _ = try await AsyncUtils.wait(atMost: subCategoryNavigationWaitMaximum, for: {
                 do {
-                    keyboardCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.keyboard, waitAtMost: mainCategoryNavigationWaitMaximum)
+                    sheet = try systemSettingsMainWindow.sheet()
                 } catch let error {
                     throw error
+                }
+                guard let _ = sheet else {
+                    return false
                 }
                 
-                // find the "Keyboard Shortcuts..." button and press it
-                let keyboardCategoryPane = SystemSettingsKeyboardCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: keyboardCategoryGroupUIElement)
-                do {
-                    _ = try keyboardCategoryPane.pressButton(forButtonWithLabel: SystemSettingsKeyboardCategoryPane_macOS13.Button.keyboardShortcuts)
-                } catch let error {
-                    throw error
-                }
-                
-                // now find the sheet
-                var sheet: SheetUIElement?
-                let _ = try await AsyncUtils.wait(atMost: subCategoryNavigationWaitMaximum, for: {
-                    do {
-                        sheet = try systemSettingsMainWindow.sheet()
-                    } catch let error {
-                        throw error
-                    }
-                    guard let _ = sheet else {
-                        return false
-                    }
-                    
-                    return true
-                })
-                guard let sheet = sheet else {
-                    throw SystemSettingsApp.NavigationError.unspecified
-                }
-                //
-                // get the main group element from the sheet
-                let sheetGroupA11yUIElement: MorphicA11yUIElement?
-                do {
-                    sheetGroupA11yUIElement = try sheet.accessibilityUiElement.onlyChild(role: .group)
-                } catch let error {
-                    throw error
-                }
-                guard let sheetGroupA11yElement = sheetGroupA11yUIElement else {
-                    throw SystemSettingsApp.NavigationError.unspecified
-                }
-                //
-                // convert SheetGroupA11yUIElement into a SheetGroupUIElement
-                let sheetGroupUIElement = GroupUIElement(accessibilityUiElement: sheetGroupA11yElement)
-                //
-                // create a KeyboardShortcutsSheet object using the sheet's group
-                let keyboardShortcutsSheet = SystemSettingsKeyboardShortcutsSheet_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: sheetGroupUIElement)
-                //
-                do {
-                    _ = try await keyboardShortcutsSheet.navigateTo(SystemSettingsKeyboardShortcutsSheet_macOS13.CategoryPane.screenshots, waitAtMost: subCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+                return true
+            })
+            guard let sheet = sheet else {
+                throw SystemSettingsApp.NavigationError.unspecified
+            }
+            //
+            // get the main group element from the sheet
+            let sheetGroupA11yUIElement: MorphicA11yUIElement?
+            do {
+                sheetGroupA11yUIElement = try sheet.accessibilityUiElement.onlyChild(role: .group)
+            } catch let error {
+                throw error
+            }
+            guard let sheetGroupA11yElement = sheetGroupA11yUIElement else {
+                throw SystemSettingsApp.NavigationError.unspecified
+            }
+            //
+            // convert SheetGroupA11yUIElement into a SheetGroupUIElement
+            let sheetGroupUIElement = GroupUIElement(accessibilityUiElement: sheetGroupA11yElement)
+            //
+            // create a KeyboardShortcutsSheet object using the sheet's group
+            let keyboardShortcutsSheet = SystemSettingsKeyboardShortcutsSheet(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: sheetGroupUIElement)
+            //
+            do {
+                _ = try await keyboardShortcutsSheet.navigateTo(SystemSettingsKeyboardShortcutsSheet.CategoryPane.screenshots, waitAtMost: subCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
             }
         case .speech:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                let accessibilityCategoryGroupUIElement: GroupUIElement
-                do {
-                    accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-                
-                let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane_macOS13(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
-                do {
-                    _ = try await accessibilityCategoryPane.navigateTo(.spokenContent, waitAtMost: subCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            let accessibilityCategoryGroupUIElement: GroupUIElement
+            do {
+                accessibilityCategoryGroupUIElement = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.accessibility, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
+            }
+            
+            let accessibilityCategoryPane = SystemSettingsAccessibilityCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: accessibilityCategoryGroupUIElement)
+            do {
+                _ = try await accessibilityCategoryPane.navigateTo(.spokenContent, waitAtMost: subCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
             }
         case .trackpad:
-            if #available(macOS 13.0, *) {
-                // macOS 13.0 and later
-                let systemSettingsMainWindow = SystemSettingsMainWindow_macOS13(windowUIElement: windowUIElement)
-                do {
-                    _ = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow_macOS13.CategoryPane.trackpad, waitAtMost: mainCategoryNavigationWaitMaximum)
-                } catch let error {
-                    throw error
-                }
-            } else {
-                fatalError("Unsupported macOS version")
+            let systemSettingsMainWindow = SystemSettingsMainWindow(windowUIElement: windowUIElement)
+            do {
+                _ = try await systemSettingsMainWindow.navigateTo(SystemSettingsMainWindow.CategoryPane.trackpad, waitAtMost: mainCategoryNavigationWaitMaximum)
+            } catch let error {
+                throw error
             }
         }
         

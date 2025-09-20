@@ -333,7 +333,7 @@
 		31A0A5792405967600166668 /* MorphicSettings */ = {
 			isa = PBXGroup;
 			children = (
-				9D3AC8B429AD41B7007D3E8A /* macOS13AndNewer */,
+				9D3AC8C029AE9E8D007D3E8A /* AccessibilityDisplay */,
 				9D0AF73524A0FB49007E177E /* AccessibilityUI */,
 				314EB6DC24A6A65F00CF3D48 /* Automations */,
 				31A16BC72423E86C0081A72C /* Audio */,
@@ -341,6 +341,7 @@
 				31A16BC52423E86C0081A72C /* Display */,
 				31A16BBF2423E86B0081A72C /* Input */,
 				31A16BC12423E86C0081A72C /* Language */,
+				9D3AC8B729AD41D3007D3E8A /* Magnifier */,
 				9D68EA4F2797271F00AC3A88 /* Mouse */,
 				9D6264142832B2F500CB4224 /* Networking */,
 				31A16BBC2423E86B0081A72C /* Process */,
@@ -361,6 +362,8 @@
 				31CE56EA244A149B00A52A7B /* Audio.swift */,
 				9D0AF78924A4F471007E177E /* module.modulemap */,
 				315EEC8224A530970039C61D /* SystemPreferences.swift */,
+				9D4DF00B29B5471D0033FD1F /* UIAutomationSetSettingProxy.swift */,
+				9D3AC8C329AE9F34007D3E8A /* UserDefaultsUtils.swift */,
 			);
 			path = MorphicSettings;
 			sourceTree = "<group>";
@@ -459,17 +462,6 @@
 				9D38C4EE252A37AB0064FB74 /* UniversalAccess.h */,
 			);
 			path = include;
-			sourceTree = "<group>";
-		};
-		9D3AC8B429AD41B7007D3E8A /* macOS13AndNewer */ = {
-			isa = PBXGroup;
-			children = (
-				9D3AC8C029AE9E8D007D3E8A /* AccessibilityDisplay */,
-				9D3AC8B729AD41D3007D3E8A /* Magnifier */,
-				9D3AC8C329AE9F34007D3E8A /* UserDefaultsUtils.swift */,
-				9D4DF00B29B5471D0033FD1F /* UIAutomationSetSettingProxy.swift */,
-			);
-			path = macOS13AndNewer;
 			sourceTree = "<group>";
 		};
 		9D3AC8B729AD41D3007D3E8A /* Magnifier */ = {
@@ -765,7 +757,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -822,7 +814,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -857,7 +849,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MODULEMAP_FILE = MorphicSettings/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = org.raisingthefloor.MorphicSettings;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -892,7 +884,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MODULEMAP_FILE = MorphicSettings/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = org.raisingthefloor.MorphicSettings;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

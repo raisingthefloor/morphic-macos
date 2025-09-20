@@ -1,4 +1,4 @@
-// Copyright 2020 Raising the Floor - International
+// Copyright 2020-2025 Raising the Floor - International
 //
 // Licensed under the New BSD license. You may not use this file except in
 // compliance with this License.
@@ -72,7 +72,7 @@ class AboutBoxWindowController: NSWindowController, NSWindowDelegate {
             self.buildTextField.stringValue = "[build version is unknown]"
         }
         
-        self.copyrightTextField.stringValue = "Copyright (c) 2020-2024 Raising the Floor - US Inc."
+        self.copyrightTextField.stringValue = "Copyright (c) 2020-2025 Raising the Floor - US Inc."
     }
     
     func centerOnScreen() {

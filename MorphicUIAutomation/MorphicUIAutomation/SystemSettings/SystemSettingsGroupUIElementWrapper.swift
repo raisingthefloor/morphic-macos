@@ -1,4 +1,4 @@
-// Copyright 2023 Raising the Floor - US, Inc.
+// Copyright 2023-2025 Raising the Floor - US, Inc.
 //
 // Licensed under the New BSD license. You may not use this file except in
 // compliance with this License.
@@ -26,10 +26,10 @@ import MorphicCore
 import MorphicMacOSNative
 
 public class SystemSettingsGroupUIElementWrapper {
-    internal private(set) var systemSettingsMainWindow: SystemSettingsMainWindow_macOS13
+    internal private(set) var systemSettingsMainWindow: SystemSettingsMainWindow
     internal private(set) var groupUIElement: GroupUIElement
     
-    internal required init(systemSettingsMainWindow: SystemSettingsMainWindow_macOS13, groupUIElement: GroupUIElement) {
+    internal required init(systemSettingsMainWindow: SystemSettingsMainWindow, groupUIElement: GroupUIElement) {
         self.systemSettingsMainWindow = systemSettingsMainWindow
         self.groupUIElement = groupUIElement
     }

@@ -1,4 +1,4 @@
-// Copyright 2020 Raising the Floor - International
+// Copyright 2020-2025 Raising the Floor - International
 //
 // Licensed under the New BSD license. You may not use this file except in
 // compliance with this License.
@@ -37,38 +37,7 @@ public class SettingsManager {
         // Display
         ClientSettingHandler.register(type: DisplayZoomHandler.self, for: .macosDisplayZoom)
 
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-
-            // NOTE: with macOS 13.0 and later, the automation setup is completed by calling registerUIAutomationSetSettingProxies once during startup; this is necessary due to a circular dependency issue (which we should resolve when we remove the legacy ui automation code)
-        } else {
-            // macOS 12.x and earlier
-            
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: ContrastUIAutomation.self, for: .macosDisplayContrastEnabled)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: InvertColorsUIAutomation.self, for: .macosDisplayInvertColors)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: InvertClassicUIAutomation.self, for: .macosDisplayClassicInvert)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: ReduceMotionUIAutomation.self, for: .macosDisplayReduceMotion)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: ReduceTransparencyUIAutomation.self, for: .macosDisplayReduceTransparency)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: DifferentiateWithoutColorUIAutomation.self, for: .macosDisplayDifferentiateWithoutColor)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: CursorShakeUIAutomation.self, for: .macosCursorShake)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: CursorSizeUIAutomation.self, for: .macosCursorSize)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: ColorFilterEnabledAutomation.self, for: .macosColorFilterEnabled)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: ColorFilterTypeAutomation.self, for: .macosColorFilterType)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: ColorFilterIntensityUIAutomation.self, for: .macosColorFilterIntensity)
-
-            // Speech
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: SpeakSelectedTextEnabledUIAutomation.self, for: .macosSpeakSelectedTextEnabled)
-            
-            // Voice Over
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: VoiceOverUIAutomation.self, for: .macosVoiceOverEnabled)
-            
-            // Zoom
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: ZoomEnabledUIAutomation.self, for: .macosZoomEnabled)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: ScrollToZoomEnabledUIAutomation.self, for: .macosScrollToZoomEnabled)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: HoverTextEnabledUIAutomation.self, for: .macosHoverTextEnabled)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: TouchbarZoomEnabledUIAutomation.self, for: .macosTouchbarZoomEnabled)
-            DefaultsReadUIWriteSettingHandler.legacyRegister(automation: ZoomStyleUIAutomation.self, for: .macosZoomStyle)
-        }
+        // NOTE: with macOS 13.0 and later, the automation setup is completed by calling registerUIAutomationSetSettingProxies once during startup; this is necessary due to a circular dependency issue (which we should resolve when we remove the legacy ui automation code)
     }
     
     /// All known solutions
