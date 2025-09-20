@@ -364,15 +364,47 @@ internal class SystemSettingsMainWindow {
         //
         // find the left and right panes in the split view
         let splitGroupUIElement = SplitGroupUIElement(accessibilityUiElement: splitGroupA11yUiElement)
-        let splitGroupUIElements: [GroupUIElement]
+        let splitGroupUIElementLists: [[GroupUIElement]]
         do {
-            splitGroupUIElements = try splitGroupUIElement.splitGroupItemsAsGroupUIElements()
+            splitGroupUIElementLists = try splitGroupUIElement.splitGroupItemsAsGroupUIElements()
         }
-        guard splitGroupUIElements.count == 2 else {
-            throw SystemSettingsApp.NavigationError.unspecified
+        //
+        let leftGroup: GroupUIElement
+        let rightGroup: GroupUIElement
+        if #available(macOS 26.0, *) {
+            guard splitGroupUIElementLists.count == 2 else {
+                throw SystemSettingsApp.NavigationError.unspecified
+            }
+            //
+            let leftGroupUIElementList = splitGroupUIElementLists[0]
+            guard leftGroupUIElementList.count == 2 else {
+                throw SystemSettingsApp.NavigationError.unspecified
+            }
+            leftGroup = leftGroupUIElementList[0]
+            //secondElementInLeftGroup = leftGroupUIElementList[1]
+            //
+            let rightGroupUIElementList = splitGroupUIElementLists[1]
+            guard rightGroupUIElementList.count == 1 else {
+                throw SystemSettingsApp.NavigationError.unspecified
+            }
+            rightGroup = rightGroupUIElementList[0]
+        } else {
+            guard splitGroupUIElementLists.count >= 2 /* == 2 */ else {
+                throw SystemSettingsApp.NavigationError.unspecified
+            }
+            //
+            let leftGroupUIElementList = splitGroupUIElementLists[0]
+            guard leftGroupUIElementList.count >= 1 /* == 1 */ else {
+                throw SystemSettingsApp.NavigationError.unspecified
+            }
+            leftGroup = leftGroupUIElementList[0]
+            //
+            let rightGroupUIElementList = splitGroupUIElementLists[1]
+            guard rightGroupUIElementList.count >= 1 /* == 1 */ else {
+                throw SystemSettingsApp.NavigationError.unspecified
+            }
+            rightGroup = rightGroupUIElementList[0]
         }
-        let leftGroup = splitGroupUIElements[0]
-        let rightGroup = splitGroupUIElements[1]
         
         return (leftGroup: leftGroup, rightGroup: rightGroup)
     }

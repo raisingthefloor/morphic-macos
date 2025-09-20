@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#  Copyright 2020 Raising the Floor - International
+#  Copyright 2020 Raising the Floor - US, Inc.
 #
 #  Licensed under the New BSD license. You may not use this file except in
 #  compliance with this License.
