@@ -1,4 +1,4 @@
-// Copyright 2020-2022 Raising the Floor - US, Inc.
+// Copyright 2020-2025 Raising the Floor - US, Inc.
 //
 // Licensed under the New BSD license. You may not use this file except in
 // compliance with this License.
@@ -134,10 +134,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
             }
         #endif
 
-        // setup ui automation set setting proxies (macOS 13.0 and above)
-        if #available(macOS 13.0, *) {
-            MorphicSettingsUIAutomationBridgeHelper.setupUIAutomationSetSettingProxies()
-        }
+        // setup ui automation set setting proxies
+        MorphicSettingsUIAutomationBridgeHelper.setupUIAutomationSetSettingProxies()
         
         os_log(.info, log: logger, "opening morphic session...")
         populateSolutions()
@@ -1800,12 +1798,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
     //
 
     func setInitialColorFilterType(waitAtMost: TimeInterval) async throws {
-        if #available(macOS 13.0, *) {
-            // the async version of this function is built for macOS 13 and later: proceed.
-        } else {
-            fatalError("This version of macOS is not yet supported by this code")
-        }
-
         // verify that we have accessibility permissions (since UI automation will not work without them)
         // NOTE: this function call will prompt the user for authorization if they have not already granted it
         guard MorphicA11yAuthorization.authorizationStatus(promptIfNotAuthorized: true) == true else {
@@ -1827,51 +1819,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         Session.shared.set(true, for: .morphicDidSetInitialColorFilterType)
     }
     
-    func setInitialColorFilterType() {
-//        // NOTE: color-filter types (as their enumerated int values)
-//        1: "Grayscale",
-//        2: "Red/Green filter (Protanopia)",
-//        4: "Green/Red filter (Deuteranopia)",
-//        8: "Blue/Yellow filter (Tritanopia)",
-//        16: "Color Tint"
-        // TODO: convert this int into an enumeration (using the values from the above list)
-        let colorFilterTypeAsInt: Int = 2 // Red/Green filter (Protanopia)
-        
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            fatalError("This version of macOS is not supported by this code; use the new async version instead.")
-        } else {
-            // macOS 12.x and earlier
-
-            Session.shared.apply(colorFilterTypeAsInt, for: .macosColorFilterType) {
-                success in
-                
-                // we do not currently have a mechanism to report success/failure
-                SettingsManager.shared.capture(valueFor: .macosColorFilterType) {
-                    verifyColorFilterType in
-                    guard let verifyColorFilterTypeAsInt = verifyColorFilterType as? Int else {
-                        // could not get current setting
-                        return
-                    }
-                    //
-                    if verifyColorFilterTypeAsInt != colorFilterTypeAsInt {
-                        NSLog("Could not set color filter type to Red/Green filter (Protanopia)")
-                        assertionFailure("Could not set color filter type to Red/Green filter (Protanopia)")
-                    }
-                }
-            }
-        }
-        
-        Session.shared.set(true, for: .morphicDidSetInitialColorFilterType)
-    }
-
     func setInitialMagnifierZoomStyle(waitAtMost: TimeInterval) async throws {
-        if #available(macOS 13.0, *) {
-            // the async version of this function is built for macOS 13 and later: proceed.
-        } else {
-            fatalError("This version of macOS is not yet supported by this code")
-        }
-        
         // set up a UIAutomationSequence so that cleanup can occur once the sequence goes out of scope (e.g. auto-terminate the app)
         let uiAutomationSequence = UIAutomationSequence()
         let waitAbsoluteDeadline = ProcessInfo.processInfo.systemUptime + waitAtMost
@@ -1880,7 +1828,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         
         do {
             let waitForTimespan = max(waitAbsoluteDeadline - ProcessInfo.processInfo.systemUptime, 0)
-            try await AccessibilityZoomUIAutomationScript_macOS13.setZoomStyle(newZoomStyle, sequence: uiAutomationSequence, waitAtMost: waitForTimespan)
+            try await AccessibilityZoomUIAutomationScript.setZoomStyle(newZoomStyle, sequence: uiAutomationSequence, waitAtMost: waitForTimespan)
         } catch let error {
             throw error
         }
@@ -1900,53 +1848,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         Session.shared.set(true, for: .morphicDidSetInitialMagnifierZoomStyle)
     }
 
-    func setInitialMagnifierZoomStyle(completion: @escaping (_ success: Bool) -> Void) {
-        //        // NOTE: zoom styles (as their enumerated int values)
-        //        0: "Full screen",
-        //        1: "Picture-in-picture",
-        //        2: "Split screen",
-        let zoomStyleAsInt: Int = 1 // Picture-in-picture (aka "lens")
-
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            fatalError("This version of macOS is not supported by this code; use the new async version instead.")
-        } else {
-            // macOS 12.x and earlier
-
-            Session.shared.apply(zoomStyleAsInt, for: .macosZoomStyle) {
-                success in
-             
-                guard success == true else {
-                    completion(false)
-                    return
-                }
-                
-                Session.shared.set(true, for: .morphicDidSetInitialMagnifierZoomStyle)
-
-                // we do not currently have a mechanism to report success/failure
-                SettingsManager.shared.capture(valueFor: .macosZoomStyle) {
-                    verifyZoomStyle in
-
-                    guard let verifyZoomStyleAsInt = verifyZoomStyle as? Int else {
-                        // could not get current setting
-                        completion(false)
-                        return
-                    }
-                    //
-                    if verifyZoomStyleAsInt != verifyZoomStyleAsInt {
-                        NSLog("Could not set magnifier zoom style to Picture-in-picture")
-                        assertionFailure("Could not set magnifier zoom style to Picture-in-picture")
-
-                        completion(false)
-                        return
-                    }
-                    
-                    completion(true)
-                }
-            }
-        }
-    }
-    
     func setInitialAutorunAfterLoginEnabled() {
         _ = setMorphicAutostartAtLogin(true)
         
@@ -2436,12 +2337,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         defer {
             recordTelemetryOpenSystemSettingsEvent(category: "allAccessibility", tag: (sender as? NSView)?.tag)
         }
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            Task { try? await SettingsLinkActions.openSystemSettingsPane(.accessibilityOverview) }
-        } else {
-            SettingsLinkActions.openSystemSettingsPane_macOS12AndEarlier(.accessibilityOverview)
-        }
+        Task { try? await SettingsLinkActions.openSystemSettingsPane(.accessibilityOverview) }
     }
     
     @IBAction
@@ -2449,12 +2345,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         defer {
             recordTelemetryOpenSystemSettingsEvent(category: "brightness", tag: (sender as? NSView)?.tag)
         }
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            Task { try? await SettingsLinkActions.openSystemSettingsPane(.displaysDisplay) }
-        } else {
-            SettingsLinkActions.openSystemSettingsPane_macOS12AndEarlier(.displaysDisplay)
-        }
+        Task { try? await SettingsLinkActions.openSystemSettingsPane(.displaysDisplay) }
     }
     
     @IBAction
@@ -2462,12 +2353,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         defer {
             recordTelemetryOpenSystemSettingsEvent(category: "colorFilter", tag: (sender as? NSView)?.tag)
         }
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            Task { try? await SettingsLinkActions.openSystemSettingsPane(.accessibilityDisplayColorFilters) }
-        } else {
-            SettingsLinkActions.openSystemSettingsPane_macOS12AndEarlier(.accessibilityDisplayColorFilters)
-        }
+        Task { try? await SettingsLinkActions.openSystemSettingsPane(.accessibilityDisplayColorFilters) }
     }
     
     @IBAction
@@ -2475,12 +2361,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         defer {
             recordTelemetryOpenSystemSettingsEvent(category: "highContrast", tag: (sender as? NSView)?.tag)
         }
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            Task { try? await SettingsLinkActions.openSystemSettingsPane(.accessibilityDisplayDisplay) }
-        } else {
-            SettingsLinkActions.openSystemSettingsPane_macOS12AndEarlier(.accessibilityDisplayDisplay)
-        }
+        Task { try? await SettingsLinkActions.openSystemSettingsPane(.accessibilityDisplayDisplay) }
     }
     
     @IBAction
@@ -2488,12 +2369,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         defer {
             recordTelemetryOpenSystemSettingsEvent(category: "darkMode", tag: (sender as? NSView)?.tag)
         }
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            Task { try? await SettingsLinkActions.openSystemSettingsPane(.appearance) }
-        } else {
-            SettingsLinkActions.openSystemSettingsPane_macOS12AndEarlier(.appearance)
-        }
+        Task { try? await SettingsLinkActions.openSystemSettingsPane(.appearance) }
     }
 
     @IBAction
@@ -2501,12 +2377,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         defer {
             recordTelemetryOpenSystemSettingsEvent(category: "language", tag: (sender as? NSView)?.tag)
         }
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            Task { try? await SettingsLinkActions.openSystemSettingsPane(.languageandregionGeneral) }
-        } else {
-            SettingsLinkActions.openSystemSettingsPane_macOS12AndEarlier(.languageandregionGeneral)
-        }
+        Task { try? await SettingsLinkActions.openSystemSettingsPane(.languageandregionGeneral) }
     }
     
     @IBAction
@@ -2514,12 +2385,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         defer {
             recordTelemetryOpenSystemSettingsEvent(category: "magnifier", tag: (sender as? NSView)?.tag)
         }
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            Task { try? await SettingsLinkActions.openSystemSettingsPane(.accessibilityZoom) }
-        } else {
-            SettingsLinkActions.openSystemSettingsPane_macOS12AndEarlier(.accessibilityZoom)
-        }
+        Task { try? await SettingsLinkActions.openSystemSettingsPane(.accessibilityZoom) }
     }
 
     @IBAction
@@ -2527,12 +2393,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         defer {
             recordTelemetryOpenSystemSettingsEvent(category: "mouse", tag: (sender as? NSView)?.tag)
         }
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            Task { try? await SettingsLinkActions.openSystemSettingsPane(.mouse) }
-        } else {
-            SettingsLinkActions.openSystemSettingsPane_macOS12AndEarlier(.mouse)
-        }
+        Task { try? await SettingsLinkActions.openSystemSettingsPane(.mouse) }
     }
 
     @IBAction
@@ -2540,12 +2401,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         defer {
             recordTelemetryOpenSystemSettingsEvent(category: "nightMode", tag: (sender as? NSView)?.tag)
         }
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            Task { try? await SettingsLinkActions.openSystemSettingsPane(.displaysNightShift) }
-        } else {
-            SettingsLinkActions.openSystemSettingsPane_macOS12AndEarlier(.displaysNightShift)
-        }
+        Task { try? await SettingsLinkActions.openSystemSettingsPane(.displaysNightShift) }
     }
     
     @IBAction
@@ -2553,12 +2409,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         defer {
             recordTelemetryOpenSystemSettingsEvent(category: "pointerSize", tag: (sender as? NSView)?.tag)
         }
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            Task { try? await SettingsLinkActions.openSystemSettingsPane(.accessibilityDisplayCursor) }
-        } else {
-            SettingsLinkActions.openSystemSettingsPane_macOS12AndEarlier(.accessibilityDisplayCursor)
-        }
+        Task { try? await SettingsLinkActions.openSystemSettingsPane(.accessibilityDisplayCursor) }
     }
     
     @IBAction
@@ -2566,12 +2417,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         defer {
             recordTelemetryOpenSystemSettingsEvent(category: "readAloud", tag: (sender as? NSView)?.tag)
         }
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            Task { try? await SettingsLinkActions.openSystemSettingsPane(.accessibilitySpeech) }
-        } else {
-            SettingsLinkActions.openSystemSettingsPane_macOS12AndEarlier(.accessibilitySpeech)
-        }
+        Task { try? await SettingsLinkActions.openSystemSettingsPane(.accessibilitySpeech) }
     }
 
     @IBAction
@@ -2579,12 +2425,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         defer {
             recordTelemetryOpenSystemSettingsEvent(category: "keyboard", tag: (sender as? NSView)?.tag)
         }
-        if #available(macOS 13.0, *) {
-            // macOS 13.0 and later
-            Task { try? await SettingsLinkActions.openSystemSettingsPane(.keyboardKeyboard) }
-        } else {
-            SettingsLinkActions.openSystemSettingsPane_macOS12AndEarlier(.keyboardKeyboard)
-        }
+        Task { try? await SettingsLinkActions.openSystemSettingsPane(.keyboardKeyboard) }
     }
     
     //

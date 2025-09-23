@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#  Copyright 2020 Raising the Floor - International
+#  Copyright 2020 Raising the Floor - US, Inc.
 #
 #  Licensed under the New BSD license. You may not use this file except in
 #  compliance with this License.
@@ -32,7 +32,7 @@ INNER_PACKAGE_IDENTIFIER="org.raisingthefloor.${PACKAGE_PRODUCT_NAME}.pkg"
 
 if [[ -z "$INSTALLER_SIGNING_IDENTITY" ]]; then
     # add default installer signing identity if none was provided
-    INSTALLER_SIGNING_IDENTITY="Developer ID Installer: Raising the Floor - US Inc. (5AAXYGZ428)"
+    INSTALLER_SIGNING_IDENTITY="3rd Party Mac Developer Installer: Raising the Floor - US Inc. (5AAXYGZ428)"
 fi
 
 if [[ -z "$CURRENT_PROJECT_VERSION" ]]; then

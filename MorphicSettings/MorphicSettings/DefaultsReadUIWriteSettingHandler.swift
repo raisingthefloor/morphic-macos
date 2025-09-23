@@ -1,4 +1,4 @@
-// Copyright 2020 Raising the Floor - International
+// Copyright 2020-2025 Raising the Floor - US, Inc.
 //
 // Licensed under the New BSD license. You may not use this file except in
 // compliance with this License.
@@ -156,21 +156,6 @@ public class DefaultsReadUIWriteSettingHandler: SettingHandler {
 
     //
     
-    private static var legacyAutomationTypesByKey = [Preferences.Key: LegacyUIAutomation.Type]()
-    
-    public static func legacyRegister(automation: LegacyUIAutomation.Type, for key: Preferences.Key) {
-        legacyAutomationTypesByKey[key] = automation
-    }
-    
-    public static func legacyAutomation(for key: Preferences.Key) -> LegacyUIAutomation? {
-        guard let type = legacyAutomationTypesByKey[key] else{
-            return nil
-        }
-        return type.init()
-    }
-    
-    //
-    
     public override func apply(_ value: Interoperable?, completion: @escaping (_ success: Bool) -> Void) {
         let key = Preferences.Key(solution: description.solution, preference: description.preference)
         
@@ -190,40 +175,6 @@ public class DefaultsReadUIWriteSettingHandler: SettingHandler {
                 completion(true)
                 return
             }
-        } else if let automation = DefaultsReadUIWriteSettingHandler.legacyAutomation(for: key) {
-            // legacy automation (prior to macOS 13.0)
-            
-            automation.apply(value, completion: completion)
-            
-    //        var steps = description.ui.steps
-    //        var element: UIElement = WorkspaceElement.shared
-    //        var runNextStep: (() -> Void)!
-    //        runNextStep = {
-    //            let step = steps.removeFirst()
-    //            os_log(.debug, log: logger, "UI step %{public}s for %{public}s", step.action, step.identifier)
-    //            guard let action = step.action(for: value) else{
-    //                os_log(.error, log: logger, "Failed to create ui action from step")
-    //                completion(false)
-    //                return
-    //            }
-    //            element.perform(action: action) {
-    //                success, nextTarget in
-    //                guard success else {
-    //                    os_log(.error, log: logger, "Failed to perform action")
-    //                    completion(false)
-    //                    return
-    //                }
-    //                if let target = nextTarget {
-    //                    element = target
-    //                }
-    //                if steps.count > 0 {
-    //                    runNextStep()
-    //                }else{
-    //                    completion(true)
-    //                }
-    //            }
-    //        }
-    //        runNextStep()
         } else {
             completion(false)
             return
