@@ -32,7 +32,7 @@
                         <subviews>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="ead-JY-BhL" customClass="LogoButton" customModule="Morphic" customModuleProvider="target">
                                 <rect key="frame" x="75" y="63" width="44" height="44"/>
-                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Icon" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="EUh-y7-yAB">
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="morphic-logo-light" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="EUh-y7-yAB">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -148,6 +148,6 @@
     <resources>
         <image name="ExpandLeft" width="42" height="42"/>
         <image name="ExpandRight" width="42" height="42"/>
-        <image name="Icon" width="512" height="512"/>
+        <image name="morphic-logo-light" width="113" height="148"/>
     </resources>
 </document>
