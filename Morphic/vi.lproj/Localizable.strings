@@ -399,3 +399,9 @@
 
 /* Message for the help window for the "eject usb drives" button */
 "control.feature.usbdrives.eject.help.message" = "Ngắt kết nối một cách an toàn tất cả các ổ USB đang cắm vào máy tính này.";
+
+/* Title for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.title" = "Advanced Features";
+
+/* Message for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.message" = "Customize buttons and take your settings with you anywhere";

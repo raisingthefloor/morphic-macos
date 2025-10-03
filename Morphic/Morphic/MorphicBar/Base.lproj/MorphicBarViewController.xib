@@ -40,10 +40,6 @@
                                     <constraint firstAttribute="width" constant="44" id="Zbh-CS-oIG"/>
                                     <constraint firstAttribute="height" constant="44" id="nDa-bv-gGW"/>
                                 </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="helpTitle" value="Advanced Features" localized="YES"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="helpMessage" value="Customize buttons and take your settings with you anywhere" localized="YES"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="showMainMenu:" target="-2" id="ZqU-v5-d0Q"/>
                                 </connections>

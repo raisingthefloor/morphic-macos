@@ -399,3 +399,9 @@
 
 /* Message for the help window for the "eject usb drives" button */
 "control.feature.usbdrives.eject.help.message" = "이 컴퓨터에 연결된 모든 USB 드라이브를 안전하게 꺼냅니다";
+
+/* Title for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.title" = "Advanced Features";
+
+/* Message for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.message" = "Customize buttons and take your settings with you anywhere";

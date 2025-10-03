@@ -533,8 +533,13 @@ class LogoButton: NSButton {
         }
     }
     
-    @IBInspectable var helpTitle: String?
-    @IBInspectable var helpMessage: String?
+    var helpTitle: String? {
+        return String(localized: "morphicbar.menubutton.title")
+    }
+    
+    var helpMessage: String? {
+        return String(localized: "morphicbar.menubutton.message")
+    }
     
     override func becomeFirstResponder() -> Bool {
     	// alert the MorphicBarWindow that one of our controls has gained focus

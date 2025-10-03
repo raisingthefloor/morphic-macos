@@ -399,3 +399,9 @@
 
 /* Message for the help window for the "eject usb drives" button */
 "control.feature.usbdrives.eject.help.message" = "安全弹出所有插入此计算机的USB驱动盘。";
+
+/* Title for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.title" = "Advanced Features";
+
+/* Message for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.message" = "Customize buttons and take your settings with you anywhere";
