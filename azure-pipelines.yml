@@ -223,21 +223,23 @@ stages:
     jobs:
       - job: autoupdate
         pool:
-          vmImage: "ubuntu-20.04"
+          vmImage: "ubuntu-22.04"
         steps:
         - task: Bash@3
           displayName: Publish auto-update files to AWS S3
           env:
             AWS_ACCESS_KEY_ID: $(accessKey)
             AWS_SECRET_ACCESS_KEY: $(secretKey)
-            BUCKET: $(bucket)
             AWS_DEFAULT_REGION: $(region)
+            BUCKET: $(bucket)
             BRANCH: $(Build.SourceBranch)
             BRANCH_NAME: $(Build.SourceBranchName)
           inputs:
             targetType: 'inline'
             script: |
+              # automatically exit if any command returns an error exit code
               set -e
+              # print all commands to the terminal output
               set -x
 
               EXTRA_ARGS=""
