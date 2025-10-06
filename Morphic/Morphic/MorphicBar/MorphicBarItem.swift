@@ -1149,14 +1149,27 @@ class MorphicBarControlItem: MorphicBarItem {
         var isZoomingIn: Bool
         var zoomToStep: Int?
         let currentStepOffsetFromNormalMode = display.currentStepOffsetFromNormalMode
+        //
+        // to handle special zoom resolutions which could be beyond our range, capture the current percentage and make sure we actually go up/down in zoom percentage
+        let currentPercentage = display.currentPercentage
+        var canZoom = currentStepOffsetFromNormalMode != nil // if we have a current offset, we can zoom (there and back)
+        //
         if segment == 0 {
             percentage = display.percentage(zoomingIn: 1)
             zoomToStep = currentStepOffsetFromNormalMode != nil ? currentStepOffsetFromNormalMode! + 1 : nil
             isZoomingIn = true
+            // if we were able to find a greater percentage than the current percentage, we can zoom (i.e. override 'canZoom')
+            if (/* canZoom == false && */currentPercentage < percentage) {
+                canZoom = true
+            }
         } else {
             percentage = display.percentage(zoomingOut: 1)
             zoomToStep = currentStepOffsetFromNormalMode != nil ? currentStepOffsetFromNormalMode! - 1 : nil
             isZoomingIn = false
+            // if we were able to find a lesser percentage than the current percentage, we can zoom (i.e. override 'canZoom')
+            if (/* canZoom == false && */currentPercentage > percentage) {
+                canZoom = true
+            }
         }
         //
         defer {
@@ -1168,7 +1181,11 @@ class MorphicBarControlItem: MorphicBarItem {
             }
         }
         //
-        _ = try? display.zoom(to: percentage)
+        if (canZoom == true) {
+            _ = try? display.zoom(to: percentage)
+        } else {
+            // TODO: alert the user that we cannot zoom
+        }
     }
     
     @objc

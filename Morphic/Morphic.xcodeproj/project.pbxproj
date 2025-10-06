@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -61,7 +61,6 @@
 		31E1E183244682C2009C4092 /* MorphicBarSegmentedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1E182244682C2009C4092 /* MorphicBarSegmentedButton.swift */; };
 		31E1E185244683DC009C4092 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1E184244683DC009C4092 /* Theme.swift */; };
 		31E1E187244792D9009C4092 /* DefaultPreferences.json in Resources */ = {isa = PBXBuildFile; fileRef = 31E1E186244792D9009C4092 /* DefaultPreferences.json */; };
-		31E1E188244794EF009C4092 /* MorphicBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31E1E18A244794EF009C4092 /* MorphicBarViewController.xib */; };
 		9D194DE327041D7C00D4BC36 /* logo_msoutlook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DDD27041D7C00D4BC36 /* logo_msoutlook.pdf */; };
 		9D194DE427041D7C00D4BC36 /* logo_mspowerpoint.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DDE27041D7C00D4BC36 /* logo_mspowerpoint.pdf */; };
 		9D194DE527041D7C00D4BC36 /* logo_msonenote.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DDF27041D7C00D4BC36 /* logo_msonenote.pdf */; };
@@ -70,6 +69,7 @@
 		9D194DE827041D7C00D4BC36 /* logo_msteams.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DE227041D7C00D4BC36 /* logo_msteams.pdf */; };
 		9D1FA1CD251A317F0008559D /* MorphicLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9DD4F4D8251A2FC400ADCC25 /* MorphicLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9D1FA1CF251A31990008559D /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1FA1CE251A31990008559D /* ServiceManagement.framework */; };
+		9D2905A02E906F2800C78B6E /* MorphicBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D29059F2E906F2800C78B6E /* MorphicBarViewController.xib */; };
 		9D2A5AB8259B815800ECD513 /* ConfigurableFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2A5AB7259B815800ECD513 /* ConfigurableFeatures.swift */; };
 		9D2A5AC1259B914800ECD513 /* MorphicBarSeparatorItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2A5AC0259B914800ECD513 /* MorphicBarSeparatorItemView.swift */; };
 		9D2C141425EC179500D66DAD /* envelope.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C141325EC179400D66DAD /* envelope.pdf */; };
@@ -335,7 +335,6 @@
 		31E1E182244682C2009C4092 /* MorphicBarSegmentedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarSegmentedButton.swift; sourceTree = "<group>"; };
 		31E1E184244683DC009C4092 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		31E1E186244792D9009C4092 /* DefaultPreferences.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DefaultPreferences.json; sourceTree = "<group>"; };
-		31E1E189244794EF009C4092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MorphicBarViewController.xib; sourceTree = "<group>"; };
 		9D194DDD27041D7C00D4BC36 /* logo_msoutlook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_msoutlook.pdf; sourceTree = "<group>"; };
 		9D194DDE27041D7C00D4BC36 /* logo_mspowerpoint.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_mspowerpoint.pdf; sourceTree = "<group>"; };
 		9D194DDF27041D7C00D4BC36 /* logo_msonenote.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_msonenote.pdf; sourceTree = "<group>"; };
@@ -345,6 +344,7 @@
 		9D1FA1CE251A31990008559D /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		9D2593F2250EA81000C38DA3 /* MorphicRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MorphicRelease.entitlements; sourceTree = "<group>"; };
 		9D2593F3250EA87E00C38DA3 /* MorphicConfiguratorRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MorphicConfiguratorRelease.entitlements; sourceTree = "<group>"; };
+		9D29059E2E906F2800C78B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MorphicBarViewController.xib; sourceTree = "<group>"; };
 		9D2A5AB7259B815800ECD513 /* ConfigurableFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableFeatures.swift; sourceTree = "<group>"; };
 		9D2A5AC0259B914800ECD513 /* MorphicBarSeparatorItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarSeparatorItemView.swift; sourceTree = "<group>"; };
 		9D2C141325EC179400D66DAD /* envelope.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = envelope.pdf; sourceTree = "<group>"; };
@@ -528,7 +528,6 @@
 		9D7D4C902CF6ED7A000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/DoneViewController.strings; sourceTree = "<group>"; };
 		9D7D4C912CF6ED7B000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9D82576C24D31C1E00F6E932 /* AboutBoxWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutBoxWindowController.swift; sourceTree = "<group>"; };
-		9D8ABC242D0BF5E800B7CCDC /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/MorphicBarViewController.xcstrings; sourceTree = "<group>"; };
 		9D8CEB122507AECF001276E4 /* MorphicBarButtonItemIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarButtonItemIcon.swift; sourceTree = "<group>"; };
 		9D8CEB142507AED7001276E4 /* MorphicBarButtonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarButtonItemView.swift; sourceTree = "<group>"; };
 		9D8EB4ED2947AA2B006F2DDA /* MorphicUIAutomation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MorphicUIAutomation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -728,7 +727,7 @@
 				9DDAE61125094C720072C711 /* MorphicBarItemViews */,
 				31E1E17A24466D28009C4092 /* MorphicBarItem.swift */,
 				31751B9C2444F22900EEDF14 /* MorphicBarWindow.swift */,
-				31E1E18A244794EF009C4092 /* MorphicBarViewController.xib */,
+				9D29059F2E906F2800C78B6E /* MorphicBarViewController.xib */,
 				31751B9B2444F22900EEDF14 /* MorphicBarViewController.swift */,
 				31E1E17C24466E7C009C4092 /* MorphicBarView.swift */,
 				DF35CEC92541BCD200C3FF77 /* MorphicBarTrayView.swift */,
@@ -1196,7 +1195,7 @@
 				9D3A34E025ED6AA700C26902 /* logo_huffpost.pdf in Resources */,
 				CEC23E822733873400E8D032 /* CopySettingsWindow.xib in Resources */,
 				9D3A34DD25ED6A9D00C26902 /* logo_forbes.pdf in Resources */,
-				31E1E188244794EF009C4092 /* MorphicBarViewController.xib in Resources */,
+				9D2905A02E906F2800C78B6E /* MorphicBarViewController.xib in Resources */,
 				9D94BB28262A047100BF4992 /* logo_chrome.pdf in Resources */,
 				9D3A34F825ED720400C26902 /* logo_usaToday.pdf in Resources */,
 				9D3A34B625ED5AD300C26902 /* logo_kohls.pdf in Resources */,
@@ -1440,11 +1439,10 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		31E1E18A244794EF009C4092 /* MorphicBarViewController.xib */ = {
+		9D29059F2E906F2800C78B6E /* MorphicBarViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				31E1E189244794EF009C4092 /* Base */,
-				9D8ABC242D0BF5E800B7CCDC /* mul */,
+				9D29059E2E906F2800C78B6E /* Base */,
 			);
 			name = MorphicBarViewController.xib;
 			sourceTree = "<group>";
