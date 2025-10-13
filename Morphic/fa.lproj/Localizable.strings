@@ -1,0 +1,407 @@
+/* Label for the buttons that control text/icon size */
+"control.feature.resolution.title" = "اندازه متن";
+
+/* Label for the button that increases the text/icon size */
+"control.feature.resolution.bigger" = "+";
+
+/* Text for VoiceOver for the larger text/icon size button */
+"control.feature.resolution.bigger.tts" = "افزایش اندازه متن";
+
+/* Title for the help window for the larger text/icon size button */
+"control.feature.resolution.bigger.help.title" = "اندازه متن را در همه جا افزایش می دهد";
+
+/* Message for the help window for the larger text/icon size button */
+"control.feature.resolution.bigger.help.message" = "همه چیز روی صفحه را بزرگتر می کند.";
+
+/* Title for the help window for the larger text/icon size button when at its limit */
+"control.feature.resolution.bigger.limit.help.title" = "اندازه متن نمی تواند بزرگتر شود";
+
+/* Message for the help window for the larger text/icon size button when at its limit */
+"control.feature.resolution.bigger.limit.help.message" = "";
+
+/* Label for the button that decreases the text/icon size */
+"control.feature.resolution.smaller" = "\U2013";
+
+/* Text for VoiceOver for the smaller text/icon size button */
+"control.feature.resolution.smaller.tts" = "اندازه متن را کاهش دهید";
+
+/* Title for the help window for the smaller text/icon size button */
+"control.feature.resolution.smaller.help.title" = "اندازه متن را در همه جا کاهش می دهد";
+
+/* Message for the help window for the smaller text/icon size button */
+"control.feature.resolution.smaller.help.message" = "همه چیز روی صفحه را کوچکتر می کند.";
+
+/* Title for the help window for the smaller text/icon size button when at its limit */
+"control.feature.resolution.smaller.limit.help.title" = "اندازه متن نمی تواند کوچکتر شود";
+
+/* Message for the help window for the smaller text/icon size button when at its limit */
+"control.feature.resolution.smaller.limit.help.message" = "";
+
+/* Label for the buttons that control the magnifier */
+"control.feature.magnifier.title" = "ذره‌بین";
+
+/* Label for the button that shows the magnifier */
+"control.feature.magnifier.show" = "نمایش";
+
+/* Text for VoiceOver for the show magnifier button */
+"control.feature.magnifier.show.tts" = "نمایش ذره بین";
+
+/* Title for the help window for the show magnifier button */
+"control.feature.magnifier.show.help.title" = "یک لنز بزرگنمایی را روشن می کند";
+
+/* Message for the help window for the show magnifier button */
+"control.feature.magnifier.show.help.message" = "ذره بین ماوس شما را دنبال می کند. ماوس شما می تواند از طریق کادر کلیک کند.";
+
+/* Label for the button that hides the magnifier */
+"control.feature.magnifier.hide" = "پنهان کردن";
+
+/* Text for VoiceOver for the hide magnifier button */
+"control.feature.magnifier.hide.tts" = "مخفی کردن ذره بین";
+
+/* Title for the help window for the hide magnifier button */
+"control.feature.magnifier.hide.help.title" = "ذره بین را خاموش می کند";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.magnifier.hide.help.message" = "برای تغییر تنظیمات ذره بین، روی دکمه راست کلیک کنید.";
+
+/* Label for the button that shows the magnifier */
+"control.feature.magnifier.on" = "روشن";
+
+/* Title for the help window for the show ("on") magnifier button */
+"control.feature.magnifier.on.help.title" = "ذره بین را روشن کنید";
+
+/* Message for the help window for the show ("on") magnifier button */
+"control.feature.magnifier.on.help.message" = "اطراف ماوس خود را بزرگ کنید";
+
+/* Label for the button that hides the magnifier */
+"control.feature.magnifier.off" = "خاموش";
+
+/* Title for the help window for the hide ("off") magnifier button */
+"control.feature.magnifier.off.help.title" = "ذره بین را خاموش کنید";
+
+/* Message for the help window for the hide ("off") magnifier button */
+"control.feature.magnifier.off.help.message" = "";
+
+/* Label for the buttons that control the reader */
+"control.feature.reader.title" = "صفحه خوان";
+
+/* Label for the button that turns the reader on */
+"control.feature.reader.on" = "روشن";
+
+/* Title for the help window for the screen reader button */
+"control.feature.reader.on.help.title" = "صفحه خوان را روشن کنید";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.reader.on.help.message" = "از رایانه بخواهید متن را با صدای بلند بخواند";
+
+/* Label for the button that turns the reader off */
+"control.feature.reader.off" = "خاموش";
+
+/* Title for the help window for the hide magnifier button */
+"control.feature.reader.off.help.title" = "می خواهید صفحه خوان را خاموش کنید";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.reader.off.help.message" = "کامپیوتر را از خواندن متن با صدای بلند بازدارید";
+
+/* Label for the buttons that control the volume */
+"control.feature.volume.title" = "درجه صدا";
+
+/* Label for the button that turns the volume up */
+"control.feature.volume.up" = "+";
+
+/* Title for the help window for the volume up button */
+"control.feature.volume.up.help.title" = "حجم را افزایش می دهد";
+
+/* Message for the help window for the volume up button */
+"control.feature.volume.up.help.message" = "همه صداها را بلندتر می کند.";
+
+/* Title for the help window for the volume up button at its limit */
+"control.feature.volume.up.limit.help.title" = "صدا نمی تواند بلندتر شود";
+
+/* Message for the help window for the volume up button at its limit */
+"control.feature.volume.up.limit.help.message" = "";
+
+/* Title for the help window for the volume up button when muted */
+"control.feature.volume.up.muted.help.title" = "صداها را لغو می کند";
+
+/* Message for the help window for the volume up button when muted */
+"control.feature.volume.up.muted.help.message" = "خاموش کردن را خاموش می کند - اجازه می دهد صداها دوباره از رایانه شما بیایند.";
+
+/* Label for the button that turns the volume down */
+"control.feature.volume.down" = "\U2013";
+
+/* Title for the help window for the volume down button */
+"control.feature.volume.down.help.title" = "این صدا را کاهش می دهد";
+
+/* Message for the help window for the volume down button */
+"control.feature.volume.down.help.message" = "همه صداها را آرام‌تر می کند.";
+
+/* Title for the help window for the volume down button at its limit */
+"control.feature.volume.down.limit.help.title" = "صدا نمی تواند ساکت‌تر شود";
+
+/* Message for the help window for the volume down button at its limit */
+"control.feature.volume.down.limit.help.message" = "";
+
+/* Title for the help window for the volume down button at its limit */
+"control.feature.volume.down.muted.help.title" = "صداها را لغو می کند";
+
+/* Message for the help window for the volume down button at its limit */
+"control.feature.volume.down.muted.help.message" = "خاموش کردن را خاموش می کند - اجازه می دهد صداها دوباره از رایانه شما بیایند.";
+
+/* Label for the button that mutes the volume */
+"control.feature.volume.mute" = "بی صدا";
+
+/* Text for VoiceOver for the button that unmutes the volume */
+"control.feature.volume.mute.tts.muted" = "صداها را لغو می کند";
+
+/* Text for VoiceOver for the button that mutes the volume */
+"control.feature.volume.mute.tts.unmuted" = "قطع کردن همه صداها";
+
+/* Title for the help window for the mute button */
+"control.feature.volume.mute.help.title" = "تمام صداهای رایانه شما را بی صدا می کند";
+
+/* Message for the help window for the mute button */
+"control.feature.volume.mute.help.message" = "بلندگوهای شما را بی صدا می کند - اما میکروفون شما را بی صدا نمی کند.";
+
+/* Title for the help window for the mute button when muted */
+"control.feature.volume.muted.help.title" = "صداها را لغو می کند";
+
+/* Message for the help window for the mute button when muted */
+"control.feature.volume.muted.help.message" = "خاموش کردن را خاموش می کند - اجازه می دهد صداها دوباره از رایانه شما بیایند.";
+
+/* Label for the buttons that control the contrast */
+"control.feature.contrast.title" = "کنتراست بالا";
+
+/* Label for the button that turns high contrast on */
+"control.feature.contrast.on" = "روشن";
+
+/* Title for the help window for the high contrast button */
+"control.feature.contrast.on.help.title" = "کنتراست بالا را روشن کنید";
+
+/* Message for the help window for the high contrast button */
+"control.feature.contrast.on.help.message" = "خواندن را برای برخی افراد آسان تر می کند";
+
+/* Label for the button that turns high contrast off */
+"control.feature.contrast.off" = "خاموش";
+
+/* Title for the help window for the high contrast button */
+"control.feature.contrast.off.help.title" = "کنتراست بالا را خاموش کنید";
+
+/* Message for the help window for the high contrast button */
+"control.feature.contrast.off.help.message" = "";
+
+/* Label for the buttons that play/stop 'read selected text' */
+"control.feature.readselected.title" = "برگزیده را بخوانید";
+
+/* Label for the button that plays/stops 'read selected text' */
+"control.feature.readselected.playstop" = "\U25B6 / \U25A0";
+
+/* Text for VoiceOver for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.tts" = "متن انتخاب شده را بخوانید - شروع و توقف";
+
+/* Title for the help window for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.help.title" = "متن انتخاب شده را می خواند";
+
+/* Message for the help window for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.help.message" = "متن را برای خواندن انتخاب کنید. سپس روی دکمه play/stop کلیک کنید. کنترل‌های خواندن ظاهر می‌شوند.";
+
+/* Label for the buttons that control night mode */
+"control.feature.nightshift.title" = "حالت شب";
+
+/* Label for the button that turns night mode on */
+"control.feature.nightshift.on" = "روشن";
+
+/* Title for the help window for the 'turn on night mode' button */
+"control.feature.nightshift.on.help.title" = "حالت تاریک را روشن کنید";
+
+/* Message for the help window for the 'turn on night mode' button */
+"control.feature.nightshift.on.help.message" = "رنگ‌های صفحه نمایش را گرم‌تر کنید تا خستگی کمتری به چشم‌تان وارد شود و راحت‌تر به خواب بروید";
+
+/* Label for the button that turns night mode off */
+"control.feature.nightshift.off" = "خاموش";
+
+/* Title for the help window for the 'turn off night mode' button */
+"control.feature.nightshift.off.help.title" = "حالت تاریک را خاموش کنید";
+
+/* Message for the help window for the 'turn off night mode' button */
+"control.feature.nightshift.off.help.message" = "";
+
+/* Label for the buttons that copy and paste */
+"control.feature.copypaste.title" = "کپی و جایگذاری";
+
+/* Label for the button that copies the selection */
+"control.feature.copypaste.copy" = "کپی";
+
+/* Title for the help window for the copy button */
+"control.feature.copypaste.copy.help.title" = "انتخاب شما را کپی می کند";
+
+/* Message for the help window for the copy button */
+"control.feature.copypaste.copy.help.message" = "متن یا محتوای دیگری را که انتخاب کرده اید کپی می کند تا بتوانید آن را در جایی بچسبانید.";
+
+/* Label for the button that pastes the selection */
+"control.feature.copypaste.paste" = "جای‌گذاری";
+
+/* Title for the help window for the paste button */
+"control.feature.copypaste.paste.help.title" = "آنچه را کپی کردید جایگذاری می کند";
+
+/* Message for the help window for the paste button */
+"control.feature.copypaste.paste.help.message" = "محتوای کپی شده را در جایی که مکان نما متن است درج کنید.";
+
+/* Label for the buttons that activate screen snip */
+"control.feature.screensnip.title" = "برش";
+
+/* Label for the button that activates screen snip */
+"control.feature.screensnip.copy" = "کپی";
+
+/* Text for VoiceOver for the screen snip button */
+"control.feature.screensnip.copy.tts" = "یک کپی از بخشی از صفحه را برش دهید";
+
+/* Title for the help window for the screen snip button */
+"control.feature.screensnip.copy.help.title" = "از قسمت انتخابی صفحه عکس می گیرد";
+
+/* Message for the help window for the screen snip button */
+"control.feature.screensnip.copy.help.message" = "روی کپی کلیک کنید. سپس کلیک کنید و ماوس را بکشید تا عکس بگیرید. در هر سندی جایگذاری کنید.";
+
+/* Label for the buttons that control the color vision */
+"control.feature.colorvision.title" = "درک رنگ ها";
+
+/* Label for the button that shows the color vision */
+"control.feature.colorvision.on" = "روشن";
+
+/* Title for the help window for the show ("on") color vision button */
+"control.feature.colorvision.on.help.title" = "مشاهده رنگ را روشن کنید";
+
+/* Message for the help window for the show ("on") color vision button */
+"control.feature.colorvision.on.help.message" = "رنگ ها را برای تطبیق با کوررنگی تغییر می دهد. (برای انتخاب نوع کلیک راست کنید.)";
+
+/* Label for the button that hides the color vision */
+"control.feature.colorvision.off" = "خاموش";
+
+/* Title for the help window for the hide ("off") color vision button */
+"control.feature.colorvision.off.help.title" = "مشاهده رنگ را خاموش کنید";
+
+/* Message for the help window for the hide ("off") color vision button */
+"control.feature.colorvision.off.help.message" = "رنگ ها را برای تطبیق با کوررنگی تغییر می دهد. (برای انتخاب نوع کلیک راست کنید.)";
+
+/* Label for the buttons that toggle contrast, color, dark and night */
+"control.feature.contrastcolordarknight.title" = "کنتراست و رنگ";
+
+/* Label for the button that toggles high contrast */
+"control.feature.contrastcolordarknight.contrast" = "کنتراست";
+
+/* Text for VoiceOver for the contrast button */
+"control.feature.contrastcolordarknight.contrast.tts" = "کنتراست روشن، خاموش";
+
+/* Text for VoiceOver for the contrast button when the feature is enabled */
+"control.feature.contrastcolordarknight.contrast.tts.enabled" = "کنتراست بالا را خاموش کنید";
+
+/* Text for VoiceOver for the contrast button when the feature is disabled */
+"control.feature.contrastcolordarknight.contrast.tts.disabled" = "کنتراست بالا را روشن کنید";
+
+/* Title for the help window for the contrast button */
+"control.feature.contrastcolordarknight.contrast.help.title" = "کنتراست را خاموش می کند";
+
+/* Message for the help window for the contrast button */
+"control.feature.contrastcolordarknight.contrast.help.message" = "می تواند خواندن صفحه را آسان تر کند. برای تغییر تنظیمات، روی دکمه راست کلیک کنید.";
+
+/* Label for the button that toggles color filters */
+"control.feature.contrastcolordarknight.color" = "رنگ";
+
+/* Text for VoiceOver for the color filters button */
+"control.feature.contrastcolordarknight.color.tts" = "مشاهده رنگ روشن، خاموش";
+
+/* Text for VoiceOver for the color filters button when the feature is enabled */
+"control.feature.contrastcolordarknight.color.tts.enabled" = "مشاهده رنگ را خاموش کنید";
+
+/* Text for VoiceOver for the color filters button when the feature is disabled */
+"control.feature.contrastcolordarknight.color.tts.disabled" = "مشاهده رنگ را روشن کنید";
+
+/* Title for the help window for the color filters button */
+"control.feature.contrastcolordarknight.color.help.title" = "فیلترهای کوررنگی را روشن و خاموش می کند";
+
+/* Message for the help window for the color filters button */
+"control.feature.contrastcolordarknight.color.help.message" = "رنگ ها را تغییر می دهد تا با تفاوت بینایی رنگ سازگار شود. برای انتخاب نوع، روی دکمه راست کلیک کنید.";
+
+/* Label for the button that toggles dark appearance */
+"control.feature.contrastcolordarknight.dark" = "تاریک";
+
+/* Text for VoiceOver for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.tts" = "حالت تاریک روشن، خاموش";
+
+/* Text for VoiceOver for the dark appearance button when the feature is enabled */
+"control.feature.contrastcolordarknight.dark.tts.enabled" = "حالت تاریک را خاموش کنید";
+
+/* Text for VoiceOver for the dark appearance button when the feature is disabled */
+"control.feature.contrastcolordarknight.dark.tts.disabled" = "حالت تاریک را روشن کنید";
+
+/* Title for the help window for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.help.title" = "حالت تاریک را روشن و خاموش می کند";
+
+/* Message for the help window for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.help.message" = "برای تغییر تنظیمات، روی دکمه راست کلیک کنید.";
+
+/* Label for the button that toggles night shift */
+"control.feature.contrastcolordarknight.night" = "شب";
+
+/* Text for VoiceOver for the night shift button */
+"control.feature.contrastcolordarknight.night.tts" = "چراغ های شب روشن، خاموش";
+
+/* Text for VoiceOver for the night shift button when the feature is enabled */
+"control.feature.contrastcolordarknight.night.tts.enabled" = "حالت تاریک را خاموش کنید";
+
+/* Text for VoiceOver for the night shift button when the feature is disabled */
+"control.feature.contrastcolordarknight.night.tts.disabled" = "حالت تاریک را روشن کنید";
+
+/* Title for the help window for the night shift button */
+"control.feature.contrastcolordarknight.night.help.title" = "ویژگی Night Light را خاموش می کند";
+
+/* Message for the help window for the night shift button */
+"control.feature.contrastcolordarknight.night.help.message" = "فشار چشم را کاهش می دهد و باعث می شود که در شب راحت تر به خواب بروید.";
+
+/* Label for the buttons that control the dark mode */
+"control.feature.darkmode.title" = "حالت تاریک";
+
+/* Label for the button that shows the dark mode */
+"control.feature.darkmode.on" = "روشن";
+
+/* Title for the help window for the show ("on") dark mode button */
+"control.feature.darkmode.on.help.title" = "حالت تاریک را روشن کنید";
+
+/* Message for the help window for the show ("on") dark mode button */
+"control.feature.darkmode.on.help.message" = "حالت تاریک را روشن می کند. (برای تنظیم کلیک راست کنید.)";
+
+/* Label for the button that hides the dark mode */
+"control.feature.darkmode.off" = "خاموش";
+
+/* Title for the help window for the hide ("off") dark mode button */
+"control.feature.darkmode.off.help.title" = "حالت تاریک را خاموش کنید";
+
+/* Message for the help window for the hide ("off") dark mode button */
+"control.feature.darkmode.off.help.message" = "حالت تاریک را خاموش می کند. (برای تنظیم کلیک راست کنید.)";
+
+/* Label for the buttons that open/eject usb drives */
+"control.feature.usbdrives.title" = "درایوهای USB (همه)";
+
+/* Label for the button that opens all usb drives */
+"control.feature.usbdrives.open" = "باز کن";
+
+/* Title for the help window for the "open usb drives" button */
+"control.feature.usbdrives.open.help.title" = "همه درایوهای USB را باز کنید";
+
+/* Message for the help window for the "open usb drives" button */
+"control.feature.usbdrives.open.help.message" = "فایل های تمام درایوهای USB متصل به رایانه را باز می کند و نشان می دهد.";
+
+/* Label for the button that safely ejects all usb drives */
+"control.feature.usbdrives.eject" = "بیرون انداختن";
+
+/* Title for the help window for the "eject usb drives" button" */
+"control.feature.usbdrives.eject.help.title" = "همه درایوهای USB را خارج کنید";
+
+/* Message for the help window for the "eject usb drives" button */
+"control.feature.usbdrives.eject.help.message" = "تمام درایوهای USB متصل به این رایانه را با خیال راحت خارج کنید.";
+
+/* Title for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.title" = "Advanced Features";
+
+/* Message for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.message" = "Customize buttons and take your settings with you anywhere";

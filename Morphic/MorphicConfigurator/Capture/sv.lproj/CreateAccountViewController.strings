@@ -1,0 +1,35 @@
+/* Class = "NSTextFieldCell"; title = "Passwords do not match"; ObjectID = "58Z-gZ-ndK"; */
+"58Z-gZ-ndK.title" = "Lösenorden är inte lika";
+
+/* Class = "NSTextFieldCell"; title = "Choose a Password"; ObjectID = "EQS-hT-wQJ"; */
+"EQS-hT-wQJ.title" = "Välj ett lösenord";
+
+/* Class = "NSTextFieldCell"; title = "Confirm Password"; ObjectID = "IdK-z5-PRU"; */
+"IdK-z5-PRU.title" = "Bekräfta lösenord";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "JcH-TK-ce1"; */
+"JcH-TK-ce1.title" = "Ruta";
+
+/* Class = "NSButtonCell"; title = "Create Account"; ObjectID = "LAQ-6m-MiI"; */
+"LAQ-6m-MiI.title" = "Skapa konto";
+
+/* Class = "NSTextFieldCell"; title = "Privacy Policy"; ObjectID = "RFe-9o-yTd"; */
+"RFe-9o-yTd.title" = "Sekretesspolicy";
+
+/* Class = "NSTextFieldCell"; title = "Take your settings with you"; ObjectID = "ROd-nn-QUo"; */
+"ROd-nn-QUo.title" = "Ta med dina inställningar";
+
+/* Class = "NSTextFieldCell"; title = "and"; ObjectID = "UQ6-OE-6Lq"; */
+"UQ6-OE-6Lq.title" = "och";
+
+/* Class = "NSTextFieldCell"; title = "By signing up for Morphic you are agreeing to the"; ObjectID = "bmz-hl-Zz8"; */
+"bmz-hl-Zz8.title" = "Genom att registrera dig för Morphic godkänner du";
+
+/* Class = "NSTextFieldCell"; title = "Your Email Address"; ObjectID = "g3O-a3-XMK"; */
+"g3O-a3-XMK.title" = "Din e-postadress";
+
+/* Class = "NSTextFieldCell"; title = "You'll need to create an account so we can remember your settings and securely apply them to another computer"; ObjectID = "tsS-sY-hOc"; */
+"tsS-sY-hOc.title" = "Du måste skapa ett konto så att vi kan komma ihåg dina inställningar och säkert använda dem på en annan dator";
+
+/* Class = "NSTextFieldCell"; title = "Terms of Use"; ObjectID = "uUD-sM-Nxd"; */
+"uUD-sM-Nxd.title" = "Användarvillkor";

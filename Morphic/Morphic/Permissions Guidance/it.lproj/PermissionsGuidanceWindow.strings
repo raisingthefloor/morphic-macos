@@ -1,0 +1,11 @@
+/* Class = "NSTextFieldCell"; title = "2. Check box for Morphic"; ObjectID = "NmD-CK-6nL"; */
+"NmD-CK-6nL.title" = "2. Casella di controllo per Morphic";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Finestra";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "TlS-Ml-8x5"; */
+"TlS-Ml-8x5.title" = "Casella";
+
+/* Class = "NSTextFieldCell"; title = "1. Make sure the lock is unlocked"; ObjectID = "wwv-Ku-Ud7"; */
+"wwv-Ku-Ud7.title" = "1. Assicurati che la serratura sia sbloccata";

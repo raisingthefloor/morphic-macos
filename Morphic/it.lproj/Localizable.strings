@@ -1,0 +1,407 @@
+/* Label for the buttons that control text/icon size */
+"control.feature.resolution.title" = "Dimensione del testo";
+
+/* Label for the button that increases the text/icon size */
+"control.feature.resolution.bigger" = "+";
+
+/* Text for VoiceOver for the larger text/icon size button */
+"control.feature.resolution.bigger.tts" = "Aumenta la dimensione del testo";
+
+/* Title for the help window for the larger text/icon size button */
+"control.feature.resolution.bigger.help.title" = "Aumenta la dimensione del testo ovunque";
+
+/* Message for the help window for the larger text/icon size button */
+"control.feature.resolution.bigger.help.message" = "Rende più grande tutto sullo schermo";
+
+/* Title for the help window for the larger text/icon size button when at its limit */
+"control.feature.resolution.bigger.limit.help.title" = "La dimensione del testo non può diventare più grande";
+
+/* Message for the help window for the larger text/icon size button when at its limit */
+"control.feature.resolution.bigger.limit.help.message" = "";
+
+/* Label for the button that decreases the text/icon size */
+"control.feature.resolution.smaller" = "\U2013";
+
+/* Text for VoiceOver for the smaller text/icon size button */
+"control.feature.resolution.smaller.tts" = "Riduci la dimensione del testo";
+
+/* Title for the help window for the smaller text/icon size button */
+"control.feature.resolution.smaller.help.title" = "Diminuisce ovunque la dimensione del testo";
+
+/* Message for the help window for the smaller text/icon size button */
+"control.feature.resolution.smaller.help.message" = "Rende più piccolo tutto sullo schermo";
+
+/* Title for the help window for the smaller text/icon size button when at its limit */
+"control.feature.resolution.smaller.limit.help.title" = "La dimensione del testo non può diventare più piccola";
+
+/* Message for the help window for the smaller text/icon size button when at its limit */
+"control.feature.resolution.smaller.limit.help.message" = "";
+
+/* Label for the buttons that control the magnifier */
+"control.feature.magnifier.title" = "Ingranditore";
+
+/* Label for the button that shows the magnifier */
+"control.feature.magnifier.show" = "Mostra";
+
+/* Text for VoiceOver for the show magnifier button */
+"control.feature.magnifier.show.tts" = "Mostra l'ingranditore";
+
+/* Title for the help window for the show magnifier button */
+"control.feature.magnifier.show.help.title" = "Attiva un ingranditore";
+
+/* Message for the help window for the show magnifier button */
+"control.feature.magnifier.show.help.message" = "L'ingranditore segue il mouse. Il mouse può fare clic attraverso la casella.";
+
+/* Label for the button that hides the magnifier */
+"control.feature.magnifier.hide" = "Nascondi";
+
+/* Text for VoiceOver for the hide magnifier button */
+"control.feature.magnifier.hide.tts" = "Nascondi l'ingranditore";
+
+/* Title for the help window for the hide magnifier button */
+"control.feature.magnifier.hide.help.title" = "Disattiva l'ingranditore";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.magnifier.hide.help.message" = "Per modificare le impostazioni dell'ingranditore, fare clic con il tasto destro del mouse sul pulsante";
+
+/* Label for the button that shows the magnifier */
+"control.feature.magnifier.on" = "Acceso";
+
+/* Title for the help window for the show ("on") magnifier button */
+"control.feature.magnifier.on.help.title" = "Attiva l'ingranditore";
+
+/* Message for the help window for the show ("on") magnifier button */
+"control.feature.magnifier.on.help.message" = "Ingrandisci l'area intorno al mouse";
+
+/* Label for the button that hides the magnifier */
+"control.feature.magnifier.off" = "Spento";
+
+/* Title for the help window for the hide ("off") magnifier button */
+"control.feature.magnifier.off.help.title" = "Disattiva l'ingranditore";
+
+/* Message for the help window for the hide ("off") magnifier button */
+"control.feature.magnifier.off.help.message" = "";
+
+/* Label for the buttons that control the reader */
+"control.feature.reader.title" = "Lettore di schermo";
+
+/* Label for the button that turns the reader on */
+"control.feature.reader.on" = "Acceso";
+
+/* Title for the help window for the screen reader button */
+"control.feature.reader.on.help.title" = "Accendi il lettore di schermo";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.reader.on.help.message" = "Fai leggere ad alta voce il testo dal calcolatore";
+
+/* Label for the button that turns the reader off */
+"control.feature.reader.off" = "Spento";
+
+/* Title for the help window for the hide magnifier button */
+"control.feature.reader.off.help.title" = "Spegni il lettore di schermo";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.reader.off.help.message" = "Ferma il calcolatore dalla lettura del testo ad alta voce";
+
+/* Label for the buttons that control the volume */
+"control.feature.volume.title" = "Volume";
+
+/* Label for the button that turns the volume up */
+"control.feature.volume.up" = "+";
+
+/* Title for the help window for the volume up button */
+"control.feature.volume.up.help.title" = "Aumenta il volume";
+
+/* Message for the help window for the volume up button */
+"control.feature.volume.up.help.message" = "Rende più forti tutti i suoni";
+
+/* Title for the help window for the volume up button at its limit */
+"control.feature.volume.up.limit.help.title" = "Il volume non può aumentare";
+
+/* Message for the help window for the volume up button at its limit */
+"control.feature.volume.up.limit.help.message" = "";
+
+/* Title for the help window for the volume up button when muted */
+"control.feature.volume.up.muted.help.title" = "Riattiva l'audio";
+
+/* Message for the help window for the volume up button when muted */
+"control.feature.volume.up.muted.help.message" = "Riattiva l'audio - consentendo ai suoni di venire di nuovo dal calcolatore";
+
+/* Label for the button that turns the volume down */
+"control.feature.volume.down" = "\U2013";
+
+/* Title for the help window for the volume down button */
+"control.feature.volume.down.help.title" = "Riduce il volume";
+
+/* Message for the help window for the volume down button */
+"control.feature.volume.down.help.message" = "Riduce il volume di tutti i suoni";
+
+/* Title for the help window for the volume down button at its limit */
+"control.feature.volume.down.limit.help.title" = "Il volume non può essere ridotto";
+
+/* Message for the help window for the volume down button at its limit */
+"control.feature.volume.down.limit.help.message" = "";
+
+/* Title for the help window for the volume down button at its limit */
+"control.feature.volume.down.muted.help.title" = "Riattiva l'audio";
+
+/* Message for the help window for the volume down button at its limit */
+"control.feature.volume.down.muted.help.message" = "Riattiva l'audio - consentendo ai suoni di venire di nuovo dal calcolatore";
+
+/* Label for the button that mutes the volume */
+"control.feature.volume.mute" = "Disattiva l'audio";
+
+/* Text for VoiceOver for the button that unmutes the volume */
+"control.feature.volume.mute.tts.muted" = "Riattiva l'audio";
+
+/* Text for VoiceOver for the button that mutes the volume */
+"control.feature.volume.mute.tts.unmuted" = "Disattiva l'audio";
+
+/* Title for the help window for the mute button */
+"control.feature.volume.mute.help.title" = "Disattiva l'audio del calcolatore";
+
+/* Message for the help window for the mute button */
+"control.feature.volume.mute.help.message" = "Disattiva gli altoparlanti - ma NON il microfono";
+
+/* Title for the help window for the mute button when muted */
+"control.feature.volume.muted.help.title" = "Riattiva l'audio";
+
+/* Message for the help window for the mute button when muted */
+"control.feature.volume.muted.help.message" = "Riattiva l'audio - consentendo ai suoni di venire di nuovo dal calcolatore";
+
+/* Label for the buttons that control the contrast */
+"control.feature.contrast.title" = "Contrasto elevato";
+
+/* Label for the button that turns high contrast on */
+"control.feature.contrast.on" = "Acceso";
+
+/* Title for the help window for the high contrast button */
+"control.feature.contrast.on.help.title" = "Attiva l'alto contrasto";
+
+/* Message for the help window for the high contrast button */
+"control.feature.contrast.on.help.message" = "Rende leggere più facile per alcune persone";
+
+/* Label for the button that turns high contrast off */
+"control.feature.contrast.off" = "Spento";
+
+/* Title for the help window for the high contrast button */
+"control.feature.contrast.off.help.title" = "Disattiva l'alto contrasto";
+
+/* Message for the help window for the high contrast button */
+"control.feature.contrast.off.help.message" = "";
+
+/* Label for the buttons that play/stop 'read selected text' */
+"control.feature.readselected.title" = "Leggi il testo selezionato";
+
+/* Label for the button that plays/stops 'read selected text' */
+"control.feature.readselected.playstop" = "\U25B6 / \U25A0";
+
+/* Text for VoiceOver for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.tts" = "Leggi il testo selezionato - Avvia e ferma";
+
+/* Title for the help window for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.help.title" = "Leggi il testo selezionato";
+
+/* Message for the help window for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.help.message" = "Seleziona il testo da leggere. Poi fai clic sul pulsante play/stop. Appariranno i controlli di lettura";
+
+/* Label for the buttons that control night mode */
+"control.feature.nightshift.title" = "Modalità notte";
+
+/* Label for the button that turns night mode on */
+"control.feature.nightshift.on" = "Acceso";
+
+/* Title for the help window for the 'turn on night mode' button */
+"control.feature.nightshift.on.help.title" = "Attiva la modalità notte";
+
+/* Message for the help window for the 'turn on night mode' button */
+"control.feature.nightshift.on.help.message" = "Rendi i colori dello schermo più caldi per ridurre la tensione oculare e rendere più facile andare a dormire";
+
+/* Label for the button that turns night mode off */
+"control.feature.nightshift.off" = "Spento";
+
+/* Title for the help window for the 'turn off night mode' button */
+"control.feature.nightshift.off.help.title" = "Disattiva la modalità notte";
+
+/* Message for the help window for the 'turn off night mode' button */
+"control.feature.nightshift.off.help.message" = "";
+
+/* Label for the buttons that copy and paste */
+"control.feature.copypaste.title" = "Copia e incolla";
+
+/* Label for the button that copies the selection */
+"control.feature.copypaste.copy" = "Copia";
+
+/* Title for the help window for the copy button */
+"control.feature.copypaste.copy.help.title" = "Copia la tua selezione";
+
+/* Message for the help window for the copy button */
+"control.feature.copypaste.copy.help.message" = "Copia il testo o altri contenuti selezionati in modo da poterli incollare da qualche parte";
+
+/* Label for the button that pastes the selection */
+"control.feature.copypaste.paste" = "Incolla";
+
+/* Title for the help window for the paste button */
+"control.feature.copypaste.paste.help.title" = "Incolla quello che hai copiato";
+
+/* Message for the help window for the paste button */
+"control.feature.copypaste.paste.help.message" = "Inserisce il contenuto copiato dove si trova il cursore del testo";
+
+/* Label for the buttons that activate screen snip */
+"control.feature.screensnip.title" = "Ritaglio";
+
+/* Label for the button that activates screen snip */
+"control.feature.screensnip.copy" = "Copia";
+
+/* Text for VoiceOver for the screen snip button */
+"control.feature.screensnip.copy.tts" = "Copia il ritaglio di una parte dello schermo";
+
+/* Title for the help window for the screen snip button */
+"control.feature.screensnip.copy.help.title" = "Scatta una foto di una parte selezionata dello schermo";
+
+/* Message for the help window for the screen snip button */
+"control.feature.screensnip.copy.help.message" = "Fai clic su Copia. Quindi fai clic e trascina il mouse per scattare la foto. Incolla in qualsiasi documento.";
+
+/* Label for the buttons that control the color vision */
+"control.feature.colorvision.title" = "Visione a colori";
+
+/* Label for the button that shows the color vision */
+"control.feature.colorvision.on" = "Acceso";
+
+/* Title for the help window for the show ("on") color vision button */
+"control.feature.colorvision.on.help.title" = "Attiva la visione a colori";
+
+/* Message for the help window for the show ("on") color vision button */
+"control.feature.colorvision.on.help.message" = "Cambia i colori per adattarsi al daltonismo. (Fai click sul tasto destro per scegliere il tipo)";
+
+/* Label for the button that hides the color vision */
+"control.feature.colorvision.off" = "Spento";
+
+/* Title for the help window for the hide ("off") color vision button */
+"control.feature.colorvision.off.help.title" = "Disattiva la visione a colori";
+
+/* Message for the help window for the hide ("off") color vision button */
+"control.feature.colorvision.off.help.message" = "Cambia i colori per adattarsi al daltonismo. (Fai click sul tasto destro per scegliere il tipo)";
+
+/* Label for the buttons that toggle contrast, color, dark and night */
+"control.feature.contrastcolordarknight.title" = "Contrasto & Colore";
+
+/* Label for the button that toggles high contrast */
+"control.feature.contrastcolordarknight.contrast" = "Contrasto";
+
+/* Text for VoiceOver for the contrast button */
+"control.feature.contrastcolordarknight.contrast.tts" = "Contrasto attivo, spento";
+
+/* Text for VoiceOver for the contrast button when the feature is enabled */
+"control.feature.contrastcolordarknight.contrast.tts.enabled" = "Disattiva il contrasto";
+
+/* Text for VoiceOver for the contrast button when the feature is disabled */
+"control.feature.contrastcolordarknight.contrast.tts.disabled" = "Attiva il contrasto";
+
+/* Title for the help window for the contrast button */
+"control.feature.contrastcolordarknight.contrast.help.title" = "Attiva e disattiva il contrasto";
+
+/* Message for the help window for the contrast button */
+"control.feature.contrastcolordarknight.contrast.help.message" = "Può rendere lo schermo più facile da leggere. Per modificare le impostazioni, fai clic con il tasto destro del mouse sul pulsante.";
+
+/* Label for the button that toggles color filters */
+"control.feature.contrastcolordarknight.color" = "Colore";
+
+/* Text for VoiceOver for the color filters button */
+"control.feature.contrastcolordarknight.color.tts" = "Visione a colori attiva, spenta";
+
+/* Text for VoiceOver for the color filters button when the feature is enabled */
+"control.feature.contrastcolordarknight.color.tts.enabled" = "Disattiva la visione a colori";
+
+/* Text for VoiceOver for the color filters button when the feature is disabled */
+"control.feature.contrastcolordarknight.color.tts.disabled" = "Attiva la visione a colori";
+
+/* Title for the help window for the color filters button */
+"control.feature.contrastcolordarknight.color.help.title" = "Attiva e disattiva i filtri per il daltonismo";
+
+/* Message for the help window for the color filters button */
+"control.feature.contrastcolordarknight.color.help.message" = "Cambia i colori per adattarsi alle differenze di visione del colore. Per scegliere il tipo, fai clic con il tasto destro del mouse sul pulsante.";
+
+/* Label for the button that toggles dark appearance */
+"control.feature.contrastcolordarknight.dark" = "Scuro";
+
+/* Text for VoiceOver for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.tts" = "Modalità scura attiva, disattivata";
+
+/* Text for VoiceOver for the dark appearance button when the feature is enabled */
+"control.feature.contrastcolordarknight.dark.tts.enabled" = "Disattiva la modalità scura";
+
+/* Text for VoiceOver for the dark appearance button when the feature is disabled */
+"control.feature.contrastcolordarknight.dark.tts.disabled" = "Attiva la modalità scura";
+
+/* Title for the help window for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.help.title" = "Attiva e disattiva la modalità scura";
+
+/* Message for the help window for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.help.message" = "Per modificare le impostazioni, fai clic con il tasto destro del mouse sul pulsante.";
+
+/* Label for the button that toggles night shift */
+"control.feature.contrastcolordarknight.night" = "Notte";
+
+/* Text for VoiceOver for the night shift button */
+"control.feature.contrastcolordarknight.night.tts" = "Modalità notturna attiva, disattivata";
+
+/* Text for VoiceOver for the night shift button when the feature is enabled */
+"control.feature.contrastcolordarknight.night.tts.enabled" = "Disattiva la modalità notte";
+
+/* Text for VoiceOver for the night shift button when the feature is disabled */
+"control.feature.contrastcolordarknight.night.tts.disabled" = "Attiva la modalità notte";
+
+/* Title for the help window for the night shift button */
+"control.feature.contrastcolordarknight.night.help.title" = "Attiva e disattiva la funzione Night Shift";
+
+/* Message for the help window for the night shift button */
+"control.feature.contrastcolordarknight.night.help.message" = "Riduce la tensione oculare e rende più facile addormentarsi.";
+
+/* Label for the buttons that control the dark mode */
+"control.feature.darkmode.title" = "Tema scuro";
+
+/* Label for the button that shows the dark mode */
+"control.feature.darkmode.on" = "Acceso";
+
+/* Title for the help window for the show ("on") dark mode button */
+"control.feature.darkmode.on.help.title" = "Attiva la modalità scura";
+
+/* Message for the help window for the show ("on") dark mode button */
+"control.feature.darkmode.on.help.message" = "Attiva la modalità scura. (Fai click con il tasto destro del mouse per regolare)";
+
+/* Label for the button that hides the dark mode */
+"control.feature.darkmode.off" = "Spento";
+
+/* Title for the help window for the hide ("off") dark mode button */
+"control.feature.darkmode.off.help.title" = "Disattiva la modalità scura";
+
+/* Message for the help window for the hide ("off") dark mode button */
+"control.feature.darkmode.off.help.message" = "Disattiva la modalità scura. (Fai click con il tasto destro del mouse per regolare)";
+
+/* Label for the buttons that open/eject usb drives */
+"control.feature.usbdrives.title" = "Unità USB (tutte)";
+
+/* Label for the button that opens all usb drives */
+"control.feature.usbdrives.open" = "Aperto";
+
+/* Title for the help window for the "open usb drives" button */
+"control.feature.usbdrives.open.help.title" = "Apri tutte le unità USB";
+
+/* Message for the help window for the "open usb drives" button */
+"control.feature.usbdrives.open.help.message" = "Apre e mostra i file di tutte le unità USB inserite nel computer";
+
+/* Label for the button that safely ejects all usb drives */
+"control.feature.usbdrives.eject" = "Espelli";
+
+/* Title for the help window for the "eject usb drives" button" */
+"control.feature.usbdrives.eject.help.title" = "Espelli tutte le Unità USB";
+
+/* Message for the help window for the "eject usb drives" button */
+"control.feature.usbdrives.eject.help.message" = "Espelli in modo sicuro tutte le unità USB collegate a questo calcolatore.";
+
+/* Title for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.title" = "Advanced Features";
+
+/* Message for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.message" = "Customize buttons and take your settings with you anywhere";

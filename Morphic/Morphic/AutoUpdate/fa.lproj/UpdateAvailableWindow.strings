@@ -1,0 +1,29 @@
+/* Class = "NSTextFieldCell"; title = "v1.0.0"; ObjectID = "9S3-gn-gtO"; */
+"9S3-gn-gtO.title" = "v1.0.0";
+
+/* Class = "NSWindow"; title = "Morphic Update"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "به روز رسانی مورفیک";
+
+/* Class = "NSButtonCell"; title = "Remind Me Later"; ObjectID = "J0i-qq-vls"; */
+"J0i-qq-vls.title" = "بعداً به من یادآوری کن";
+
+/* Class = "NSTextFieldCell"; title = "v1.0.0"; ObjectID = "J6s-Ba-9sH"; */
+"J6s-Ba-9sH.title" = "v1.0.0";
+
+/* Class = "NSTextFieldCell"; title = "Updated version:"; ObjectID = "JDY-Qz-ATj"; */
+"JDY-Qz-ATj.title" = "نسخه به روز شده:";
+
+/* Class = "NSButtonCell"; title = "Download Now"; ObjectID = "NAn-pI-mX2"; */
+"NAn-pI-mX2.title" = "اکنون دانلود کنید";
+
+/* Class = "NSButtonCell"; title = "Cancel Download"; ObjectID = "NCB-1q-L6Z"; */
+"NCB-1q-L6Z.title" = "لغو دانلود";
+
+/* Class = "NSTextFieldCell"; title = "Current version:"; ObjectID = "RD3-cL-AIO"; */
+"RD3-cL-AIO.title" = "نسخه فعلی:";
+
+/* Class = "NSTextFieldCell"; title = "A new version of Morphic is available!"; ObjectID = "ad4-OA-jYG"; */
+"ad4-OA-jYG.title" = "نسخه جدید Morphic در دسترس است!";
+
+/* Class = "NSTextFieldCell"; title = "Would you like to download the update now?"; ObjectID = "hT9-mK-bh5"; */
+"hT9-mK-bh5.title" = "آیا می خواهید همین الان آپدیت را دانلود کنید؟";

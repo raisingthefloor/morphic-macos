@@ -1,0 +1,11 @@
+/* Class = "NSButtonCell"; title = "Use the settings in my Cloud Vault to set up this computer"; ObjectID = "8n8-fD-jPM"; */
+"8n8-fD-jPM.title" = "Usa le impostazioni nella mia Cloud Vault per configurare questo computer";
+
+/* Class = "NSTextFieldCell"; title = "This feature allows you to move your accessibility and usability settings between computers  --  including the settings of your assistive technologies."; ObjectID = "NxI-Fl-M5O"; */
+"NxI-Fl-M5O.title" = "Questa funzione consente di spostare le impostazioni di accessibilità e usabilità tra i calcolatori, comprese le impostazioni delle tecnologie assistive.";
+
+/* Class = "NSTextFieldCell"; title = "Copy Settings Between Computers"; ObjectID = "gHk-j9-svH"; */
+"gHk-j9-svH.title" = "Copia le impostazioni tra i calcolatori";
+
+/* Class = "NSButtonCell"; title = "Copy settings on this computer to my Cloud Vault"; ObjectID = "htY-FB-BLL"; */
+"htY-FB-BLL.title" = "Copia le impostazioni di questo computer nella mia Cloud Vault";

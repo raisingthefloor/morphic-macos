@@ -1,0 +1,20 @@
+/* Class = "NSButtonCell"; title = "Forgot Password?"; ObjectID = "AGH-hS-SY3"; */
+"AGH-hS-SY3.title" = "Ξεχάσατε τον κωδικό σας;";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "Anw-Y4-jLV"; */
+"Anw-Y4-jLV.title" = "Ετικέτα";
+
+/* Class = "NSButtonCell"; title = "Sign in"; ObjectID = "CK2-4d-Of0"; */
+"CK2-4d-Of0.title" = "Συνδεθείτε";
+
+/* Class = "NSWindow"; title = "Sign in to Morphic"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Συνδεθείτε στο Morphic";
+
+/* Class = "NSTextFieldCell"; title = "Email Address"; ObjectID = "iha-2b-OCz"; */
+"iha-2b-OCz.title" = "Διεύθυνση ηλεκτρονικού ταχυδρομείου";
+
+/* Class = "NSTextFieldCell"; title = "Password"; ObjectID = "qTa-36-w6E"; */
+"qTa-36-w6E.title" = "Κωδικός πρόσβασης";
+
+/* Class = "NSTextFieldCell"; title = "We did not recognize your login.  Please try again."; ObjectID = "usV-7n-KgH"; */
+"usV-7n-KgH.title" = "Δεν αναγνωρίσαμε τα συνθηματικά σας. Παρακαλώ προσπαθήστε ξανά.";

@@ -1,0 +1,35 @@
+/* Class = "NSTextFieldCell"; title = "Passwords do not match"; ObjectID = "58Z-gZ-ndK"; */
+"58Z-gZ-ndK.title" = "पासवर्ड जुळत नाहीत";
+
+/* Class = "NSTextFieldCell"; title = "Choose a Password"; ObjectID = "EQS-hT-wQJ"; */
+"EQS-hT-wQJ.title" = "एक पासवर्ड निवडा";
+
+/* Class = "NSTextFieldCell"; title = "Confirm Password"; ObjectID = "IdK-z5-PRU"; */
+"IdK-z5-PRU.title" = "पासवर्डची पुष्टी करा";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "JcH-TK-ce1"; */
+"JcH-TK-ce1.title" = "बॉक्स";
+
+/* Class = "NSButtonCell"; title = "Create Account"; ObjectID = "LAQ-6m-MiI"; */
+"LAQ-6m-MiI.title" = "खाते तयार करा";
+
+/* Class = "NSTextFieldCell"; title = "Privacy Policy"; ObjectID = "RFe-9o-yTd"; */
+"RFe-9o-yTd.title" = "गोपनीयता धोरण";
+
+/* Class = "NSTextFieldCell"; title = "Take your settings with you"; ObjectID = "ROd-nn-QUo"; */
+"ROd-nn-QUo.title" = "तुमच्या सेटिंग्ज सोबत घ्या";
+
+/* Class = "NSTextFieldCell"; title = "and"; ObjectID = "UQ6-OE-6Lq"; */
+"UQ6-OE-6Lq.title" = "आणि";
+
+/* Class = "NSTextFieldCell"; title = "By signing up for Morphic you are agreeing to the"; ObjectID = "bmz-hl-Zz8"; */
+"bmz-hl-Zz8.title" = "मॉर्फिकसाठी साइन अप करून तुम्ही सहमत आहात";
+
+/* Class = "NSTextFieldCell"; title = "Your Email Address"; ObjectID = "g3O-a3-XMK"; */
+"g3O-a3-XMK.title" = "तुमचा ईमेल पत्ता";
+
+/* Class = "NSTextFieldCell"; title = "You'll need to create an account so we can remember your settings and securely apply them to another computer"; ObjectID = "tsS-sY-hOc"; */
+"tsS-sY-hOc.title" = "तुम्हाला एखादे खाते तयार करावे लागेल जेणेकरुन आम्ही तुमच्या सेटिंग्ज लक्षात ठेवू शकू आणि त्या सुरक्षितपणे दुसऱ्या काँप्युटरवर लागू करू शकू";
+
+/* Class = "NSTextFieldCell"; title = "Terms of Use"; ObjectID = "uUD-sM-Nxd"; */
+"uUD-sM-Nxd.title" = "वापराच्या अटी";

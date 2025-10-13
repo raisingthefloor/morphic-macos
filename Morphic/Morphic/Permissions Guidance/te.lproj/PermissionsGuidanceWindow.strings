@@ -1,0 +1,11 @@
+/* Class = "NSTextFieldCell"; title = "2. Check box for Morphic"; ObjectID = "NmD-CK-6nL"; */
+"NmD-CK-6nL.title" = "2. మార్ఫిక్ కోసం చెక్ బాక్స్";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "విండో";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "TlS-Ml-8x5"; */
+"TlS-Ml-8x5.title" = "బాక్స్";
+
+/* Class = "NSTextFieldCell"; title = "1. Make sure the lock is unlocked"; ObjectID = "wwv-Ku-Ud7"; */
+"wwv-Ku-Ud7.title" = "1. లాక్ అన్‌లాక్ చేయబడిందని నిర్ధారించుకోండి";

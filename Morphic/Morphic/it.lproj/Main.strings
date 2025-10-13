@@ -1,0 +1,113 @@
+/* Class = "NSMenuItem"; title = "Dark Mode Settings"; ObjectID = "2mx-T9-CEQ"; */
+"2mx-T9-CEQ.title" = "Impostazioni della modalità scura";
+
+/* Class = "NSMenuItem"; title = "Show MorphicBar"; ObjectID = "4BS-cA-IvL"; */
+"4BS-cA-IvL.title" = "Mostra la barra di Morphic";
+
+/* Class = "NSMenuItem"; title = "Basic MorphicBar"; ObjectID = "AVi-t6-lRs"; */
+"AVi-t6-lRs.title" = "Barra base di Morphic";
+
+/* Class = "NSMenuItem"; title = "Explore everything Morphic can do..."; ObjectID = "DeU-ED-RwS"; */
+"DeU-ED-RwS.title" = "Esplora tutto ciò che Morphic può fare...";
+
+/* Class = "NSMenuItem"; title = "Problems? Contact us..."; ObjectID = "E3h-fH-NQ4"; */
+"E3h-fH-NQ4.title" = "Problemi? Contattaci...";
+
+/* Class = "NSMenuItem"; title = "Automatically Start Morphic"; ObjectID = "Ir1-cH-h7Z"; */
+"Ir1-cH-h7Z.title" = "Avvia Automaticamente Morphic";
+
+/* Class = "NSMenuItem"; title = "Brightness"; ObjectID = "JQV-M8-1cX"; */
+"JQV-M8-1cX.title" = "Luminosità";
+
+/* Class = "NSMenuItem"; title = "Color Vision Settings"; ObjectID = "KW2-Yc-fA8"; */
+"KW2-Yc-fA8.title" = "Impostazioni della visione a colori";
+
+/* Class = "NSMenuItem"; title = "Pointer Size"; ObjectID = "KpP-nc-KDu"; */
+"KpP-nc-KDu.title" = "Dimensione del puntatore";
+
+/* Class = "NSMenuItem"; title = "Keyboard Settings"; ObjectID = "PEe-T1-bhd"; */
+"PEe-T1-bhd.title" = "Impostazioni della tastiera";
+
+/* Class = "NSMenuItem"; title = "Contrast Settings"; ObjectID = "RHA-xv-t7n"; */
+"RHA-xv-t7n.title" = "Impostazioni del contrasto";
+
+/* Class = "NSMenuItem"; title = "Sign into Morphic..."; ObjectID = "S6R-h6-1Yz"; */
+"S6R-h6-1Yz.title" = "Accedi a Morphic...";
+
+/* Class = "NSMenuItem"; title = "Turn Off Key Repeat"; ObjectID = "TXI-dU-a95"; */
+"TXI-dU-a95.title" = "Disattiva la ripetizione dei tasti";
+
+/* Class = "NSMenuItem"; title = "Save Current Setup as..."; ObjectID = "VF9-cs-dFo"; */
+"VF9-cs-dFo.title" = "Salva le impostazioni correnti come...";
+
+/* Class = "NSMenuItem"; title = "Apply a Saved Setup..."; ObjectID = "WUC-ZR-CdM"; */
+"WUC-ZR-CdM.title" = "Applica una configurazione salvata...";
+
+/* Class = "NSMenuItem"; title = "Mouse Settings"; ObjectID = "WgB-hi-dss"; */
+"WgB-hi-dss.title" = "Impostazioni del mouse";
+
+/* Class = "NSMenuItem"; title = "All Accessibility Options"; ObjectID = "ZA3-bo-s5U"; */
+"ZA3-bo-s5U.title" = "Tutte le opzioni di accessibilità";
+
+/* Class = "NSMenuItem"; title = "Customize MorphicBar..."; ObjectID = "ZaP-ZB-1RU"; */
+"ZaP-ZB-1RU.title" = "Personalizza la barra di Morphic...";
+
+/* Class = "NSMenuItem"; title = "Quit Morphic"; ObjectID = "aYd-9o-084"; */
+"aYd-9o-084.title" = "Esci da Morphic";
+
+/* Class = "NSMenuItem"; title = "Magnifier Settings"; ObjectID = "b1Z-FW-EwQ"; */
+"b1Z-FW-EwQ.title" = "Impostazioni dell'ingranditore";
+
+/* Class = "NSMenuItem"; title = "Night Mode Settings"; ObjectID = "bNX-LY-aa2"; */
+"bNX-LY-aa2.title" = "Impostazioni della modalità notturna";
+
+/* Class = "NSMenuItem"; title = "Always Show MorphicBar at Start"; ObjectID = "cGf-Qp-TV9"; */
+"cGf-Qp-TV9.title" = "Mostra sempre la barra di Morphic all'avvio";
+
+/* Class = "NSMenu"; title = "More settings to make the computer easier"; ObjectID = "cly-1W-5Qg"; */
+"cly-1W-5Qg.title" = "Altre impostazioni per rendere più facile l'uso del calcolatore";
+
+/* Class = "NSMenuItem"; title = "Quick Morphic demo movies..."; ObjectID = "d81-k0-YBn"; */
+"d81-k0-YBn.title" = "Rapidi filmati dimostrativi di Morphic...";
+
+/* Class = "NSMenuItem"; title = "macOS Settings for MorphicBar Controls "; ObjectID = "eF3-hP-q65"; */
+"eF3-hP-q65.title" = "Impostazioni macOS per i controlli della barra di Morphic ";
+
+/* Class = "NSMenuItem"; title = "Sign out of Morphic"; ObjectID = "fdS-ef-rqr"; */
+"fdS-ef-rqr.title" = "Esci da Morphic";
+
+/* Class = "NSMenuItem"; title = "Hide MorphicBar"; ObjectID = "gOm-Gw-nLp"; */
+"gOm-Gw-nLp.title" = "Nascondi la barra di Morphic";
+
+/* Class = "NSMenuItem"; title = "Other resources to make computers easier..."; ObjectID = "gkK-R4-V6Q"; */
+"gkK-R4-V6Q.title" = "Altre risorse per rendere più facile l'uso del calcolatore...";
+
+/* Class = "NSMenu"; title = "Switch MorphicBar"; ObjectID = "l0C-IM-POV"; */
+"l0C-IM-POV.title" = "Cambia la barra di Morphic";
+
+/* Class = "NSMenuItem"; title = "About Morphic..."; ObjectID = "m2n-v5-G3Y"; */
+"m2n-v5-G3Y.title" = "Informazioni su Morphic...";
+
+/* Class = "NSMenuItem"; title = "Direct Actions"; ObjectID = "n0r-so-Bno"; */
+"n0r-so-Bno.title" = "Azioni dirette";
+
+/* Class = "NSMenuItem"; title = "Language"; ObjectID = "opf-Uy-dBe"; */
+"opf-Uy-dBe.title" = "Lingua";
+
+/* Class = "NSMenuItem"; title = "More settings to make the computer easier"; ObjectID = "pDn-p9-kW7"; */
+"pDn-p9-kW7.title" = "Altre impostazioni per rendere più facile l'uso del calcolatore";
+
+/* Class = "NSMenuItem"; title = "How to copy setups between computers..."; ObjectID = "pnf-1u-KLS"; */
+"pnf-1u-KLS.title" = "Come copiare le installazioni tra calcolatori...";
+
+/* Class = "NSMenuItem"; title = "Switch MorphicBar"; ObjectID = "qcc-Q2-sYr"; */
+"qcc-Q2-sYr.title" = "Cambia la barra di Morphic";
+
+/* Class = "NSMenuItem"; title = "Hide QuickHelp"; ObjectID = "v0X-Ch-Q5h"; */
+"v0X-Ch-Q5h.title" = "Nascondi la Guida Rapida";
+
+/* Class = "NSMenuItem"; title = "Other Key macOS Settings"; ObjectID = "vMO-xL-Bfp"; */
+"vMO-xL-Bfp.title" = "Altre impostazioni dei tasti di macOs";
+
+/* Class = "NSMenuItem"; title = "Read Aloud Settings"; ObjectID = "yVb-9e-9TN"; */
+"yVb-9e-9TN.title" = "Leggi le impostazioni ad alta voce";

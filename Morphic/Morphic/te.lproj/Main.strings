@@ -1,0 +1,113 @@
+/* Class = "NSMenuItem"; title = "Dark Mode Settings"; ObjectID = "2mx-T9-CEQ"; */
+"2mx-T9-CEQ.title" = "డార్క్ మోడ్ సెట్టింగ్‌లు";
+
+/* Class = "NSMenuItem"; title = "Show MorphicBar"; ObjectID = "4BS-cA-IvL"; */
+"4BS-cA-IvL.title" = "మార్ఫిక్ బార్‌ని చూపించడానికి";
+
+/* Class = "NSMenuItem"; title = "Basic MorphicBar"; ObjectID = "AVi-t6-lRs"; */
+"AVi-t6-lRs.title" = "ప్రాథమిక మార్ఫిక్ బార్";
+
+/* Class = "NSMenuItem"; title = "Explore everything Morphic can do..."; ObjectID = "DeU-ED-RwS"; */
+"DeU-ED-RwS.title" = "మార్ఫిక్ ఏమి చేయగలదో తెలుసుకోండి...";
+
+/* Class = "NSMenuItem"; title = "Problems? Contact us..."; ObjectID = "E3h-fH-NQ4"; */
+"E3h-fH-NQ4.title" = "ఏవైనా సమస్యలు ఉన్నాయా? మమ్మల్ని సంప్రదించండి...";
+
+/* Class = "NSMenuItem"; title = "Automatically Start Morphic"; ObjectID = "Ir1-cH-h7Z"; */
+"Ir1-cH-h7Z.title" = "ఆటోమేటిక్ గా మార్ఫిక్ ప్రారంభించడానికి";
+
+/* Class = "NSMenuItem"; title = "Brightness"; ObjectID = "JQV-M8-1cX"; */
+"JQV-M8-1cX.title" = "బ్రైట్నెస్";
+
+/* Class = "NSMenuItem"; title = "Color Vision Settings"; ObjectID = "KW2-Yc-fA8"; */
+"KW2-Yc-fA8.title" = "కలర్ విజన్ సెట్టింగ్స్";
+
+/* Class = "NSMenuItem"; title = "Pointer Size"; ObjectID = "KpP-nc-KDu"; */
+"KpP-nc-KDu.title" = "పాయింటర్ సైజు";
+
+/* Class = "NSMenuItem"; title = "Keyboard Settings"; ObjectID = "PEe-T1-bhd"; */
+"PEe-T1-bhd.title" = "కీబోర్డ్ సెట్టింగ్స్";
+
+/* Class = "NSMenuItem"; title = "Contrast Settings"; ObjectID = "RHA-xv-t7n"; */
+"RHA-xv-t7n.title" = "కాంట్రాస్ట్ సెట్టింగ్స్";
+
+/* Class = "NSMenuItem"; title = "Sign into Morphic..."; ObjectID = "S6R-h6-1Yz"; */
+"S6R-h6-1Yz.title" = "మార్ఫిక్‌లోకి సైన్ ఇన్ చేయడానికి...";
+
+/* Class = "NSMenuItem"; title = "Turn Off Key Repeat"; ObjectID = "TXI-dU-a95"; */
+"TXI-dU-a95.title" = "కీ రిపీట్‌ని ఆఫ్ చేయడానికి";
+
+/* Class = "NSMenuItem"; title = "Save Current Setup as..."; ObjectID = "VF9-cs-dFo"; */
+"VF9-cs-dFo.title" = "ప్రస్తుత సెటప్‌ని ఇలా సేవ్ చేయడానికి...";
+
+/* Class = "NSMenuItem"; title = "Apply a Saved Setup..."; ObjectID = "WUC-ZR-CdM"; */
+"WUC-ZR-CdM.title" = "సేవ్ చేసిన సెటప్‌ని వర్తింపజేయడానికి...";
+
+/* Class = "NSMenuItem"; title = "Mouse Settings"; ObjectID = "WgB-hi-dss"; */
+"WgB-hi-dss.title" = "మౌస్ సెట్టింగ్స్";
+
+/* Class = "NSMenuItem"; title = "All Accessibility Options"; ObjectID = "ZA3-bo-s5U"; */
+"ZA3-bo-s5U.title" = "అన్ని యాక్సెసిబిలిటీ ఆప్షన్లు";
+
+/* Class = "NSMenuItem"; title = "Customize MorphicBar..."; ObjectID = "ZaP-ZB-1RU"; */
+"ZaP-ZB-1RU.title" = "మార్ఫిక్ బార్‌ని కస్టమైజ్ చేయడానికి";
+
+/* Class = "NSMenuItem"; title = "Quit Morphic"; ObjectID = "aYd-9o-084"; */
+"aYd-9o-084.title" = "మార్ఫిక్ నుండి నిష్క్రమించడానికి";
+
+/* Class = "NSMenuItem"; title = "Magnifier Settings"; ObjectID = "b1Z-FW-EwQ"; */
+"b1Z-FW-EwQ.title" = "మ్యాగ్నిఫైయర్ సెట్టింగ్స్";
+
+/* Class = "NSMenuItem"; title = "Night Mode Settings"; ObjectID = "bNX-LY-aa2"; */
+"bNX-LY-aa2.title" = "నైట్ మోడ్ సెట్టింగ్స్";
+
+/* Class = "NSMenuItem"; title = "Always Show MorphicBar at Start"; ObjectID = "cGf-Qp-TV9"; */
+"cGf-Qp-TV9.title" = "ఎల్లప్పుడూ ప్రారంభంలో మార్ఫిక్ బార్‌ని చూపండి";
+
+/* Class = "NSMenu"; title = "More settings to make the computer easier"; ObjectID = "cly-1W-5Qg"; */
+"cly-1W-5Qg.title" = "కంప్యూటర్‌ను సులభతరం చేయడానికి మరిన్ని సెట్టింగ్‌లు";
+
+/* Class = "NSMenuItem"; title = "Quick Morphic demo movies..."; ObjectID = "d81-k0-YBn"; */
+"d81-k0-YBn.title" = "త్వరిత మార్ఫిక్ డెమో వీడియోలు...";
+
+/* Class = "NSMenuItem"; title = "macOS Settings for MorphicBar Controls "; ObjectID = "eF3-hP-q65"; */
+"eF3-hP-q65.title" = "మార్ఫిక్ బార్ నియంత్రణల కోసం macOS సెట్టింగ్‌లు";
+
+/* Class = "NSMenuItem"; title = "Sign out of Morphic"; ObjectID = "fdS-ef-rqr"; */
+"fdS-ef-rqr.title" = "మార్ఫిక్ నుండి సైన్ అవుట్ చేయండి";
+
+/* Class = "NSMenuItem"; title = "Hide MorphicBar"; ObjectID = "gOm-Gw-nLp"; */
+"gOm-Gw-nLp.title" = "మార్ఫిక్ గురించి";
+
+/* Class = "NSMenuItem"; title = "Other resources to make computers easier..."; ObjectID = "gkK-R4-V6Q"; */
+"gkK-R4-V6Q.title" = "కంప్యూటర్లను సులభతరం చేయడానికి ఇతర వనరులు...";
+
+/* Class = "NSMenu"; title = "Switch MorphicBar"; ObjectID = "l0C-IM-POV"; */
+"l0C-IM-POV.title" = "మార్ఫిక్ బార్‌ని మార్చడానికి";
+
+/* Class = "NSMenuItem"; title = "About Morphic..."; ObjectID = "m2n-v5-G3Y"; */
+"m2n-v5-G3Y.title" = "మార్ఫిక్ గురించి";
+
+/* Class = "NSMenuItem"; title = "Direct Actions"; ObjectID = "n0r-so-Bno"; */
+"n0r-so-Bno.title" = "డైరెక్ట్ యాక్షన్స్";
+
+/* Class = "NSMenuItem"; title = "Language"; ObjectID = "opf-Uy-dBe"; */
+"opf-Uy-dBe.title" = "భాష";
+
+/* Class = "NSMenuItem"; title = "More settings to make the computer easier"; ObjectID = "pDn-p9-kW7"; */
+"pDn-p9-kW7.title" = "కంప్యూటర్‌ను సులభతరం చేయడానికి మరిన్ని సెట్టింగ్‌లు";
+
+/* Class = "NSMenuItem"; title = "How to copy setups between computers..."; ObjectID = "pnf-1u-KLS"; */
+"pnf-1u-KLS.title" = "కంప్యూటర్ల మధ్య సెటప్‌లను ఎలా కాపీ చేయాలి...";
+
+/* Class = "NSMenuItem"; title = "Switch MorphicBar"; ObjectID = "qcc-Q2-sYr"; */
+"qcc-Q2-sYr.title" = "మార్ఫిక్ బార్‌ని మార్చడానికి";
+
+/* Class = "NSMenuItem"; title = "Hide QuickHelp"; ObjectID = "v0X-Ch-Q5h"; */
+"v0X-Ch-Q5h.title" = "క్విక్ హెల్ప్ ని దాచడానికి";
+
+/* Class = "NSMenuItem"; title = "Other Key macOS Settings"; ObjectID = "vMO-xL-Bfp"; */
+"vMO-xL-Bfp.title" = "ఇతర ముఖ్యమైన macOS సెట్టింగ్‌లు";
+
+/* Class = "NSMenuItem"; title = "Read Aloud Settings"; ObjectID = "yVb-9e-9TN"; */
+"yVb-9e-9TN.title" = "సెట్టింగ్‌లను బిగ్గరగా చదవడానికి";

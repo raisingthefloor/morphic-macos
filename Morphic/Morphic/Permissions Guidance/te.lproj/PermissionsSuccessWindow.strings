@@ -1,0 +1,11 @@
+/* Class = "NSTextFieldCell"; title = "You may close the System Preferences application window."; ObjectID = "NmD-CK-6nL"; */
+"NmD-CK-6nL.title" = "మీరు సిస్టమ్ ప్రిఫరెన్సుల అప్లికేషన్ విండోను మూసివేయవచ్చు.";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "విండో";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "TlS-Ml-8x5"; */
+"TlS-Ml-8x5.title" = "బాక్స్";
+
+/* Class = "NSTextFieldCell"; title = "Accessibility permissions have been enabled."; ObjectID = "wwv-Ku-Ud7"; */
+"wwv-Ku-Ud7.title" = "యాక్సెసిబిలిటీ అనుమతులు ప్రారంభించబడ్డాయి.";
