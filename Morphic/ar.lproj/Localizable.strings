@@ -401,7 +401,7 @@
 "control.feature.usbdrives.eject.help.message" = "يخرج بشكل آمن جميع محركات USB توصيل إلى هذا الكمبيوتر.";
 
 /* Title for the help window for the MorphicBar Morphie menu button */
-"morphicbar.menubutton.title" = "Advanced Features";
+"morphicbar.menubutton.title" = "مزايا متقدمة";
 
 /* Message for the help window for the MorphicBar Morphie menu button */
-"morphicbar.menubutton.message" = "Customize buttons and take your settings with you anywhere";
+"morphicbar.menubutton.message" = "تخصيص الأزرار و اخذ الإعدادات معك في أي مكان";

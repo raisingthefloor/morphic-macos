@@ -401,7 +401,7 @@
 "control.feature.usbdrives.eject.help.message" = "આ કમ્પ્યૂટરમાં જોડાયેલ તમામ USB ડ્રાઈવોને સલામત રીતે બહાર કરે છે.";
 
 /* Title for the help window for the MorphicBar Morphie menu button */
-"morphicbar.menubutton.title" = "Advanced Features";
+"morphicbar.menubutton.title" = "ઍડવાન્સ્ડ ફીચરો";
 
 /* Message for the help window for the MorphicBar Morphie menu button */
-"morphicbar.menubutton.message" = "Customize buttons and take your settings with you anywhere";
+"morphicbar.menubutton.message" = "બટનોને કસ્ટમાઇઝ કરો અને તમારી સેટિંગ્સને ગમે ત્યાં સાથે લઈ જાઓ";
