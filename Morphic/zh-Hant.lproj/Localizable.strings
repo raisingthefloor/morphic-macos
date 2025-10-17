@@ -401,7 +401,7 @@
 "control.feature.usbdrives.eject.help.message" = "安全退出所有連接此電腦的 USB 硬碟。";
 
 /* Title for the help window for the MorphicBar Morphie menu button */
-"morphicbar.menubutton.title" = "Advanced Features";
+"morphicbar.menubutton.title" = "進階功能";
 
 /* Message for the help window for the MorphicBar Morphie menu button */
-"morphicbar.menubutton.message" = "Customize buttons and take your settings with you anywhere";
+"morphicbar.menubutton.message" = "自訂按鈕並隨身攜帶您的設置";
