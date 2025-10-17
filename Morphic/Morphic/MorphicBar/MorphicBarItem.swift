@@ -959,7 +959,7 @@ class MorphicBarControlItem: MorphicBarItem {
                     learnMoreTelemetryCategory: "textSize",
                     quickDemoVideoUrl: MorphicBarControlItem.quickDemoVideoUrl(for: .textsize),
                     quickDemoVideoTelemetryCategory: "textSize",
-                    settingsBlock: nil,
+                    settingsBlock: { try await SettingsLinkActions.openSystemSettingsPaneWithTelemetry(.displaysDisplay, category: "textSize") },
                     style: .fixedWidth(segmentWidth: 31)
                 ),
                 MorphicBarSegmentedButton.Segment(
@@ -971,7 +971,7 @@ class MorphicBarControlItem: MorphicBarItem {
                     learnMoreTelemetryCategory: "textSize",
                     quickDemoVideoUrl: MorphicBarControlItem.quickDemoVideoUrl(for: .textsize),
                     quickDemoVideoTelemetryCategory: "textSize",
-                    settingsBlock: nil,
+                    settingsBlock: { try await SettingsLinkActions.openSystemSettingsPaneWithTelemetry(.displaysDisplay, category: "textSize") },
                     style: .fixedWidth(segmentWidth: 31)
                 )
             ]
