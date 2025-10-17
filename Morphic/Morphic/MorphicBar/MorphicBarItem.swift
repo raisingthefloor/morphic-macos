@@ -1920,10 +1920,8 @@ class MorphicBarControlItem: MorphicBarItem {
             }
 
             // activate the magnifier
-            guard let magnifierIsEnabled = try MorphicSettings.MagnifierZoomSettings.getMagnifierEnabled() else {
-                throw MorphicError.unspecified
-            }
-            if magnifierIsEnabled == false {
+            let magnifierIsEnabledAsOptional = try MorphicSettings.MagnifierZoomSettings.getMagnifierEnabled()
+            if magnifierIsEnabledAsOptional == false || magnifierIsEnabledAsOptional == nil {
                 try MorphicSettings.MagnifierZoomSettings.sendMagnifierToggleZoomHotkey()
 
                 let waitForTimespan = max(waitAbsoluteDeadline - ProcessInfo.processInfo.systemUptime, 0)
