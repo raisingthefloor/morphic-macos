@@ -1,0 +1,11 @@
+/* Class = "NSTextFieldCell"; title = "2. Check box for Morphic"; ObjectID = "NmD-CK-6nL"; */
+"NmD-CK-6nL.title" = "2. 請勾選 Morphic 的選框";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "視窗";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "TlS-Ml-8x5"; */
+"TlS-Ml-8x5.title" = "選框";
+
+/* Class = "NSTextFieldCell"; title = "1. Make sure the lock is unlocked"; ObjectID = "wwv-Ku-Ud7"; */
+"wwv-Ku-Ud7.title" = "1. 請確認您已解除鎖定";

@@ -1,0 +1,113 @@
+/* Class = "NSMenuItem"; title = "Dark Mode Settings"; ObjectID = "2mx-T9-CEQ"; */
+"2mx-T9-CEQ.title" = "深色模式设置";
+
+/* Class = "NSMenuItem"; title = "Show MorphicBar"; ObjectID = "4BS-cA-IvL"; */
+"4BS-cA-IvL.title" = "显示MorphicBar";
+
+/* Class = "NSMenuItem"; title = "Basic MorphicBar"; ObjectID = "AVi-t6-lRs"; */
+"AVi-t6-lRs.title" = "基础MorphicBar";
+
+/* Class = "NSMenuItem"; title = "Explore everything Morphic can do..."; ObjectID = "DeU-ED-RwS"; */
+"DeU-ED-RwS.title" = "探索所有Morphic能做的事情";
+
+/* Class = "NSMenuItem"; title = "Problems? Contact us..."; ObjectID = "E3h-fH-NQ4"; */
+"E3h-fH-NQ4.title" = "遇到问题？请联系我们...";
+
+/* Class = "NSMenuItem"; title = "Automatically Start Morphic"; ObjectID = "Ir1-cH-h7Z"; */
+"Ir1-cH-h7Z.title" = "自动启动Morphic";
+
+/* Class = "NSMenuItem"; title = "Brightness"; ObjectID = "JQV-M8-1cX"; */
+"JQV-M8-1cX.title" = "亮度";
+
+/* Class = "NSMenuItem"; title = "Color Vision Settings"; ObjectID = "KW2-Yc-fA8"; */
+"KW2-Yc-fA8.title" = "色彩视觉设置";
+
+/* Class = "NSMenuItem"; title = "Pointer Size"; ObjectID = "KpP-nc-KDu"; */
+"KpP-nc-KDu.title" = "指针大小";
+
+/* Class = "NSMenuItem"; title = "Keyboard Settings"; ObjectID = "PEe-T1-bhd"; */
+"PEe-T1-bhd.title" = "键盘设置";
+
+/* Class = "NSMenuItem"; title = "Contrast Settings"; ObjectID = "RHA-xv-t7n"; */
+"RHA-xv-t7n.title" = "对比度设置";
+
+/* Class = "NSMenuItem"; title = "Sign into Morphic..."; ObjectID = "S6R-h6-1Yz"; */
+"S6R-h6-1Yz.title" = "登陆您的 Morphic 账户...";
+
+/* Class = "NSMenuItem"; title = "Turn Off Key Repeat"; ObjectID = "TXI-dU-a95"; */
+"TXI-dU-a95.title" = "关闭按键重复";
+
+/* Class = "NSMenuItem"; title = "Save Current Setup as..."; ObjectID = "VF9-cs-dFo"; */
+"VF9-cs-dFo.title" = "保存当前设置为...";
+
+/* Class = "NSMenuItem"; title = "Apply a Saved Setup..."; ObjectID = "WUC-ZR-CdM"; */
+"WUC-ZR-CdM.title" = "应用已保存的设置...";
+
+/* Class = "NSMenuItem"; title = "Mouse Settings"; ObjectID = "WgB-hi-dss"; */
+"WgB-hi-dss.title" = "鼠标设置";
+
+/* Class = "NSMenuItem"; title = "All Accessibility Options"; ObjectID = "ZA3-bo-s5U"; */
+"ZA3-bo-s5U.title" = "全部辅助功能选项";
+
+/* Class = "NSMenuItem"; title = "Customize MorphicBar..."; ObjectID = "ZaP-ZB-1RU"; */
+"ZaP-ZB-1RU.title" = "自定义MorphicBar...";
+
+/* Class = "NSMenuItem"; title = "Quit Morphic"; ObjectID = "aYd-9o-084"; */
+"aYd-9o-084.title" = "退出Morphic";
+
+/* Class = "NSMenuItem"; title = "Magnifier Settings"; ObjectID = "b1Z-FW-EwQ"; */
+"b1Z-FW-EwQ.title" = "屏幕放大设置";
+
+/* Class = "NSMenuItem"; title = "Night Mode Settings"; ObjectID = "bNX-LY-aa2"; */
+"bNX-LY-aa2.title" = "夜间模式设置";
+
+/* Class = "NSMenuItem"; title = "Always Show MorphicBar at Start"; ObjectID = "cGf-Qp-TV9"; */
+"cGf-Qp-TV9.title" = "启动时显示 MorphicBar";
+
+/* Class = "NSMenu"; title = "More settings to make the computer easier"; ObjectID = "cly-1W-5Qg"; */
+"cly-1W-5Qg.title" = "更多使电脑更易用的设置";
+
+/* Class = "NSMenuItem"; title = "Quick Morphic demo movies..."; ObjectID = "d81-k0-YBn"; */
+"d81-k0-YBn.title" = "观看简短的 Morphic 演示视频";
+
+/* Class = "NSMenuItem"; title = "macOS Settings for MorphicBar Controls "; ObjectID = "eF3-hP-q65"; */
+"eF3-hP-q65.title" = "MorphicBar控制在macOS中的设置 ";
+
+/* Class = "NSMenuItem"; title = "Sign out of Morphic"; ObjectID = "fdS-ef-rqr"; */
+"fdS-ef-rqr.title" = "退出您的Morphic账户";
+
+/* Class = "NSMenuItem"; title = "Hide MorphicBar"; ObjectID = "gOm-Gw-nLp"; */
+"gOm-Gw-nLp.title" = "隐藏MorphicBar";
+
+/* Class = "NSMenuItem"; title = "Other resources to make computers easier..."; ObjectID = "gkK-R4-V6Q"; */
+"gkK-R4-V6Q.title" = "其他使电脑更易用的资源";
+
+/* Class = "NSMenu"; title = "Switch MorphicBar"; ObjectID = "l0C-IM-POV"; */
+"l0C-IM-POV.title" = "切换MorphicBar";
+
+/* Class = "NSMenuItem"; title = "About Morphic..."; ObjectID = "m2n-v5-G3Y"; */
+"m2n-v5-G3Y.title" = "关于Morphic...";
+
+/* Class = "NSMenuItem"; title = "Direct Actions"; ObjectID = "n0r-so-Bno"; */
+"n0r-so-Bno.title" = "直接操作";
+
+/* Class = "NSMenuItem"; title = "Language"; ObjectID = "opf-Uy-dBe"; */
+"opf-Uy-dBe.title" = "语言";
+
+/* Class = "NSMenuItem"; title = "More settings to make the computer easier"; ObjectID = "pDn-p9-kW7"; */
+"pDn-p9-kW7.title" = "更多使电脑更易用的设置";
+
+/* Class = "NSMenuItem"; title = "How to copy setups between computers..."; ObjectID = "pnf-1u-KLS"; */
+"pnf-1u-KLS.title" = "如何在电脑间复制设置...";
+
+/* Class = "NSMenuItem"; title = "Switch MorphicBar"; ObjectID = "qcc-Q2-sYr"; */
+"qcc-Q2-sYr.title" = "切换MorphicBar";
+
+/* Class = "NSMenuItem"; title = "Hide QuickHelp"; ObjectID = "v0X-Ch-Q5h"; */
+"v0X-Ch-Q5h.title" = "隐藏快捷帮助";
+
+/* Class = "NSMenuItem"; title = "Other Key macOS Settings"; ObjectID = "vMO-xL-Bfp"; */
+"vMO-xL-Bfp.title" = "其他关键macOS系统设置";
+
+/* Class = "NSMenuItem"; title = "Read Aloud Settings"; ObjectID = "yVb-9e-9TN"; */
+"yVb-9e-9TN.title" = "朗读设置";

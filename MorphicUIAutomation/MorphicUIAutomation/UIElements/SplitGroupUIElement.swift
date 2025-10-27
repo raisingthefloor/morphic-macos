@@ -1,4 +1,4 @@
-// Copyright 2020-2022 Raising the Floor - US, Inc.
+// Copyright 2020-2025 Raising the Floor - US, Inc.
 //
 // Licensed under the New BSD license. You may not use this file except in
 // compliance with this License.
@@ -32,52 +32,57 @@ public class SplitGroupUIElement : UIElement {
         self.accessibilityUiElement = accessibilityUiElement
     }
     
-    public func splitGroupItemsAsA11yUIElements() throws -> [MorphicA11yUIElement] {
-        var result: [MorphicA11yUIElement] = []
+    // NOTE: this function separates the result into lists of elements (one per each side of splitters); e.g. a single splitter would result in two groups
+    public func splitGroupItemsAsA11yUIElements() throws -> [[MorphicA11yUIElement]] {
+        var result: [[MorphicA11yUIElement]] = []
 
         do {
             let splitGroupChildren = try self.accessibilityUiElement.children()
-
-            // NOTE: every odd element should be a non-splitviewsplitter
-            for (index, splitGroupChild) in splitGroupChildren.enumerated() {
-                if index % 2 == 0 {
-                    // odd elements should be child views (not splitters)
-                    guard splitGroupChild.role != .splitter else {
-                        throw MorphicError.unspecified
-                    }
-
-                    result.append(splitGroupChild)
+            
+            var currentElements: [MorphicA11yUIElement] = []
+            
+            for (_/*index*/, splitGroupChild) in splitGroupChildren.enumerated() {
+                if splitGroupChild.role == .splitter {
+                    result.append(currentElements)
+                    currentElements = []
                 } else {
-                    // even elements hsould be splitters
-                    guard splitGroupChild.role == .splitter else {
-                        throw MorphicError.unspecified
-                    }
+                    currentElements.append(splitGroupChild)
                 }
             }
+
+            // add any final list of elements to the result
+            result.append(currentElements)
         } catch let error {
             throw error
         }
-        
+
         return result
     }
 
-    public func splitGroupItemsAsGroupUIElements() throws -> [GroupUIElement] {
-        var result: [GroupUIElement] = []
+    // NOTE: this function separates the result into lists of elements (one per each side of splitters); e.g. a single splitter would result in two groups
+    public func splitGroupItemsAsGroupUIElements() throws -> [[GroupUIElement]] {
+        var result: [[GroupUIElement]] = []
 
-        let items: [MorphicA11yUIElement]
+        let split_items: [[MorphicA11yUIElement]]
         do {
-            items = try self.splitGroupItemsAsA11yUIElements()
+            split_items = try self.splitGroupItemsAsA11yUIElements()
         } catch let error {
             throw error
         }
         //
-        for item in items {
-            guard item.role == .group else {
-                throw MorphicError.unspecified
+        for split_item_list in split_items {
+            var items: [GroupUIElement] = []
+            
+            for item in split_item_list {
+                guard item.role == .group else {
+                    throw MorphicError.unspecified
+                }
+                
+                let itemAsGroupUIElement = GroupUIElement(accessibilityUiElement: item)
+                items.append(itemAsGroupUIElement)
             }
             
-            let itemAsGroupUIElement = GroupUIElement(accessibilityUiElement: item)
-            result.append(itemAsGroupUIElement)
+            result.append(items)
         }
         
         return result

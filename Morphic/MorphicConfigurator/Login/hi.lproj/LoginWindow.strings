@@ -1,0 +1,20 @@
+/* Class = "NSButtonCell"; title = "Forgot Password?"; ObjectID = "AGH-hS-SY3"; */
+"AGH-hS-SY3.title" = "क्या आप अपना पासवर्ड भूल गए हैं?";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "Anw-Y4-jLV"; */
+"Anw-Y4-jLV.title" = "लेबल";
+
+/* Class = "NSButtonCell"; title = "Sign in"; ObjectID = "CK2-4d-Of0"; */
+"CK2-4d-Of0.title" = "साइन इन";
+
+/* Class = "NSWindow"; title = "Sign in to Morphic"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "मॉर्फिक में साइन इन करें";
+
+/* Class = "NSTextFieldCell"; title = "Email Address"; ObjectID = "iha-2b-OCz"; */
+"iha-2b-OCz.title" = "ईमेल पता";
+
+/* Class = "NSTextFieldCell"; title = "Password"; ObjectID = "qTa-36-w6E"; */
+"qTa-36-w6E.title" = "पासवर्ड";
+
+/* Class = "NSTextFieldCell"; title = "We did not recognize your login.  Please try again."; ObjectID = "usV-7n-KgH"; */
+"usV-7n-KgH.title" = "आपका लॉगिन हमारे द्वारा पहचाना नहीं गया। कृपया पुन: प्रयास करें।";

@@ -1,0 +1,407 @@
+/* Label for the buttons that control text/icon size */
+"control.feature.resolution.title" = "텍스트 크기";
+
+/* Label for the button that increases the text/icon size */
+"control.feature.resolution.bigger" = "+";
+
+/* Text for VoiceOver for the larger text/icon size button */
+"control.feature.resolution.bigger.tts" = "텍스트 크기 키우기";
+
+/* Title for the help window for the larger text/icon size button */
+"control.feature.resolution.bigger.help.title" = "모든 곳에서 텍스트 크기 키우기";
+
+/* Message for the help window for the larger text/icon size button */
+"control.feature.resolution.bigger.help.message" = "화면의 모든 것을 더 크게 만듭니다";
+
+/* Title for the help window for the larger text/icon size button when at its limit */
+"control.feature.resolution.bigger.limit.help.title" = "텍스트 크기는 더 커질 수 없습니다";
+
+/* Message for the help window for the larger text/icon size button when at its limit */
+"control.feature.resolution.bigger.limit.help.message" = "";
+
+/* Label for the button that decreases the text/icon size */
+"control.feature.resolution.smaller" = "\U2013";
+
+/* Text for VoiceOver for the smaller text/icon size button */
+"control.feature.resolution.smaller.tts" = "텍스트 크기 줄이기";
+
+/* Title for the help window for the smaller text/icon size button */
+"control.feature.resolution.smaller.help.title" = "모든 곳에서 텍스트 크기 줄이기";
+
+/* Message for the help window for the smaller text/icon size button */
+"control.feature.resolution.smaller.help.message" = "화면의 모든 것을 작게 만듭니다";
+
+/* Title for the help window for the smaller text/icon size button when at its limit */
+"control.feature.resolution.smaller.limit.help.title" = "텍스트 크기는 작아질 수 없습니다";
+
+/* Message for the help window for the smaller text/icon size button when at its limit */
+"control.feature.resolution.smaller.limit.help.message" = "";
+
+/* Label for the buttons that control the magnifier */
+"control.feature.magnifier.title" = "돋보기";
+
+/* Label for the button that shows the magnifier */
+"control.feature.magnifier.show" = "보기";
+
+/* Text for VoiceOver for the show magnifier button */
+"control.feature.magnifier.show.tts" = "돋보기 보이기";
+
+/* Title for the help window for the show magnifier button */
+"control.feature.magnifier.show.help.title" = "돋보기를 켜다";
+
+/* Message for the help window for the show magnifier button */
+"control.feature.magnifier.show.help.message" = "돋보기를 마우스를 따릅니다. 마우스로 상자를 클릭할 수 있습니다";
+
+/* Label for the button that hides the magnifier */
+"control.feature.magnifier.hide" = "숨기기";
+
+/* Text for VoiceOver for the hide magnifier button */
+"control.feature.magnifier.hide.tts" = "돋보기 숨기기";
+
+/* Title for the help window for the hide magnifier button */
+"control.feature.magnifier.hide.help.title" = "돋보기 끄기";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.magnifier.hide.help.message" = "돋보기 설정을 변경하려면 버튼을 마우스 오른쪽 버튼으로 클릭하세요";
+
+/* Label for the button that shows the magnifier */
+"control.feature.magnifier.on" = "켜기";
+
+/* Title for the help window for the show ("on") magnifier button */
+"control.feature.magnifier.on.help.title" = "돋보기 켜기";
+
+/* Message for the help window for the show ("on") magnifier button */
+"control.feature.magnifier.on.help.message" = "마우스 주변 영역을 확대하세요";
+
+/* Label for the button that hides the magnifier */
+"control.feature.magnifier.off" = "꺼짐";
+
+/* Title for the help window for the hide ("off") magnifier button */
+"control.feature.magnifier.off.help.title" = "돋보기 끄기";
+
+/* Message for the help window for the hide ("off") magnifier button */
+"control.feature.magnifier.off.help.message" = "";
+
+/* Label for the buttons that control the reader */
+"control.feature.reader.title" = "스크린 리더";
+
+/* Label for the button that turns the reader on */
+"control.feature.reader.on" = "켜기";
+
+/* Title for the help window for the screen reader button */
+"control.feature.reader.on.help.title" = "스크린 리더 켜기";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.reader.on.help.message" = "컴퓨터가 텍스트를 소리내여 읽도록 하세요";
+
+/* Label for the button that turns the reader off */
+"control.feature.reader.off" = "끄기";
+
+/* Title for the help window for the hide magnifier button */
+"control.feature.reader.off.help.title" = "스크린 리더 끄기";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.reader.off.help.message" = "컴퓨터가 텍스트를 소리내어 읽는 것을 중지";
+
+/* Label for the buttons that control the volume */
+"control.feature.volume.title" = "볼륨";
+
+/* Label for the button that turns the volume up */
+"control.feature.volume.up" = "+";
+
+/* Title for the help window for the volume up button */
+"control.feature.volume.up.help.title" = "볼륨을 높입니다";
+
+/* Message for the help window for the volume up button */
+"control.feature.volume.up.help.message" = "모든 소리를 더 크게 만듭니다";
+
+/* Title for the help window for the volume up button at its limit */
+"control.feature.volume.up.limit.help.title" = "볼륨이 더 커질 수 없습니다";
+
+/* Message for the help window for the volume up button at its limit */
+"control.feature.volume.up.limit.help.message" = "";
+
+/* Title for the help window for the volume up button when muted */
+"control.feature.volume.up.muted.help.title" = "소리 음소거 해제";
+
+/* Message for the help window for the volume up button when muted */
+"control.feature.volume.up.muted.help.message" = "음소거를 해제 - 컴퓨터에서 소리가 다시 나올 수 있습니다";
+
+/* Label for the button that turns the volume down */
+"control.feature.volume.down" = "\U2013";
+
+/* Title for the help window for the volume down button */
+"control.feature.volume.down.help.title" = "볼륨을 줄입니다";
+
+/* Message for the help window for the volume down button */
+"control.feature.volume.down.help.message" = "모든 소리를 더 조용하게 만듭니다";
+
+/* Title for the help window for the volume down button at its limit */
+"control.feature.volume.down.limit.help.title" = "볼륨이 더 조용해질 수는 없습니다";
+
+/* Message for the help window for the volume down button at its limit */
+"control.feature.volume.down.limit.help.message" = "";
+
+/* Title for the help window for the volume down button at its limit */
+"control.feature.volume.down.muted.help.title" = "소리 음소거 해제";
+
+/* Message for the help window for the volume down button at its limit */
+"control.feature.volume.down.muted.help.message" = "음소거를 해제 - 컴퓨터에서 소리가 다시 나올 수 있습니다";
+
+/* Label for the button that mutes the volume */
+"control.feature.volume.mute" = "무음";
+
+/* Text for VoiceOver for the button that unmutes the volume */
+"control.feature.volume.mute.tts.muted" = "모든 소리 음소거 해제";
+
+/* Text for VoiceOver for the button that mutes the volume */
+"control.feature.volume.mute.tts.unmuted" = "모든 소리를 음소거";
+
+/* Title for the help window for the mute button */
+"control.feature.volume.mute.help.title" = "컴퓨터의 모든 소리를 음소거합니다";
+
+/* Message for the help window for the mute button */
+"control.feature.volume.mute.help.message" = "스피커를 음소거하지만 마이크는 음소거하지 않습니다";
+
+/* Title for the help window for the mute button when muted */
+"control.feature.volume.muted.help.title" = "소리 음소거 해제";
+
+/* Message for the help window for the mute button when muted */
+"control.feature.volume.muted.help.message" = "음소거를 해지 시키면 컴퓨터에서 소리가 다시 나올 수 있습니다";
+
+/* Label for the buttons that control the contrast */
+"control.feature.contrast.title" = "높은 콘트라스트";
+
+/* Label for the button that turns high contrast on */
+"control.feature.contrast.on" = "켜기";
+
+/* Title for the help window for the high contrast button */
+"control.feature.contrast.on.help.title" = "높은 콘트라스트 켜기";
+
+/* Message for the help window for the high contrast button */
+"control.feature.contrast.on.help.message" = "일부 사람들이 읽기 더 쉽게 만듭니다";
+
+/* Label for the button that turns high contrast off */
+"control.feature.contrast.off" = "끄기";
+
+/* Title for the help window for the high contrast button */
+"control.feature.contrast.off.help.title" = "높은 콘트라스트 끄기";
+
+/* Message for the help window for the high contrast button */
+"control.feature.contrast.off.help.message" = "";
+
+/* Label for the buttons that play/stop 'read selected text' */
+"control.feature.readselected.title" = "선택 항목 읽기";
+
+/* Label for the button that plays/stops 'read selected text' */
+"control.feature.readselected.playstop" = "\U25B6 / \U25A0";
+
+/* Text for VoiceOver for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.tts" = "선택한 텍스트 읽기 - 시작 및 중지";
+
+/* Title for the help window for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.help.title" = "선택한 텍스트를 읽습니다";
+
+/* Message for the help window for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.help.message" = "읽을 텍스트를 선택하세요. 그런 다음 재생/중지 버튼을 클릭하세요. 읽기 제어 기능이 나타납니다";
+
+/* Label for the buttons that control night mode */
+"control.feature.nightshift.title" = "야간 모드";
+
+/* Label for the button that turns night mode on */
+"control.feature.nightshift.on" = "켜기";
+
+/* Title for the help window for the 'turn on night mode' button */
+"control.feature.nightshift.on.help.title" = "야간 모드 켜기";
+
+/* Message for the help window for the 'turn on night mode' button */
+"control.feature.nightshift.on.help.message" = "눈의 피로를 줄이고 잠들기 쉽도록 화면 색상을 따뜻하게 설정하세요";
+
+/* Label for the button that turns night mode off */
+"control.feature.nightshift.off" = "끄기";
+
+/* Title for the help window for the 'turn off night mode' button */
+"control.feature.nightshift.off.help.title" = "야간 모드 끄기";
+
+/* Message for the help window for the 'turn off night mode' button */
+"control.feature.nightshift.off.help.message" = "";
+
+/* Label for the buttons that copy and paste */
+"control.feature.copypaste.title" = "복사 & 붙여넣기";
+
+/* Label for the button that copies the selection */
+"control.feature.copypaste.copy" = "복사";
+
+/* Title for the help window for the copy button */
+"control.feature.copypaste.copy.help.title" = "선택 항목을 복사합니다";
+
+/* Message for the help window for the copy button */
+"control.feature.copypaste.copy.help.message" = "선택한 텍스트나 기타 콘텐츠를 복사하여 어딘가에 붙여넣을 수 있습니다";
+
+/* Label for the button that pastes the selection */
+"control.feature.copypaste.paste" = "붙여넣기";
+
+/* Title for the help window for the paste button */
+"control.feature.copypaste.paste.help.title" = "복사한 내용을 붙여넣습니다";
+
+/* Message for the help window for the paste button */
+"control.feature.copypaste.paste.help.message" = "텍스트 커서가 위치한 곳에 복사된 내용을 삽입합니다";
+
+/* Label for the buttons that activate screen snip */
+"control.feature.screensnip.title" = "자르다";
+
+/* Label for the button that activates screen snip */
+"control.feature.screensnip.copy" = "복사";
+
+/* Text for VoiceOver for the screen snip button */
+"control.feature.screensnip.copy.tts" = "화면 일부 복사";
+
+/* Title for the help window for the screen snip button */
+"control.feature.screensnip.copy.help.title" = "화면의 선택된 부분을 사진으로 찍습니다";
+
+/* Message for the help window for the screen snip button */
+"control.feature.screensnip.copy.help.message" = "복사를 클릭합니다. 그런 다음 마우스를 클릭하고 드래그하여 사진을 찍습니다. 어떤 문서에든 붙여넣으세요";
+
+/* Label for the buttons that control the color vision */
+"control.feature.colorvision.title" = "컬러 비전";
+
+/* Label for the button that shows the color vision */
+"control.feature.colorvision.on" = "켜기";
+
+/* Title for the help window for the show ("on") color vision button */
+"control.feature.colorvision.on.help.title" = "컬러 비전 켜기";
+
+/* Message for the help window for the show ("on") color vision button */
+"control.feature.colorvision.on.help.message" = "색맹에 맞게 색상을 변경합니다. (종류를 선택하려면 마우스 오른쪽 버튼을 클릭하세요.)";
+
+/* Label for the button that hides the color vision */
+"control.feature.colorvision.off" = "끄기";
+
+/* Title for the help window for the hide ("off") color vision button */
+"control.feature.colorvision.off.help.title" = "컬러 비전 끄기";
+
+/* Message for the help window for the hide ("off") color vision button */
+"control.feature.colorvision.off.help.message" = "색맹에 맞게 색상을 변경합니다. (종류를 선택하려면 마우스 오른쪽 버튼을 클릭하세요.)";
+
+/* Label for the buttons that toggle contrast, color, dark and night */
+"control.feature.contrastcolordarknight.title" = "콘트라스트 및 색상";
+
+/* Label for the button that toggles high contrast */
+"control.feature.contrastcolordarknight.contrast" = "콘트라스트";
+
+/* Text for VoiceOver for the contrast button */
+"control.feature.contrastcolordarknight.contrast.tts" = "콘트라스트 켜기, 끄기";
+
+/* Text for VoiceOver for the contrast button when the feature is enabled */
+"control.feature.contrastcolordarknight.contrast.tts.enabled" = "콘트라스트 끄기";
+
+/* Text for VoiceOver for the contrast button when the feature is disabled */
+"control.feature.contrastcolordarknight.contrast.tts.disabled" = "콘트라스트 켜기";
+
+/* Title for the help window for the contrast button */
+"control.feature.contrastcolordarknight.contrast.help.title" = "콘트라스트를 켜고 끕니다";
+
+/* Message for the help window for the contrast button */
+"control.feature.contrastcolordarknight.contrast.help.message" = "화면을 읽기 쉽게 만들 수 있습니다. 설정을 변경하려면 버튼을 마우스 오른쪽 버튼으로 클릭하세요";
+
+/* Label for the button that toggles color filters */
+"control.feature.contrastcolordarknight.color" = "색상";
+
+/* Text for VoiceOver for the color filters button */
+"control.feature.contrastcolordarknight.color.tts" = "컬러 비전 켜짐, 꺼짐";
+
+/* Text for VoiceOver for the color filters button when the feature is enabled */
+"control.feature.contrastcolordarknight.color.tts.enabled" = "컬러 비전 끄기";
+
+/* Text for VoiceOver for the color filters button when the feature is disabled */
+"control.feature.contrastcolordarknight.color.tts.disabled" = "컬러 비전 켜기";
+
+/* Title for the help window for the color filters button */
+"control.feature.contrastcolordarknight.color.help.title" = "색맹 필터를 켜고 끕니다";
+
+/* Message for the help window for the color filters button */
+"control.feature.contrastcolordarknight.color.help.message" = "색각 차이에 맞게 색상을 변경합니다. 유형을 선택하려면 버튼을 마우스 오른쪽 버튼으로 클릭하세요";
+
+/* Label for the button that toggles dark appearance */
+"control.feature.contrastcolordarknight.dark" = "다크";
+
+/* Text for VoiceOver for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.tts" = "다크 모드 켜기, 끄기";
+
+/* Text for VoiceOver for the dark appearance button when the feature is enabled */
+"control.feature.contrastcolordarknight.dark.tts.enabled" = "다크 모드 끄기";
+
+/* Text for VoiceOver for the dark appearance button when the feature is disabled */
+"control.feature.contrastcolordarknight.dark.tts.disabled" = "다크 모드 켜기";
+
+/* Title for the help window for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.help.title" = "다크 모드를 켜고 끕니다";
+
+/* Message for the help window for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.help.message" = "설정을 변경하려면 버튼을 마우스 오른쪽 버튼으로 클릭하세요";
+
+/* Label for the button that toggles night shift */
+"control.feature.contrastcolordarknight.night" = "야간";
+
+/* Text for VoiceOver for the night shift button */
+"control.feature.contrastcolordarknight.night.tts" = "야간 모드 켜짐, 꺼짐";
+
+/* Text for VoiceOver for the night shift button when the feature is enabled */
+"control.feature.contrastcolordarknight.night.tts.enabled" = "야간 모드 끄기";
+
+/* Text for VoiceOver for the night shift button when the feature is disabled */
+"control.feature.contrastcolordarknight.night.tts.disabled" = "야간 모드 켜기";
+
+/* Title for the help window for the night shift button */
+"control.feature.contrastcolordarknight.night.help.title" = "야간 모드 기능을 켜고 끕니다";
+
+/* Message for the help window for the night shift button */
+"control.feature.contrastcolordarknight.night.help.message" = "눈의 피로를 줄여주고 밤에 잠들기 쉽게 해줍니다";
+
+/* Label for the buttons that control the dark mode */
+"control.feature.darkmode.title" = "다크 모드";
+
+/* Label for the button that shows the dark mode */
+"control.feature.darkmode.on" = "켜기";
+
+/* Title for the help window for the show ("on") dark mode button */
+"control.feature.darkmode.on.help.title" = "다크 모드 켜기";
+
+/* Message for the help window for the show ("on") dark mode button */
+"control.feature.darkmode.on.help.message" = "다크 모드를 켭니다. (조정하려면 마우스 오른쪽 버튼을 클릭하세요.)";
+
+/* Label for the button that hides the dark mode */
+"control.feature.darkmode.off" = "끄기";
+
+/* Title for the help window for the hide ("off") dark mode button */
+"control.feature.darkmode.off.help.title" = "다크 모드 끄기";
+
+/* Message for the help window for the hide ("off") dark mode button */
+"control.feature.darkmode.off.help.message" = "다크 모드를 끕니다. (조정하려면 마우스 오른쪽 버튼을 클릭하세요.)";
+
+/* Label for the buttons that open/eject usb drives */
+"control.feature.usbdrives.title" = "USB 드라이브(전체)";
+
+/* Label for the button that opens all usb drives */
+"control.feature.usbdrives.open" = "열기";
+
+/* Title for the help window for the "open usb drives" button */
+"control.feature.usbdrives.open.help.title" = "모든 USB 드라이브 열기";
+
+/* Message for the help window for the "open usb drives" button */
+"control.feature.usbdrives.open.help.message" = "컴퓨터에 연결된 모든 USB 드라이브의 파일을 열고 표시합니다";
+
+/* Label for the button that safely ejects all usb drives */
+"control.feature.usbdrives.eject" = "꺼내기";
+
+/* Title for the help window for the "eject usb drives" button" */
+"control.feature.usbdrives.eject.help.title" = "모든 USB 드라이브 꺼내기";
+
+/* Message for the help window for the "eject usb drives" button */
+"control.feature.usbdrives.eject.help.message" = "이 컴퓨터에 연결된 모든 USB 드라이브를 안전하게 꺼냅니다";
+
+/* Title for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.title" = "고급 기능";
+
+/* Message for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.message" = "버튼을 사용자 지정하고 설정을 어디든지 가져갈 수 있습니다";

@@ -1,0 +1,20 @@
+/* Class = "NSButtonCell"; title = "Forgot Password?"; ObjectID = "AGH-hS-SY3"; */
+"AGH-hS-SY3.title" = "Quên mật khẩu?";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "Anw-Y4-jLV"; */
+"Anw-Y4-jLV.title" = "Tiêu đề";
+
+/* Class = "NSButtonCell"; title = "Sign in"; ObjectID = "CK2-4d-Of0"; */
+"CK2-4d-Of0.title" = "Đăng nhập";
+
+/* Class = "NSWindow"; title = "Sign in to Morphic"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Đăng nhập vào Morphic";
+
+/* Class = "NSTextFieldCell"; title = "Email Address"; ObjectID = "iha-2b-OCz"; */
+"iha-2b-OCz.title" = "Địa chỉ email";
+
+/* Class = "NSTextFieldCell"; title = "Password"; ObjectID = "qTa-36-w6E"; */
+"qTa-36-w6E.title" = "Mật khẩu";
+
+/* Class = "NSTextFieldCell"; title = "We did not recognize your login.  Please try again."; ObjectID = "usV-7n-KgH"; */
+"usV-7n-KgH.title" = "Chúng tôi không nhận ra thông tin đăng nhập của bạn.  Vui lòng thử lại.";

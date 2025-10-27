@@ -1,0 +1,11 @@
+/* Class = "NSTextFieldCell"; title = "You may close the System Preferences application window."; ObjectID = "NmD-CK-6nL"; */
+"NmD-CK-6nL.title" = "您可以关闭系统偏好设置窗口。";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "窗口";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "TlS-Ml-8x5"; */
+"TlS-Ml-8x5.title" = "盒子";
+
+/* Class = "NSTextFieldCell"; title = "Accessibility permissions have been enabled."; ObjectID = "wwv-Ku-Ud7"; */
+"wwv-Ku-Ud7.title" = "辅助功能的访问权限已启用。";

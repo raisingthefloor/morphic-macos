@@ -1,0 +1,14 @@
+/* Class = "NSTextFieldCell"; title = "We've saved your settings in a secure area only you can access."; ObjectID = "Ej9-HZ-Tit"; */
+"Ej9-HZ-Tit.title" = "અમે તમારી સેટિંગ્સને ફક્ત તમે જ ઍક્સેસ કરી શકો તેવા સુરક્ષિત વિસ્તારમાં સાચવી છે.";
+
+/* Class = "NSTextFieldCell"; title = "When you sit down at another computer with Morphic installed, remember to login with the email address you provided:"; ObjectID = "KxE-p4-RVF"; */
+"KxE-p4-RVF.title" = "જ્યારે તમે Morphic ઇન્સ્ટોલ કરેલા બીજા કમ્પ્યુટર પર બેસો, ત્યારે તમે આપેલા ઇમેઇલ સરનામાંથી લૉગિન કરવાનું યાદ રાખો:";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "igp-tn-0iq"; */
+"igp-tn-0iq.title" = "થઈ ગયું";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "jcf-Bj-Ots"; */
+"jcf-Bj-Ots.title" = "લેબલ";
+
+/* Class = "NSTextFieldCell"; title = "Complete!"; ObjectID = "kLS-Hf-kPX"; */
+"kLS-Hf-kPX.title" = "પૂર્ણ!";

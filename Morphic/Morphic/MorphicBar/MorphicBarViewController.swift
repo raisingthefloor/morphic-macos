@@ -1,4 +1,4 @@
-// Copyright 2020 Raising the Floor - International
+// Copyright 2020 Raising the Floor - US, Inc.
 //
 // Licensed under the New BSD license. You may not use this file except in
 // compliance with this License.
@@ -41,6 +41,7 @@ public class MorphicBarViewController: NSViewController {
         morphicTrayView.controller = self
         BarBox.fillColor = self.getThemeBackgroundColor() ?? NSColor.black
         TrayBox.fillColor = self.getThemeBackgroundColor() ?? NSColor.black
+        logoButton.image = self.getMorphieLogoImage()
         view.layer?.cornerRadius = 6
         NotificationCenter.default.addObserver(self, selector: #selector(MorphicBarViewController.sessionUserDidChange(_:)), name: .morphicSessionUserDidChange, object: Session.shared)
         DistributedNotificationCenter.default.addObserver(self, selector: #selector(MorphicBarViewController.appleInterfaceThemeDidChange(_:)), name: .appleInterfaceThemeChanged, object: nil)
@@ -61,6 +62,14 @@ public class MorphicBarViewController: NSViewController {
     func appleInterfaceThemeDidChange(_ notification: NSNotification) {
         BarBox.fillColor = self.getThemeBackgroundColor() ?? NSColor.black
         TrayBox.fillColor = self.getThemeBackgroundColor() ?? NSColor.black
+        logoButton.image = self.getMorphieLogoImage()
+    }
+    
+    private func getMorphieLogoImage() -> NSImage {
+        let appleInterfaceStyle = UserDefaults.standard.string(forKey: "AppleInterfaceStyle")
+        let isDark = (appleInterfaceStyle?.lowercased() == "dark")
+        let imageName = isDark ? "morphic-logo-dark" : "morphic-logo-light"
+        return NSImage(named: imageName)!
     }
     
     private func getThemeBackgroundColor() -> NSColor? {
@@ -524,8 +533,13 @@ class LogoButton: NSButton {
         }
     }
     
-    @IBInspectable var helpTitle: String?
-    @IBInspectable var helpMessage: String?
+    var helpTitle: String? {
+        return String(localized: "morphicbar.menubutton.title")
+    }
+    
+    var helpMessage: String? {
+        return String(localized: "morphicbar.menubutton.message")
+    }
     
     override func becomeFirstResponder() -> Bool {
     	// alert the MorphicBarWindow that one of our controls has gained focus

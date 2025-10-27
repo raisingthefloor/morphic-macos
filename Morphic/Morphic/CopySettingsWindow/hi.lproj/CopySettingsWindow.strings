@@ -1,0 +1,11 @@
+/* Class = "NSButtonCell"; title = "Use the settings in my Cloud Vault to set up this computer"; ObjectID = "8n8-fD-jPM"; */
+"8n8-fD-jPM.title" = "इस कंप्यूटर को सेट करने के लिए मेरे क्लाउड वॉल्ट में सेटिंग्स का उपयोग करें";
+
+/* Class = "NSTextFieldCell"; title = "This feature allows you to move your accessibility and usability settings between computers  --  including the settings of your assistive technologies."; ObjectID = "NxI-Fl-M5O"; */
+"NxI-Fl-M5O.title" = "यह सुविधा आपको कंप्यूटर के बीच अपनी एक्सेसिबिलिटी (अभिगम्यता) और युसॆबिलिटी (प्रयोज्य) सेटिंग्स को स्थानांतरित करने की अनुमति देती है - जिसमें आपकी सहायक तकनीकों की सेटिंग्स भी शामिल हैं";
+
+/* Class = "NSTextFieldCell"; title = "Copy Settings Between Computers"; ObjectID = "gHk-j9-svH"; */
+"gHk-j9-svH.title" = "कंप्यूटर के बीच सेटिंग्स कॉपी करें";
+
+/* Class = "NSButtonCell"; title = "Copy settings on this computer to my Cloud Vault"; ObjectID = "htY-FB-BLL"; */
+"htY-FB-BLL.title" = "इस कंप्यूटर की सेटिंग्स को मेरे क्लाउड वॉल्ट में कॉपी करें";

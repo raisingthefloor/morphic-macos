@@ -1,0 +1,14 @@
+/* Class = "NSWindow"; title = "About Morphic"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "關於 Morphic";
+
+/* Class = "NSTextFieldCell"; title = "Morphic for macOS"; ObjectID = "P3l-Rg-JEz"; */
+"P3l-Rg-JEz.title" = "Morphic macOS 版本";
+
+/* Class = "NSTextFieldCell"; title = "Learn More about Morphic"; ObjectID = "bKV-Nb-ezu"; */
+"bKV-Nb-ezu.title" = "瞭解更多 Morphic 說明";
+
+/* Class = "NSTextFieldCell"; title = "(Build)"; ObjectID = "dcf-3V-XXl"; */
+"dcf-3V-XXl.title" = "(創建)";
+
+/* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "rtb-dd-Jkw"; */
+"rtb-dd-Jkw.title" = "版本";

@@ -1,4 +1,4 @@
-// Copyright 2020 Raising the Floor - International
+// Copyright 2020-2025 Raising the Floor - US, Inc.
 //
 // Licensed under the New BSD license. You may not use this file except in
 // compliance with this License.
@@ -31,10 +31,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var window: NSWindow!
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // setup ui automation set setting proxies (macOS 13.0 and above)
-        if #available(macOS 13.0, *) {
-            MorphicSettingsUIAutomationBridgeHelper.setupUIAutomationSetSettingProxies()
-        }
+        // setup ui automation set setting proxies
+        MorphicSettingsUIAutomationBridgeHelper.setupUIAutomationSetSettingProxies()
         
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()

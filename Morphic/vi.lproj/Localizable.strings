@@ -1,0 +1,407 @@
+/* Label for the buttons that control text/icon size */
+"control.feature.resolution.title" = "Cỡ chữ";
+
+/* Label for the button that increases the text/icon size */
+"control.feature.resolution.bigger" = "+";
+
+/* Text for VoiceOver for the larger text/icon size button */
+"control.feature.resolution.bigger.tts" = "Tăng kích thước văn bản";
+
+/* Title for the help window for the larger text/icon size button */
+"control.feature.resolution.bigger.help.title" = "Tăng kích thước văn bản ở mọi nơi";
+
+/* Message for the help window for the larger text/icon size button */
+"control.feature.resolution.bigger.help.message" = "Làm cho mọi thứ trên màn hình lớn hơn";
+
+/* Title for the help window for the larger text/icon size button when at its limit */
+"control.feature.resolution.bigger.limit.help.title" = "Kích thước văn bản không thể lớn hơn";
+
+/* Message for the help window for the larger text/icon size button when at its limit */
+"control.feature.resolution.bigger.limit.help.message" = "";
+
+/* Label for the button that decreases the text/icon size */
+"control.feature.resolution.smaller" = "\U2013";
+
+/* Text for VoiceOver for the smaller text/icon size button */
+"control.feature.resolution.smaller.tts" = "Giảm kích thước văn bản";
+
+/* Title for the help window for the smaller text/icon size button */
+"control.feature.resolution.smaller.help.title" = "Giảm kích thước văn bản ở mọi nơi";
+
+/* Message for the help window for the smaller text/icon size button */
+"control.feature.resolution.smaller.help.message" = "Làm cho mọi thứ trên màn hình nhỏ hơn.";
+
+/* Title for the help window for the smaller text/icon size button when at its limit */
+"control.feature.resolution.smaller.limit.help.title" = "Kích thước văn bản không thể nhỏ hơn";
+
+/* Message for the help window for the smaller text/icon size button when at its limit */
+"control.feature.resolution.smaller.limit.help.message" = "";
+
+/* Label for the buttons that control the magnifier */
+"control.feature.magnifier.title" = "Kính Lúp";
+
+/* Label for the button that shows the magnifier */
+"control.feature.magnifier.show" = "Hiển thị";
+
+/* Text for VoiceOver for the show magnifier button */
+"control.feature.magnifier.show.tts" = "Hiển thị kính lúp";
+
+/* Title for the help window for the show magnifier button */
+"control.feature.magnifier.show.help.title" = "Bật ống kính phóng đại";
+
+/* Message for the help window for the show magnifier button */
+"control.feature.magnifier.show.help.message" = "Kính lúp sẽ theo dõi con chuột của bạn. Chuột của bạn có thể nhấp vô hộp.";
+
+/* Label for the button that hides the magnifier */
+"control.feature.magnifier.hide" = "Ẩn đi";
+
+/* Text for VoiceOver for the hide magnifier button */
+"control.feature.magnifier.hide.tts" = "Ẩn kính lúp";
+
+/* Title for the help window for the hide magnifier button */
+"control.feature.magnifier.hide.help.title" = "Tắt kính lúp";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.magnifier.hide.help.message" = "Để thay đổi cài đặt Kính lúp, nhấp chuột phải vào nút.";
+
+/* Label for the button that shows the magnifier */
+"control.feature.magnifier.on" = "Bật";
+
+/* Title for the help window for the show ("on") magnifier button */
+"control.feature.magnifier.on.help.title" = "Bật kính lúp";
+
+/* Message for the help window for the show ("on") magnifier button */
+"control.feature.magnifier.on.help.message" = "Phóng to khu vực xung quanh chuột của bạn";
+
+/* Label for the button that hides the magnifier */
+"control.feature.magnifier.off" = "Tắt";
+
+/* Title for the help window for the hide ("off") magnifier button */
+"control.feature.magnifier.off.help.title" = "Tắt kính lúp";
+
+/* Message for the help window for the hide ("off") magnifier button */
+"control.feature.magnifier.off.help.message" = "";
+
+/* Label for the buttons that control the reader */
+"control.feature.reader.title" = "Trình đọc màn hình";
+
+/* Label for the button that turns the reader on */
+"control.feature.reader.on" = "Bật";
+
+/* Title for the help window for the screen reader button */
+"control.feature.reader.on.help.title" = "Bật trình đọc màn hình";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.reader.on.help.message" = "Yêu cầu máy tính đọc to văn bản";
+
+/* Label for the button that turns the reader off */
+"control.feature.reader.off" = "Tắt";
+
+/* Title for the help window for the hide magnifier button */
+"control.feature.reader.off.help.title" = "Tắt trình đọc màn hình";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.reader.off.help.message" = "Ngăn máy tính đọc to văn bản";
+
+/* Label for the buttons that control the volume */
+"control.feature.volume.title" = "Âm lượng";
+
+/* Label for the button that turns the volume up */
+"control.feature.volume.up" = "+";
+
+/* Title for the help window for the volume up button */
+"control.feature.volume.up.help.title" = "Tăng âm lượng";
+
+/* Message for the help window for the volume up button */
+"control.feature.volume.up.help.message" = "Làm cho mọi âm thanh to hơn.";
+
+/* Title for the help window for the volume up button at its limit */
+"control.feature.volume.up.limit.help.title" = "Âm lượng không thể to hơn";
+
+/* Message for the help window for the volume up button at its limit */
+"control.feature.volume.up.limit.help.message" = "";
+
+/* Title for the help window for the volume up button when muted */
+"control.feature.volume.up.muted.help.title" = "Bật tiếng âm thanh";
+
+/* Message for the help window for the volume up button when muted */
+"control.feature.volume.up.muted.help.message" = "Tắt các tiếng - cho phép âm thanh phát lại từ máy tính của bạn.";
+
+/* Label for the button that turns the volume down */
+"control.feature.volume.down" = "\U2013";
+
+/* Title for the help window for the volume down button */
+"control.feature.volume.down.help.title" = "Giảm âm lượng";
+
+/* Message for the help window for the volume down button */
+"control.feature.volume.down.help.message" = "Làm cho mọi âm thanh trở nên yên tĩnh hơn.";
+
+/* Title for the help window for the volume down button at its limit */
+"control.feature.volume.down.limit.help.title" = "Âm lượng không thể yên tĩnh hơn";
+
+/* Message for the help window for the volume down button at its limit */
+"control.feature.volume.down.limit.help.message" = "";
+
+/* Title for the help window for the volume down button at its limit */
+"control.feature.volume.down.muted.help.title" = "Bật tiếng âm thanh";
+
+/* Message for the help window for the volume down button at its limit */
+"control.feature.volume.down.muted.help.message" = "Tắt các tiếng - cho phép âm thanh phát lại từ máy tính của bạn.";
+
+/* Label for the button that mutes the volume */
+"control.feature.volume.mute" = "Tắt tiếng";
+
+/* Text for VoiceOver for the button that unmutes the volume */
+"control.feature.volume.mute.tts.muted" = "Bật tiếng tất cả âm thanh";
+
+/* Text for VoiceOver for the button that mutes the volume */
+"control.feature.volume.mute.tts.unmuted" = "Tắt tiếng tất cả âm thanh";
+
+/* Title for the help window for the mute button */
+"control.feature.volume.mute.help.title" = "Tắt tiếng tất cả âm thanh từ máy tính của bạn";
+
+/* Message for the help window for the mute button */
+"control.feature.volume.mute.help.message" = "Tắt tiếng loa của bạn - nhưng KHÔNG tắt tiếng míc.";
+
+/* Title for the help window for the mute button when muted */
+"control.feature.volume.muted.help.title" = "Bật tiếng âm thanh";
+
+/* Message for the help window for the mute button when muted */
+"control.feature.volume.muted.help.message" = "Tắt các tiếng - cho phép âm thanh phát lại từ máy tính của bạn.";
+
+/* Label for the buttons that control the contrast */
+"control.feature.contrast.title" = "Tương phản cao";
+
+/* Label for the button that turns high contrast on */
+"control.feature.contrast.on" = "Bật";
+
+/* Title for the help window for the high contrast button */
+"control.feature.contrast.on.help.title" = "Bật độ tương phản cao";
+
+/* Message for the help window for the high contrast button */
+"control.feature.contrast.on.help.message" = "Giúp một số người đọc dễ dàng hơn";
+
+/* Label for the button that turns high contrast off */
+"control.feature.contrast.off" = "Tắt";
+
+/* Title for the help window for the high contrast button */
+"control.feature.contrast.off.help.title" = "Tắt độ tương phản cao";
+
+/* Message for the help window for the high contrast button */
+"control.feature.contrast.off.help.message" = "";
+
+/* Label for the buttons that play/stop 'read selected text' */
+"control.feature.readselected.title" = "Đọc đã chọn";
+
+/* Label for the button that plays/stops 'read selected text' */
+"control.feature.readselected.playstop" = "\U25B6 / \U25A0";
+
+/* Text for VoiceOver for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.tts" = "Đọc văn bản đã chọn - Bắt đầu và dừng";
+
+/* Title for the help window for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.help.title" = "Đọc văn bản được chọn";
+
+/* Message for the help window for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.help.message" = "Chọn văn bản cần đọc. Sau đó nhấp vào nút phát/dừng. Điều khiển đọc sẽ bật lên.";
+
+/* Label for the buttons that control night mode */
+"control.feature.nightshift.title" = "Chế độ ban đêm";
+
+/* Label for the button that turns night mode on */
+"control.feature.nightshift.on" = "Bật";
+
+/* Title for the help window for the 'turn on night mode' button */
+"control.feature.nightshift.on.help.title" = "Bật Chế độ ban đêm";
+
+/* Message for the help window for the 'turn on night mode' button */
+"control.feature.nightshift.on.help.message" = "Làm cho màu màn hình ấm hơn để đỡ mỏi mắt hơn và giúp bạn dễ đi vào giấc ngủ hơn";
+
+/* Label for the button that turns night mode off */
+"control.feature.nightshift.off" = "Tắt";
+
+/* Title for the help window for the 'turn off night mode' button */
+"control.feature.nightshift.off.help.title" = "Tắt chế độ ban đêm";
+
+/* Message for the help window for the 'turn off night mode' button */
+"control.feature.nightshift.off.help.message" = "";
+
+/* Label for the buttons that copy and paste */
+"control.feature.copypaste.title" = "Sao chép & Dán";
+
+/* Label for the button that copies the selection */
+"control.feature.copypaste.copy" = "Sao chép";
+
+/* Title for the help window for the copy button */
+"control.feature.copypaste.copy.help.title" = "Sao chép lựa chọn của bạn";
+
+/* Message for the help window for the copy button */
+"control.feature.copypaste.copy.help.message" = "Sao chép văn bản hoặc nội dung khác mà bạn đã chọn để có thể dán vào đâu đó.";
+
+/* Label for the button that pastes the selection */
+"control.feature.copypaste.paste" = "Dán";
+
+/* Title for the help window for the paste button */
+"control.feature.copypaste.paste.help.title" = "Dán những gì bạn đã sao chép";
+
+/* Message for the help window for the paste button */
+"control.feature.copypaste.paste.help.message" = "Chèn nội dung được sao chép vào vị trí của con trỏ văn bản.";
+
+/* Label for the buttons that activate screen snip */
+"control.feature.screensnip.title" = "Cắt";
+
+/* Label for the button that activates screen snip */
+"control.feature.screensnip.copy" = "Sao chép";
+
+/* Text for VoiceOver for the screen snip button */
+"control.feature.screensnip.copy.tts" = "Cắt bản sao của một phần màn hình";
+
+/* Title for the help window for the screen snip button */
+"control.feature.screensnip.copy.help.title" = "Chụp ảnh một phần được chọn của màn hình";
+
+/* Message for the help window for the screen snip button */
+"control.feature.screensnip.copy.help.message" = "Nhấp vào Sao chép. Sau đó click và kéo chuột để chụp ảnh. Dán vào bất kỳ tài liệu nào.";
+
+/* Label for the buttons that control the color vision */
+"control.feature.colorvision.title" = "Tầm nhìn màu sắc";
+
+/* Label for the button that shows the color vision */
+"control.feature.colorvision.on" = "Bật";
+
+/* Title for the help window for the show ("on") color vision button */
+"control.feature.colorvision.on.help.title" = "Bật tầm nhìn màu sắc";
+
+/* Message for the help window for the show ("on") color vision button */
+"control.feature.colorvision.on.help.message" = "Thay đổi màu sắc để thích ứng với bệnh mù màu. (Nhấp chuột phải để chọn.)";
+
+/* Label for the button that hides the color vision */
+"control.feature.colorvision.off" = "Tắt";
+
+/* Title for the help window for the hide ("off") color vision button */
+"control.feature.colorvision.off.help.title" = "Tắt tầm nhìn màu sắc";
+
+/* Message for the help window for the hide ("off") color vision button */
+"control.feature.colorvision.off.help.message" = "Thay đổi màu sắc để thích ứng với bệnh mù màu. (Nhấp chuột phải để chọn.)";
+
+/* Label for the buttons that toggle contrast, color, dark and night */
+"control.feature.contrastcolordarknight.title" = "Độ tương phản & Màu sắc";
+
+/* Label for the button that toggles high contrast */
+"control.feature.contrastcolordarknight.contrast" = "Tương phản";
+
+/* Text for VoiceOver for the contrast button */
+"control.feature.contrastcolordarknight.contrast.tts" = "Bật, tắt độ tương phản";
+
+/* Text for VoiceOver for the contrast button when the feature is enabled */
+"control.feature.contrastcolordarknight.contrast.tts.enabled" = "Tắt độ tương phản";
+
+/* Text for VoiceOver for the contrast button when the feature is disabled */
+"control.feature.contrastcolordarknight.contrast.tts.disabled" = "Bật độ tương phản";
+
+/* Title for the help window for the contrast button */
+"control.feature.contrastcolordarknight.contrast.help.title" = "Bật và tắt độ tương phản";
+
+/* Message for the help window for the contrast button */
+"control.feature.contrastcolordarknight.contrast.help.message" = "Có thể làm cho màn hình dễ đọc hơn. Để thay đổi cài đặt, nhấp chuột phải vào nút.";
+
+/* Label for the button that toggles color filters */
+"control.feature.contrastcolordarknight.color" = "Màu sắc";
+
+/* Text for VoiceOver for the color filters button */
+"control.feature.contrastcolordarknight.color.tts" = "Bật, tắt tầm nhìn màu";
+
+/* Text for VoiceOver for the color filters button when the feature is enabled */
+"control.feature.contrastcolordarknight.color.tts.enabled" = "Tắt tầm nhìn màu";
+
+/* Text for VoiceOver for the color filters button when the feature is disabled */
+"control.feature.contrastcolordarknight.color.tts.disabled" = "Bật khả năng nhìn màu";
+
+/* Title for the help window for the color filters button */
+"control.feature.contrastcolordarknight.color.help.title" = "Bật và tắt bộ lọc mù màu";
+
+/* Message for the help window for the color filters button */
+"control.feature.contrastcolordarknight.color.help.message" = "Thay đổi màu sắc để thích ứng với sự khác biệt về tầm nhìn màu sắc. Để chọn loại, nhấp chuột phải vào nút.";
+
+/* Label for the button that toggles dark appearance */
+"control.feature.contrastcolordarknight.dark" = "Tối";
+
+/* Text for VoiceOver for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.tts" = "Bật, tắt chế độ tối";
+
+/* Text for VoiceOver for the dark appearance button when the feature is enabled */
+"control.feature.contrastcolordarknight.dark.tts.enabled" = "Tắt chế độ ban tối";
+
+/* Text for VoiceOver for the dark appearance button when the feature is disabled */
+"control.feature.contrastcolordarknight.dark.tts.disabled" = "Bật chế độ ban tối";
+
+/* Title for the help window for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.help.title" = "Bật và tắt chế độ ban tối";
+
+/* Message for the help window for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.help.message" = "Để thay đổi cài đặt, nhấp chuột phải vào nút.";
+
+/* Label for the button that toggles night shift */
+"control.feature.contrastcolordarknight.night" = "Ban đêm";
+
+/* Text for VoiceOver for the night shift button */
+"control.feature.contrastcolordarknight.night.tts" = "Bật, tắt chế độ ban đêm";
+
+/* Text for VoiceOver for the night shift button when the feature is enabled */
+"control.feature.contrastcolordarknight.night.tts.enabled" = "Tắt chế độ ban đêm";
+
+/* Text for VoiceOver for the night shift button when the feature is disabled */
+"control.feature.contrastcolordarknight.night.tts.disabled" = "Bật chế độ ban đêm";
+
+/* Title for the help window for the night shift button */
+"control.feature.contrastcolordarknight.night.help.title" = "Bật, tắt tính năng thay đổi ban đêm";
+
+/* Message for the help window for the night shift button */
+"control.feature.contrastcolordarknight.night.help.message" = "Giảm mỏi mắt và giúp bạn dễ ngủ hơn vào ban đêm.";
+
+/* Label for the buttons that control the dark mode */
+"control.feature.darkmode.title" = "Chế độ tối";
+
+/* Label for the button that shows the dark mode */
+"control.feature.darkmode.on" = "Bật";
+
+/* Title for the help window for the show ("on") dark mode button */
+"control.feature.darkmode.on.help.title" = "Bật Chế độ tối";
+
+/* Message for the help window for the show ("on") dark mode button */
+"control.feature.darkmode.on.help.message" = "Bật Chế độ tối. (Nhấp chuột phải để điều chỉnh.)";
+
+/* Label for the button that hides the dark mode */
+"control.feature.darkmode.off" = "Tắt";
+
+/* Title for the help window for the hide ("off") dark mode button */
+"control.feature.darkmode.off.help.title" = "Tắt chế độ tối";
+
+/* Message for the help window for the hide ("off") dark mode button */
+"control.feature.darkmode.off.help.message" = "Tắt Chế độ tối. (Nhấp chuột phải để điều chỉnh.)";
+
+/* Label for the buttons that open/eject usb drives */
+"control.feature.usbdrives.title" = "Ổ USB (Tất cả)";
+
+/* Label for the button that opens all usb drives */
+"control.feature.usbdrives.open" = "Mở";
+
+/* Title for the help window for the "open usb drives" button */
+"control.feature.usbdrives.open.help.title" = "Mở tất cả các ổ USB";
+
+/* Message for the help window for the "open usb drives" button */
+"control.feature.usbdrives.open.help.message" = "Mở và hiển thị các tập tin của tất cả các ổ USB được cắm vào máy tính.";
+
+/* Label for the button that safely ejects all usb drives */
+"control.feature.usbdrives.eject" = "Ngắt kết nối";
+
+/* Title for the help window for the "eject usb drives" button" */
+"control.feature.usbdrives.eject.help.title" = "Ngắt kết nối tất cả các ổ USB ra";
+
+/* Message for the help window for the "eject usb drives" button */
+"control.feature.usbdrives.eject.help.message" = "Ngắt kết nối một cách an toàn tất cả các ổ USB đang cắm vào máy tính này.";
+
+/* Title for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.title" = "Tính năng nâng cao";
+
+/* Message for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.message" = "Tùy chỉnh các nút và mang cài đặt của bạn đi bất cứ đâu";

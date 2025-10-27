@@ -16,42 +16,42 @@
 files: [
  {
   "source" : "Morphic/en.lproj/Localizable.strings",
-  "translation" : "Morphic/%two_letters_code%.lproj/%original_file_name%",
+  "translation" : "Morphic/%osx_locale%.lproj/%original_file_name%",
   "update_option" : "update_as_unapproved",
  },
  {
   "source" : "Morphic/Morphic/en.lproj/Main.strings",
-  "translation" : "Morphic/Morphic/%two_letters_code%.lproj/%original_file_name%",
+  "translation" : "Morphic/Morphic/%osx_locale%.lproj/%original_file_name%",
   "update_option" : "update_as_unapproved",
  },
  {
   "source" : "Morphic/Morphic/About Box/en.lproj/*.strings",
-  "translation" : "Morphic/Morphic/About Box/%two_letters_code%.lproj/%original_file_name%",
+  "translation" : "Morphic/Morphic/About Box/%osx_locale%.lproj/%original_file_name%",
   "update_option" : "update_as_unapproved",
  },
  {
   "source" : "Morphic/Morphic/AutoUpdate/en.lproj/*.strings",
-  "translation" : "Morphic/Morphic/AutoUpdate/%two_letters_code%.lproj/%original_file_name%",
+  "translation" : "Morphic/Morphic/AutoUpdate/%osx_locale%.lproj/%original_file_name%",
   "update_option" : "update_as_unapproved",
  },
  {
   "source" : "Morphic/Morphic/CopySettingsWindow/en.lproj/*.strings",
-  "translation" : "Morphic/Morphic/CopySettingsWindow/%two_letters_code%.lproj/%original_file_name%",
+  "translation" : "Morphic/Morphic/CopySettingsWindow/%osx_locale%.lproj/%original_file_name%",
   "update_option" : "update_as_unapproved",
  },
  {
   "source" : "Morphic/Morphic/Permissions Guidance/en.lproj/*.strings",
-  "translation" : "Morphic/Morphic/Permissions Guidance/%two_letters_code%.lproj/%original_file_name%",
+  "translation" : "Morphic/Morphic/Permissions Guidance/%osx_locale%.lproj/%original_file_name%",
   "update_option" : "update_as_unapproved",
  },
  {
   "source" : "Morphic/MorphicConfigurator/Capture/en.lproj/*.strings",
-  "translation" : "Morphic/MorphicConfigurator/Capture/%two_letters_code%.lproj/%original_file_name%",
+  "translation" : "Morphic/MorphicConfigurator/Capture/%osx_locale%.lproj/%original_file_name%",
   "update_option" : "update_as_unapproved",
  },
  {
   "source" : "Morphic/MorphicConfigurator/Login/en.lproj/*.strings",
-  "translation" : "Morphic/MorphicConfigurator/Login/%two_letters_code%.lproj/%original_file_name%",
+  "translation" : "Morphic/MorphicConfigurator/Login/%osx_locale%.lproj/%original_file_name%",
   "update_option" : "update_as_unapproved",
  }
 ]

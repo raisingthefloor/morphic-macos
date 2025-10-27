@@ -33,7 +33,7 @@ variables:
   value: 'OTHER_CODE_SIGN_FLAGS="--timestamp" CURRENT_PROJECT_VERSION="$(Build.BuildNumber)"'
 
 pool:
-  vmImage: 'macOS-14'
+  vmImage: 'macOS-15'
 
 stages:
   - stage: build
@@ -42,8 +42,9 @@ stages:
         steps:
         - task: InstallAppleCertificate@2
           inputs:
+#            certSecureFile: 'raising_the_floor_5AAXYGZ428_OpenSSL3.p12'
+            certPwd: '$(P12_PASSWORD)'
             certSecureFile: 'raising_the_floor_5AAXYGZ428.p12'
-            certPwd: '$(P12_PASSWORD)'  
         - task: InstallAppleProvisioningProfile@1
           inputs:
             provProfileSecureFile: 'Morphic_Launcher_for_macOS.provisionprofile'
@@ -222,21 +223,23 @@ stages:
     jobs:
       - job: autoupdate
         pool:
-          vmImage: "ubuntu-20.04"
+          vmImage: "ubuntu-22.04"
         steps:
         - task: Bash@3
           displayName: Publish auto-update files to AWS S3
           env:
             AWS_ACCESS_KEY_ID: $(accessKey)
             AWS_SECRET_ACCESS_KEY: $(secretKey)
-            BUCKET: $(bucket)
             AWS_DEFAULT_REGION: $(region)
+            BUCKET: $(bucket)
             BRANCH: $(Build.SourceBranch)
             BRANCH_NAME: $(Build.SourceBranchName)
           inputs:
             targetType: 'inline'
             script: |
+              # automatically exit if any command returns an error exit code
               set -e
+              # print all commands to the terminal output
               set -x
 
               EXTRA_ARGS=""

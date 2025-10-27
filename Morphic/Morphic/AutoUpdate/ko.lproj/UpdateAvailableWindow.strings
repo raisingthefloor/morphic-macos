@@ -1,0 +1,29 @@
+/* Class = "NSTextFieldCell"; title = "v1.0.0"; ObjectID = "9S3-gn-gtO"; */
+"9S3-gn-gtO.title" = "v1.0.0";
+
+/* Class = "NSWindow"; title = "Morphic Update"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Morphic 업데이트";
+
+/* Class = "NSButtonCell"; title = "Remind Me Later"; ObjectID = "J0i-qq-vls"; */
+"J0i-qq-vls.title" = "나중에 알림";
+
+/* Class = "NSTextFieldCell"; title = "v1.0.0"; ObjectID = "J6s-Ba-9sH"; */
+"J6s-Ba-9sH.title" = "v1.0.0";
+
+/* Class = "NSTextFieldCell"; title = "Updated version:"; ObjectID = "JDY-Qz-ATj"; */
+"JDY-Qz-ATj.title" = "업데이트된 버전:";
+
+/* Class = "NSButtonCell"; title = "Download Now"; ObjectID = "NAn-pI-mX2"; */
+"NAn-pI-mX2.title" = "지금 다운로드";
+
+/* Class = "NSButtonCell"; title = "Cancel Download"; ObjectID = "NCB-1q-L6Z"; */
+"NCB-1q-L6Z.title" = "다운로드 취소";
+
+/* Class = "NSTextFieldCell"; title = "Current version:"; ObjectID = "RD3-cL-AIO"; */
+"RD3-cL-AIO.title" = "현재 버전:";
+
+/* Class = "NSTextFieldCell"; title = "A new version of Morphic is available!"; ObjectID = "ad4-OA-jYG"; */
+"ad4-OA-jYG.title" = "Morphic의 새 버전을 사용할 수 있습니다!";
+
+/* Class = "NSTextFieldCell"; title = "Would you like to download the update now?"; ObjectID = "hT9-mK-bh5"; */
+"hT9-mK-bh5.title" = "지금 업데이트를 다운로드하시겠습니까?";

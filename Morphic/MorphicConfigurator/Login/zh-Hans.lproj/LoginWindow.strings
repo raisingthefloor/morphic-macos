@@ -1,0 +1,20 @@
+/* Class = "NSButtonCell"; title = "Forgot Password?"; ObjectID = "AGH-hS-SY3"; */
+"AGH-hS-SY3.title" = "忘记密码？";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "Anw-Y4-jLV"; */
+"Anw-Y4-jLV.title" = "标签";
+
+/* Class = "NSButtonCell"; title = "Sign in"; ObjectID = "CK2-4d-Of0"; */
+"CK2-4d-Of0.title" = "登录";
+
+/* Class = "NSWindow"; title = "Sign in to Morphic"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "登陆您的Morphic账户";
+
+/* Class = "NSTextFieldCell"; title = "Email Address"; ObjectID = "iha-2b-OCz"; */
+"iha-2b-OCz.title" = "电子邮件地址";
+
+/* Class = "NSTextFieldCell"; title = "Password"; ObjectID = "qTa-36-w6E"; */
+"qTa-36-w6E.title" = "密码";
+
+/* Class = "NSTextFieldCell"; title = "We did not recognize your login.  Please try again."; ObjectID = "usV-7n-KgH"; */
+"usV-7n-KgH.title" = "我们无法识别您的登录信息，请重试。";

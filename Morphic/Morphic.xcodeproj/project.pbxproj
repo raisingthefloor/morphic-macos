@@ -61,7 +61,6 @@
 		31E1E183244682C2009C4092 /* MorphicBarSegmentedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1E182244682C2009C4092 /* MorphicBarSegmentedButton.swift */; };
 		31E1E185244683DC009C4092 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1E184244683DC009C4092 /* Theme.swift */; };
 		31E1E187244792D9009C4092 /* DefaultPreferences.json in Resources */ = {isa = PBXBuildFile; fileRef = 31E1E186244792D9009C4092 /* DefaultPreferences.json */; };
-		31E1E188244794EF009C4092 /* MorphicBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31E1E18A244794EF009C4092 /* MorphicBarViewController.xib */; };
 		9D194DE327041D7C00D4BC36 /* logo_msoutlook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DDD27041D7C00D4BC36 /* logo_msoutlook.pdf */; };
 		9D194DE427041D7C00D4BC36 /* logo_mspowerpoint.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DDE27041D7C00D4BC36 /* logo_mspowerpoint.pdf */; };
 		9D194DE527041D7C00D4BC36 /* logo_msonenote.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DDF27041D7C00D4BC36 /* logo_msonenote.pdf */; };
@@ -70,6 +69,7 @@
 		9D194DE827041D7C00D4BC36 /* logo_msteams.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DE227041D7C00D4BC36 /* logo_msteams.pdf */; };
 		9D1FA1CD251A317F0008559D /* MorphicLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9DD4F4D8251A2FC400ADCC25 /* MorphicLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9D1FA1CF251A31990008559D /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1FA1CE251A31990008559D /* ServiceManagement.framework */; };
+		9D2905A02E906F2800C78B6E /* MorphicBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D29059F2E906F2800C78B6E /* MorphicBarViewController.xib */; };
 		9D2A5AB8259B815800ECD513 /* ConfigurableFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2A5AB7259B815800ECD513 /* ConfigurableFeatures.swift */; };
 		9D2A5AC1259B914800ECD513 /* MorphicBarSeparatorItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2A5AC0259B914800ECD513 /* MorphicBarSeparatorItemView.swift */; };
 		9D2C141425EC179500D66DAD /* envelope.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C141325EC179400D66DAD /* envelope.pdf */; };
@@ -335,7 +335,6 @@
 		31E1E182244682C2009C4092 /* MorphicBarSegmentedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarSegmentedButton.swift; sourceTree = "<group>"; };
 		31E1E184244683DC009C4092 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		31E1E186244792D9009C4092 /* DefaultPreferences.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DefaultPreferences.json; sourceTree = "<group>"; };
-		31E1E189244794EF009C4092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MorphicBarViewController.xib; sourceTree = "<group>"; };
 		9D194DDD27041D7C00D4BC36 /* logo_msoutlook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_msoutlook.pdf; sourceTree = "<group>"; };
 		9D194DDE27041D7C00D4BC36 /* logo_mspowerpoint.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_mspowerpoint.pdf; sourceTree = "<group>"; };
 		9D194DDF27041D7C00D4BC36 /* logo_msonenote.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_msonenote.pdf; sourceTree = "<group>"; };
@@ -345,6 +344,7 @@
 		9D1FA1CE251A31990008559D /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		9D2593F2250EA81000C38DA3 /* MorphicRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MorphicRelease.entitlements; sourceTree = "<group>"; };
 		9D2593F3250EA87E00C38DA3 /* MorphicConfiguratorRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MorphicConfiguratorRelease.entitlements; sourceTree = "<group>"; };
+		9D29059E2E906F2800C78B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MorphicBarViewController.xib; sourceTree = "<group>"; };
 		9D2A5AB7259B815800ECD513 /* ConfigurableFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableFeatures.swift; sourceTree = "<group>"; };
 		9D2A5AC0259B914800ECD513 /* MorphicBarSeparatorItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarSeparatorItemView.swift; sourceTree = "<group>"; };
 		9D2C141325EC179400D66DAD /* envelope.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = envelope.pdf; sourceTree = "<group>"; };
@@ -439,6 +439,94 @@
 		9D53D8E82784A9B700A96576 /* HyperlinkTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperlinkTextField.swift; sourceTree = "<group>"; };
 		9D69161E2911B7EA002F3A21 /* MorphicMacOSNative.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MorphicMacOSNative.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D77209D252BF46A0020BCD6 /* MorphicImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicImageUtils.swift; sourceTree = "<group>"; };
+		9D7D4C1E2CF6D2C5000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
+		9D7D4C1F2CF6D2C5000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
+		9D7D4C202CF6D2C5000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		9D7D4C212CF6D2C5000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
+		9D7D4C222CF6D2C5000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
+		9D7D4C232CF6D2C6000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
+		9D7D4C242CF6D2C6000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LoginWindow.strings; sourceTree = "<group>"; };
+		9D7D4C252CF6D2C6000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
+		9D7D4C262CF6D2C6000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
+		9D7D4C272CF6D2C6000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/DoneViewController.strings; sourceTree = "<group>"; };
+		9D7D4C2B2CF6D704000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9D7D4C2C2CF6D7B7000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
+		9D7D4C2D2CF6D7B7000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
+		9D7D4C2E2CF6D7B8000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		9D7D4C2F2CF6D7B8000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
+		9D7D4C302CF6D7B8000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
+		9D7D4C312CF6D7B8000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
+		9D7D4C322CF6D7B8000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LoginWindow.strings; sourceTree = "<group>"; };
+		9D7D4C332CF6D7B9000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
+		9D7D4C342CF6D7B9000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
+		9D7D4C352CF6D7B9000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/DoneViewController.strings; sourceTree = "<group>"; };
+		9D7D4C392CF6D7C9000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9D7D4C3A2CF6D933000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
+		9D7D4C3B2CF6D933000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
+		9D7D4C3C2CF6D934000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		9D7D4C3D2CF6D934000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
+		9D7D4C3E2CF6D934000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
+		9D7D4C3F2CF6D934000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
+		9D7D4C402CF6D934000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LoginWindow.strings; sourceTree = "<group>"; };
+		9D7D4C412CF6D934000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
+		9D7D4C422CF6D935000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
+		9D7D4C432CF6D935000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/DoneViewController.strings; sourceTree = "<group>"; };
+		9D7D4C442CF6D940000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9D7D4C502CF6D985000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
+		9D7D4C512CF6D985000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
+		9D7D4C522CF6D985000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
+		9D7D4C532CF6D985000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
+		9D7D4C542CF6D985000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
+		9D7D4C552CF6D985000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
+		9D7D4C562CF6D986000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LoginWindow.strings; sourceTree = "<group>"; };
+		9D7D4C572CF6D986000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
+		9D7D4C582CF6D986000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
+		9D7D4C592CF6D986000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/DoneViewController.strings; sourceTree = "<group>"; };
+		9D7D4C5A2CF6D994000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9D7D4C5B2CF6EC82000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PermissionsGuidanceWindow.strings"; sourceTree = "<group>"; };
+		9D7D4C5C2CF6EC82000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PermissionsSuccessWindow.strings"; sourceTree = "<group>"; };
+		9D7D4C5D2CF6EC82000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		9D7D4C5E2CF6EC82000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/AboutBoxWindowController.strings"; sourceTree = "<group>"; };
+		9D7D4C5F2CF6EC82000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UpdateAvailableWindow.strings"; sourceTree = "<group>"; };
+		9D7D4C602CF6EC83000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CopySettingsWindow.strings"; sourceTree = "<group>"; };
+		9D7D4C612CF6EC83000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LoginWindow.strings"; sourceTree = "<group>"; };
+		9D7D4C622CF6EC83000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CaptureViewController.strings"; sourceTree = "<group>"; };
+		9D7D4C632CF6EC83000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CreateAccountViewController.strings"; sourceTree = "<group>"; };
+		9D7D4C642CF6EC83000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DoneViewController.strings"; sourceTree = "<group>"; };
+		9D7D4C652CF6EC84000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9D7D4C662CF6EC95000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/PermissionsGuidanceWindow.strings"; sourceTree = "<group>"; };
+		9D7D4C672CF6EC95000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/PermissionsSuccessWindow.strings"; sourceTree = "<group>"; };
+		9D7D4C682CF6EC95000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		9D7D4C692CF6EC95000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/AboutBoxWindowController.strings"; sourceTree = "<group>"; };
+		9D7D4C6A2CF6EC96000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/UpdateAvailableWindow.strings"; sourceTree = "<group>"; };
+		9D7D4C6B2CF6EC96000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CopySettingsWindow.strings"; sourceTree = "<group>"; };
+		9D7D4C6C2CF6EC96000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LoginWindow.strings"; sourceTree = "<group>"; };
+		9D7D4C6D2CF6EC96000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CaptureViewController.strings"; sourceTree = "<group>"; };
+		9D7D4C6E2CF6EC96000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CreateAccountViewController.strings"; sourceTree = "<group>"; };
+		9D7D4C6F2CF6EC97000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/DoneViewController.strings"; sourceTree = "<group>"; };
+		9D7D4C702CF6EC97000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9D7D4C7C2CF6ECFE000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
+		9D7D4C7D2CF6ECFF000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
+		9D7D4C7E2CF6ECFF000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/Main.strings; sourceTree = "<group>"; };
+		9D7D4C7F2CF6ECFF000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
+		9D7D4C802CF6ECFF000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
+		9D7D4C812CF6ECFF000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
+		9D7D4C822CF6ED00000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/LoginWindow.strings; sourceTree = "<group>"; };
+		9D7D4C832CF6ED00000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
+		9D7D4C842CF6ED00000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
+		9D7D4C852CF6ED00000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/DoneViewController.strings; sourceTree = "<group>"; };
+		9D7D4C862CF6ED0D000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9D7D4C872CF6ED79000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
+		9D7D4C882CF6ED79000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
+		9D7D4C892CF6ED79000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/Main.strings; sourceTree = "<group>"; };
+		9D7D4C8A2CF6ED79000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
+		9D7D4C8B2CF6ED7A000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
+		9D7D4C8C2CF6ED7A000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
+		9D7D4C8D2CF6ED7A000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/LoginWindow.strings; sourceTree = "<group>"; };
+		9D7D4C8E2CF6ED7A000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
+		9D7D4C8F2CF6ED7A000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
+		9D7D4C902CF6ED7A000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/DoneViewController.strings; sourceTree = "<group>"; };
+		9D7D4C912CF6ED7B000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9D82576C24D31C1E00F6E932 /* AboutBoxWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutBoxWindowController.swift; sourceTree = "<group>"; };
 		9D8CEB122507AECF001276E4 /* MorphicBarButtonItemIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarButtonItemIcon.swift; sourceTree = "<group>"; };
 		9D8CEB142507AED7001276E4 /* MorphicBarButtonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarButtonItemView.swift; sourceTree = "<group>"; };
@@ -639,7 +727,7 @@
 				9DDAE61125094C720072C711 /* MorphicBarItemViews */,
 				31E1E17A24466D28009C4092 /* MorphicBarItem.swift */,
 				31751B9C2444F22900EEDF14 /* MorphicBarWindow.swift */,
-				31E1E18A244794EF009C4092 /* MorphicBarViewController.xib */,
+				9D29059F2E906F2800C78B6E /* MorphicBarViewController.xib */,
 				31751B9B2444F22900EEDF14 /* MorphicBarViewController.swift */,
 				31E1E17C24466E7C009C4092 /* MorphicBarView.swift */,
 				DF35CEC92541BCD200C3FF77 /* MorphicBarTrayView.swift */,
@@ -1022,9 +1110,17 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				ar,
+				en,
 				es,
+				gu,
+				hi,
+				ko,
+				vi,
+				ur,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 31751B002444DE8900EEDF14;
 			packageReferences = (
@@ -1099,7 +1195,7 @@
 				9D3A34E025ED6AA700C26902 /* logo_huffpost.pdf in Resources */,
 				CEC23E822733873400E8D032 /* CopySettingsWindow.xib in Resources */,
 				9D3A34DD25ED6A9D00C26902 /* logo_forbes.pdf in Resources */,
-				31E1E188244794EF009C4092 /* MorphicBarViewController.xib in Resources */,
+				9D2905A02E906F2800C78B6E /* MorphicBarViewController.xib in Resources */,
 				9D94BB28262A047100BF4992 /* logo_chrome.pdf in Resources */,
 				9D3A34F825ED720400C26902 /* logo_usaToday.pdf in Resources */,
 				9D3A34B625ED5AD300C26902 /* logo_kohls.pdf in Resources */,
@@ -1321,8 +1417,16 @@
 			isa = PBXVariantGroup;
 			children = (
 				31751B3B2444DFAA00EEDF14 /* Base */,
+				9D7D4C202CF6D2C5000D7E24 /* ar */,
 				CEC23E6A2733867400E8D032 /* en */,
 				CEC23E6C2733867500E8D032 /* es */,
+				9D7D4C7E2CF6ECFF000D7E24 /* gu */,
+				9D7D4C2E2CF6D7B8000D7E24 /* hi */,
+				9D7D4C3C2CF6D934000D7E24 /* ko */,
+				9D7D4C892CF6ED79000D7E24 /* ur */,
+				9D7D4C522CF6D985000D7E24 /* vi */,
+				9D7D4C5D2CF6EC82000D7E24 /* zh-Hans */,
+				9D7D4C682CF6EC95000D7E24 /* zh-Hant */,
 			);
 			name = Main.xib;
 			sourceTree = "<group>";
@@ -1335,10 +1439,10 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		31E1E18A244794EF009C4092 /* MorphicBarViewController.xib */ = {
+		9D29059F2E906F2800C78B6E /* MorphicBarViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				31E1E189244794EF009C4092 /* Base */,
+				9D29059E2E906F2800C78B6E /* Base */,
 			);
 			name = MorphicBarViewController.xib;
 			sourceTree = "<group>";
@@ -1347,8 +1451,16 @@
 			isa = PBXVariantGroup;
 			children = (
 				9D363E392798873600D52A98 /* Base */,
+				9D7D4C242CF6D2C6000D7E24 /* ar */,
 				9D363E3A2798874500D52A98 /* en */,
 				9D363E382798873400D52A98 /* es */,
+				9D7D4C822CF6ED00000D7E24 /* gu */,
+				9D7D4C322CF6D7B8000D7E24 /* hi */,
+				9D7D4C402CF6D934000D7E24 /* ko */,
+				9D7D4C8D2CF6ED7A000D7E24 /* ur */,
+				9D7D4C562CF6D986000D7E24 /* vi */,
+				9D7D4C612CF6EC83000D7E24 /* zh-Hans */,
+				9D7D4C6C2CF6EC96000D7E24 /* zh-Hant */,
 			);
 			name = LoginWindow.xib;
 			sourceTree = "<group>";
@@ -1357,8 +1469,16 @@
 			isa = PBXVariantGroup;
 			children = (
 				9D363E3C2798875700D52A98 /* Base */,
+				9D7D4C252CF6D2C6000D7E24 /* ar */,
 				9D363E3F2798875900D52A98 /* en */,
 				9D363E412798875A00D52A98 /* es */,
+				9D7D4C832CF6ED00000D7E24 /* gu */,
+				9D7D4C332CF6D7B9000D7E24 /* hi */,
+				9D7D4C412CF6D934000D7E24 /* ko */,
+				9D7D4C8E2CF6ED7A000D7E24 /* ur */,
+				9D7D4C572CF6D986000D7E24 /* vi */,
+				9D7D4C622CF6EC83000D7E24 /* zh-Hans */,
+				9D7D4C6D2CF6EC96000D7E24 /* zh-Hant */,
 			);
 			name = CaptureViewController.xib;
 			sourceTree = "<group>";
@@ -1367,8 +1487,16 @@
 			isa = PBXVariantGroup;
 			children = (
 				9D363E432798876000D52A98 /* Base */,
+				9D7D4C262CF6D2C6000D7E24 /* ar */,
 				9D363E462798876200D52A98 /* en */,
 				9D363E482798876300D52A98 /* es */,
+				9D7D4C842CF6ED00000D7E24 /* gu */,
+				9D7D4C342CF6D7B9000D7E24 /* hi */,
+				9D7D4C422CF6D935000D7E24 /* ko */,
+				9D7D4C8F2CF6ED7A000D7E24 /* ur */,
+				9D7D4C582CF6D986000D7E24 /* vi */,
+				9D7D4C632CF6EC83000D7E24 /* zh-Hans */,
+				9D7D4C6E2CF6EC96000D7E24 /* zh-Hant */,
 			);
 			name = CreateAccountViewController.xib;
 			sourceTree = "<group>";
@@ -1377,8 +1505,16 @@
 			isa = PBXVariantGroup;
 			children = (
 				9D363E4A2798876900D52A98 /* Base */,
+				9D7D4C272CF6D2C6000D7E24 /* ar */,
 				9D363E4D2798876B00D52A98 /* en */,
 				9D363E4F2798876C00D52A98 /* es */,
+				9D7D4C852CF6ED00000D7E24 /* gu */,
+				9D7D4C352CF6D7B9000D7E24 /* hi */,
+				9D7D4C432CF6D935000D7E24 /* ko */,
+				9D7D4C902CF6ED7A000D7E24 /* ur */,
+				9D7D4C592CF6D986000D7E24 /* vi */,
+				9D7D4C642CF6EC83000D7E24 /* zh-Hans */,
+				9D7D4C6F2CF6EC97000D7E24 /* zh-Hant */,
 			);
 			name = DoneViewController.xib;
 			sourceTree = "<group>";
@@ -1386,8 +1522,16 @@
 		9D4D47C526CBFE2500AC6E3D /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
+				9D7D4C2B2CF6D704000D7E24 /* ar */,
 				9D4D47CA26CBFE5400AC6E3D /* es */,
 				CEB8709427336AE4002E7601 /* en */,
+				9D7D4C862CF6ED0D000D7E24 /* gu */,
+				9D7D4C392CF6D7C9000D7E24 /* hi */,
+				9D7D4C442CF6D940000D7E24 /* ko */,
+				9D7D4C912CF6ED7B000D7E24 /* ur */,
+				9D7D4C5A2CF6D994000D7E24 /* vi */,
+				9D7D4C652CF6EC84000D7E24 /* zh-Hans */,
+				9D7D4C702CF6EC97000D7E24 /* zh-Hant */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1404,8 +1548,16 @@
 			isa = PBXVariantGroup;
 			children = (
 				CEC23E602733846100E8D032 /* Base */,
+				9D7D4C212CF6D2C5000D7E24 /* ar */,
 				CEC23E62273384E600E8D032 /* es */,
 				CEC23E682733853E00E8D032 /* en */,
+				9D7D4C7F2CF6ECFF000D7E24 /* gu */,
+				9D7D4C2F2CF6D7B8000D7E24 /* hi */,
+				9D7D4C3D2CF6D934000D7E24 /* ko */,
+				9D7D4C8A2CF6ED79000D7E24 /* ur */,
+				9D7D4C532CF6D985000D7E24 /* vi */,
+				9D7D4C5E2CF6EC82000D7E24 /* zh-Hans */,
+				9D7D4C692CF6EC95000D7E24 /* zh-Hant */,
 			);
 			name = AboutBoxWindowController.xib;
 			sourceTree = "<group>";
@@ -1414,8 +1566,16 @@
 			isa = PBXVariantGroup;
 			children = (
 				CEC23E6E2733870500E8D032 /* Base */,
+				9D7D4C1F2CF6D2C5000D7E24 /* ar */,
 				CEC23E712733870700E8D032 /* en */,
 				CEC23E732733870700E8D032 /* es */,
+				9D7D4C7D2CF6ECFF000D7E24 /* gu */,
+				9D7D4C2D2CF6D7B7000D7E24 /* hi */,
+				9D7D4C3B2CF6D933000D7E24 /* ko */,
+				9D7D4C882CF6ED79000D7E24 /* ur */,
+				9D7D4C512CF6D985000D7E24 /* vi */,
+				9D7D4C5C2CF6EC82000D7E24 /* zh-Hans */,
+				9D7D4C672CF6EC95000D7E24 /* zh-Hant */,
 			);
 			name = PermissionsSuccessWindow.xib;
 			path = "Permissions Guidance";
@@ -1425,8 +1585,16 @@
 			isa = PBXVariantGroup;
 			children = (
 				CEC23E752733870C00E8D032 /* Base */,
+				9D7D4C1E2CF6D2C5000D7E24 /* ar */,
 				CEC23E782733870F00E8D032 /* en */,
 				CEC23E7A2733871000E8D032 /* es */,
+				9D7D4C7C2CF6ECFE000D7E24 /* gu */,
+				9D7D4C2C2CF6D7B7000D7E24 /* hi */,
+				9D7D4C3A2CF6D933000D7E24 /* ko */,
+				9D7D4C872CF6ED79000D7E24 /* ur */,
+				9D7D4C502CF6D985000D7E24 /* vi */,
+				9D7D4C5B2CF6EC82000D7E24 /* zh-Hans */,
+				9D7D4C662CF6EC95000D7E24 /* zh-Hant */,
 			);
 			name = PermissionsGuidanceWindow.xib;
 			path = "Permissions Guidance";
@@ -1436,8 +1604,16 @@
 			isa = PBXVariantGroup;
 			children = (
 				CEC23E7C2733872700E8D032 /* Base */,
+				9D7D4C222CF6D2C5000D7E24 /* ar */,
 				CEC23E7F2733872900E8D032 /* es */,
 				CEC23E812733872A00E8D032 /* en */,
+				9D7D4C802CF6ECFF000D7E24 /* gu */,
+				9D7D4C302CF6D7B8000D7E24 /* hi */,
+				9D7D4C3E2CF6D934000D7E24 /* ko */,
+				9D7D4C8B2CF6ED7A000D7E24 /* ur */,
+				9D7D4C542CF6D985000D7E24 /* vi */,
+				9D7D4C5F2CF6EC82000D7E24 /* zh-Hans */,
+				9D7D4C6A2CF6EC96000D7E24 /* zh-Hant */,
 			);
 			name = UpdateAvailableWindow.xib;
 			sourceTree = "<group>";
@@ -1446,8 +1622,16 @@
 			isa = PBXVariantGroup;
 			children = (
 				CEC23E832733873400E8D032 /* Base */,
+				9D7D4C232CF6D2C6000D7E24 /* ar */,
 				CEC23E862733873800E8D032 /* es */,
 				CEC23E882733873800E8D032 /* en */,
+				9D7D4C812CF6ECFF000D7E24 /* gu */,
+				9D7D4C312CF6D7B8000D7E24 /* hi */,
+				9D7D4C3F2CF6D934000D7E24 /* ko */,
+				9D7D4C8C2CF6ED7A000D7E24 /* ur */,
+				9D7D4C552CF6D985000D7E24 /* vi */,
+				9D7D4C602CF6EC83000D7E24 /* zh-Hans */,
+				9D7D4C6B2CF6EC96000D7E24 /* zh-Hant */,
 			);
 			name = CopySettingsWindow.xib;
 			sourceTree = "<group>";
@@ -1507,7 +1691,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1563,7 +1747,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -1587,8 +1771,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.7;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.8;
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.raisingthefloor.Morphic-Debug";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1613,8 +1797,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.7;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.8;
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.raisingthefloor.Morphic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1638,8 +1822,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.7;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.8;
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.raisingthefloor.MorphicConfigurator-Debug";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1663,8 +1847,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.7;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.8;
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.raisingthefloor.MorphicConfigurator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1689,7 +1873,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.raisingthefloor.MorphicDockApp-Debug";
 				PRODUCT_NAME = " Morphic ";
 				SWIFT_VERSION = 5.0;
@@ -1713,7 +1897,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.raisingthefloor.MorphicDockApp;
 				PRODUCT_NAME = " Morphic ";
 				PROVISIONING_PROFILE_SPECIFIER = "Morphic Dock App for macOS";
@@ -1738,7 +1922,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.raisingthefloor.MorphicLauncher-Debug";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1764,7 +1948,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.raisingthefloor.MorphicLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";

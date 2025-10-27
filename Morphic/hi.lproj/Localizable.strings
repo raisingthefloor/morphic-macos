@@ -1,0 +1,408 @@
+/* Label for the buttons that control text/icon size */
+"control.feature.resolution.title" = "शब्दों का आकर";
+
+/* Label for the button that increases the text/icon size */
+"control.feature.resolution.bigger" = "+";
+
+/* Text for VoiceOver for the larger text/icon size button */
+"control.feature.resolution.bigger.tts" = "शब्दों का आकार बढ़ाएँ";
+
+/* Title for the help window for the larger text/icon size button */
+"control.feature.resolution.bigger.help.title" = "हर जगह शब्दों का आकार बढ़ाता है";
+
+/* Message for the help window for the larger text/icon size button */
+"control.feature.resolution.bigger.help.message" = "स्क्रीन पर मौजूद हर चीज़ को बड़ा बनाता है";
+
+/* Title for the help window for the larger text/icon size button when at its limit */
+"control.feature.resolution.bigger.limit.help.title" = "शब्दों का आकार बड़ा नहीं हो सकता";
+
+/* Message for the help window for the larger text/icon size button when at its limit */
+"control.feature.resolution.bigger.limit.help.message" = "";
+
+/* Label for the button that decreases the text/icon size */
+"control.feature.resolution.smaller" = "\U2013";
+
+/* Text for VoiceOver for the smaller text/icon size button */
+"control.feature.resolution.smaller.tts" = "शब्दों का आकार कम करें";
+
+/* Title for the help window for the smaller text/icon size button */
+"control.feature.resolution.smaller.help.title" = "हर जगह शब्दों का आकार कम हो जाता है";
+
+/* Message for the help window for the smaller text/icon size button */
+"control.feature.resolution.smaller.help.message" = "स्क्रीन पर मौजूद हर चीज़ को छोटा कर देता है";
+
+/* Title for the help window for the smaller text/icon size button when at its limit */
+"control.feature.resolution.smaller.limit.help.title" = "शब्दों का आकार छोटा नहीं हो सकता";
+
+/* Message for the help window for the smaller text/icon size button when at its limit */
+"control.feature.resolution.smaller.limit.help.message" = "";
+
+/* Label for the buttons that control the magnifier */
+"control.feature.magnifier.title" = "आवर्धक";
+
+/* Label for the button that shows the magnifier */
+"control.feature.magnifier.show" = "शो (दिखाएँ)";
+
+/* Text for VoiceOver for the show magnifier button */
+"control.feature.magnifier.show.tts" = "आवर्धक दिखाएँ";
+
+/* Title for the help window for the show magnifier button */
+"control.feature.magnifier.show.help.title" = "आवर्धक लेंस चालू करता है";
+
+/* Message for the help window for the show magnifier button */
+"control.feature.magnifier.show.help.message" = "आवर्धक आपके माउस का अनुसरण करता है. आपका माउस बॉक्स पर क्लिक कर सकता है";
+
+/* Label for the button that hides the magnifier */
+"control.feature.magnifier.hide" = "हाईड (छिपाएं)";
+
+/* Text for VoiceOver for the hide magnifier button */
+"control.feature.magnifier.hide.tts" = "आवर्धक छिपाएँ";
+
+/* Title for the help window for the hide magnifier button */
+"control.feature.magnifier.hide.help.title" = "आवर्धक बंद कर देता है";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.magnifier.hide.help.message" = "आवर्धक सेटिंग बदलने के लिए, बटन पर राइट-क्लिक करें";
+
+/* Label for the button that shows the magnifier */
+"control.feature.magnifier.on" = "ऑन (चालू)";
+
+/* Title for the help window for the show ("on") magnifier button */
+"control.feature.magnifier.on.help.title" = "आवर्धक चालू करें";
+
+/* Message for the help window for the show ("on") magnifier button */
+"control.feature.magnifier.on.help.message" = "अपने माउस के आस-पास के क्षेत्र को बड़ा करें";
+
+/* Label for the button that hides the magnifier */
+"control.feature.magnifier.off" = "ऑफ (बंद)";
+
+/* Title for the help window for the hide ("off") magnifier button */
+"control.feature.magnifier.off.help.title" = "आवर्धक बंद करें";
+
+/* Message for the help window for the hide ("off") magnifier button */
+"control.feature.magnifier.off.help.message" = "";
+
+/* Label for the buttons that control the reader */
+"control.feature.reader.title" = "स्क्रीन रीडर";
+
+/* Label for the button that turns the reader on */
+"control.feature.reader.on" = "ऑन (चालू)";
+
+/* Title for the help window for the screen reader button */
+"control.feature.reader.on.help.title" = "स्क्रीन रीडर चालू करें";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.reader.on.help.message" = "कंप्यूटर को पाठ को ज़ोर से पढ़ने को कहें";
+
+/* Label for the button that turns the reader off */
+"control.feature.reader.off" = "ऑफ (बंद)";
+
+/* Title for the help window for the hide magnifier button */
+"control.feature.reader.off.help.title" = "स्क्रीन रीडर बंद करें";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.reader.off.help.message" = "कंप्यूटर को ज़ोर से पाठ पढ़ने से रोकें";
+
+/* Label for the buttons that control the volume */
+"control.feature.volume.title" = "वॉल्यूम (आवाज़)";
+
+/* Label for the button that turns the volume up */
+"control.feature.volume.up" = "+";
+
+/* Title for the help window for the volume up button */
+"control.feature.volume.up.help.title" = "वॉल्यूम बढ़ाता है";
+
+/* Message for the help window for the volume up button */
+"control.feature.volume.up.help.message" = "सभी ध्वनियों को तेज़ बनाता है";
+
+/* Title for the help window for the volume up button at its limit */
+"control.feature.volume.up.limit.help.title" = "वॉल्यूम तेज़ नहीं हो सकती";
+
+/* Message for the help window for the volume up button at its limit */
+"control.feature.volume.up.limit.help.message" = "";
+
+/* Title for the help window for the volume up button when muted */
+"control.feature.volume.up.muted.help.title" = "ध्वनियों को अनम्यूट करता है";
+
+/* Message for the help window for the volume up button when muted */
+"control.feature.volume.up.muted.help.message" = "म्यूट को बंद कर देता है - आपके कंप्यूटर से ध्वनियाँ फिर से आने देता है";
+
+/* Label for the button that turns the volume down */
+"control.feature.volume.down" = "\U2013";
+
+/* Title for the help window for the volume down button */
+"control.feature.volume.down.help.title" = "वॉल्यूम कम कर देता है";
+
+/* Message for the help window for the volume down button */
+"control.feature.volume.down.help.message" = "सभी ध्वनियों को शांत कर देता है";
+
+/* Title for the help window for the volume down button at its limit */
+"control.feature.volume.down.limit.help.title" = "वॉल्यूम शांत नहीं हो सकता";
+
+/* Message for the help window for the volume down button at its limit */
+"control.feature.volume.down.limit.help.message" = "";
+
+/* Title for the help window for the volume down button at its limit */
+"control.feature.volume.down.muted.help.title" = "ध्वनियों को अनम्यूट करता है";
+
+/* Message for the help window for the volume down button at its limit */
+"control.feature.volume.down.muted.help.message" = "म्यूट को बंद कर देता है - आपके कंप्यूटर से ध्वनियाँ फिर से आने देता है";
+
+/* Label for the button that mutes the volume */
+"control.feature.volume.mute" = "म्यूट (आवाज़ बंद)";
+
+/* Text for VoiceOver for the button that unmutes the volume */
+"control.feature.volume.mute.tts.muted" = "सभी ध्वनियाँ अनम्यूट करें";
+
+/* Text for VoiceOver for the button that mutes the volume */
+"control.feature.volume.mute.tts.unmuted" = "सभी ध्वनियाँ म्यूट करें";
+
+/* Title for the help window for the mute button */
+"control.feature.volume.mute.help.title" = "आपके कंप्यूटर से सभी ध्वनियाँ म्यूट करता है ";
+
+/* Message for the help window for the mute button */
+"control.feature.volume.mute.help.message" = "आपके स्पीकर को म्यूट करता है - लेकिन आपके माइक्रोफ़ोन को म्यूट नहीं करता है";
+
+/* Title for the help window for the mute button when muted */
+"control.feature.volume.muted.help.title" = "आपके कंप्यूटर से सभी ध्वनियाँ म्यूट करता है ";
+
+/* Message for the help window for the mute button when muted */
+"control.feature.volume.muted.help.message" = "म्यूट को बंद कर देता है - आपके कंप्यूटर से ध्वनियाँ फिर से आने देता है";
+
+/* Label for the buttons that control the contrast */
+"control.feature.contrast.title" = "हाई (अधिक) कंट्रास्ट";
+
+/* Label for the button that turns high contrast on */
+"control.feature.contrast.on" = "ऑन (चालू)";
+
+/* Title for the help window for the high contrast button */
+"control.feature.contrast.on.help.title" = "हाई कंट्रास्ट चालू करें";
+
+/* Message for the help window for the high contrast button */
+"control.feature.contrast.on.help.message" = "कुछ लोगों के लिए पढ़ना आसान बनाता है";
+
+/* Label for the button that turns high contrast off */
+"control.feature.contrast.off" = "ऑफ (बंद)";
+
+/* Title for the help window for the high contrast button */
+"control.feature.contrast.off.help.title" = "हाई (अधिक) कॉन्ट्रास्ट बंद करें";
+
+/* Message for the help window for the high contrast button */
+"control.feature.contrast.off.help.message" = "";
+
+/* Label for the buttons that play/stop 'read selected text' */
+"control.feature.readselected.title" = "चुने हुए पाठ पढ़ें";
+
+/* Label for the button that plays/stops 'read selected text' */
+"control.feature.readselected.playstop" = "\U25B6 / \U25A0";
+
+/* Text for VoiceOver for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.tts" = "चुने हुए पाठ पढ़ें - प्रारंभ करें और रोकें";
+
+/* Title for the help window for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.help.title" = "चुने हुए पाठ को पढ़ता है";
+
+/* Message for the help window for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.help.message" = "पढ़ने के लिए पाठ को चुने. फिर प्ले/स्टॉप बटन पर क्लिक करें। पठन नियंत्रण पॉप अप हो जाएंगे";
+
+/* Label for the buttons that control night mode */
+"control.feature.nightshift.title" = "नाईट (रात्रि) मोड";
+
+/* Label for the button that turns night mode on */
+"control.feature.nightshift.on" = "ऑन (चालू)";
+
+/* Title for the help window for the 'turn on night mode' button */
+"control.feature.nightshift.on.help.title" = "नाईट मोड चालू करें";
+
+/* Message for the help window for the 'turn on night mode' button */
+"control.feature.nightshift.on.help.message" = "आंखों पर तनाव कम करने और सोने में आसानी के लिए स्क्रीन के रंगों को गर्म करें";
+
+/* Label for the button that turns night mode off */
+"control.feature.nightshift.off" = "ऑफ (बंद)";
+
+/* Title for the help window for the 'turn off night mode' button */
+"control.feature.nightshift.off.help.title" = "नाईट मोड बंद करें";
+
+/* Message for the help window for the 'turn off night mode' button */
+"control.feature.nightshift.off.help.message" = "";
+
+/* Label for the buttons that copy and paste */
+"control.feature.copypaste.title" = "कॉपी और पेस्ट";
+
+/* Label for the button that copies the selection */
+"control.feature.copypaste.copy" = "कॉपी (प्रतिलिपि) ";
+
+/* Title for the help window for the copy button */
+"control.feature.copypaste.copy.help.title" = "आपके चयन की कॉपीस (प्रतिलिपि) बनाता है";
+
+/* Message for the help window for the copy button */
+"control.feature.copypaste.copy.help.message" = "आपके द्वारा चुने हुए पाठ या अन्य सामग्री की कॉपी बनाता है ताकि आप उसे कहीं पेस्ट सकें";
+
+/* Label for the button that pastes the selection */
+"control.feature.copypaste.paste" = "पेस्ट (चिपकाएं)";
+
+/* Title for the help window for the paste button */
+"control.feature.copypaste.paste.help.title" = "आपने जो कॉपी किया है उसे पेस्ट करता है";
+
+/* Message for the help window for the paste button */
+"control.feature.copypaste.paste.help.message" = "कॉपी की गई सामग्री को वहां सम्मिलित करता है जहां टेक्स्ट कर्सर है।";
+
+/* Label for the buttons that activate screen snip */
+"control.feature.screensnip.title" = "स्निप(कटाव)";
+
+/* Label for the button that activates screen snip */
+"control.feature.screensnip.copy" = "कॉपी (प्रतिलिपि) ";
+
+/* Text for VoiceOver for the screen snip button */
+"control.feature.screensnip.copy.tts" = "स्क्रीन के हिस्से की स्निप कॉपी";
+
+/* Title for the help window for the screen snip button */
+"control.feature.screensnip.copy.help.title" = "स्क्रीन के चुने हुए भाग का चित्र लेता है";
+
+/* Message for the help window for the screen snip button */
+"control.feature.screensnip.copy.help.message" = "कॉपी पर क्लिक करें. फिर चित्र लेने के लिए माउस को क्लिक करें और खींचें। किसी भी दस्तावेज़ में पेस्ट करें.";
+
+/* Label for the buttons that control the color vision */
+"control.feature.colorvision.title" = "कलर विज़न (रंग दृष्टि)";
+
+/* Label for the button that shows the color vision */
+"control.feature.colorvision.on" = "ऑन (चालू)";
+
+/* Title for the help window for the show ("on") color vision button */
+"control.feature.colorvision.on.help.title" = "कलर विज़न चालू करें";
+
+/* Message for the help window for the show ("on") color vision button */
+"control.feature.colorvision.on.help.message" = "कलर ब्लाइंडनेस (रंग अंधापन) के अनुकूल होने के लिए रंग बदलता है। (प्रकार चुनने के लिए राइट क्लिक करें।)";
+
+/* Label for the button that hides the color vision */
+"control.feature.colorvision.off" = "ऑफ (बंद)";
+
+/* Title for the help window for the hide ("off") color vision button */
+"control.feature.colorvision.off.help.title" = "कलर विज़न बंद करें
+";
+
+/* Message for the help window for the hide ("off") color vision button */
+"control.feature.colorvision.off.help.message" = "कलर ब्लाइंडनेस (रंग अंधापन) के अनुकूल होने के लिए रंग बदलता है। (प्रकार चुनने के लिए राइट क्लिक करें।)";
+
+/* Label for the buttons that toggle contrast, color, dark and night */
+"control.feature.contrastcolordarknight.title" = "कंट्रास्ट और कलर";
+
+/* Label for the button that toggles high contrast */
+"control.feature.contrastcolordarknight.contrast" = "कंट्रास्ट (अंतर)";
+
+/* Text for VoiceOver for the contrast button */
+"control.feature.contrastcolordarknight.contrast.tts" = "कंट्रास्ट ऑन, ऑफ";
+
+/* Text for VoiceOver for the contrast button when the feature is enabled */
+"control.feature.contrastcolordarknight.contrast.tts.enabled" = "कंट्रास्ट बंद करें";
+
+/* Text for VoiceOver for the contrast button when the feature is disabled */
+"control.feature.contrastcolordarknight.contrast.tts.disabled" = "कंट्रास्ट चालू करें";
+
+/* Title for the help window for the contrast button */
+"control.feature.contrastcolordarknight.contrast.help.title" = "कंट्रास्ट को चालू और बंद करता है";
+
+/* Message for the help window for the contrast button */
+"control.feature.contrastcolordarknight.contrast.help.message" = "स्क्रीन को पढ़ने में आसान बना सकते हैं। सेटिंग्स बदलने के लिए, बटन पर राइट-क्लिक करें";
+
+/* Label for the button that toggles color filters */
+"control.feature.contrastcolordarknight.color" = "कलर (रंग)";
+
+/* Text for VoiceOver for the color filters button */
+"control.feature.contrastcolordarknight.color.tts" = "कलर विज़न ऑन, ऑफ";
+
+/* Text for VoiceOver for the color filters button when the feature is enabled */
+"control.feature.contrastcolordarknight.color.tts.enabled" = "कलर विज़न बंद करें";
+
+/* Text for VoiceOver for the color filters button when the feature is disabled */
+"control.feature.contrastcolordarknight.color.tts.disabled" = "कलर विज़न चालू करें";
+
+/* Title for the help window for the color filters button */
+"control.feature.contrastcolordarknight.color.help.title" = "कलर ब्लाइंडनेस(रंग अंधापन) फ़िल्टर को चालू और बंद करता है";
+
+/* Message for the help window for the color filters button */
+"control.feature.contrastcolordarknight.color.help.message" = "कलर विज़न अंतर के अनुरूप रंग बदलता है। टाइप चुनने के लिए, बटन पर राइट-क्लिक करें";
+
+/* Label for the button that toggles dark appearance */
+"control.feature.contrastcolordarknight.dark" = "डार्क (अँधेरा)";
+
+/* Text for VoiceOver for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.tts" = "डार्क मोड ऑन, ऑफ";
+
+/* Text for VoiceOver for the dark appearance button when the feature is enabled */
+"control.feature.contrastcolordarknight.dark.tts.enabled" = "डार्क मोड बंद करें";
+
+/* Text for VoiceOver for the dark appearance button when the feature is disabled */
+"control.feature.contrastcolordarknight.dark.tts.disabled" = "डार्क मोड चालू करें";
+
+/* Title for the help window for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.help.title" = "डार्क मोड को चालू और बंद करता है";
+
+/* Message for the help window for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.help.message" = "सेटिंग्स बदलने के लिए, बटन पर राइट-क्लिक करें";
+
+/* Label for the button that toggles night shift */
+"control.feature.contrastcolordarknight.night" = "नाइट (रात)";
+
+/* Text for VoiceOver for the night shift button */
+"control.feature.contrastcolordarknight.night.tts" = "नाइट लाइट मोड ऑन, ऑफ";
+
+/* Text for VoiceOver for the night shift button when the feature is enabled */
+"control.feature.contrastcolordarknight.night.tts.enabled" = "नाइट मोड बंद करें";
+
+/* Text for VoiceOver for the night shift button when the feature is disabled */
+"control.feature.contrastcolordarknight.night.tts.disabled" = "नाइट मोड चालू करें";
+
+/* Title for the help window for the night shift button */
+"control.feature.contrastcolordarknight.night.help.title" = "नाइट शिफ्ट सुविधा को चालू और बंद करता है";
+
+/* Message for the help window for the night shift button */
+"control.feature.contrastcolordarknight.night.help.message" = "आंखों का तनाव कम हो जाता है और रात में सोना आसान हो जाता है";
+
+/* Label for the buttons that control the dark mode */
+"control.feature.darkmode.title" = "डार्क मोड (गहरे रंग वाला मोड)";
+
+/* Label for the button that shows the dark mode */
+"control.feature.darkmode.on" = "ऑन (चालू)";
+
+/* Title for the help window for the show ("on") dark mode button */
+"control.feature.darkmode.on.help.title" = "डार्क मोड चालू करें";
+
+/* Message for the help window for the show ("on") dark mode button */
+"control.feature.darkmode.on.help.message" = "डार्क मोड चालू करता है. (ठीक करने के लिए राइट क्लिक करें।)";
+
+/* Label for the button that hides the dark mode */
+"control.feature.darkmode.off" = "ऑफ (बंद)";
+
+/* Title for the help window for the hide ("off") dark mode button */
+"control.feature.darkmode.off.help.title" = "डार्क मोड बंद करें";
+
+/* Message for the help window for the hide ("off") dark mode button */
+"control.feature.darkmode.off.help.message" = "डार्क मोड बंद कर देता है. (ठीक करने के लिए राइट क्लिक करें।)";
+
+/* Label for the buttons that open/eject usb drives */
+"control.feature.usbdrives.title" = "यूएसबी ड्राइव (सभी)";
+
+/* Label for the button that opens all usb drives */
+"control.feature.usbdrives.open" = "ओपन (खोलें)";
+
+/* Title for the help window for the "open usb drives" button */
+"control.feature.usbdrives.open.help.title" = "सभी यूएसबी (USB) ड्राइव खोलें";
+
+/* Message for the help window for the "open usb drives" button */
+"control.feature.usbdrives.open.help.message" = "कंप्यूटर में प्लग की गई सभी USB ड्राइव की फ़ाइलें खोलता है और दिखाता है";
+
+/* Label for the button that safely ejects all usb drives */
+"control.feature.usbdrives.eject" = "इजेक्ट (बाहर निकालें)";
+
+/* Title for the help window for the "eject usb drives" button" */
+"control.feature.usbdrives.eject.help.title" = "सभी यूएसबी USB ड्राइव निकालें";
+
+/* Message for the help window for the "eject usb drives" button */
+"control.feature.usbdrives.eject.help.message" = "इस कंप्यूटर में प्लग होने वाली सभी USB ड्राइव को सुरक्षित रूप से बाहर निकाल देता है";
+
+/* Title for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.title" = "उन्नत सुविधाओं";
+
+/* Message for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.message" = "बटनों को अनुकूलित करें और अपनी सेटिंग्स को अपने साथ कहीं भी ले जाएं";

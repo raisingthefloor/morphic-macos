@@ -1,0 +1,113 @@
+/* Class = "NSMenuItem"; title = "Dark Mode Settings"; ObjectID = "2mx-T9-CEQ"; */
+"2mx-T9-CEQ.title" = "다크 모드 설정";
+
+/* Class = "NSMenuItem"; title = "Show MorphicBar"; ObjectID = "4BS-cA-IvL"; */
+"4BS-cA-IvL.title" = "MorphicBar 보여주다";
+
+/* Class = "NSMenuItem"; title = "Basic MorphicBar"; ObjectID = "AVi-t6-lRs"; */
+"AVi-t6-lRs.title" = "기본 MorphicBar";
+
+/* Class = "NSMenuItem"; title = "Explore everything Morphic can do..."; ObjectID = "DeU-ED-RwS"; */
+"DeU-ED-RwS.title" = "Morphic이 할 수 있는 모든 것을 탐색해 보세요...";
+
+/* Class = "NSMenuItem"; title = "Problems? Contact us..."; ObjectID = "E3h-fH-NQ4"; */
+"E3h-fH-NQ4.title" = "문제가 있나요? 저희에게 연락하세요...";
+
+/* Class = "NSMenuItem"; title = "Automatically Start Morphic"; ObjectID = "Ir1-cH-h7Z"; */
+"Ir1-cH-h7Z.title" = "Morphic 자동 시작";
+
+/* Class = "NSMenuItem"; title = "Brightness"; ObjectID = "JQV-M8-1cX"; */
+"JQV-M8-1cX.title" = "밝기";
+
+/* Class = "NSMenuItem"; title = "Color Vision Settings"; ObjectID = "KW2-Yc-fA8"; */
+"KW2-Yc-fA8.title" = "컬러 비전 설정";
+
+/* Class = "NSMenuItem"; title = "Pointer Size"; ObjectID = "KpP-nc-KDu"; */
+"KpP-nc-KDu.title" = "포인터 크기";
+
+/* Class = "NSMenuItem"; title = "Keyboard Settings"; ObjectID = "PEe-T1-bhd"; */
+"PEe-T1-bhd.title" = "키보드 설정";
+
+/* Class = "NSMenuItem"; title = "Contrast Settings"; ObjectID = "RHA-xv-t7n"; */
+"RHA-xv-t7n.title" = "콘트라스트 설정";
+
+/* Class = "NSMenuItem"; title = "Sign into Morphic..."; ObjectID = "S6R-h6-1Yz"; */
+"S6R-h6-1Yz.title" = "Morphic에 로그인하세요...";
+
+/* Class = "NSMenuItem"; title = "Turn Off Key Repeat"; ObjectID = "TXI-dU-a95"; */
+"TXI-dU-a95.title" = "키 반복 끄기";
+
+/* Class = "NSMenuItem"; title = "Save Current Setup as..."; ObjectID = "VF9-cs-dFo"; */
+"VF9-cs-dFo.title" = "현재 설정을 다른 이름으로 저장...";
+
+/* Class = "NSMenuItem"; title = "Apply a Saved Setup..."; ObjectID = "WUC-ZR-CdM"; */
+"WUC-ZR-CdM.title" = "저장된 설정 적용...";
+
+/* Class = "NSMenuItem"; title = "Mouse Settings"; ObjectID = "WgB-hi-dss"; */
+"WgB-hi-dss.title" = "마우스 설정";
+
+/* Class = "NSMenuItem"; title = "All Accessibility Options"; ObjectID = "ZA3-bo-s5U"; */
+"ZA3-bo-s5U.title" = "모든 접근성 옵션";
+
+/* Class = "NSMenuItem"; title = "Customize MorphicBar..."; ObjectID = "ZaP-ZB-1RU"; */
+"ZaP-ZB-1RU.title" = "MorphicBar 주문제작...";
+
+/* Class = "NSMenuItem"; title = "Quit Morphic"; ObjectID = "aYd-9o-084"; */
+"aYd-9o-084.title" = "Morphic 종료";
+
+/* Class = "NSMenuItem"; title = "Magnifier Settings"; ObjectID = "b1Z-FW-EwQ"; */
+"b1Z-FW-EwQ.title" = "돋보기 설정";
+
+/* Class = "NSMenuItem"; title = "Night Mode Settings"; ObjectID = "bNX-LY-aa2"; */
+"bNX-LY-aa2.title" = "야간 모드 설정";
+
+/* Class = "NSMenuItem"; title = "Always Show MorphicBar at Start"; ObjectID = "cGf-Qp-TV9"; */
+"cGf-Qp-TV9.title" = "시작 시 항상 MorphicBar 표시";
+
+/* Class = "NSMenu"; title = "More settings to make the computer easier"; ObjectID = "cly-1W-5Qg"; */
+"cly-1W-5Qg.title" = "컴퓨터를 더 쉽게 만들기 위한 추가 설정";
+
+/* Class = "NSMenuItem"; title = "Quick Morphic demo movies..."; ObjectID = "d81-k0-YBn"; */
+"d81-k0-YBn.title" = "빠른 Morphic 데모 영화...";
+
+/* Class = "NSMenuItem"; title = "macOS Settings for MorphicBar Controls "; ObjectID = "eF3-hP-q65"; */
+"eF3-hP-q65.title" = "MorphicBar 컨트롤을 위한 macOS 설정 ";
+
+/* Class = "NSMenuItem"; title = "Sign out of Morphic"; ObjectID = "fdS-ef-rqr"; */
+"fdS-ef-rqr.title" = "Morphic에서 로그아웃";
+
+/* Class = "NSMenuItem"; title = "Hide MorphicBar"; ObjectID = "gOm-Gw-nLp"; */
+"gOm-Gw-nLp.title" = "MorphicBar 숨기기";
+
+/* Class = "NSMenuItem"; title = "Other resources to make computers easier..."; ObjectID = "gkK-R4-V6Q"; */
+"gkK-R4-V6Q.title" = "컴퓨터를 더 쉽게 만드는 기타 리소스...";
+
+/* Class = "NSMenu"; title = "Switch MorphicBar"; ObjectID = "l0C-IM-POV"; */
+"l0C-IM-POV.title" = "MorphicBar 바꾸다";
+
+/* Class = "NSMenuItem"; title = "About Morphic..."; ObjectID = "m2n-v5-G3Y"; */
+"m2n-v5-G3Y.title" = "Morphic에 대해서...";
+
+/* Class = "NSMenuItem"; title = "Direct Actions"; ObjectID = "n0r-so-Bno"; */
+"n0r-so-Bno.title" = "직접 행동";
+
+/* Class = "NSMenuItem"; title = "Language"; ObjectID = "opf-Uy-dBe"; */
+"opf-Uy-dBe.title" = "언어";
+
+/* Class = "NSMenuItem"; title = "More settings to make the computer easier"; ObjectID = "pDn-p9-kW7"; */
+"pDn-p9-kW7.title" = "컴퓨터를 더 쉽게 만들기 위한 추가 설정";
+
+/* Class = "NSMenuItem"; title = "How to copy setups between computers..."; ObjectID = "pnf-1u-KLS"; */
+"pnf-1u-KLS.title" = "컴퓨터 간에 설정을 복사하는 방법...";
+
+/* Class = "NSMenuItem"; title = "Switch MorphicBar"; ObjectID = "qcc-Q2-sYr"; */
+"qcc-Q2-sYr.title" = "MorphicBar 바꾸다";
+
+/* Class = "NSMenuItem"; title = "Hide QuickHelp"; ObjectID = "v0X-Ch-Q5h"; */
+"v0X-Ch-Q5h.title" = "QuickHelp 숨기기";
+
+/* Class = "NSMenuItem"; title = "Other Key macOS Settings"; ObjectID = "vMO-xL-Bfp"; */
+"vMO-xL-Bfp.title" = "기타 주요 macOS 설정";
+
+/* Class = "NSMenuItem"; title = "Read Aloud Settings"; ObjectID = "yVb-9e-9TN"; */
+"yVb-9e-9TN.title" = "소리내어 읽기 설정";

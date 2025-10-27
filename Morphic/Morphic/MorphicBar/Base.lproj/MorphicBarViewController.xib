@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19162" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="23504" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19162"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="23504"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -32,18 +32,14 @@
                         <subviews>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="ead-JY-BhL" customClass="LogoButton" customModule="Morphic" customModuleProvider="target">
                                 <rect key="frame" x="75" y="63" width="44" height="44"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="morphic-logo-light" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="EUh-y7-yAB">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="44" id="Zbh-CS-oIG"/>
                                     <constraint firstAttribute="height" constant="44" id="nDa-bv-gGW"/>
                                 </constraints>
-                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Icon" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="EUh-y7-yAB">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="helpTitle" value="Advanced Features" localized="YES"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="helpMessage" value="Customize buttons and take your settings with you anywhere" localized="YES"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="showMainMenu:" target="-2" id="ZqU-v5-d0Q"/>
                                 </connections>
@@ -57,14 +53,14 @@
                             </customView>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yBa-lK-zMh" customClass="CloseButton" customModule="Morphic" customModuleProvider="target">
                                 <rect key="frame" x="102" y="95" width="24" height="19"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="19" placeholder="YES" id="POe-qG-uPS"/>
-                                    <constraint firstAttribute="width" constant="24" placeholder="YES" id="vNR-n9-BtF"/>
-                                </constraints>
                                 <buttonCell key="cell" type="square" title="X" bezelStyle="shadowlessSquare" alignment="center" imageScaling="proportionallyDown" inset="2" id="Se6-o3-3Hu">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" placeholder="YES" id="POe-qG-uPS"/>
+                                    <constraint firstAttribute="width" constant="24" placeholder="YES" id="vNR-n9-BtF"/>
+                                </constraints>
                                 <connections>
                                     <action selector="closeButtonPressed:" target="-2" id="cjb-aB-mNw"/>
                                 </connections>
@@ -148,6 +144,6 @@
     <resources>
         <image name="ExpandLeft" width="42" height="42"/>
         <image name="ExpandRight" width="42" height="42"/>
-        <image name="Icon" width="512" height="512"/>
+        <image name="morphic-logo-light" width="113" height="148"/>
     </resources>
 </document>

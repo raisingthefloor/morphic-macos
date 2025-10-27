@@ -1,0 +1,29 @@
+/* Class = "NSTextFieldCell"; title = "v1.0.0"; ObjectID = "9S3-gn-gtO"; */
+"9S3-gn-gtO.title" = "આ સંસ્કરણ v1.0.0 છે";
+
+/* Class = "NSWindow"; title = "Morphic Update"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Morphic અપડેટ";
+
+/* Class = "NSButtonCell"; title = "Remind Me Later"; ObjectID = "J0i-qq-vls"; */
+"J0i-qq-vls.title" = "મને પછીથી યાદ કરાવો";
+
+/* Class = "NSTextFieldCell"; title = "v1.0.0"; ObjectID = "J6s-Ba-9sH"; */
+"J6s-Ba-9sH.title" = "v1.0.0";
+
+/* Class = "NSTextFieldCell"; title = "Updated version:"; ObjectID = "JDY-Qz-ATj"; */
+"JDY-Qz-ATj.title" = "અપડેટ કરેલ સંસ્કરણ:";
+
+/* Class = "NSButtonCell"; title = "Download Now"; ObjectID = "NAn-pI-mX2"; */
+"NAn-pI-mX2.title" = "હવે ડાઉનલોડ કરો";
+
+/* Class = "NSButtonCell"; title = "Cancel Download"; ObjectID = "NCB-1q-L6Z"; */
+"NCB-1q-L6Z.title" = "ડાઉનલોડ રદ કરો";
+
+/* Class = "NSTextFieldCell"; title = "Current version:"; ObjectID = "RD3-cL-AIO"; */
+"RD3-cL-AIO.title" = "વર્તમાન સંસ્કરણ:";
+
+/* Class = "NSTextFieldCell"; title = "A new version of Morphic is available!"; ObjectID = "ad4-OA-jYG"; */
+"ad4-OA-jYG.title" = "Morphic નું નવું સંસ્કરણ ઉપલબ્ધ છે!";
+
+/* Class = "NSTextFieldCell"; title = "Would you like to download the update now?"; ObjectID = "hT9-mK-bh5"; */
+"hT9-mK-bh5.title" = "શું તમે હમણાં અપડેટ ડાઉનલોડ કરવા માંગો છો?";

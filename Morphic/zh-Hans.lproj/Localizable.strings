@@ -1,0 +1,407 @@
+/* Label for the buttons that control text/icon size */
+"control.feature.resolution.title" = "字体大小";
+
+/* Label for the button that increases the text/icon size */
+"control.feature.resolution.bigger" = "+";
+
+/* Text for VoiceOver for the larger text/icon size button */
+"control.feature.resolution.bigger.tts" = "增大文字";
+
+/* Title for the help window for the larger text/icon size button */
+"control.feature.resolution.bigger.help.title" = "增大全部字体";
+
+/* Message for the help window for the larger text/icon size button */
+"control.feature.resolution.bigger.help.message" = "使屏幕上的全部内容变更大";
+
+/* Title for the help window for the larger text/icon size button when at its limit */
+"control.feature.resolution.bigger.limit.help.title" = "文本大小不能再增加";
+
+/* Message for the help window for the larger text/icon size button when at its limit */
+"control.feature.resolution.bigger.limit.help.message" = "";
+
+/* Label for the button that decreases the text/icon size */
+"control.feature.resolution.smaller" = "\U2013";
+
+/* Text for VoiceOver for the smaller text/icon size button */
+"control.feature.resolution.smaller.tts" = "缩小文字大小";
+
+/* Title for the help window for the smaller text/icon size button */
+"control.feature.resolution.smaller.help.title" = "缩小所有文字大小";
+
+/* Message for the help window for the smaller text/icon size button */
+"control.feature.resolution.smaller.help.message" = "使屏幕上的全部内容变小";
+
+/* Title for the help window for the smaller text/icon size button when at its limit */
+"control.feature.resolution.smaller.limit.help.title" = "文本大小不能再缩小";
+
+/* Message for the help window for the smaller text/icon size button when at its limit */
+"control.feature.resolution.smaller.limit.help.message" = "";
+
+/* Label for the buttons that control the magnifier */
+"control.feature.magnifier.title" = "放大镜";
+
+/* Label for the button that shows the magnifier */
+"control.feature.magnifier.show" = "显示";
+
+/* Text for VoiceOver for the show magnifier button */
+"control.feature.magnifier.show.tts" = "显示屏幕放大器";
+
+/* Title for the help window for the show magnifier button */
+"control.feature.magnifier.show.help.title" = "打开屏幕放大器";
+
+/* Message for the help window for the show magnifier button */
+"control.feature.magnifier.show.help.message" = "放大镜会跟随您的鼠标。鼠标可以点击框内内容";
+
+/* Label for the button that hides the magnifier */
+"control.feature.magnifier.hide" = "隐藏";
+
+/* Text for VoiceOver for the hide magnifier button */
+"control.feature.magnifier.hide.tts" = "隐藏屏幕放大器";
+
+/* Title for the help window for the hide magnifier button */
+"control.feature.magnifier.hide.help.title" = "关闭屏幕放大器";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.magnifier.hide.help.message" = "要更改屏幕放大器设置，请右键单击按钮。";
+
+/* Label for the button that shows the magnifier */
+"control.feature.magnifier.on" = "开启";
+
+/* Title for the help window for the show ("on") magnifier button */
+"control.feature.magnifier.on.help.title" = "开启屏幕放大器";
+
+/* Message for the help window for the show ("on") magnifier button */
+"control.feature.magnifier.on.help.message" = "放大鼠标附近区域";
+
+/* Label for the button that hides the magnifier */
+"control.feature.magnifier.off" = "关闭";
+
+/* Title for the help window for the hide ("off") magnifier button */
+"control.feature.magnifier.off.help.title" = "关闭屏幕放大器";
+
+/* Message for the help window for the hide ("off") magnifier button */
+"control.feature.magnifier.off.help.message" = "";
+
+/* Label for the buttons that control the reader */
+"control.feature.reader.title" = "屏幕阅读器";
+
+/* Label for the button that turns the reader on */
+"control.feature.reader.on" = "开启";
+
+/* Title for the help window for the screen reader button */
+"control.feature.reader.on.help.title" = "启用屏幕阅读器";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.reader.on.help.message" = "让电脑大声朗读文本";
+
+/* Label for the button that turns the reader off */
+"control.feature.reader.off" = "关闭";
+
+/* Title for the help window for the hide magnifier button */
+"control.feature.reader.off.help.title" = "关闭屏幕阅读器";
+
+/* Message for the help window for the hide magnifier button */
+"control.feature.reader.off.help.message" = "停止电脑大声朗读文本";
+
+/* Label for the buttons that control the volume */
+"control.feature.volume.title" = "音量";
+
+/* Label for the button that turns the volume up */
+"control.feature.volume.up" = "+";
+
+/* Title for the help window for the volume up button */
+"control.feature.volume.up.help.title" = "增大音量";
+
+/* Message for the help window for the volume up button */
+"control.feature.volume.up.help.message" = "增大全局音量";
+
+/* Title for the help window for the volume up button at its limit */
+"control.feature.volume.up.limit.help.title" = "音量已到最大";
+
+/* Message for the help window for the volume up button at its limit */
+"control.feature.volume.up.limit.help.message" = "";
+
+/* Title for the help window for the volume up button when muted */
+"control.feature.volume.up.muted.help.title" = "取消静音";
+
+/* Message for the help window for the volume up button when muted */
+"control.feature.volume.up.muted.help.message" = "关闭静音 - 允许您的电脑再次发出声音。";
+
+/* Label for the button that turns the volume down */
+"control.feature.volume.down" = "\U2013";
+
+/* Title for the help window for the volume down button */
+"control.feature.volume.down.help.title" = "减小音量";
+
+/* Message for the help window for the volume down button */
+"control.feature.volume.down.help.message" = "减小全局音量";
+
+/* Title for the help window for the volume down button at its limit */
+"control.feature.volume.down.limit.help.title" = "音量已到最小";
+
+/* Message for the help window for the volume down button at its limit */
+"control.feature.volume.down.limit.help.message" = "";
+
+/* Title for the help window for the volume down button at its limit */
+"control.feature.volume.down.muted.help.title" = "取消静音";
+
+/* Message for the help window for the volume down button at its limit */
+"control.feature.volume.down.muted.help.message" = "关闭静音 - 允许您的电脑再次发出声音。";
+
+/* Label for the button that mutes the volume */
+"control.feature.volume.mute" = "静音";
+
+/* Text for VoiceOver for the button that unmutes the volume */
+"control.feature.volume.mute.tts.muted" = "取消全局静音";
+
+/* Text for VoiceOver for the button that mutes the volume */
+"control.feature.volume.mute.tts.unmuted" = "全局静音";
+
+/* Title for the help window for the mute button */
+"control.feature.volume.mute.help.title" = "静音您计算机上的所有声音";
+
+/* Message for the help window for the mute button */
+"control.feature.volume.mute.help.message" = "静音扬声器 - 但不要静音您的麦克风。";
+
+/* Title for the help window for the mute button when muted */
+"control.feature.volume.muted.help.title" = "取消静音";
+
+/* Message for the help window for the mute button when muted */
+"control.feature.volume.muted.help.message" = "关闭静音 - 允许您的电脑再次发出声音";
+
+/* Label for the buttons that control the contrast */
+"control.feature.contrast.title" = "高对比度模式";
+
+/* Label for the button that turns high contrast on */
+"control.feature.contrast.on" = "开启";
+
+/* Title for the help window for the high contrast button */
+"control.feature.contrast.on.help.title" = "启用高对比度模式";
+
+/* Message for the help window for the high contrast button */
+"control.feature.contrast.on.help.message" = "使阅读对一些人来说更加容易";
+
+/* Label for the button that turns high contrast off */
+"control.feature.contrast.off" = "停用";
+
+/* Title for the help window for the high contrast button */
+"control.feature.contrast.off.help.title" = "停用高对比度模式";
+
+/* Message for the help window for the high contrast button */
+"control.feature.contrast.off.help.message" = "";
+
+/* Label for the buttons that play/stop 'read selected text' */
+"control.feature.readselected.title" = "读取所选内容";
+
+/* Label for the button that plays/stops 'read selected text' */
+"control.feature.readselected.playstop" = "\U25B6 / \U25A0";
+
+/* Text for VoiceOver for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.tts" = "读取所选文本 - 开始和停止";
+
+/* Title for the help window for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.help.title" = "读取选中的文本";
+
+/* Message for the help window for the play/stop 'read selected text' button */
+"control.feature.readselected.playstop.help.message" = "选择要朗读的文本。然后点击播放/停止按钮。朗读控制将会弹出。";
+
+/* Label for the buttons that control night mode */
+"control.feature.nightshift.title" = "夜间模式";
+
+/* Label for the button that turns night mode on */
+"control.feature.nightshift.on" = "开启";
+
+/* Title for the help window for the 'turn on night mode' button */
+"control.feature.nightshift.on.help.title" = "启用夜间模式";
+
+/* Message for the help window for the 'turn on night mode' button */
+"control.feature.nightshift.on.help.message" = "调暖屏幕颜色以减少眼睛疲劳，有助于更容易入睡。";
+
+/* Label for the button that turns night mode off */
+"control.feature.nightshift.off" = "关闭";
+
+/* Title for the help window for the 'turn off night mode' button */
+"control.feature.nightshift.off.help.title" = "关闭夜间模式";
+
+/* Message for the help window for the 'turn off night mode' button */
+"control.feature.nightshift.off.help.message" = "";
+
+/* Label for the buttons that copy and paste */
+"control.feature.copypaste.title" = "复制并粘贴";
+
+/* Label for the button that copies the selection */
+"control.feature.copypaste.copy" = "复制";
+
+/* Title for the help window for the copy button */
+"control.feature.copypaste.copy.help.title" = "复制所选内容";
+
+/* Message for the help window for the copy button */
+"control.feature.copypaste.copy.help.message" = "复制您选择的文本或其他内容，以便您可以粘贴到其他位置。";
+
+/* Label for the button that pastes the selection */
+"control.feature.copypaste.paste" = "粘贴";
+
+/* Title for the help window for the paste button */
+"control.feature.copypaste.paste.help.title" = "粘贴您已复制的内容";
+
+/* Message for the help window for the paste button */
+"control.feature.copypaste.paste.help.message" = "在光标处插入复制的内容。";
+
+/* Label for the buttons that activate screen snip */
+"control.feature.screensnip.title" = "截屏";
+
+/* Label for the button that activates screen snip */
+"control.feature.screensnip.copy" = "复制";
+
+/* Text for VoiceOver for the screen snip button */
+"control.feature.screensnip.copy.tts" = "截取屏幕的部分内容";
+
+/* Title for the help window for the screen snip button */
+"control.feature.screensnip.copy.help.title" = "捕捉屏幕选定部分的截图。";
+
+/* Message for the help window for the screen snip button */
+"control.feature.screensnip.copy.help.message" = "点击复制，然后点击并拖动鼠标截取屏幕。粘贴到任何文档中。";
+
+/* Label for the buttons that control the color vision */
+"control.feature.colorvision.title" = "彩色视觉";
+
+/* Label for the button that shows the color vision */
+"control.feature.colorvision.on" = "开启";
+
+/* Title for the help window for the show ("on") color vision button */
+"control.feature.colorvision.on.help.title" = "开启彩色视觉";
+
+/* Message for the help window for the show ("on") color vision button */
+"control.feature.colorvision.on.help.message" = "更改颜色以适应颜色失明。(右键单击选择类型)";
+
+/* Label for the button that hides the color vision */
+"control.feature.colorvision.off" = "停用";
+
+/* Title for the help window for the hide ("off") color vision button */
+"control.feature.colorvision.off.help.title" = "停用彩色视觉";
+
+/* Message for the help window for the hide ("off") color vision button */
+"control.feature.colorvision.off.help.message" = "更改颜色以适应颜色失明。(右键单击选择类型)";
+
+/* Label for the buttons that toggle contrast, color, dark and night */
+"control.feature.contrastcolordarknight.title" = "对比度与颜色";
+
+/* Label for the button that toggles high contrast */
+"control.feature.contrastcolordarknight.contrast" = "对比度";
+
+/* Text for VoiceOver for the contrast button */
+"control.feature.contrastcolordarknight.contrast.tts" = "对比度模式开启，关闭";
+
+/* Text for VoiceOver for the contrast button when the feature is enabled */
+"control.feature.contrastcolordarknight.contrast.tts.enabled" = "停用对比度模式";
+
+/* Text for VoiceOver for the contrast button when the feature is disabled */
+"control.feature.contrastcolordarknight.contrast.tts.disabled" = "启用对比度模式";
+
+/* Title for the help window for the contrast button */
+"control.feature.contrastcolordarknight.contrast.help.title" = "打开或关闭对比度模式";
+
+/* Message for the help window for the contrast button */
+"control.feature.contrastcolordarknight.contrast.help.message" = "可以通过右键单击按钮，更改设置，让屏幕更容易阅读。";
+
+/* Label for the button that toggles color filters */
+"control.feature.contrastcolordarknight.color" = "色彩";
+
+/* Text for VoiceOver for the color filters button */
+"control.feature.contrastcolordarknight.color.tts" = "彩色视觉开启，关闭";
+
+/* Text for VoiceOver for the color filters button when the feature is enabled */
+"control.feature.contrastcolordarknight.color.tts.enabled" = "停用彩色视觉";
+
+/* Text for VoiceOver for the color filters button when the feature is disabled */
+"control.feature.contrastcolordarknight.color.tts.disabled" = "开启彩色视觉";
+
+/* Title for the help window for the color filters button */
+"control.feature.contrastcolordarknight.color.help.title" = "开启或关闭色盲辅助滤镜";
+
+/* Message for the help window for the color filters button */
+"control.feature.contrastcolordarknight.color.help.message" = "可以通过右键点击按钮，选择类型，调整颜色以适应色彩视觉。";
+
+/* Label for the button that toggles dark appearance */
+"control.feature.contrastcolordarknight.dark" = "深色";
+
+/* Text for VoiceOver for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.tts" = "开启或关闭深色模式";
+
+/* Text for VoiceOver for the dark appearance button when the feature is enabled */
+"control.feature.contrastcolordarknight.dark.tts.enabled" = "关闭深色模式";
+
+/* Text for VoiceOver for the dark appearance button when the feature is disabled */
+"control.feature.contrastcolordarknight.dark.tts.disabled" = "开启深色模式";
+
+/* Title for the help window for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.help.title" = "开启或关闭深色模式";
+
+/* Message for the help window for the dark appearance button */
+"control.feature.contrastcolordarknight.dark.help.message" = "要更改设置，请右键单击按钮。";
+
+/* Label for the button that toggles night shift */
+"control.feature.contrastcolordarknight.night" = "夜间";
+
+/* Text for VoiceOver for the night shift button */
+"control.feature.contrastcolordarknight.night.tts" = "开启或关闭深色模式";
+
+/* Text for VoiceOver for the night shift button when the feature is enabled */
+"control.feature.contrastcolordarknight.night.tts.enabled" = "关闭夜间模式";
+
+/* Text for VoiceOver for the night shift button when the feature is disabled */
+"control.feature.contrastcolordarknight.night.tts.disabled" = "启用夜间模式";
+
+/* Title for the help window for the night shift button */
+"control.feature.contrastcolordarknight.night.help.title" = "开启或关闭夜间模式";
+
+/* Message for the help window for the night shift button */
+"control.feature.contrastcolordarknight.night.help.message" = "帮助降低眼睛疲劳并使夜间入睡更容易。";
+
+/* Label for the buttons that control the dark mode */
+"control.feature.darkmode.title" = "深色模式";
+
+/* Label for the button that shows the dark mode */
+"control.feature.darkmode.on" = "开启";
+
+/* Title for the help window for the show ("on") dark mode button */
+"control.feature.darkmode.on.help.title" = "开启深色模式";
+
+/* Message for the help window for the show ("on") dark mode button */
+"control.feature.darkmode.on.help.message" = "打开深色模式。(右键点击进行调整。)";
+
+/* Label for the button that hides the dark mode */
+"control.feature.darkmode.off" = "停用";
+
+/* Title for the help window for the hide ("off") dark mode button */
+"control.feature.darkmode.off.help.title" = "停用深色模式";
+
+/* Message for the help window for the hide ("off") dark mode button */
+"control.feature.darkmode.off.help.message" = "停用深色模式。(右键点击进行调整。)";
+
+/* Label for the buttons that open/eject usb drives */
+"control.feature.usbdrives.title" = "USB驱动盘(全部)";
+
+/* Label for the button that opens all usb drives */
+"control.feature.usbdrives.open" = "打开";
+
+/* Title for the help window for the "open usb drives" button */
+"control.feature.usbdrives.open.help.title" = "打开所有 USB 驱动盘";
+
+/* Message for the help window for the "open usb drives" button */
+"control.feature.usbdrives.open.help.message" = "打开并显示所有插入计算机的 USB 驱动盘文件。";
+
+/* Label for the button that safely ejects all usb drives */
+"control.feature.usbdrives.eject" = "弹出";
+
+/* Title for the help window for the "eject usb drives" button" */
+"control.feature.usbdrives.eject.help.title" = "弹出所有 USB 驱动盘";
+
+/* Message for the help window for the "eject usb drives" button */
+"control.feature.usbdrives.eject.help.message" = "安全弹出所有插入此计算机的USB驱动盘。";
+
+/* Title for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.title" = "高级功能";
+
+/* Message for the help window for the MorphicBar Morphie menu button */
+"morphicbar.menubutton.message" = "自定义按钮并随身携带您的设置";

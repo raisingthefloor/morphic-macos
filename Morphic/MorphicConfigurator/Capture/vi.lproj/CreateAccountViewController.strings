@@ -1,0 +1,35 @@
+/* Class = "NSTextFieldCell"; title = "Passwords do not match"; ObjectID = "58Z-gZ-ndK"; */
+"58Z-gZ-ndK.title" = "Mật khẩu không trùng khớp";
+
+/* Class = "NSTextFieldCell"; title = "Choose a Password"; ObjectID = "EQS-hT-wQJ"; */
+"EQS-hT-wQJ.title" = "Chọn một mật khẩu";
+
+/* Class = "NSTextFieldCell"; title = "Confirm Password"; ObjectID = "IdK-z5-PRU"; */
+"IdK-z5-PRU.title" = "Xác nhận lại mật khẩu";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "JcH-TK-ce1"; */
+"JcH-TK-ce1.title" = "Hộp";
+
+/* Class = "NSButtonCell"; title = "Create Account"; ObjectID = "LAQ-6m-MiI"; */
+"LAQ-6m-MiI.title" = "Tạo tài khoản";
+
+/* Class = "NSTextFieldCell"; title = "Privacy Policy"; ObjectID = "RFe-9o-yTd"; */
+"RFe-9o-yTd.title" = "Chính sách bảo mật";
+
+/* Class = "NSTextFieldCell"; title = "Take your settings with you"; ObjectID = "ROd-nn-QUo"; */
+"ROd-nn-QUo.title" = "Mang theo các cài đặt của bạn";
+
+/* Class = "NSTextFieldCell"; title = "and"; ObjectID = "UQ6-OE-6Lq"; */
+"UQ6-OE-6Lq.title" = "và";
+
+/* Class = "NSTextFieldCell"; title = "By signing up for Morphic you are agreeing to the"; ObjectID = "bmz-hl-Zz8"; */
+"bmz-hl-Zz8.title" = "Bằng cách đăng ký Morphic, bạn đồng ý với";
+
+/* Class = "NSTextFieldCell"; title = "Your Email Address"; ObjectID = "g3O-a3-XMK"; */
+"g3O-a3-XMK.title" = "Địa chỉ Email của bạn";
+
+/* Class = "NSTextFieldCell"; title = "You'll need to create an account so we can remember your settings and securely apply them to another computer"; ObjectID = "tsS-sY-hOc"; */
+"tsS-sY-hOc.title" = "Bạn cần tạo một tài khoản để chúng tôi có thể ghi nhớ cài đặt của bạn và áp dụng chúng một cách an toàn cho máy tính khác";
+
+/* Class = "NSTextFieldCell"; title = "Terms of Use"; ObjectID = "uUD-sM-Nxd"; */
+"uUD-sM-Nxd.title" = "Điều khoản sử dụng";
