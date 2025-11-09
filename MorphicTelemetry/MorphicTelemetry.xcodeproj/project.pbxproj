@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D31A9F526BC83A50064242F /* MQTTNIO in Frameworks */ = {isa = PBXBuildFile; productRef = 9D31A9F426BC83A50064242F /* MQTTNIO */; };
 		9D3B9ED226BC7AAA00C9F174 /* MorphicTelemetry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D3B9ED026BC7AAA00C9F174 /* MorphicTelemetry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D3B9EDA26BC7BD500C9F174 /* MorphicCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3B9ED926BC7BD500C9F174 /* MorphicCore.framework */; };
 		9D3B9EDB26BC7BD500C9F174 /* MorphicCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3B9ED926BC7BD500C9F174 /* MorphicCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D3B9EE426BC7CE700C9F174 /* MorphicTelemetryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B9EE326BC7CE700C9F174 /* MorphicTelemetryClient.swift */; };
+		9DC4296E2EC0461000654B02 /* MQTTNIO in Frameworks */ = {isa = PBXBuildFile; productRef = 9DC4296D2EC0461000654B02 /* MQTTNIO */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,7 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D3B9EDA26BC7BD500C9F174 /* MorphicCore.framework in Frameworks */,
-				9D31A9F526BC83A50064242F /* MQTTNIO in Frameworks */,
+				9DC4296E2EC0461000654B02 /* MQTTNIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 			);
 			name = MorphicTelemetry;
 			packageProductDependencies = (
-				9D31A9F426BC83A50064242F /* MQTTNIO */,
+				9DC4296D2EC0461000654B02 /* MQTTNIO */,
 			);
 			productName = MorphicTelemetry;
 			productReference = 9D3B9ECD26BC7AAA00C9F174 /* MorphicTelemetry.framework */;
@@ -144,7 +144,7 @@
 			);
 			mainGroup = 9D3B9EC326BC7AAA00C9F174;
 			packageReferences = (
-				9D31A9F326BC83A50064242F /* XCRemoteSwiftPackageReference "mqtt-nio" */,
+				9DC4296C2EC0461000654B02 /* XCRemoteSwiftPackageReference "mqtt-nio" */,
 			);
 			productRefGroup = 9D3B9ECE26BC7AAA00C9F174 /* Products */;
 			projectDirPath = "";
@@ -379,20 +379,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9D31A9F326BC83A50064242F /* XCRemoteSwiftPackageReference "mqtt-nio" */ = {
+		9DC4296C2EC0461000654B02 /* XCRemoteSwiftPackageReference "mqtt-nio" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/adam-fowler/mqtt-nio";
+			repositoryURL = "https://github.com/swift-server-community/mqtt-nio";
 			requirement = {
 				kind = exactVersion;
-				version = 2.5.2;
+				version = 2.12.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9D31A9F426BC83A50064242F /* MQTTNIO */ = {
+		9DC4296D2EC0461000654B02 /* MQTTNIO */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9D31A9F326BC83A50064242F /* XCRemoteSwiftPackageReference "mqtt-nio" */;
+			package = 9DC4296C2EC0461000654B02 /* XCRemoteSwiftPackageReference "mqtt-nio" */;
 			productName = MQTTNIO;
 		};
 /* End XCSwiftPackageProductDependency section */
