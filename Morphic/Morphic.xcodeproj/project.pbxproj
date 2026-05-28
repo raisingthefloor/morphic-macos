@@ -3,623 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		3103974024B15DB600F5AA84 /* CustomCursorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3103973F24B15DB600F5AA84 /* CustomCursorButton.swift */; };
-		3103974424B1702800F5AA84 /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3103974324B1702800F5AA84 /* PageViewController.xib */; };
-		3130B0ED24A41CCF003864DD /* CaptureWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3130B0EC24A41CCF003864DD /* CaptureWindow.xib */; };
-		3130B0EF24A41E8D003864DD /* LoginWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130B0EE24A41E8D003864DD /* LoginWindowController.swift */; };
-		3130B0F124A41FA6003864DD /* CaptureWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130B0F024A41FA6003864DD /* CaptureWindowController.swift */; };
-		3130B0F524A42006003864DD /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130B0F424A42006003864DD /* PageViewController.swift */; };
-		3130B0F824A42020003864DD /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130B0F624A42020003864DD /* CaptureViewController.swift */; };
-		3130B0FC24A4202E003864DD /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130B0FA24A4202E003864DD /* CreateAccountViewController.swift */; };
-		3130B10024A42037003864DD /* DoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3130B0FE24A42037003864DD /* DoneViewController.swift */; };
-		314EB6DB24A697C300CF3D48 /* macos.solutions.json in Resources */ = {isa = PBXBuildFile; fileRef = 314EB6DA24A697C300CF3D48 /* macos.solutions.json */; };
-		316E681E24B28D8900FA09D5 /* macos.solutions.json in Resources */ = {isa = PBXBuildFile; fileRef = 314EB6DA24A697C300CF3D48 /* macos.solutions.json */; };
-		31751B0D2444DE8900EEDF14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31751B0C2444DE8900EEDF14 /* AppDelegate.swift */; };
-		31751B0F2444DE8B00EEDF14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31751B0E2444DE8B00EEDF14 /* Assets.xcassets */; };
-		31751B3C2444DFAA00EEDF14 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31751B3A2444DFAA00EEDF14 /* Main.xib */; };
-		31751B4A2444E04300EEDF14 /* MorphicCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B472444E04300EEDF14 /* MorphicCore.framework */; };
-		31751B4B2444E04300EEDF14 /* MorphicCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B472444E04300EEDF14 /* MorphicCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		31751B4C2444E04300EEDF14 /* MorphicService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B482444E04300EEDF14 /* MorphicService.framework */; };
-		31751B4D2444E04300EEDF14 /* MorphicService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B482444E04300EEDF14 /* MorphicService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		31751B4E2444E04300EEDF14 /* MorphicSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B492444E04300EEDF14 /* MorphicSettings.framework */; };
-		31751B4F2444E04300EEDF14 /* MorphicSettings.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B492444E04300EEDF14 /* MorphicSettings.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		31751B582444E0E300EEDF14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31751B572444E0E300EEDF14 /* AppDelegate.swift */; };
-		31751B5A2444E0E400EEDF14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31751B592444E0E400EEDF14 /* Assets.xcassets */; };
-		31751B5D2444E0E400EEDF14 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31751B5B2444E0E400EEDF14 /* MainMenu.xib */; };
-		31751B822444E11600EEDF14 /* Local.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 31751B7F2444E11500EEDF14 /* Local.xcconfig */; };
-		31751B832444E11600EEDF14 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 31751B802444E11600EEDF14 /* Release.xcconfig */; };
-		31751B842444E11600EEDF14 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 31751B812444E11600EEDF14 /* Debug.xcconfig */; };
-		31751B852444E15F00EEDF14 /* MorphicCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B472444E04300EEDF14 /* MorphicCore.framework */; };
-		31751B862444E15F00EEDF14 /* MorphicCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B472444E04300EEDF14 /* MorphicCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		31751B872444E15F00EEDF14 /* MorphicService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B482444E04300EEDF14 /* MorphicService.framework */; };
-		31751B882444E15F00EEDF14 /* MorphicService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B482444E04300EEDF14 /* MorphicService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		31751B892444E15F00EEDF14 /* MorphicSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B492444E04300EEDF14 /* MorphicSettings.framework */; };
-		31751B8A2444E15F00EEDF14 /* MorphicSettings.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B492444E04300EEDF14 /* MorphicSettings.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		31751B942444F06100EEDF14 /* MorphicConfigurator.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31751B552444E0E300EEDF14 /* MorphicConfigurator.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		31751B982444F21700EEDF14 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31751B972444F21700EEDF14 /* Session.swift */; };
-		31751B992444F21700EEDF14 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31751B972444F21700EEDF14 /* Session.swift */; };
-		31751B9E2444F22900EEDF14 /* MorphicBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31751B9B2444F22900EEDF14 /* MorphicBarViewController.swift */; };
-		31751B9F2444F22900EEDF14 /* MorphicBarWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31751B9C2444F22900EEDF14 /* MorphicBarWindow.swift */; };
-		31C12CB824B1174900B617A8 /* QuickHelpContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C12CB724B1174900B617A8 /* QuickHelpContentProvider.swift */; };
-		31C12CBB24B11F5A00B617A8 /* QuickHelpVolumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C12CB924B11F5A00B617A8 /* QuickHelpVolumeViewController.swift */; };
-		31C12CBC24B11F5A00B617A8 /* QuickHelpVolumeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C12CBA24B11F5A00B617A8 /* QuickHelpVolumeViewController.xib */; };
-		31C12CBE24B138D000B617A8 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C12CBD24B138D000B617A8 /* ProgressIndicator.swift */; };
-		31C12CC124B143A000B617A8 /* QuickHelpStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C12CBF24B143A000B617A8 /* QuickHelpStepViewController.swift */; };
-		31C12CC224B143A000B617A8 /* QuickHelpStepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C12CC024B143A000B617A8 /* QuickHelpStepViewController.xib */; };
-		31C12CC424B1441E00B617A8 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C12CC324B1441E00B617A8 /* PageControl.swift */; };
-		31CE56F3244A3CDB00A52A7B /* QuickHelpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE56F2244A3CDB00A52A7B /* QuickHelpWindow.swift */; };
-		31CE56F5244A407000A52A7B /* QuickHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31CE56F4244A407000A52A7B /* QuickHelpViewController.xib */; };
-		31CE56F7244A408000A52A7B /* QuickHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE56F6244A408000A52A7B /* QuickHelpViewController.swift */; };
-		31CE56F9244A428500A52A7B /* ShadowedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE56F8244A428500A52A7B /* ShadowedLabel.swift */; };
-		31E1E17B24466D28009C4092 /* MorphicBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1E17A24466D28009C4092 /* MorphicBarItem.swift */; };
-		31E1E17D24466E7C009C4092 /* MorphicBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1E17C24466E7C009C4092 /* MorphicBarView.swift */; };
-		31E1E17F24466EB0009C4092 /* MorphicBarItemViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1E17E24466EB0009C4092 /* MorphicBarItemViewProtocol.swift */; };
-		31E1E183244682C2009C4092 /* MorphicBarSegmentedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1E182244682C2009C4092 /* MorphicBarSegmentedButton.swift */; };
-		31E1E185244683DC009C4092 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1E184244683DC009C4092 /* Theme.swift */; };
-		31E1E187244792D9009C4092 /* DefaultPreferences.json in Resources */ = {isa = PBXBuildFile; fileRef = 31E1E186244792D9009C4092 /* DefaultPreferences.json */; };
-		9D194DE327041D7C00D4BC36 /* logo_msoutlook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DDD27041D7C00D4BC36 /* logo_msoutlook.pdf */; };
-		9D194DE427041D7C00D4BC36 /* logo_mspowerpoint.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DDE27041D7C00D4BC36 /* logo_mspowerpoint.pdf */; };
-		9D194DE527041D7C00D4BC36 /* logo_msonenote.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DDF27041D7C00D4BC36 /* logo_msonenote.pdf */; };
-		9D194DE627041D7C00D4BC36 /* logo_msword.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DE027041D7C00D4BC36 /* logo_msword.pdf */; };
-		9D194DE727041D7C00D4BC36 /* logo_msexcel.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DE127041D7C00D4BC36 /* logo_msexcel.pdf */; };
-		9D194DE827041D7C00D4BC36 /* logo_msteams.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D194DE227041D7C00D4BC36 /* logo_msteams.pdf */; };
-		9D1FA1CD251A317F0008559D /* MorphicLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9DD4F4D8251A2FC400ADCC25 /* MorphicLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9D1FA1CF251A31990008559D /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1FA1CE251A31990008559D /* ServiceManagement.framework */; };
-		9D2905A02E906F2800C78B6E /* MorphicBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D29059F2E906F2800C78B6E /* MorphicBarViewController.xib */; };
-		9D2A5AB8259B815800ECD513 /* ConfigurableFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2A5AB7259B815800ECD513 /* ConfigurableFeatures.swift */; };
-		9D2A5AC1259B914800ECD513 /* MorphicBarSeparatorItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2A5AC0259B914800ECD513 /* MorphicBarSeparatorItemView.swift */; };
-		9D2C141425EC179500D66DAD /* envelope.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C141325EC179400D66DAD /* envelope.pdf */; };
-		9D2C141725EC191700D66DAD /* newspaper.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C141625EC191700D66DAD /* newspaper.pdf */; };
-		9D2C141E25EC1AD900D66DAD /* window_maximize.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C141D25EC1AD900D66DAD /* window_maximize.pdf */; };
-		9D2C142225EC1C1C00D66DAD /* favicon_foxNews.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C142125EC1C1C00D66DAD /* favicon_foxNews.pdf */; };
-		9D2C142525EC1C9F00D66DAD /* logo_skype.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C142425EC1C9F00D66DAD /* logo_skype.pdf */; };
-		9D2C142B25EC5CD600D66DAD /* logo_nextdoor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C142725EC5CD600D66DAD /* logo_nextdoor.pdf */; };
-		9D2C142C25EC5CD600D66DAD /* logo_twitter.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C142825EC5CD600D66DAD /* logo_twitter.pdf */; };
-		9D2C142D25EC5CD600D66DAD /* logo_pinterest.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C142925EC5CD600D66DAD /* logo_pinterest.pdf */; };
-		9D2C142E25EC5CD600D66DAD /* logo_facebook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C142A25EC5CD600D66DAD /* logo_facebook.pdf */; };
-		9D2C143225EC5DF300D66DAD /* logo_imgur.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C143125EC5DF300D66DAD /* logo_imgur.pdf */; };
-		9D2C143525EC5E0A00D66DAD /* logo_instagram.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C143425EC5E0A00D66DAD /* logo_instagram.pdf */; };
-		9D2C143825EC5E2200D66DAD /* logo_linkedIn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C143725EC5E2200D66DAD /* logo_linkedIn.pdf */; };
-		9D2C143B25EC5E3B00D66DAD /* logo_reddit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C143A25EC5E3B00D66DAD /* logo_reddit.pdf */; };
-		9D2C143E25EC5E5400D66DAD /* logo_tumblr.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C143D25EC5E5400D66DAD /* logo_tumblr.pdf */; };
-		9D2C144125EC60CA00D66DAD /* logo_aolOld.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C144025EC60CA00D66DAD /* logo_aolOld.pdf */; };
-		9D2C144425EC60CF00D66DAD /* logo_gmail.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C144325EC60CF00D66DAD /* logo_gmail.pdf */; };
-		9D2C144725EC60D300D66DAD /* logo_icloud.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C144625EC60D300D66DAD /* logo_icloud.pdf */; };
-		9D2C144A25EC60DA00D66DAD /* logo_outlook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C144925EC60DA00D66DAD /* logo_outlook.pdf */; };
-		9D2C144D25EC60DF00D66DAD /* logo_yahoomail.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C144C25EC60DF00D66DAD /* logo_yahoomail.pdf */; };
-		9D2C145025EC611B00D66DAD /* logo_mail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C144F25EC611B00D66DAD /* logo_mail.jpg */; };
-		9D2C145325EC664100D66DAD /* logo_cnn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C145225EC664100D66DAD /* logo_cnn.pdf */; };
-		9D2C145625EC668C00D66DAD /* logo_foxNews.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C145525EC668C00D66DAD /* logo_foxNews.pdf */; };
-		9D2C145925EC678200D66DAD /* logo_googleNews.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C145825EC678200D66DAD /* logo_googleNews.pdf */; };
-		9D2C145C25EC67BE00D66DAD /* logo_newYorkTimes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C145B25EC67BE00D66DAD /* logo_newYorkTimes.pdf */; };
-		9D2C146025EC680E00D66DAD /* logo_washingtonPost.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C145F25EC680E00D66DAD /* logo_washingtonPost.pdf */; };
-		9D2C146325EC686400D66DAD /* logo_yahoo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C146225EC686400D66DAD /* logo_yahoo.pdf */; };
-		9D2C146625EC68AF00D66DAD /* logo_box.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C146525EC68AF00D66DAD /* logo_box.pdf */; };
-		9D2C146925EC68F500D66DAD /* logo_dropbox.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C146825EC68F500D66DAD /* logo_dropbox.pdf */; };
-		9D2C146C25EC699C00D66DAD /* logo_googleDrive.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C146B25EC699C00D66DAD /* logo_googleDrive.pdf */; };
-		9D2C146F25EC69A500D66DAD /* logo_onedrive.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2C146E25EC69A500D66DAD /* logo_onedrive.pdf */; };
-		9D3530DD25C3101100F8D590 /* VersionUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3530DC25C3101100F8D590 /* VersionUtils.swift */; };
-		9D363E342798873200D52A98 /* LoginWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D363E362798873200D52A98 /* LoginWindow.xib */; };
-		9D363E3B2798875700D52A98 /* CaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D363E3D2798875700D52A98 /* CaptureViewController.xib */; };
-		9D363E422798876000D52A98 /* CreateAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D363E442798876000D52A98 /* CreateAccountViewController.xib */; };
-		9D363E492798876900D52A98 /* DoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D363E4B2798876900D52A98 /* DoneViewController.xib */; };
-		9D3A347E25ED4FD400C26902 /* logo_netflix.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A347D25ED4FD400C26902 /* logo_netflix.pdf */; };
-		9D3A348125ED515900C26902 /* logo_spotify.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A348025ED515900C26902 /* logo_spotify.pdf */; };
-		9D3A348525ED51D300C26902 /* logo_youtube.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A348425ED51D300C26902 /* logo_youtube.pdf */; };
-		9D3A348825ED523800C26902 /* logo_amazonMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A348725ED523800C26902 /* logo_amazonMusic.png */; };
-		9D3A348B25ED52E100C26902 /* logo_itunes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A348A25ED52E100C26902 /* logo_itunes.pdf */; };
-		9D3A348F25ED53EA00C26902 /* logo_deezer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A348E25ED53EA00C26902 /* logo_deezer.pdf */; };
-		9D3A349225ED545600C26902 /* logo_disneyPlus.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A349125ED545600C26902 /* logo_disneyPlus.pdf */; };
-		9D3A349525ED548900C26902 /* logo_hulu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A349425ED548900C26902 /* logo_hulu.pdf */; };
-		9D3A349825ED550000C26902 /* logo_iheartRadio.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A349725ED550000C26902 /* logo_iheartRadio.pdf */; };
-		9D3A349B25ED554000C26902 /* logo_soundcloud.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A349A25ED554000C26902 /* logo_soundcloud.pdf */; };
-		9D3A349E25ED559800C26902 /* logo_tidal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A349D25ED559800C26902 /* logo_tidal.png */; };
-		9D3A34A125ED566100C26902 /* logo_vimeo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34A025ED566100C26902 /* logo_vimeo.pdf */; };
-		9D3A34A425ED566C00C26902 /* logo_youtubeMusic.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34A325ED566C00C26902 /* logo_youtubeMusic.pdf */; };
-		9D3A34A725ED58FB00C26902 /* logo_amazon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34A625ED58FB00C26902 /* logo_amazon.pdf */; };
-		9D3A34AA25ED595900C26902 /* logo_craigslist.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34A925ED595900C26902 /* logo_craigslist.pdf */; };
-		9D3A34AD25ED59BB00C26902 /* logo_ebay.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34AC25ED59BB00C26902 /* logo_ebay.png */; };
-		9D3A34B025ED5A1D00C26902 /* logo_etsy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34AF25ED5A1D00C26902 /* logo_etsy.pdf */; };
-		9D3A34B325ED5A7500C26902 /* logo_bestBuy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34B225ED5A7500C26902 /* logo_bestBuy.pdf */; };
-		9D3A34B625ED5AD300C26902 /* logo_kohls.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34B525ED5AD300C26902 /* logo_kohls.pdf */; };
-		9D3A34B925ED5B1300C26902 /* logo_macys.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34B825ED5B1300C26902 /* logo_macys.pdf */; };
-		9D3A34BC25ED5B6D00C26902 /* logo_target.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34BB25ED5B6D00C26902 /* logo_target.pdf */; };
-		9D3A34BF25ED5BB900C26902 /* logo_walmart.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34BE25ED5BB900C26902 /* logo_walmart.pdf */; };
-		9D3A34C225ED5C2400C26902 /* logo_wayfair.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34C125ED5C2300C26902 /* logo_wayfair.png */; };
-		9D3A34C525ED5DB300C26902 /* logo_abcNews.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34C425ED5DB200C26902 /* logo_abcNews.pdf */; };
-		9D3A34C825ED65EB00C26902 /* logo_alJazeera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34C725ED65EB00C26902 /* logo_alJazeera.jpg */; };
-		9D3A34CB25ED679100C26902 /* logo_pandora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34CA25ED679100C26902 /* logo_pandora.jpg */; };
-		9D3A34CE25ED68E000C26902 /* logo_bbc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34CD25ED68E000C26902 /* logo_bbc.pdf */; };
-		9D3A34D125ED68EE00C26902 /* logo_bloomberg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34D025ED68EE00C26902 /* logo_bloomberg.pdf */; };
-		9D3A34D425ED696900C26902 /* logo_cbsNews.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34D325ED696900C26902 /* logo_cbsNews.pdf */; };
-		9D3A34D725ED697300C26902 /* logo_cnbc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34D625ED697300C26902 /* logo_cnbc.pdf */; };
-		9D3A34DA25ED69D500C26902 /* logo_drudgeReport.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34D925ED69D500C26902 /* logo_drudgeReport.pdf */; };
-		9D3A34DD25ED6A9D00C26902 /* logo_forbes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34DC25ED6A9D00C26902 /* logo_forbes.pdf */; };
-		9D3A34E025ED6AA700C26902 /* logo_huffpost.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34DF25ED6AA700C26902 /* logo_huffpost.pdf */; };
-		9D3A34E325ED6F5800C26902 /* logo_laTimes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34E225ED6F5800C26902 /* logo_laTimes.pdf */; };
-		9D3A34E625ED6FD800C26902 /* logo_nbcNews.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34E525ED6FD800C26902 /* logo_nbcNews.pdf */; };
-		9D3A34E925ED6FE200C26902 /* logo_npr.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34E825ED6FE200C26902 /* logo_npr.pdf */; };
-		9D3A34EC25ED707100C26902 /* logo_reuters.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34EB25ED707100C26902 /* logo_reuters.pdf */; };
-		9D3A34EF25ED707900C26902 /* logo_theGuardian.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34EE25ED707900C26902 /* logo_theGuardian.pdf */; };
-		9D3A34F225ED70F300C26902 /* logo_theHill.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34F125ED70F300C26902 /* logo_theHill.jpeg */; };
-		9D3A34F525ED716500C26902 /* logo_wsj.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34F425ED716400C26902 /* logo_wsj.pdf */; };
-		9D3A34F825ED720400C26902 /* logo_usaToday.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A34F725ED720400C26902 /* logo_usaToday.pdf */; };
-		9D3B9EDE26BC7BEB00C9F174 /* MorphicTelemetry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3B9EDD26BC7BEB00C9F174 /* MorphicTelemetry.framework */; };
-		9D3B9EDF26BC7BEB00C9F174 /* MorphicTelemetry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3B9EDD26BC7BEB00C9F174 /* MorphicTelemetry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9D49D4DD25BBA93B001DD452 /* Autoupdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49D4DC25BBA93B001DD452 /* Autoupdater.swift */; };
-		9D49D4F225BBAA00001DD452 /* UpdateAvailableWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49D4F025BBAA00001DD452 /* UpdateAvailableWindow.swift */; };
-		9D4B24E72517068200F0B2E2 /* SettingsLinkActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B24E62517068200F0B2E2 /* SettingsLinkActions.swift */; };
-		9D4D47C326CBFE2500AC6E3D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D47C526CBFE2500AC6E3D /* Localizable.strings */; };
-		9D53D8E92784A9B700A96576 /* HyperlinkTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53D8E82784A9B700A96576 /* HyperlinkTextField.swift */; };
-		9D53D8EA2784A9B700A96576 /* HyperlinkTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53D8E82784A9B700A96576 /* HyperlinkTextField.swift */; };
-		9D69161F2911B7EA002F3A21 /* MorphicMacOSNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D69161E2911B7EA002F3A21 /* MorphicMacOSNative.framework */; };
-		9D6916202911B7EA002F3A21 /* MorphicMacOSNative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D69161E2911B7EA002F3A21 /* MorphicMacOSNative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9D77209E252BF46A0020BCD6 /* MorphicImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D77209D252BF46A0020BCD6 /* MorphicImageUtils.swift */; };
-		9D82576E24D31C1E00F6E932 /* AboutBoxWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82576C24D31C1E00F6E932 /* AboutBoxWindowController.swift */; };
-		9D8CEB132507AECF001276E4 /* MorphicBarButtonItemIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8CEB122507AECF001276E4 /* MorphicBarButtonItemIcon.swift */; };
-		9D8CEB152507AED7001276E4 /* MorphicBarButtonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8CEB142507AED7001276E4 /* MorphicBarButtonItemView.swift */; };
-		9D8EB4EE2947AA2B006F2DDA /* MorphicUIAutomation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8EB4ED2947AA2B006F2DDA /* MorphicUIAutomation.framework */; };
-		9D8EB4EF2947AA2B006F2DDA /* MorphicUIAutomation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8EB4ED2947AA2B006F2DDA /* MorphicUIAutomation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9D94BB22262A046400BF4992 /* logo_opera.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D94BB21262A046400BF4992 /* logo_opera.pdf */; };
-		9D94BB25262A046A00BF4992 /* logo_firefox.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D94BB24262A046A00BF4992 /* logo_firefox.pdf */; };
-		9D94BB28262A047100BF4992 /* logo_chrome.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D94BB27262A047100BF4992 /* logo_chrome.pdf */; };
-		9DA46E7D25CA743B006BEAAC /* PermissionsGuidanceSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA46E7425CA743B006BEAAC /* PermissionsGuidanceSystem.swift */; };
-		9DA46E8125CA743B006BEAAC /* PermissionsSuccessWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA46E7625CA743B006BEAAC /* PermissionsSuccessWindowController.swift */; };
-		9DA46E8325CA743B006BEAAC /* PermissionsGuidanceWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA46E7725CA743B006BEAAC /* PermissionsGuidanceWindowController.swift */; };
-		9DB72E9D29B0452A007C3100 /* TelemetryClientProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB72E9C29B0452A007C3100 /* TelemetryClientProxy.swift */; };
-		9DC0D3FB25E5EAAC00E17D9E /* globe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC0D3FA25E5EAAC00E17D9E /* globe.pdf */; };
-		9DC0D3FE25E5F05800E17D9E /* calendar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC0D3FD25E5F05800E17D9E /* calendar.pdf */; };
-		9DC0D40525E5F1FF00E17D9E /* comments.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC0D40425E5F1FF00E17D9E /* comments.pdf */; };
-		9DC0D40825E5F2ED00E17D9E /* envelope_open_text.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC0D40725E5F2ED00E17D9E /* envelope_open_text.pdf */; };
-		9DC0D41525E5F5F200E17D9E /* envelope_open.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC0D41425E5F5F200E17D9E /* envelope_open.pdf */; };
-		9DC0D41825E5F6BF00E17D9E /* envelope_outline_open.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC0D41725E5F6BF00E17D9E /* envelope_outline_open.pdf */; };
-		9DC0D41B25E5F72100E17D9E /* envelope_outline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC0D41A25E5F72100E17D9E /* envelope_outline.pdf */; };
-		9DC66E4726294EB20049AAEC /* logo_msedge.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC66E4626294EB20049AAEC /* logo_msedge.pdf */; };
-		9DCF885D257AEF23001927C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF885C257AEF23001927C1 /* AppDelegate.swift */; };
-		9DCF885F257AEF23001927C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF885E257AEF23001927C1 /* Assets.xcassets */; };
-		9DCF8907257AF8F2001927C1 /*  Morphic .app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9DCF885A257AEF23001927C1 /*  Morphic .app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9DCF892E257AF9D8001927C1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF892D257AF9D8001927C1 /* main.swift */; };
-		9DCF89D2257B4133001927C1 /* MorphicSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B492444E04300EEDF14 /* MorphicSettings.framework */; };
-		9DCF89D3257B4133001927C1 /* MorphicSettings.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B492444E04300EEDF14 /* MorphicSettings.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9DCF89DB257B4668001927C1 /* MorphicCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B472444E04300EEDF14 /* MorphicCore.framework */; };
-		9DCF89DC257B4668001927C1 /* MorphicCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31751B472444E04300EEDF14 /* MorphicCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9DD4F4DB251A2FC400ADCC25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4F4DA251A2FC400ADCC25 /* AppDelegate.swift */; };
-		9DD4F4DD251A2FC500ADCC25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD4F4DC251A2FC500ADCC25 /* Assets.xcassets */; };
-		9DD4F4E0251A2FC500ADCC25 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD4F4DE251A2FC500ADCC25 /* MainMenu.xib */; };
-		9DDAE61025094C4F0072C711 /* MorphicBarSegmentedButtonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDAE60F25094C4F0072C711 /* MorphicBarSegmentedButtonItemView.swift */; };
-		9DE112E72522243200591E08 /* CopySettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE112E52522243100591E08 /* CopySettingsWindowController.swift */; };
-		9DFB6E012624B7E500AD39D1 /* logo_calculator.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB6E002624B7E500AD39D1 /* logo_calculator.pdf */; };
-		CEB8708F273369CF002E7601 /* AboutBoxWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB87091273369CF002E7601 /* AboutBoxWindowController.xib */; };
-		CEC23E6D2733870500E8D032 /* PermissionsSuccessWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC23E6F2733870500E8D032 /* PermissionsSuccessWindow.xib */; };
-		CEC23E742733870C00E8D032 /* PermissionsGuidanceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC23E762733870C00E8D032 /* PermissionsGuidanceWindow.xib */; };
-		CEC23E7B2733872700E8D032 /* UpdateAvailableWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC23E7D2733872700E8D032 /* UpdateAvailableWindow.xib */; };
-		CEC23E822733873400E8D032 /* CopySettingsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC23E842733873400E8D032 /* CopySettingsWindow.xib */; };
-		DF35CECA2541BCD200C3FF77 /* MorphicBarTrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF35CEC92541BCD200C3FF77 /* MorphicBarTrayView.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		31751B952444F0CA00EEDF14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 31751B012444DE8900EEDF14 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 31751B542444E0E300EEDF14;
-			remoteInfo = MorphicConfigurator;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		31751B502444E04300EEDF14 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				31751B4B2444E04300EEDF14 /* MorphicCore.framework in Embed Frameworks */,
-				9D6916202911B7EA002F3A21 /* MorphicMacOSNative.framework in Embed Frameworks */,
-				31751B4F2444E04300EEDF14 /* MorphicSettings.framework in Embed Frameworks */,
-				31751B4D2444E04300EEDF14 /* MorphicService.framework in Embed Frameworks */,
-				9D8EB4EF2947AA2B006F2DDA /* MorphicUIAutomation.framework in Embed Frameworks */,
-				9D3B9EDF26BC7BEB00C9F174 /* MorphicTelemetry.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31751B8B2444E15F00EEDF14 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				31751B862444E15F00EEDF14 /* MorphicCore.framework in Embed Frameworks */,
-				31751B8A2444E15F00EEDF14 /* MorphicSettings.framework in Embed Frameworks */,
-				31751B882444E15F00EEDF14 /* MorphicService.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31751B932444F03900EEDF14 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Contents/Library;
-			dstSubfolderSpec = 1;
-			files = (
-				31751B942444F06100EEDF14 /* MorphicConfigurator.app in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D1FA1CC251A315D0008559D /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Contents/Library/LoginItems;
-			dstSubfolderSpec = 1;
-			files = (
-				9D1FA1CD251A317F0008559D /* MorphicLauncher.app in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DCF8906257AF8DA001927C1 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Contents/Library;
-			dstSubfolderSpec = 1;
-			files = (
-				9DCF8907257AF8F2001927C1 /*  Morphic .app in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DCF89D4257B4133001927C1 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				9DCF89DC257B4668001927C1 /* MorphicCore.framework in Embed Frameworks */,
-				9DCF89D3257B4133001927C1 /* MorphicSettings.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		3103973F24B15DB600F5AA84 /* CustomCursorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCursorButton.swift; sourceTree = "<group>"; };
-		3103974324B1702800F5AA84 /* PageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageViewController.xib; sourceTree = "<group>"; };
-		3130B0EC24A41CCF003864DD /* CaptureWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CaptureWindow.xib; sourceTree = "<group>"; };
-		3130B0EE24A41E8D003864DD /* LoginWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWindowController.swift; sourceTree = "<group>"; };
-		3130B0F024A41FA6003864DD /* CaptureWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureWindowController.swift; sourceTree = "<group>"; };
-		3130B0F424A42006003864DD /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
-		3130B0F624A42020003864DD /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
-		3130B0FA24A4202E003864DD /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
-		3130B0FE24A42037003864DD /* DoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
-		314EB6DA24A697C300CF3D48 /* macos.solutions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = macos.solutions.json; sourceTree = "<group>"; };
-		31751B092444DE8900EEDF14 /* Morphic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morphic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		31751B0C2444DE8900EEDF14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31751B0E2444DE8B00EEDF14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		31751B132444DE8B00EEDF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31751B142444DE8B00EEDF14 /* MorphicDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MorphicDebug.entitlements; sourceTree = "<group>"; };
-		31751B3B2444DFAA00EEDF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Main.xib; sourceTree = "<group>"; };
-		31751B472444E04300EEDF14 /* MorphicCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MorphicCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31751B482444E04300EEDF14 /* MorphicService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MorphicService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31751B492444E04300EEDF14 /* MorphicSettings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MorphicSettings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31751B552444E0E300EEDF14 /* MorphicConfigurator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorphicConfigurator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		31751B572444E0E300EEDF14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31751B592444E0E400EEDF14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		31751B5C2444E0E400EEDF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		31751B5E2444E0E400EEDF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31751B5F2444E0E400EEDF14 /* MorphicConfiguratorDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MorphicConfiguratorDebug.entitlements; sourceTree = "<group>"; };
-		31751B7F2444E11500EEDF14 /* Local.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Local.xcconfig; sourceTree = "<group>"; };
-		31751B802444E11600EEDF14 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		31751B812444E11600EEDF14 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		31751B972444F21700EEDF14 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
-		31751B9B2444F22900EEDF14 /* MorphicBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorphicBarViewController.swift; sourceTree = "<group>"; };
-		31751B9C2444F22900EEDF14 /* MorphicBarWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorphicBarWindow.swift; sourceTree = "<group>"; };
-		318744F32481A2DA00AE3954 /* CreateDiskImage.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = CreateDiskImage.sh; sourceTree = "<group>"; };
-		31C12CB724B1174900B617A8 /* QuickHelpContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickHelpContentProvider.swift; sourceTree = "<group>"; };
-		31C12CB924B11F5A00B617A8 /* QuickHelpVolumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickHelpVolumeViewController.swift; sourceTree = "<group>"; };
-		31C12CBA24B11F5A00B617A8 /* QuickHelpVolumeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickHelpVolumeViewController.xib; sourceTree = "<group>"; };
-		31C12CBD24B138D000B617A8 /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
-		31C12CBF24B143A000B617A8 /* QuickHelpStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickHelpStepViewController.swift; sourceTree = "<group>"; };
-		31C12CC024B143A000B617A8 /* QuickHelpStepViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickHelpStepViewController.xib; sourceTree = "<group>"; };
-		31C12CC324B1441E00B617A8 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
-		31CE56F2244A3CDB00A52A7B /* QuickHelpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickHelpWindow.swift; sourceTree = "<group>"; };
-		31CE56F4244A407000A52A7B /* QuickHelpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickHelpViewController.xib; sourceTree = "<group>"; };
-		31CE56F6244A408000A52A7B /* QuickHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickHelpViewController.swift; sourceTree = "<group>"; };
-		31CE56F8244A428500A52A7B /* ShadowedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowedLabel.swift; sourceTree = "<group>"; };
-		31E1E17A24466D28009C4092 /* MorphicBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarItem.swift; sourceTree = "<group>"; };
-		31E1E17C24466E7C009C4092 /* MorphicBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarView.swift; sourceTree = "<group>"; };
-		31E1E17E24466EB0009C4092 /* MorphicBarItemViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarItemViewProtocol.swift; sourceTree = "<group>"; };
-		31E1E182244682C2009C4092 /* MorphicBarSegmentedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarSegmentedButton.swift; sourceTree = "<group>"; };
-		31E1E184244683DC009C4092 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		31E1E186244792D9009C4092 /* DefaultPreferences.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DefaultPreferences.json; sourceTree = "<group>"; };
-		9D194DDD27041D7C00D4BC36 /* logo_msoutlook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_msoutlook.pdf; sourceTree = "<group>"; };
-		9D194DDE27041D7C00D4BC36 /* logo_mspowerpoint.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_mspowerpoint.pdf; sourceTree = "<group>"; };
-		9D194DDF27041D7C00D4BC36 /* logo_msonenote.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_msonenote.pdf; sourceTree = "<group>"; };
-		9D194DE027041D7C00D4BC36 /* logo_msword.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_msword.pdf; sourceTree = "<group>"; };
-		9D194DE127041D7C00D4BC36 /* logo_msexcel.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_msexcel.pdf; sourceTree = "<group>"; };
-		9D194DE227041D7C00D4BC36 /* logo_msteams.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_msteams.pdf; sourceTree = "<group>"; };
-		9D1FA1CE251A31990008559D /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
-		9D2593F2250EA81000C38DA3 /* MorphicRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MorphicRelease.entitlements; sourceTree = "<group>"; };
-		9D2593F3250EA87E00C38DA3 /* MorphicConfiguratorRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MorphicConfiguratorRelease.entitlements; sourceTree = "<group>"; };
-		9D29059E2E906F2800C78B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MorphicBarViewController.xib; sourceTree = "<group>"; };
-		9D2A5AB7259B815800ECD513 /* ConfigurableFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableFeatures.swift; sourceTree = "<group>"; };
-		9D2A5AC0259B914800ECD513 /* MorphicBarSeparatorItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarSeparatorItemView.swift; sourceTree = "<group>"; };
-		9D2C141325EC179400D66DAD /* envelope.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = envelope.pdf; sourceTree = "<group>"; };
-		9D2C141625EC191700D66DAD /* newspaper.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = newspaper.pdf; sourceTree = "<group>"; };
-		9D2C141D25EC1AD900D66DAD /* window_maximize.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = window_maximize.pdf; sourceTree = "<group>"; };
-		9D2C142125EC1C1C00D66DAD /* favicon_foxNews.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = favicon_foxNews.pdf; sourceTree = "<group>"; };
-		9D2C142425EC1C9F00D66DAD /* logo_skype.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_skype.pdf; sourceTree = "<group>"; };
-		9D2C142725EC5CD600D66DAD /* logo_nextdoor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_nextdoor.pdf; sourceTree = "<group>"; };
-		9D2C142825EC5CD600D66DAD /* logo_twitter.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_twitter.pdf; sourceTree = "<group>"; };
-		9D2C142925EC5CD600D66DAD /* logo_pinterest.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_pinterest.pdf; sourceTree = "<group>"; };
-		9D2C142A25EC5CD600D66DAD /* logo_facebook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_facebook.pdf; sourceTree = "<group>"; };
-		9D2C143125EC5DF300D66DAD /* logo_imgur.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_imgur.pdf; sourceTree = "<group>"; };
-		9D2C143425EC5E0A00D66DAD /* logo_instagram.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_instagram.pdf; sourceTree = "<group>"; };
-		9D2C143725EC5E2200D66DAD /* logo_linkedIn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_linkedIn.pdf; sourceTree = "<group>"; };
-		9D2C143A25EC5E3B00D66DAD /* logo_reddit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_reddit.pdf; sourceTree = "<group>"; };
-		9D2C143D25EC5E5400D66DAD /* logo_tumblr.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_tumblr.pdf; sourceTree = "<group>"; };
-		9D2C144025EC60CA00D66DAD /* logo_aolOld.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_aolOld.pdf; sourceTree = "<group>"; };
-		9D2C144325EC60CF00D66DAD /* logo_gmail.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_gmail.pdf; sourceTree = "<group>"; };
-		9D2C144625EC60D300D66DAD /* logo_icloud.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_icloud.pdf; sourceTree = "<group>"; };
-		9D2C144925EC60DA00D66DAD /* logo_outlook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_outlook.pdf; sourceTree = "<group>"; };
-		9D2C144C25EC60DF00D66DAD /* logo_yahoomail.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_yahoomail.pdf; sourceTree = "<group>"; };
-		9D2C144F25EC611B00D66DAD /* logo_mail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_mail.jpg; sourceTree = "<group>"; };
-		9D2C145225EC664100D66DAD /* logo_cnn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_cnn.pdf; sourceTree = "<group>"; };
-		9D2C145525EC668C00D66DAD /* logo_foxNews.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_foxNews.pdf; sourceTree = "<group>"; };
-		9D2C145825EC678200D66DAD /* logo_googleNews.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_googleNews.pdf; sourceTree = "<group>"; };
-		9D2C145B25EC67BE00D66DAD /* logo_newYorkTimes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_newYorkTimes.pdf; sourceTree = "<group>"; };
-		9D2C145F25EC680E00D66DAD /* logo_washingtonPost.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_washingtonPost.pdf; sourceTree = "<group>"; };
-		9D2C146225EC686400D66DAD /* logo_yahoo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_yahoo.pdf; sourceTree = "<group>"; };
-		9D2C146525EC68AF00D66DAD /* logo_box.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_box.pdf; sourceTree = "<group>"; };
-		9D2C146825EC68F500D66DAD /* logo_dropbox.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_dropbox.pdf; sourceTree = "<group>"; };
-		9D2C146B25EC699C00D66DAD /* logo_googleDrive.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_googleDrive.pdf; sourceTree = "<group>"; };
-		9D2C146E25EC69A500D66DAD /* logo_onedrive.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_onedrive.pdf; sourceTree = "<group>"; };
-		9D3530DC25C3101100F8D590 /* VersionUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionUtils.swift; sourceTree = "<group>"; };
-		9D363E382798873400D52A98 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LoginWindow.strings; sourceTree = "<group>"; };
-		9D363E392798873600D52A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LoginWindow.xib; sourceTree = "<group>"; };
-		9D363E3A2798874500D52A98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LoginWindow.strings; sourceTree = "<group>"; };
-		9D363E3C2798875700D52A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CaptureViewController.xib; sourceTree = "<group>"; };
-		9D363E3F2798875900D52A98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
-		9D363E412798875A00D52A98 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
-		9D363E432798876000D52A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CreateAccountViewController.xib; sourceTree = "<group>"; };
-		9D363E462798876200D52A98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
-		9D363E482798876300D52A98 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
-		9D363E4A2798876900D52A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DoneViewController.xib; sourceTree = "<group>"; };
-		9D363E4D2798876B00D52A98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DoneViewController.strings; sourceTree = "<group>"; };
-		9D363E4F2798876C00D52A98 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/DoneViewController.strings; sourceTree = "<group>"; };
-		9D3A347D25ED4FD400C26902 /* logo_netflix.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_netflix.pdf; sourceTree = "<group>"; };
-		9D3A348025ED515900C26902 /* logo_spotify.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_spotify.pdf; sourceTree = "<group>"; };
-		9D3A348425ED51D300C26902 /* logo_youtube.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_youtube.pdf; sourceTree = "<group>"; };
-		9D3A348725ED523800C26902 /* logo_amazonMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_amazonMusic.png; sourceTree = "<group>"; };
-		9D3A348A25ED52E100C26902 /* logo_itunes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_itunes.pdf; sourceTree = "<group>"; };
-		9D3A348E25ED53EA00C26902 /* logo_deezer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_deezer.pdf; sourceTree = "<group>"; };
-		9D3A349125ED545600C26902 /* logo_disneyPlus.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_disneyPlus.pdf; sourceTree = "<group>"; };
-		9D3A349425ED548900C26902 /* logo_hulu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_hulu.pdf; sourceTree = "<group>"; };
-		9D3A349725ED550000C26902 /* logo_iheartRadio.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_iheartRadio.pdf; sourceTree = "<group>"; };
-		9D3A349A25ED554000C26902 /* logo_soundcloud.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_soundcloud.pdf; sourceTree = "<group>"; };
-		9D3A349D25ED559800C26902 /* logo_tidal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_tidal.png; sourceTree = "<group>"; };
-		9D3A34A025ED566100C26902 /* logo_vimeo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_vimeo.pdf; sourceTree = "<group>"; };
-		9D3A34A325ED566C00C26902 /* logo_youtubeMusic.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_youtubeMusic.pdf; sourceTree = "<group>"; };
-		9D3A34A625ED58FB00C26902 /* logo_amazon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_amazon.pdf; sourceTree = "<group>"; };
-		9D3A34A925ED595900C26902 /* logo_craigslist.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_craigslist.pdf; sourceTree = "<group>"; };
-		9D3A34AC25ED59BB00C26902 /* logo_ebay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_ebay.png; sourceTree = "<group>"; };
-		9D3A34AF25ED5A1D00C26902 /* logo_etsy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_etsy.pdf; sourceTree = "<group>"; };
-		9D3A34B225ED5A7500C26902 /* logo_bestBuy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_bestBuy.pdf; sourceTree = "<group>"; };
-		9D3A34B525ED5AD300C26902 /* logo_kohls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_kohls.pdf; sourceTree = "<group>"; };
-		9D3A34B825ED5B1300C26902 /* logo_macys.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_macys.pdf; sourceTree = "<group>"; };
-		9D3A34BB25ED5B6D00C26902 /* logo_target.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_target.pdf; sourceTree = "<group>"; };
-		9D3A34BE25ED5BB900C26902 /* logo_walmart.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_walmart.pdf; sourceTree = "<group>"; };
-		9D3A34C125ED5C2300C26902 /* logo_wayfair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_wayfair.png; sourceTree = "<group>"; };
-		9D3A34C425ED5DB200C26902 /* logo_abcNews.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_abcNews.pdf; sourceTree = "<group>"; };
-		9D3A34C725ED65EB00C26902 /* logo_alJazeera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_alJazeera.jpg; sourceTree = "<group>"; };
-		9D3A34CA25ED679100C26902 /* logo_pandora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_pandora.jpg; sourceTree = "<group>"; };
-		9D3A34CD25ED68E000C26902 /* logo_bbc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_bbc.pdf; sourceTree = "<group>"; };
-		9D3A34D025ED68EE00C26902 /* logo_bloomberg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_bloomberg.pdf; sourceTree = "<group>"; };
-		9D3A34D325ED696900C26902 /* logo_cbsNews.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_cbsNews.pdf; sourceTree = "<group>"; };
-		9D3A34D625ED697300C26902 /* logo_cnbc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_cnbc.pdf; sourceTree = "<group>"; };
-		9D3A34D925ED69D500C26902 /* logo_drudgeReport.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_drudgeReport.pdf; sourceTree = "<group>"; };
-		9D3A34DC25ED6A9D00C26902 /* logo_forbes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_forbes.pdf; sourceTree = "<group>"; };
-		9D3A34DF25ED6AA700C26902 /* logo_huffpost.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_huffpost.pdf; sourceTree = "<group>"; };
-		9D3A34E225ED6F5800C26902 /* logo_laTimes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_laTimes.pdf; sourceTree = "<group>"; };
-		9D3A34E525ED6FD800C26902 /* logo_nbcNews.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_nbcNews.pdf; sourceTree = "<group>"; };
-		9D3A34E825ED6FE200C26902 /* logo_npr.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_npr.pdf; sourceTree = "<group>"; };
-		9D3A34EB25ED707100C26902 /* logo_reuters.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_reuters.pdf; sourceTree = "<group>"; };
-		9D3A34EE25ED707900C26902 /* logo_theGuardian.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_theGuardian.pdf; sourceTree = "<group>"; };
-		9D3A34F125ED70F300C26902 /* logo_theHill.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_theHill.jpeg; sourceTree = "<group>"; };
-		9D3A34F425ED716400C26902 /* logo_wsj.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_wsj.pdf; sourceTree = "<group>"; };
-		9D3A34F725ED720400C26902 /* logo_usaToday.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_usaToday.pdf; sourceTree = "<group>"; };
-		9D3B9EDD26BC7BEB00C9F174 /* MorphicTelemetry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MorphicTelemetry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D49D4DC25BBA93B001DD452 /* Autoupdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autoupdater.swift; sourceTree = "<group>"; };
-		9D49D4F025BBAA00001DD452 /* UpdateAvailableWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateAvailableWindow.swift; sourceTree = "<group>"; };
-		9D4B24E62517068200F0B2E2 /* SettingsLinkActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLinkActions.swift; sourceTree = "<group>"; };
-		9D4D47CA26CBFE5400AC6E3D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9D53D8E82784A9B700A96576 /* HyperlinkTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperlinkTextField.swift; sourceTree = "<group>"; };
-		9D69161E2911B7EA002F3A21 /* MorphicMacOSNative.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MorphicMacOSNative.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D77209D252BF46A0020BCD6 /* MorphicImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicImageUtils.swift; sourceTree = "<group>"; };
-		9D7D4C1E2CF6D2C5000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
-		9D7D4C1F2CF6D2C5000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
-		9D7D4C202CF6D2C5000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
-		9D7D4C212CF6D2C5000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
-		9D7D4C222CF6D2C5000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
-		9D7D4C232CF6D2C6000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
-		9D7D4C242CF6D2C6000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LoginWindow.strings; sourceTree = "<group>"; };
-		9D7D4C252CF6D2C6000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
-		9D7D4C262CF6D2C6000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
-		9D7D4C272CF6D2C6000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/DoneViewController.strings; sourceTree = "<group>"; };
-		9D7D4C2B2CF6D704000D7E24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9D7D4C2C2CF6D7B7000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
-		9D7D4C2D2CF6D7B7000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
-		9D7D4C2E2CF6D7B8000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
-		9D7D4C2F2CF6D7B8000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
-		9D7D4C302CF6D7B8000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
-		9D7D4C312CF6D7B8000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
-		9D7D4C322CF6D7B8000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LoginWindow.strings; sourceTree = "<group>"; };
-		9D7D4C332CF6D7B9000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
-		9D7D4C342CF6D7B9000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
-		9D7D4C352CF6D7B9000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/DoneViewController.strings; sourceTree = "<group>"; };
-		9D7D4C392CF6D7C9000D7E24 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9D7D4C3A2CF6D933000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
-		9D7D4C3B2CF6D933000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
-		9D7D4C3C2CF6D934000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
-		9D7D4C3D2CF6D934000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
-		9D7D4C3E2CF6D934000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
-		9D7D4C3F2CF6D934000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
-		9D7D4C402CF6D934000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LoginWindow.strings; sourceTree = "<group>"; };
-		9D7D4C412CF6D934000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
-		9D7D4C422CF6D935000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
-		9D7D4C432CF6D935000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/DoneViewController.strings; sourceTree = "<group>"; };
-		9D7D4C442CF6D940000D7E24 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9D7D4C502CF6D985000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
-		9D7D4C512CF6D985000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
-		9D7D4C522CF6D985000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
-		9D7D4C532CF6D985000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
-		9D7D4C542CF6D985000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
-		9D7D4C552CF6D985000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
-		9D7D4C562CF6D986000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LoginWindow.strings; sourceTree = "<group>"; };
-		9D7D4C572CF6D986000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
-		9D7D4C582CF6D986000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
-		9D7D4C592CF6D986000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/DoneViewController.strings; sourceTree = "<group>"; };
-		9D7D4C5A2CF6D994000D7E24 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9D7D4C5B2CF6EC82000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PermissionsGuidanceWindow.strings"; sourceTree = "<group>"; };
-		9D7D4C5C2CF6EC82000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PermissionsSuccessWindow.strings"; sourceTree = "<group>"; };
-		9D7D4C5D2CF6EC82000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
-		9D7D4C5E2CF6EC82000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/AboutBoxWindowController.strings"; sourceTree = "<group>"; };
-		9D7D4C5F2CF6EC82000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UpdateAvailableWindow.strings"; sourceTree = "<group>"; };
-		9D7D4C602CF6EC83000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CopySettingsWindow.strings"; sourceTree = "<group>"; };
-		9D7D4C612CF6EC83000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LoginWindow.strings"; sourceTree = "<group>"; };
-		9D7D4C622CF6EC83000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CaptureViewController.strings"; sourceTree = "<group>"; };
-		9D7D4C632CF6EC83000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CreateAccountViewController.strings"; sourceTree = "<group>"; };
-		9D7D4C642CF6EC83000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DoneViewController.strings"; sourceTree = "<group>"; };
-		9D7D4C652CF6EC84000D7E24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		9D7D4C662CF6EC95000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/PermissionsGuidanceWindow.strings"; sourceTree = "<group>"; };
-		9D7D4C672CF6EC95000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/PermissionsSuccessWindow.strings"; sourceTree = "<group>"; };
-		9D7D4C682CF6EC95000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
-		9D7D4C692CF6EC95000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/AboutBoxWindowController.strings"; sourceTree = "<group>"; };
-		9D7D4C6A2CF6EC96000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/UpdateAvailableWindow.strings"; sourceTree = "<group>"; };
-		9D7D4C6B2CF6EC96000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CopySettingsWindow.strings"; sourceTree = "<group>"; };
-		9D7D4C6C2CF6EC96000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LoginWindow.strings"; sourceTree = "<group>"; };
-		9D7D4C6D2CF6EC96000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CaptureViewController.strings"; sourceTree = "<group>"; };
-		9D7D4C6E2CF6EC96000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CreateAccountViewController.strings"; sourceTree = "<group>"; };
-		9D7D4C6F2CF6EC97000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/DoneViewController.strings"; sourceTree = "<group>"; };
-		9D7D4C702CF6EC97000D7E24 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		9D7D4C7C2CF6ECFE000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
-		9D7D4C7D2CF6ECFF000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
-		9D7D4C7E2CF6ECFF000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/Main.strings; sourceTree = "<group>"; };
-		9D7D4C7F2CF6ECFF000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
-		9D7D4C802CF6ECFF000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
-		9D7D4C812CF6ECFF000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
-		9D7D4C822CF6ED00000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/LoginWindow.strings; sourceTree = "<group>"; };
-		9D7D4C832CF6ED00000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
-		9D7D4C842CF6ED00000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
-		9D7D4C852CF6ED00000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/DoneViewController.strings; sourceTree = "<group>"; };
-		9D7D4C862CF6ED0D000D7E24 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9D7D4C872CF6ED79000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
-		9D7D4C882CF6ED79000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
-		9D7D4C892CF6ED79000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/Main.strings; sourceTree = "<group>"; };
-		9D7D4C8A2CF6ED79000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
-		9D7D4C8B2CF6ED7A000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
-		9D7D4C8C2CF6ED7A000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
-		9D7D4C8D2CF6ED7A000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/LoginWindow.strings; sourceTree = "<group>"; };
-		9D7D4C8E2CF6ED7A000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/CaptureViewController.strings; sourceTree = "<group>"; };
-		9D7D4C8F2CF6ED7A000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/CreateAccountViewController.strings; sourceTree = "<group>"; };
-		9D7D4C902CF6ED7A000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/DoneViewController.strings; sourceTree = "<group>"; };
-		9D7D4C912CF6ED7B000D7E24 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9D82576C24D31C1E00F6E932 /* AboutBoxWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutBoxWindowController.swift; sourceTree = "<group>"; };
-		9D8CEB122507AECF001276E4 /* MorphicBarButtonItemIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarButtonItemIcon.swift; sourceTree = "<group>"; };
-		9D8CEB142507AED7001276E4 /* MorphicBarButtonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarButtonItemView.swift; sourceTree = "<group>"; };
-		9D8EB4ED2947AA2B006F2DDA /* MorphicUIAutomation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MorphicUIAutomation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D94BB21262A046400BF4992 /* logo_opera.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_opera.pdf; sourceTree = "<group>"; };
-		9D94BB24262A046A00BF4992 /* logo_firefox.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_firefox.pdf; sourceTree = "<group>"; };
-		9D94BB27262A047100BF4992 /* logo_chrome.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_chrome.pdf; sourceTree = "<group>"; };
-		9D9DF072251DAE460073F8FB /* MorphicLauncherRelease.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = MorphicLauncherRelease.entitlements; sourceTree = "<group>"; };
-		9DA46E7425CA743B006BEAAC /* PermissionsGuidanceSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PermissionsGuidanceSystem.swift; path = "Permissions Guidance/PermissionsGuidanceSystem.swift"; sourceTree = "<group>"; };
-		9DA46E7625CA743B006BEAAC /* PermissionsSuccessWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PermissionsSuccessWindowController.swift; path = "Permissions Guidance/PermissionsSuccessWindowController.swift"; sourceTree = "<group>"; };
-		9DA46E7725CA743B006BEAAC /* PermissionsGuidanceWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PermissionsGuidanceWindowController.swift; path = "Permissions Guidance/PermissionsGuidanceWindowController.swift"; sourceTree = "<group>"; };
-		9DB06AD62534ADD6008AB056 /* CreatePackage.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = CreatePackage.sh; sourceTree = "<group>"; };
-		9DB72E9C29B0452A007C3100 /* TelemetryClientProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryClientProxy.swift; sourceTree = "<group>"; };
-		9DC0D3FA25E5EAAC00E17D9E /* globe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = globe.pdf; sourceTree = "<group>"; };
-		9DC0D3FD25E5F05800E17D9E /* calendar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = calendar.pdf; sourceTree = "<group>"; };
-		9DC0D40425E5F1FF00E17D9E /* comments.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = comments.pdf; sourceTree = "<group>"; };
-		9DC0D40725E5F2ED00E17D9E /* envelope_open_text.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = envelope_open_text.pdf; sourceTree = "<group>"; };
-		9DC0D41425E5F5F200E17D9E /* envelope_open.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = envelope_open.pdf; sourceTree = "<group>"; };
-		9DC0D41725E5F6BF00E17D9E /* envelope_outline_open.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = envelope_outline_open.pdf; sourceTree = "<group>"; };
-		9DC0D41A25E5F72100E17D9E /* envelope_outline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = envelope_outline.pdf; sourceTree = "<group>"; };
-		9DC66E4626294EB20049AAEC /* logo_msedge.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_msedge.pdf; sourceTree = "<group>"; };
-		9DCF885A257AEF23001927C1 /*  Morphic .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = " Morphic .app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DCF885C257AEF23001927C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DCF885E257AEF23001927C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9DCF8863257AEF23001927C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DCF8864257AEF23001927C1 /* MorphicDockAppRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MorphicDockAppRelease.entitlements; sourceTree = "<group>"; };
-		9DCF8884257AEF7F001927C1 /* MorphicDockAppDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MorphicDockAppDebug.entitlements; sourceTree = "<group>"; };
-		9DCF892D257AF9D8001927C1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		9DD4F4D8251A2FC400ADCC25 /* MorphicLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorphicLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DD4F4DA251A2FC400ADCC25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DD4F4DC251A2FC500ADCC25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9DD4F4DF251A2FC500ADCC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		9DD4F4E1251A2FC500ADCC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DD4F4E2251A2FC500ADCC25 /* MorphicLauncherDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MorphicLauncherDebug.entitlements; sourceTree = "<group>"; };
-		9DDAE60F25094C4F0072C711 /* MorphicBarSegmentedButtonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarSegmentedButtonItemView.swift; sourceTree = "<group>"; };
-		9DE112E52522243100591E08 /* CopySettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopySettingsWindowController.swift; sourceTree = "<group>"; };
-		9DFB6E002624B7E500AD39D1 /* logo_calculator.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo_calculator.pdf; sourceTree = "<group>"; };
-		CEB8709427336AE4002E7601 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		CEC23E602733846100E8D032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AboutBoxWindowController.xib; sourceTree = "<group>"; };
-		CEC23E62273384E600E8D032 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
-		CEC23E682733853E00E8D032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AboutBoxWindowController.strings; sourceTree = "<group>"; };
-		CEC23E6A2733867400E8D032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		CEC23E6C2733867500E8D032 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
-		CEC23E6E2733870500E8D032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PermissionsSuccessWindow.xib; sourceTree = "<group>"; };
-		CEC23E712733870700E8D032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
-		CEC23E732733870700E8D032 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/PermissionsSuccessWindow.strings; sourceTree = "<group>"; };
-		CEC23E752733870C00E8D032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PermissionsGuidanceWindow.xib; sourceTree = "<group>"; };
-		CEC23E782733870F00E8D032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
-		CEC23E7A2733871000E8D032 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/PermissionsGuidanceWindow.strings; sourceTree = "<group>"; };
-		CEC23E7C2733872700E8D032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/UpdateAvailableWindow.xib; sourceTree = "<group>"; };
-		CEC23E7F2733872900E8D032 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
-		CEC23E812733872A00E8D032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UpdateAvailableWindow.strings; sourceTree = "<group>"; };
-		CEC23E832733873400E8D032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CopySettingsWindow.xib; sourceTree = "<group>"; };
-		CEC23E862733873800E8D032 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
-		CEC23E882733873800E8D032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CopySettingsWindow.strings; sourceTree = "<group>"; };
-		DF35CEC92541BCD200C3FF77 /* MorphicBarTrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphicBarTrayView.swift; sourceTree = "<group>"; };
+		9DC979EE2FC8A905008D411D /* Morphic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morphic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9DC979F02FC8A905008D411D /* Morphic */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Morphic;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		31751B062444DE8900EEDF14 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31751B4A2444E04300EEDF14 /* MorphicCore.framework in Frameworks */,
-				9D1FA1CF251A31990008559D /* ServiceManagement.framework in Frameworks */,
-				9D8EB4EE2947AA2B006F2DDA /* MorphicUIAutomation.framework in Frameworks */,
-				9D69161F2911B7EA002F3A21 /* MorphicMacOSNative.framework in Frameworks */,
-				9D3B9EDE26BC7BEB00C9F174 /* MorphicTelemetry.framework in Frameworks */,
-				31751B4E2444E04300EEDF14 /* MorphicSettings.framework in Frameworks */,
-				31751B4C2444E04300EEDF14 /* MorphicService.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31751B522444E0E300EEDF14 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31751B852444E15F00EEDF14 /* MorphicCore.framework in Frameworks */,
-				31751B892444E15F00EEDF14 /* MorphicSettings.framework in Frameworks */,
-				31751B872444E15F00EEDF14 /* MorphicService.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DCF8857257AEF23001927C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DCF89DB257B4668001927C1 /* MorphicCore.framework in Frameworks */,
-				9DCF89D2257B4133001927C1 /* MorphicSettings.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DD4F4D5251A2FC400ADCC25 /* Frameworks */ = {
+		9DC979EB2FC8A905008D411D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -629,1026 +29,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3130B0F224A41FB0003864DD /* Login */ = {
+		9DC979E52FC8A905008D411D = {
 			isa = PBXGroup;
 			children = (
-				3130B0EE24A41E8D003864DD /* LoginWindowController.swift */,
-				9D363E362798873200D52A98 /* LoginWindow.xib */,
-				3103973F24B15DB600F5AA84 /* CustomCursorButton.swift */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		3130B0F324A41FBB003864DD /* Capture */ = {
-			isa = PBXGroup;
-			children = (
-				3130B0F024A41FA6003864DD /* CaptureWindowController.swift */,
-				3130B0EC24A41CCF003864DD /* CaptureWindow.xib */,
-				3130B0F424A42006003864DD /* PageViewController.swift */,
-				3103974324B1702800F5AA84 /* PageViewController.xib */,
-				3130B0F624A42020003864DD /* CaptureViewController.swift */,
-				9D363E3D2798875700D52A98 /* CaptureViewController.xib */,
-				3130B0FA24A4202E003864DD /* CreateAccountViewController.swift */,
-				9D363E442798876000D52A98 /* CreateAccountViewController.xib */,
-				3130B0FE24A42037003864DD /* DoneViewController.swift */,
-				9D363E4B2798876900D52A98 /* DoneViewController.xib */,
-			);
-			path = Capture;
-			sourceTree = "<group>";
-		};
-		314EB6D924A6978200CF3D48 /* Solutions */ = {
-			isa = PBXGroup;
-			children = (
-				314EB6DA24A697C300CF3D48 /* macos.solutions.json */,
-			);
-			path = Solutions;
-			sourceTree = "<group>";
-		};
-		31751B002444DE8900EEDF14 = {
-			isa = PBXGroup;
-			children = (
-				9D4D47C526CBFE2500AC6E3D /* Localizable.strings */,
-				31751B7F2444E11500EEDF14 /* Local.xcconfig */,
-				31751B812444E11600EEDF14 /* Debug.xcconfig */,
-				31751B802444E11600EEDF14 /* Release.xcconfig */,
-				31751B0B2444DE8900EEDF14 /* Morphic */,
-				31751B562444E0E300EEDF14 /* MorphicConfigurator */,
-				9DD4F4D9251A2FC400ADCC25 /* MorphicLauncher */,
-				9DCF885B257AEF23001927C1 /* MorphicDockApp */,
-				31751B0A2444DE8900EEDF14 /* Products */,
-				31751B462444E04300EEDF14 /* Frameworks */,
+				9DC979F02FC8A905008D411D /* Morphic */,
+				9DC979EF2FC8A905008D411D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		31751B0A2444DE8900EEDF14 /* Products */ = {
+		9DC979EF2FC8A905008D411D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31751B092444DE8900EEDF14 /* Morphic.app */,
-				31751B552444E0E300EEDF14 /* MorphicConfigurator.app */,
-				9DD4F4D8251A2FC400ADCC25 /* MorphicLauncher.app */,
-				9DCF885A257AEF23001927C1 /*  Morphic .app */,
+				9DC979EE2FC8A905008D411D /* Morphic.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		31751B0B2444DE8900EEDF14 /* Morphic */ = {
-			isa = PBXGroup;
-			children = (
-				9DA46E7125CA7418006BEAAC /* Permissions Guidance */,
-				31751B132444DE8B00EEDF14 /* Info.plist */,
-				31751B142444DE8B00EEDF14 /* MorphicDebug.entitlements */,
-				9D2593F2250EA81000C38DA3 /* MorphicRelease.entitlements */,
-				31751B0E2444DE8B00EEDF14 /* Assets.xcassets */,
-				31751B3A2444DFAA00EEDF14 /* Main.xib */,
-				31751B0C2444DE8900EEDF14 /* AppDelegate.swift */,
-				9D2A5AB7259B815800ECD513 /* ConfigurableFeatures.swift */,
-				31751B972444F21700EEDF14 /* Session.swift */,
-				9D4B24E62517068200F0B2E2 /* SettingsLinkActions.swift */,
-				9DB72E9C29B0452A007C3100 /* TelemetryClientProxy.swift */,
-				31E1E184244683DC009C4092 /* Theme.swift */,
-				31E1E186244792D9009C4092 /* DefaultPreferences.json */,
-				9D82576724D3160600F6E932 /* About Box */,
-				9D49D4DB25BBA903001DD452 /* AutoUpdate */,
-				9DE112E42522240700591E08 /* CopySettingsWindow */,
-				31CE56EC244A3C9800A52A7B /* Help Window */,
-				31751B3F2444E01B00EEDF14 /* MorphicBar */,
-				314EB6D924A6978200CF3D48 /* Solutions */,
-				9D3530DB25C30FF600F8D590 /* Versioning */,
-				318744F32481A2DA00AE3954 /* CreateDiskImage.sh */,
-				9DB06AD62534ADD6008AB056 /* CreatePackage.sh */,
-			);
-			path = Morphic;
-			sourceTree = "<group>";
-		};
-		31751B3F2444E01B00EEDF14 /* MorphicBar */ = {
-			isa = PBXGroup;
-			children = (
-				9D2593CE250A82D200C38DA3 /* Assets */,
-				9DDAE61125094C720072C711 /* MorphicBarItemViews */,
-				31E1E17A24466D28009C4092 /* MorphicBarItem.swift */,
-				31751B9C2444F22900EEDF14 /* MorphicBarWindow.swift */,
-				9D29059F2E906F2800C78B6E /* MorphicBarViewController.xib */,
-				31751B9B2444F22900EEDF14 /* MorphicBarViewController.swift */,
-				31E1E17C24466E7C009C4092 /* MorphicBarView.swift */,
-				DF35CEC92541BCD200C3FF77 /* MorphicBarTrayView.swift */,
-			);
-			path = MorphicBar;
-			sourceTree = "<group>";
-		};
-		31751B462444E04300EEDF14 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9D8EB4ED2947AA2B006F2DDA /* MorphicUIAutomation.framework */,
-				9D69161E2911B7EA002F3A21 /* MorphicMacOSNative.framework */,
-				9D3B9EDD26BC7BEB00C9F174 /* MorphicTelemetry.framework */,
-				9D1FA1CE251A31990008559D /* ServiceManagement.framework */,
-				31751B472444E04300EEDF14 /* MorphicCore.framework */,
-				31751B482444E04300EEDF14 /* MorphicService.framework */,
-				31751B492444E04300EEDF14 /* MorphicSettings.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		31751B562444E0E300EEDF14 /* MorphicConfigurator */ = {
-			isa = PBXGroup;
-			children = (
-				31751B5E2444E0E400EEDF14 /* Info.plist */,
-				31751B5F2444E0E400EEDF14 /* MorphicConfiguratorDebug.entitlements */,
-				9D2593F3250EA87E00C38DA3 /* MorphicConfiguratorRelease.entitlements */,
-				31751B592444E0E400EEDF14 /* Assets.xcassets */,
-				31751B5B2444E0E400EEDF14 /* MainMenu.xib */,
-				31751B572444E0E300EEDF14 /* AppDelegate.swift */,
-				3130B0F224A41FB0003864DD /* Login */,
-				3130B0F324A41FBB003864DD /* Capture */,
-			);
-			path = MorphicConfigurator;
-			sourceTree = "<group>";
-		};
-		31CE56EC244A3C9800A52A7B /* Help Window */ = {
-			isa = PBXGroup;
-			children = (
-				31CE56F2244A3CDB00A52A7B /* QuickHelpWindow.swift */,
-				31CE56F4244A407000A52A7B /* QuickHelpViewController.xib */,
-				31CE56F6244A408000A52A7B /* QuickHelpViewController.swift */,
-				31CE56F8244A428500A52A7B /* ShadowedLabel.swift */,
-				31C12CB724B1174900B617A8 /* QuickHelpContentProvider.swift */,
-				31C12CB924B11F5A00B617A8 /* QuickHelpVolumeViewController.swift */,
-				31C12CBA24B11F5A00B617A8 /* QuickHelpVolumeViewController.xib */,
-				31C12CBD24B138D000B617A8 /* ProgressIndicator.swift */,
-				31C12CBF24B143A000B617A8 /* QuickHelpStepViewController.swift */,
-				31C12CC024B143A000B617A8 /* QuickHelpStepViewController.xib */,
-				31C12CC324B1441E00B617A8 /* PageControl.swift */,
-			);
-			path = "Help Window";
-			sourceTree = "<group>";
-		};
-		9D2593CE250A82D200C38DA3 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				9D2593CF250A82DE00C38DA3 /* Icons */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		9D2593CF250A82DE00C38DA3 /* Icons */ = {
-			isa = PBXGroup;
-			children = (
-				9DC0D3FD25E5F05800E17D9E /* calendar.pdf */,
-				9DC0D40425E5F1FF00E17D9E /* comments.pdf */,
-				9D2C141325EC179400D66DAD /* envelope.pdf */,
-				9DC0D41425E5F5F200E17D9E /* envelope_open.pdf */,
-				9DC0D40725E5F2ED00E17D9E /* envelope_open_text.pdf */,
-				9DC0D41A25E5F72100E17D9E /* envelope_outline.pdf */,
-				9DC0D41725E5F6BF00E17D9E /* envelope_outline_open.pdf */,
-				9D2C142125EC1C1C00D66DAD /* favicon_foxNews.pdf */,
-				9DC0D3FA25E5EAAC00E17D9E /* globe.pdf */,
-				9D3A34C425ED5DB200C26902 /* logo_abcNews.pdf */,
-				9D3A34C725ED65EB00C26902 /* logo_alJazeera.jpg */,
-				9D3A34A625ED58FB00C26902 /* logo_amazon.pdf */,
-				9D3A348725ED523800C26902 /* logo_amazonMusic.png */,
-				9D2C144025EC60CA00D66DAD /* logo_aolOld.pdf */,
-				9D3A34CD25ED68E000C26902 /* logo_bbc.pdf */,
-				9D3A34B225ED5A7500C26902 /* logo_bestBuy.pdf */,
-				9D3A34D025ED68EE00C26902 /* logo_bloomberg.pdf */,
-				9D2C146525EC68AF00D66DAD /* logo_box.pdf */,
-				9DFB6E002624B7E500AD39D1 /* logo_calculator.pdf */,
-				9D3A34D325ED696900C26902 /* logo_cbsNews.pdf */,
-				9D94BB27262A047100BF4992 /* logo_chrome.pdf */,
-				9D3A34D625ED697300C26902 /* logo_cnbc.pdf */,
-				9D2C145225EC664100D66DAD /* logo_cnn.pdf */,
-				9D3A34A925ED595900C26902 /* logo_craigslist.pdf */,
-				9D3A348E25ED53EA00C26902 /* logo_deezer.pdf */,
-				9D3A349125ED545600C26902 /* logo_disneyPlus.pdf */,
-				9D2C146825EC68F500D66DAD /* logo_dropbox.pdf */,
-				9D3A34D925ED69D500C26902 /* logo_drudgeReport.pdf */,
-				9D3A34AC25ED59BB00C26902 /* logo_ebay.png */,
-				9D3A34AF25ED5A1D00C26902 /* logo_etsy.pdf */,
-				9D2C142A25EC5CD600D66DAD /* logo_facebook.pdf */,
-				9D94BB24262A046A00BF4992 /* logo_firefox.pdf */,
-				9D3A34DC25ED6A9D00C26902 /* logo_forbes.pdf */,
-				9D2C145525EC668C00D66DAD /* logo_foxNews.pdf */,
-				9D2C144325EC60CF00D66DAD /* logo_gmail.pdf */,
-				9D2C146B25EC699C00D66DAD /* logo_googleDrive.pdf */,
-				9D2C145825EC678200D66DAD /* logo_googleNews.pdf */,
-				9D3A34DF25ED6AA700C26902 /* logo_huffpost.pdf */,
-				9D3A349425ED548900C26902 /* logo_hulu.pdf */,
-				9D2C144625EC60D300D66DAD /* logo_icloud.pdf */,
-				9D3A349725ED550000C26902 /* logo_iheartRadio.pdf */,
-				9D2C143125EC5DF300D66DAD /* logo_imgur.pdf */,
-				9D2C143425EC5E0A00D66DAD /* logo_instagram.pdf */,
-				9D3A348A25ED52E100C26902 /* logo_itunes.pdf */,
-				9D3A34B525ED5AD300C26902 /* logo_kohls.pdf */,
-				9D3A34E225ED6F5800C26902 /* logo_laTimes.pdf */,
-				9D2C143725EC5E2200D66DAD /* logo_linkedIn.pdf */,
-				9D3A34B825ED5B1300C26902 /* logo_macys.pdf */,
-				9D2C144F25EC611B00D66DAD /* logo_mail.jpg */,
-				9DC66E4626294EB20049AAEC /* logo_msedge.pdf */,
-				9D194DE127041D7C00D4BC36 /* logo_msexcel.pdf */,
-				9D194DDF27041D7C00D4BC36 /* logo_msonenote.pdf */,
-				9D194DDD27041D7C00D4BC36 /* logo_msoutlook.pdf */,
-				9D194DDE27041D7C00D4BC36 /* logo_mspowerpoint.pdf */,
-				9D194DE227041D7C00D4BC36 /* logo_msteams.pdf */,
-				9D194DE027041D7C00D4BC36 /* logo_msword.pdf */,
-				9D3A34E525ED6FD800C26902 /* logo_nbcNews.pdf */,
-				9D3A347D25ED4FD400C26902 /* logo_netflix.pdf */,
-				9D2C145B25EC67BE00D66DAD /* logo_newYorkTimes.pdf */,
-				9D2C142725EC5CD600D66DAD /* logo_nextdoor.pdf */,
-				9D3A34E825ED6FE200C26902 /* logo_npr.pdf */,
-				9D2C146E25EC69A500D66DAD /* logo_onedrive.pdf */,
-				9D2C144925EC60DA00D66DAD /* logo_outlook.pdf */,
-				9D94BB21262A046400BF4992 /* logo_opera.pdf */,
-				9D3A34CA25ED679100C26902 /* logo_pandora.jpg */,
-				9D2C142925EC5CD600D66DAD /* logo_pinterest.pdf */,
-				9D2C143A25EC5E3B00D66DAD /* logo_reddit.pdf */,
-				9D3A34EB25ED707100C26902 /* logo_reuters.pdf */,
-				9D2C142425EC1C9F00D66DAD /* logo_skype.pdf */,
-				9D3A348025ED515900C26902 /* logo_spotify.pdf */,
-				9D3A349A25ED554000C26902 /* logo_soundcloud.pdf */,
-				9D3A34BB25ED5B6D00C26902 /* logo_target.pdf */,
-				9D3A34EE25ED707900C26902 /* logo_theGuardian.pdf */,
-				9D3A34F125ED70F300C26902 /* logo_theHill.jpeg */,
-				9D3A349D25ED559800C26902 /* logo_tidal.png */,
-				9D2C143D25EC5E5400D66DAD /* logo_tumblr.pdf */,
-				9D2C142825EC5CD600D66DAD /* logo_twitter.pdf */,
-				9D3A34F725ED720400C26902 /* logo_usaToday.pdf */,
-				9D3A34A025ED566100C26902 /* logo_vimeo.pdf */,
-				9D3A34BE25ED5BB900C26902 /* logo_walmart.pdf */,
-				9D2C145F25EC680E00D66DAD /* logo_washingtonPost.pdf */,
-				9D3A34C125ED5C2300C26902 /* logo_wayfair.png */,
-				9D3A34F425ED716400C26902 /* logo_wsj.pdf */,
-				9D2C146225EC686400D66DAD /* logo_yahoo.pdf */,
-				9D2C144C25EC60DF00D66DAD /* logo_yahoomail.pdf */,
-				9D3A348425ED51D300C26902 /* logo_youtube.pdf */,
-				9D3A34A325ED566C00C26902 /* logo_youtubeMusic.pdf */,
-				9D2C141625EC191700D66DAD /* newspaper.pdf */,
-				9D2C141D25EC1AD900D66DAD /* window_maximize.pdf */,
-			);
-			path = Icons;
-			sourceTree = "<group>";
-		};
-		9D2A5ABF259B911900ECD513 /* MorphicBarSeparatorItem */ = {
-			isa = PBXGroup;
-			children = (
-				9D2A5AC0259B914800ECD513 /* MorphicBarSeparatorItemView.swift */,
-			);
-			path = MorphicBarSeparatorItem;
-			sourceTree = "<group>";
-		};
-		9D3530DB25C30FF600F8D590 /* Versioning */ = {
-			isa = PBXGroup;
-			children = (
-				9D3530DC25C3101100F8D590 /* VersionUtils.swift */,
-			);
-			path = Versioning;
-			sourceTree = "<group>";
-		};
-		9D49D4DB25BBA903001DD452 /* AutoUpdate */ = {
-			isa = PBXGroup;
-			children = (
-				9D49D4DC25BBA93B001DD452 /* Autoupdater.swift */,
-				9D49D4F025BBAA00001DD452 /* UpdateAvailableWindow.swift */,
-				CEC23E7D2733872700E8D032 /* UpdateAvailableWindow.xib */,
-			);
-			path = AutoUpdate;
-			sourceTree = "<group>";
-		};
-		9D82576724D3160600F6E932 /* About Box */ = {
-			isa = PBXGroup;
-			children = (
-				9D82576C24D31C1E00F6E932 /* AboutBoxWindowController.swift */,
-				CEB87091273369CF002E7601 /* AboutBoxWindowController.xib */,
-				9D53D8E82784A9B700A96576 /* HyperlinkTextField.swift */,
-			);
-			path = "About Box";
-			sourceTree = "<group>";
-		};
-		9DA46E7125CA7418006BEAAC /* Permissions Guidance */ = {
-			isa = PBXGroup;
-			children = (
-				9DA46E7425CA743B006BEAAC /* PermissionsGuidanceSystem.swift */,
-				CEC23E762733870C00E8D032 /* PermissionsGuidanceWindow.xib */,
-				9DA46E7725CA743B006BEAAC /* PermissionsGuidanceWindowController.swift */,
-				CEC23E6F2733870500E8D032 /* PermissionsSuccessWindow.xib */,
-				9DA46E7625CA743B006BEAAC /* PermissionsSuccessWindowController.swift */,
-			);
-			name = "Permissions Guidance";
-			sourceTree = "<group>";
-		};
-		9DCF885B257AEF23001927C1 /* MorphicDockApp */ = {
-			isa = PBXGroup;
-			children = (
-				9DCF885C257AEF23001927C1 /* AppDelegate.swift */,
-				9DCF885E257AEF23001927C1 /* Assets.xcassets */,
-				9DCF8863257AEF23001927C1 /* Info.plist */,
-				9DCF8884257AEF7F001927C1 /* MorphicDockAppDebug.entitlements */,
-				9DCF8864257AEF23001927C1 /* MorphicDockAppRelease.entitlements */,
-				9DCF892D257AF9D8001927C1 /* main.swift */,
-			);
-			path = MorphicDockApp;
-			sourceTree = "<group>";
-		};
-		9DD4F4D9251A2FC400ADCC25 /* MorphicLauncher */ = {
-			isa = PBXGroup;
-			children = (
-				9DD4F4DA251A2FC400ADCC25 /* AppDelegate.swift */,
-				9DD4F4DC251A2FC500ADCC25 /* Assets.xcassets */,
-				9DD4F4DE251A2FC500ADCC25 /* MainMenu.xib */,
-				9DD4F4E1251A2FC500ADCC25 /* Info.plist */,
-				9DD4F4E2251A2FC500ADCC25 /* MorphicLauncherDebug.entitlements */,
-				9D9DF072251DAE460073F8FB /* MorphicLauncherRelease.entitlements */,
-			);
-			path = MorphicLauncher;
-			sourceTree = "<group>";
-		};
-		9DDAE61125094C720072C711 /* MorphicBarItemViews */ = {
-			isa = PBXGroup;
-			children = (
-				9D2A5ABF259B911900ECD513 /* MorphicBarSeparatorItem */,
-				9DDAE61325094D760072C711 /* MorphicBarButtonItem */,
-				9DDAE61225094D6A0072C711 /* MorphicBarSegmentedButton */,
-				31E1E17E24466EB0009C4092 /* MorphicBarItemViewProtocol.swift */,
-				9D77209D252BF46A0020BCD6 /* MorphicImageUtils.swift */,
-			);
-			path = MorphicBarItemViews;
-			sourceTree = "<group>";
-		};
-		9DDAE61225094D6A0072C711 /* MorphicBarSegmentedButton */ = {
-			isa = PBXGroup;
-			children = (
-				9DDAE60F25094C4F0072C711 /* MorphicBarSegmentedButtonItemView.swift */,
-				31E1E182244682C2009C4092 /* MorphicBarSegmentedButton.swift */,
-			);
-			path = MorphicBarSegmentedButton;
-			sourceTree = "<group>";
-		};
-		9DDAE61325094D760072C711 /* MorphicBarButtonItem */ = {
-			isa = PBXGroup;
-			children = (
-				9D8CEB122507AECF001276E4 /* MorphicBarButtonItemIcon.swift */,
-				9D8CEB142507AED7001276E4 /* MorphicBarButtonItemView.swift */,
-			);
-			path = MorphicBarButtonItem;
-			sourceTree = "<group>";
-		};
-		9DE112E42522240700591E08 /* CopySettingsWindow */ = {
-			isa = PBXGroup;
-			children = (
-				9DE112E52522243100591E08 /* CopySettingsWindowController.swift */,
-				CEC23E842733873400E8D032 /* CopySettingsWindow.xib */,
-			);
-			path = CopySettingsWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		31751B082444DE8900EEDF14 /* Morphic */ = {
+		9DC979ED2FC8A905008D411D /* Morphic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31751B2D2444DE8B00EEDF14 /* Build configuration list for PBXNativeTarget "Morphic" */;
+			buildConfigurationList = 9DC979FA2FC8A906008D411D /* Build configuration list for PBXNativeTarget "Morphic" */;
 			buildPhases = (
-				31751B052444DE8900EEDF14 /* Sources */,
-				31751B062444DE8900EEDF14 /* Frameworks */,
-				31751B072444DE8900EEDF14 /* Resources */,
-				31751B502444E04300EEDF14 /* Embed Frameworks */,
-				31751B932444F03900EEDF14 /* CopyFiles */,
-				9DCF8906257AF8DA001927C1 /* CopyFiles */,
-				9D1FA1CC251A315D0008559D /* CopyFiles */,
-				9D0AF79024A57FC2007E177E /* ShellScript */,
-				318744F52481B38C00AE3954 /* ShellScript */,
+				9DC979EA2FC8A905008D411D /* Sources */,
+				9DC979EB2FC8A905008D411D /* Frameworks */,
+				9DC979EC2FC8A905008D411D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				31751B962444F0CA00EEDF14 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9DC979F02FC8A905008D411D /* Morphic */,
 			);
 			name = Morphic;
 			packageProductDependencies = (
 			);
 			productName = Morphic;
-			productReference = 31751B092444DE8900EEDF14 /* Morphic.app */;
-			productType = "com.apple.product-type.application";
-		};
-		31751B542444E0E300EEDF14 /* MorphicConfigurator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 31751B762444E0E400EEDF14 /* Build configuration list for PBXNativeTarget "MorphicConfigurator" */;
-			buildPhases = (
-				31751B512444E0E300EEDF14 /* Sources */,
-				31751B522444E0E300EEDF14 /* Frameworks */,
-				31751B532444E0E300EEDF14 /* Resources */,
-				31751B8B2444E15F00EEDF14 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MorphicConfigurator;
-			productName = MorphicConfigurator;
-			productReference = 31751B552444E0E300EEDF14 /* MorphicConfigurator.app */;
-			productType = "com.apple.product-type.application";
-		};
-		9DCF8859257AEF23001927C1 /* MorphicDockApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9DCF8865257AEF23001927C1 /* Build configuration list for PBXNativeTarget "MorphicDockApp" */;
-			buildPhases = (
-				9DCF8856257AEF23001927C1 /* Sources */,
-				9DCF8857257AEF23001927C1 /* Frameworks */,
-				9DCF8858257AEF23001927C1 /* Resources */,
-				9DCF89D4257B4133001927C1 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MorphicDockApp;
-			productName = MorphicDockApp;
-			productReference = 9DCF885A257AEF23001927C1 /*  Morphic .app */;
-			productType = "com.apple.product-type.application";
-		};
-		9DD4F4D7251A2FC400ADCC25 /* MorphicLauncher */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9DD4F4E3251A2FC500ADCC25 /* Build configuration list for PBXNativeTarget "MorphicLauncher" */;
-			buildPhases = (
-				9DD4F4D4251A2FC400ADCC25 /* Sources */,
-				9DD4F4D5251A2FC400ADCC25 /* Frameworks */,
-				9DD4F4D6251A2FC400ADCC25 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MorphicLauncher;
-			productName = MorphicLauncher;
-			productReference = 9DD4F4D8251A2FC400ADCC25 /* MorphicLauncher.app */;
+			productReference = 9DC979EE2FC8A905008D411D /* Morphic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		31751B012444DE8900EEDF14 /* Project object */ = {
+		9DC979E62FC8A905008D411D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = "Raising the Floor";
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					31751B082444DE8900EEDF14 = {
-						CreatedOnToolsVersion = 11.4;
-					};
-					31751B542444E0E300EEDF14 = {
-						CreatedOnToolsVersion = 11.4;
-					};
-					9DCF8859257AEF23001927C1 = {
-						CreatedOnToolsVersion = 12.2;
-					};
-					9DD4F4D7251A2FC400ADCC25 = {
-						CreatedOnToolsVersion = 12.0;
+					9DC979ED2FC8A905008D411D = {
+						CreatedOnToolsVersion = 26.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 31751B042444DE8900EEDF14 /* Build configuration list for PBXProject "Morphic" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 9DC979E92FC8A905008D411D /* Build configuration list for PBXProject "Morphic" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				Base,
-				ar,
 				en,
-				es,
-				gu,
-				hi,
-				ko,
-				vi,
-				ur,
-				"zh-Hans",
-				"zh-Hant",
+				Base,
 			);
-			mainGroup = 31751B002444DE8900EEDF14;
-			packageReferences = (
-			);
-			productRefGroup = 31751B0A2444DE8900EEDF14 /* Products */;
+			mainGroup = 9DC979E52FC8A905008D411D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9DC979EF2FC8A905008D411D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31751B082444DE8900EEDF14 /* Morphic */,
-				31751B542444E0E300EEDF14 /* MorphicConfigurator */,
-				9DCF8859257AEF23001927C1 /* MorphicDockApp */,
-				9DD4F4D7251A2FC400ADCC25 /* MorphicLauncher */,
+				9DC979ED2FC8A905008D411D /* Morphic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		31751B072444DE8900EEDF14 /* Resources */ = {
+		9DC979EC2FC8A905008D411D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31C12CC224B143A000B617A8 /* QuickHelpStepViewController.xib in Resources */,
-				9DC0D41825E5F6BF00E17D9E /* envelope_outline_open.pdf in Resources */,
-				9D3A34EC25ED707100C26902 /* logo_reuters.pdf in Resources */,
-				9D2C145625EC668C00D66DAD /* logo_foxNews.pdf in Resources */,
-				9D2C143525EC5E0A00D66DAD /* logo_instagram.pdf in Resources */,
-				9D2C145325EC664100D66DAD /* logo_cnn.pdf in Resources */,
-				9D2C144D25EC60DF00D66DAD /* logo_yahoomail.pdf in Resources */,
-				9D194DE527041D7C00D4BC36 /* logo_msonenote.pdf in Resources */,
-				9D3A34BC25ED5B6D00C26902 /* logo_target.pdf in Resources */,
-				9D3A347E25ED4FD400C26902 /* logo_netflix.pdf in Resources */,
-				9DC0D41B25E5F72100E17D9E /* envelope_outline.pdf in Resources */,
-				9D2C142E25EC5CD600D66DAD /* logo_facebook.pdf in Resources */,
-				9D2C145C25EC67BE00D66DAD /* logo_newYorkTimes.pdf in Resources */,
-				9D3A34CE25ED68E000C26902 /* logo_bbc.pdf in Resources */,
-				9D3A34B025ED5A1D00C26902 /* logo_etsy.pdf in Resources */,
-				9DC0D40825E5F2ED00E17D9E /* envelope_open_text.pdf in Resources */,
-				9D2C145025EC611B00D66DAD /* logo_mail.jpg in Resources */,
-				9D2C146625EC68AF00D66DAD /* logo_box.pdf in Resources */,
-				CEC23E6D2733870500E8D032 /* PermissionsSuccessWindow.xib in Resources */,
-				9D2C142C25EC5CD600D66DAD /* logo_twitter.pdf in Resources */,
-				31751B822444E11600EEDF14 /* Local.xcconfig in Resources */,
-				CEC23E742733870C00E8D032 /* PermissionsGuidanceWindow.xib in Resources */,
-				9D2C142225EC1C1C00D66DAD /* favicon_foxNews.pdf in Resources */,
-				9D194DE327041D7C00D4BC36 /* logo_msoutlook.pdf in Resources */,
-				9D2C143E25EC5E5400D66DAD /* logo_tumblr.pdf in Resources */,
-				9D3A34F525ED716500C26902 /* logo_wsj.pdf in Resources */,
-				9D3A34D725ED697300C26902 /* logo_cnbc.pdf in Resources */,
-				9D2C143B25EC5E3B00D66DAD /* logo_reddit.pdf in Resources */,
-				9D3A34E625ED6FD800C26902 /* logo_nbcNews.pdf in Resources */,
-				CEB8708F273369CF002E7601 /* AboutBoxWindowController.xib in Resources */,
-				9D3A348B25ED52E100C26902 /* logo_itunes.pdf in Resources */,
-				9D3A34D125ED68EE00C26902 /* logo_bloomberg.pdf in Resources */,
-				9D3A348525ED51D300C26902 /* logo_youtube.pdf in Resources */,
-				31CE56F5244A407000A52A7B /* QuickHelpViewController.xib in Resources */,
-				9D3A34C225ED5C2400C26902 /* logo_wayfair.png in Resources */,
-				9D3A34B325ED5A7500C26902 /* logo_bestBuy.pdf in Resources */,
-				9D2C146925EC68F500D66DAD /* logo_dropbox.pdf in Resources */,
-				9D2C146325EC686400D66DAD /* logo_yahoo.pdf in Resources */,
-				9D2C144725EC60D300D66DAD /* logo_icloud.pdf in Resources */,
-				31751B3C2444DFAA00EEDF14 /* Main.xib in Resources */,
-				9D194DE827041D7C00D4BC36 /* logo_msteams.pdf in Resources */,
-				CEC23E7B2733872700E8D032 /* UpdateAvailableWindow.xib in Resources */,
-				9D2C144425EC60CF00D66DAD /* logo_gmail.pdf in Resources */,
-				9D3A34C525ED5DB300C26902 /* logo_abcNews.pdf in Resources */,
-				9D2C146C25EC699C00D66DAD /* logo_googleDrive.pdf in Resources */,
-				9D3A349E25ED559800C26902 /* logo_tidal.png in Resources */,
-				9D3A349225ED545600C26902 /* logo_disneyPlus.pdf in Resources */,
-				9D2C142B25EC5CD600D66DAD /* logo_nextdoor.pdf in Resources */,
-				9D2C144125EC60CA00D66DAD /* logo_aolOld.pdf in Resources */,
-				9D3A34B925ED5B1300C26902 /* logo_macys.pdf in Resources */,
-				9D3A34E025ED6AA700C26902 /* logo_huffpost.pdf in Resources */,
-				CEC23E822733873400E8D032 /* CopySettingsWindow.xib in Resources */,
-				9D3A34DD25ED6A9D00C26902 /* logo_forbes.pdf in Resources */,
-				9D2905A02E906F2800C78B6E /* MorphicBarViewController.xib in Resources */,
-				9D94BB28262A047100BF4992 /* logo_chrome.pdf in Resources */,
-				9D3A34F825ED720400C26902 /* logo_usaToday.pdf in Resources */,
-				9D3A34B625ED5AD300C26902 /* logo_kohls.pdf in Resources */,
-				9D3A34F225ED70F300C26902 /* logo_theHill.jpeg in Resources */,
-				9D3A349525ED548900C26902 /* logo_hulu.pdf in Resources */,
-				9D2C145925EC678200D66DAD /* logo_googleNews.pdf in Resources */,
-				9D194DE427041D7C00D4BC36 /* logo_mspowerpoint.pdf in Resources */,
-				9D3A348F25ED53EA00C26902 /* logo_deezer.pdf in Resources */,
-				9D2C146F25EC69A500D66DAD /* logo_onedrive.pdf in Resources */,
-				9D2C142D25EC5CD600D66DAD /* logo_pinterest.pdf in Resources */,
-				9D3A349B25ED554000C26902 /* logo_soundcloud.pdf in Resources */,
-				9DC66E4726294EB20049AAEC /* logo_msedge.pdf in Resources */,
-				9D3A34AD25ED59BB00C26902 /* logo_ebay.png in Resources */,
-				9DC0D3FE25E5F05800E17D9E /* calendar.pdf in Resources */,
-				9D2C143225EC5DF300D66DAD /* logo_imgur.pdf in Resources */,
-				31751B842444E11600EEDF14 /* Debug.xcconfig in Resources */,
-				9D2C143825EC5E2200D66DAD /* logo_linkedIn.pdf in Resources */,
-				9DC0D3FB25E5EAAC00E17D9E /* globe.pdf in Resources */,
-				31751B0F2444DE8B00EEDF14 /* Assets.xcassets in Resources */,
-				9D2C141725EC191700D66DAD /* newspaper.pdf in Resources */,
-				9DC0D40525E5F1FF00E17D9E /* comments.pdf in Resources */,
-				9D3A34A125ED566100C26902 /* logo_vimeo.pdf in Resources */,
-				9D94BB25262A046A00BF4992 /* logo_firefox.pdf in Resources */,
-				9D3A34C825ED65EB00C26902 /* logo_alJazeera.jpg in Resources */,
-				9DFB6E012624B7E500AD39D1 /* logo_calculator.pdf in Resources */,
-				9D2C141425EC179500D66DAD /* envelope.pdf in Resources */,
-				9D2C146025EC680E00D66DAD /* logo_washingtonPost.pdf in Resources */,
-				9D3A34CB25ED679100C26902 /* logo_pandora.jpg in Resources */,
-				9D3A34EF25ED707900C26902 /* logo_theGuardian.pdf in Resources */,
-				9D2C141E25EC1AD900D66DAD /* window_maximize.pdf in Resources */,
-				31751B832444E11600EEDF14 /* Release.xcconfig in Resources */,
-				9D94BB22262A046400BF4992 /* logo_opera.pdf in Resources */,
-				9D3A34AA25ED595900C26902 /* logo_craigslist.pdf in Resources */,
-				9D3A34D425ED696900C26902 /* logo_cbsNews.pdf in Resources */,
-				9D3A34A725ED58FB00C26902 /* logo_amazon.pdf in Resources */,
-				9D194DE727041D7C00D4BC36 /* logo_msexcel.pdf in Resources */,
-				9D4D47C326CBFE2500AC6E3D /* Localizable.strings in Resources */,
-				9D3A34E925ED6FE200C26902 /* logo_npr.pdf in Resources */,
-				314EB6DB24A697C300CF3D48 /* macos.solutions.json in Resources */,
-				9D194DE627041D7C00D4BC36 /* logo_msword.pdf in Resources */,
-				9DC0D41525E5F5F200E17D9E /* envelope_open.pdf in Resources */,
-				9D3A348125ED515900C26902 /* logo_spotify.pdf in Resources */,
-				9D3A34BF25ED5BB900C26902 /* logo_walmart.pdf in Resources */,
-				9D3A34DA25ED69D500C26902 /* logo_drudgeReport.pdf in Resources */,
-				9D3A34A425ED566C00C26902 /* logo_youtubeMusic.pdf in Resources */,
-				9D3A348825ED523800C26902 /* logo_amazonMusic.png in Resources */,
-				31E1E187244792D9009C4092 /* DefaultPreferences.json in Resources */,
-				9D3A34E325ED6F5800C26902 /* logo_laTimes.pdf in Resources */,
-				9D2C144A25EC60DA00D66DAD /* logo_outlook.pdf in Resources */,
-				9D2C142525EC1C9F00D66DAD /* logo_skype.pdf in Resources */,
-				9D3A349825ED550000C26902 /* logo_iheartRadio.pdf in Resources */,
-				31C12CBC24B11F5A00B617A8 /* QuickHelpVolumeViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31751B532444E0E300EEDF14 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D363E3B2798875700D52A98 /* CaptureViewController.xib in Resources */,
-				31751B5A2444E0E400EEDF14 /* Assets.xcassets in Resources */,
-				9D363E492798876900D52A98 /* DoneViewController.xib in Resources */,
-				3103974424B1702800F5AA84 /* PageViewController.xib in Resources */,
-				9D363E422798876000D52A98 /* CreateAccountViewController.xib in Resources */,
-				9D363E342798873200D52A98 /* LoginWindow.xib in Resources */,
-				31751B5D2444E0E400EEDF14 /* MainMenu.xib in Resources */,
-				316E681E24B28D8900FA09D5 /* macos.solutions.json in Resources */,
-				3130B0ED24A41CCF003864DD /* CaptureWindow.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DCF8858257AEF23001927C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DCF885F257AEF23001927C1 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DD4F4D6251A2FC400ADCC25 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DD4F4DD251A2FC500ADCC25 /* Assets.xcassets in Resources */,
-				9DD4F4E0251A2FC500ADCC25 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		318744F52481B38C00AE3954 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\n    export TEMPLATE_NAME=\"MorphicTemplate.dmg\"\n    sh \"${SRCROOT}/Morphic/CreateDiskImage.sh\"\nfi\n\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\n    export PACKAGE_PRODUCT_NAME=\"Morphic\"\n    sh \"${SRCROOT}/Morphic/CreatePackage.sh\"\nfi\n";
-		};
-		9D0AF79024A57FC2007E177E /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\n    codesign --timestamp --force --options=runtime --entitlements \"${SRCROOT}/MorphicConfigurator/MorphicConfiguratorRelease.entitlements\" --sign \"Developer ID Application: Raising the Floor - US Inc. (5AAXYGZ428)\" \"${CONFIGURATION_BUILD_DIR}/Morphic.app/Contents/Library/MorphicConfigurator.app/Contents/MacOS/MorphicConfigurator\"\n\n    codesign --timestamp --force --options=runtime --entitlements \"${SRCROOT}/MorphicDockApp/MorphicDockAppRelease.entitlements\" --sign \"Developer ID Application: Raising the Floor - US Inc. (5AAXYGZ428)\" \"${CONFIGURATION_BUILD_DIR}/Morphic.app/Contents/Library/ Morphic .app/Contents/MacOS/ Morphic \"\n\n    codesign --timestamp --force --options=runtime --entitlements \"${SRCROOT}/Morphic/MorphicRelease.entitlements\" --sign \"Developer ID Application: Raising the Floor - US Inc. (5AAXYGZ428)\" \"${CONFIGURATION_BUILD_DIR}/Morphic.app/Contents/MacOS/Morphic\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		31751B052444DE8900EEDF14 /* Sources */ = {
+		9DC979EA2FC8A905008D411D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D8CEB132507AECF001276E4 /* MorphicBarButtonItemIcon.swift in Sources */,
-				31E1E185244683DC009C4092 /* Theme.swift in Sources */,
-				9DA46E8125CA743B006BEAAC /* PermissionsSuccessWindowController.swift in Sources */,
-				31751B9F2444F22900EEDF14 /* MorphicBarWindow.swift in Sources */,
-				9D4B24E72517068200F0B2E2 /* SettingsLinkActions.swift in Sources */,
-				31E1E183244682C2009C4092 /* MorphicBarSegmentedButton.swift in Sources */,
-				9DA46E7D25CA743B006BEAAC /* PermissionsGuidanceSystem.swift in Sources */,
-				31CE56F7244A408000A52A7B /* QuickHelpViewController.swift in Sources */,
-				9DA46E8325CA743B006BEAAC /* PermissionsGuidanceWindowController.swift in Sources */,
-				9D49D4DD25BBA93B001DD452 /* Autoupdater.swift in Sources */,
-				31751B9E2444F22900EEDF14 /* MorphicBarViewController.swift in Sources */,
-				9D2A5AC1259B914800ECD513 /* MorphicBarSeparatorItemView.swift in Sources */,
-				31CE56F9244A428500A52A7B /* ShadowedLabel.swift in Sources */,
-				31751B982444F21700EEDF14 /* Session.swift in Sources */,
-				31C12CC124B143A000B617A8 /* QuickHelpStepViewController.swift in Sources */,
-				9D3530DD25C3101100F8D590 /* VersionUtils.swift in Sources */,
-				9DB72E9D29B0452A007C3100 /* TelemetryClientProxy.swift in Sources */,
-				31E1E17F24466EB0009C4092 /* MorphicBarItemViewProtocol.swift in Sources */,
-				31C12CB824B1174900B617A8 /* QuickHelpContentProvider.swift in Sources */,
-				9D49D4F225BBAA00001DD452 /* UpdateAvailableWindow.swift in Sources */,
-				9DDAE61025094C4F0072C711 /* MorphicBarSegmentedButtonItemView.swift in Sources */,
-				31C12CBB24B11F5A00B617A8 /* QuickHelpVolumeViewController.swift in Sources */,
-				31CE56F3244A3CDB00A52A7B /* QuickHelpWindow.swift in Sources */,
-				31E1E17D24466E7C009C4092 /* MorphicBarView.swift in Sources */,
-				9D8CEB152507AED7001276E4 /* MorphicBarButtonItemView.swift in Sources */,
-				9D53D8E92784A9B700A96576 /* HyperlinkTextField.swift in Sources */,
-				9DE112E72522243200591E08 /* CopySettingsWindowController.swift in Sources */,
-				31751B0D2444DE8900EEDF14 /* AppDelegate.swift in Sources */,
-				9D2A5AB8259B815800ECD513 /* ConfigurableFeatures.swift in Sources */,
-				DF35CECA2541BCD200C3FF77 /* MorphicBarTrayView.swift in Sources */,
-				31C12CBE24B138D000B617A8 /* ProgressIndicator.swift in Sources */,
-				31C12CC424B1441E00B617A8 /* PageControl.swift in Sources */,
-				9D82576E24D31C1E00F6E932 /* AboutBoxWindowController.swift in Sources */,
-				31E1E17B24466D28009C4092 /* MorphicBarItem.swift in Sources */,
-				9D77209E252BF46A0020BCD6 /* MorphicImageUtils.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31751B512444E0E300EEDF14 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3130B10024A42037003864DD /* DoneViewController.swift in Sources */,
-				3130B0FC24A4202E003864DD /* CreateAccountViewController.swift in Sources */,
-				31751B582444E0E300EEDF14 /* AppDelegate.swift in Sources */,
-				3103974024B15DB600F5AA84 /* CustomCursorButton.swift in Sources */,
-				3130B0F824A42020003864DD /* CaptureViewController.swift in Sources */,
-				3130B0F524A42006003864DD /* PageViewController.swift in Sources */,
-				31751B992444F21700EEDF14 /* Session.swift in Sources */,
-				3130B0F124A41FA6003864DD /* CaptureWindowController.swift in Sources */,
-				9D53D8EA2784A9B700A96576 /* HyperlinkTextField.swift in Sources */,
-				3130B0EF24A41E8D003864DD /* LoginWindowController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DCF8856257AEF23001927C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DCF892E257AF9D8001927C1 /* main.swift in Sources */,
-				9DCF885D257AEF23001927C1 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DD4F4D4251A2FC400ADCC25 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DD4F4DB251A2FC400ADCC25 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		31751B962444F0CA00EEDF14 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 31751B542444E0E300EEDF14 /* MorphicConfigurator */;
-			targetProxy = 31751B952444F0CA00EEDF14 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		31751B3A2444DFAA00EEDF14 /* Main.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31751B3B2444DFAA00EEDF14 /* Base */,
-				9D7D4C202CF6D2C5000D7E24 /* ar */,
-				CEC23E6A2733867400E8D032 /* en */,
-				CEC23E6C2733867500E8D032 /* es */,
-				9D7D4C7E2CF6ECFF000D7E24 /* gu */,
-				9D7D4C2E2CF6D7B8000D7E24 /* hi */,
-				9D7D4C3C2CF6D934000D7E24 /* ko */,
-				9D7D4C892CF6ED79000D7E24 /* ur */,
-				9D7D4C522CF6D985000D7E24 /* vi */,
-				9D7D4C5D2CF6EC82000D7E24 /* zh-Hans */,
-				9D7D4C682CF6EC95000D7E24 /* zh-Hant */,
-			);
-			name = Main.xib;
-			sourceTree = "<group>";
-		};
-		31751B5B2444E0E400EEDF14 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31751B5C2444E0E400EEDF14 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		9D29059F2E906F2800C78B6E /* MorphicBarViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D29059E2E906F2800C78B6E /* Base */,
-			);
-			name = MorphicBarViewController.xib;
-			sourceTree = "<group>";
-		};
-		9D363E362798873200D52A98 /* LoginWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D363E392798873600D52A98 /* Base */,
-				9D7D4C242CF6D2C6000D7E24 /* ar */,
-				9D363E3A2798874500D52A98 /* en */,
-				9D363E382798873400D52A98 /* es */,
-				9D7D4C822CF6ED00000D7E24 /* gu */,
-				9D7D4C322CF6D7B8000D7E24 /* hi */,
-				9D7D4C402CF6D934000D7E24 /* ko */,
-				9D7D4C8D2CF6ED7A000D7E24 /* ur */,
-				9D7D4C562CF6D986000D7E24 /* vi */,
-				9D7D4C612CF6EC83000D7E24 /* zh-Hans */,
-				9D7D4C6C2CF6EC96000D7E24 /* zh-Hant */,
-			);
-			name = LoginWindow.xib;
-			sourceTree = "<group>";
-		};
-		9D363E3D2798875700D52A98 /* CaptureViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D363E3C2798875700D52A98 /* Base */,
-				9D7D4C252CF6D2C6000D7E24 /* ar */,
-				9D363E3F2798875900D52A98 /* en */,
-				9D363E412798875A00D52A98 /* es */,
-				9D7D4C832CF6ED00000D7E24 /* gu */,
-				9D7D4C332CF6D7B9000D7E24 /* hi */,
-				9D7D4C412CF6D934000D7E24 /* ko */,
-				9D7D4C8E2CF6ED7A000D7E24 /* ur */,
-				9D7D4C572CF6D986000D7E24 /* vi */,
-				9D7D4C622CF6EC83000D7E24 /* zh-Hans */,
-				9D7D4C6D2CF6EC96000D7E24 /* zh-Hant */,
-			);
-			name = CaptureViewController.xib;
-			sourceTree = "<group>";
-		};
-		9D363E442798876000D52A98 /* CreateAccountViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D363E432798876000D52A98 /* Base */,
-				9D7D4C262CF6D2C6000D7E24 /* ar */,
-				9D363E462798876200D52A98 /* en */,
-				9D363E482798876300D52A98 /* es */,
-				9D7D4C842CF6ED00000D7E24 /* gu */,
-				9D7D4C342CF6D7B9000D7E24 /* hi */,
-				9D7D4C422CF6D935000D7E24 /* ko */,
-				9D7D4C8F2CF6ED7A000D7E24 /* ur */,
-				9D7D4C582CF6D986000D7E24 /* vi */,
-				9D7D4C632CF6EC83000D7E24 /* zh-Hans */,
-				9D7D4C6E2CF6EC96000D7E24 /* zh-Hant */,
-			);
-			name = CreateAccountViewController.xib;
-			sourceTree = "<group>";
-		};
-		9D363E4B2798876900D52A98 /* DoneViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D363E4A2798876900D52A98 /* Base */,
-				9D7D4C272CF6D2C6000D7E24 /* ar */,
-				9D363E4D2798876B00D52A98 /* en */,
-				9D363E4F2798876C00D52A98 /* es */,
-				9D7D4C852CF6ED00000D7E24 /* gu */,
-				9D7D4C352CF6D7B9000D7E24 /* hi */,
-				9D7D4C432CF6D935000D7E24 /* ko */,
-				9D7D4C902CF6ED7A000D7E24 /* ur */,
-				9D7D4C592CF6D986000D7E24 /* vi */,
-				9D7D4C642CF6EC83000D7E24 /* zh-Hans */,
-				9D7D4C6F2CF6EC97000D7E24 /* zh-Hant */,
-			);
-			name = DoneViewController.xib;
-			sourceTree = "<group>";
-		};
-		9D4D47C526CBFE2500AC6E3D /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D7D4C2B2CF6D704000D7E24 /* ar */,
-				9D4D47CA26CBFE5400AC6E3D /* es */,
-				CEB8709427336AE4002E7601 /* en */,
-				9D7D4C862CF6ED0D000D7E24 /* gu */,
-				9D7D4C392CF6D7C9000D7E24 /* hi */,
-				9D7D4C442CF6D940000D7E24 /* ko */,
-				9D7D4C912CF6ED7B000D7E24 /* ur */,
-				9D7D4C5A2CF6D994000D7E24 /* vi */,
-				9D7D4C652CF6EC84000D7E24 /* zh-Hans */,
-				9D7D4C702CF6EC97000D7E24 /* zh-Hant */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		9DD4F4DE251A2FC500ADCC25 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DD4F4DF251A2FC500ADCC25 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		CEB87091273369CF002E7601 /* AboutBoxWindowController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEC23E602733846100E8D032 /* Base */,
-				9D7D4C212CF6D2C5000D7E24 /* ar */,
-				CEC23E62273384E600E8D032 /* es */,
-				CEC23E682733853E00E8D032 /* en */,
-				9D7D4C7F2CF6ECFF000D7E24 /* gu */,
-				9D7D4C2F2CF6D7B8000D7E24 /* hi */,
-				9D7D4C3D2CF6D934000D7E24 /* ko */,
-				9D7D4C8A2CF6ED79000D7E24 /* ur */,
-				9D7D4C532CF6D985000D7E24 /* vi */,
-				9D7D4C5E2CF6EC82000D7E24 /* zh-Hans */,
-				9D7D4C692CF6EC95000D7E24 /* zh-Hant */,
-			);
-			name = AboutBoxWindowController.xib;
-			sourceTree = "<group>";
-		};
-		CEC23E6F2733870500E8D032 /* PermissionsSuccessWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEC23E6E2733870500E8D032 /* Base */,
-				9D7D4C1F2CF6D2C5000D7E24 /* ar */,
-				CEC23E712733870700E8D032 /* en */,
-				CEC23E732733870700E8D032 /* es */,
-				9D7D4C7D2CF6ECFF000D7E24 /* gu */,
-				9D7D4C2D2CF6D7B7000D7E24 /* hi */,
-				9D7D4C3B2CF6D933000D7E24 /* ko */,
-				9D7D4C882CF6ED79000D7E24 /* ur */,
-				9D7D4C512CF6D985000D7E24 /* vi */,
-				9D7D4C5C2CF6EC82000D7E24 /* zh-Hans */,
-				9D7D4C672CF6EC95000D7E24 /* zh-Hant */,
-			);
-			name = PermissionsSuccessWindow.xib;
-			path = "Permissions Guidance";
-			sourceTree = "<group>";
-		};
-		CEC23E762733870C00E8D032 /* PermissionsGuidanceWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEC23E752733870C00E8D032 /* Base */,
-				9D7D4C1E2CF6D2C5000D7E24 /* ar */,
-				CEC23E782733870F00E8D032 /* en */,
-				CEC23E7A2733871000E8D032 /* es */,
-				9D7D4C7C2CF6ECFE000D7E24 /* gu */,
-				9D7D4C2C2CF6D7B7000D7E24 /* hi */,
-				9D7D4C3A2CF6D933000D7E24 /* ko */,
-				9D7D4C872CF6ED79000D7E24 /* ur */,
-				9D7D4C502CF6D985000D7E24 /* vi */,
-				9D7D4C5B2CF6EC82000D7E24 /* zh-Hans */,
-				9D7D4C662CF6EC95000D7E24 /* zh-Hant */,
-			);
-			name = PermissionsGuidanceWindow.xib;
-			path = "Permissions Guidance";
-			sourceTree = "<group>";
-		};
-		CEC23E7D2733872700E8D032 /* UpdateAvailableWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEC23E7C2733872700E8D032 /* Base */,
-				9D7D4C222CF6D2C5000D7E24 /* ar */,
-				CEC23E7F2733872900E8D032 /* es */,
-				CEC23E812733872A00E8D032 /* en */,
-				9D7D4C802CF6ECFF000D7E24 /* gu */,
-				9D7D4C302CF6D7B8000D7E24 /* hi */,
-				9D7D4C3E2CF6D934000D7E24 /* ko */,
-				9D7D4C8B2CF6ED7A000D7E24 /* ur */,
-				9D7D4C542CF6D985000D7E24 /* vi */,
-				9D7D4C5F2CF6EC82000D7E24 /* zh-Hans */,
-				9D7D4C6A2CF6EC96000D7E24 /* zh-Hant */,
-			);
-			name = UpdateAvailableWindow.xib;
-			sourceTree = "<group>";
-		};
-		CEC23E842733873400E8D032 /* CopySettingsWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEC23E832733873400E8D032 /* Base */,
-				9D7D4C232CF6D2C6000D7E24 /* ar */,
-				CEC23E862733873800E8D032 /* es */,
-				CEC23E882733873800E8D032 /* en */,
-				9D7D4C812CF6ECFF000D7E24 /* gu */,
-				9D7D4C312CF6D7B8000D7E24 /* hi */,
-				9D7D4C3F2CF6D934000D7E24 /* ko */,
-				9D7D4C8C2CF6ED7A000D7E24 /* ur */,
-				9D7D4C552CF6D985000D7E24 /* vi */,
-				9D7D4C602CF6EC83000D7E24 /* zh-Hans */,
-				9D7D4C6B2CF6EC96000D7E24 /* zh-Hant */,
-			);
-			name = CopySettingsWindow.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		31751B2B2444DE8B00EEDF14 /* Debug */ = {
+		9DC979F82FC8A906008D411D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31751B812444E11600EEDF14 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -1667,6 +151,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1677,7 +162,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1691,26 +177,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		31751B2C2444DE8B00EEDF14 /* Release */ = {
+		9DC979F92FC8A906008D411D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31751B802444E11600EEDF14 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -1729,6 +214,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1739,7 +225,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -1747,213 +234,75 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		31751B2E2444DE8B00EEDF14 /* Debug */ = {
+		9DC979FB2FC8A906008D411D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Morphic/MorphicDebug.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5AAXYGZ428;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = Morphic/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.8;
-				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.raisingthefloor.Morphic-Debug";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		31751B2F2444DE8B00EEDF14 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Morphic/MorphicRelease.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application: Raising the Floor - US Inc. (5AAXYGZ428)";
-				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5AAXYGZ428;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = Morphic/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.8;
-				OTHER_SWIFT_FLAGS = "";
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.raisingthefloor.Morphic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Morphic Client for macOS";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		31751B772444E0E400EEDF14 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MorphicConfigurator/MorphicConfiguratorDebug.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5AAXYGZ428;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = MorphicConfigurator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.8;
-				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.raisingthefloor.MorphicConfigurator-Debug";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		31751B782444E0E400EEDF14 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MorphicConfigurator/MorphicConfiguratorRelease.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application: Raising the Floor - US Inc. (5AAXYGZ428)";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5AAXYGZ428;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = MorphicConfigurator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.8;
-				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = org.raisingthefloor.MorphicConfigurator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Morphic Configurator for macOS";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		9DCF8866257AEF23001927C1 /* Debug */ = {
+		9DC979FC2FC8A906008D411D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_ENTITLEMENTS = MorphicDockApp/MorphicDockAppDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5AAXYGZ428;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = MorphicDockApp/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.raisingthefloor.MorphicDockApp-Debug";
-				PRODUCT_NAME = " Morphic ";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		9DCF8867257AEF23001927C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_ENTITLEMENTS = MorphicDockApp/MorphicDockAppRelease.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5AAXYGZ428;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = MorphicDockApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.raisingthefloor.MorphicDockApp;
-				PRODUCT_NAME = " Morphic ";
-				PROVISIONING_PROFILE_SPECIFIER = "Morphic Dock App for macOS";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		9DD4F4E4251A2FC500ADCC25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_ENTITLEMENTS = MorphicLauncher/MorphicLauncherDebug.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5AAXYGZ428;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = MorphicLauncher/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.raisingthefloor.MorphicLauncher-Debug";
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.raisingthefloor.Morphic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		9DD4F4E5251A2FC500ADCC25 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_ENTITLEMENTS = MorphicLauncher/MorphicLauncherRelease.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5AAXYGZ428;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = MorphicLauncher/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = org.raisingthefloor.MorphicLauncher;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Morphic Launcher for macOS";
-				SKIP_INSTALL = YES;
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -1961,52 +310,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31751B042444DE8900EEDF14 /* Build configuration list for PBXProject "Morphic" */ = {
+		9DC979E92FC8A905008D411D /* Build configuration list for PBXProject "Morphic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31751B2B2444DE8B00EEDF14 /* Debug */,
-				31751B2C2444DE8B00EEDF14 /* Release */,
+				9DC979F82FC8A906008D411D /* Debug */,
+				9DC979F92FC8A906008D411D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31751B2D2444DE8B00EEDF14 /* Build configuration list for PBXNativeTarget "Morphic" */ = {
+		9DC979FA2FC8A906008D411D /* Build configuration list for PBXNativeTarget "Morphic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31751B2E2444DE8B00EEDF14 /* Debug */,
-				31751B2F2444DE8B00EEDF14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		31751B762444E0E400EEDF14 /* Build configuration list for PBXNativeTarget "MorphicConfigurator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				31751B772444E0E400EEDF14 /* Debug */,
-				31751B782444E0E400EEDF14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9DCF8865257AEF23001927C1 /* Build configuration list for PBXNativeTarget "MorphicDockApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9DCF8866257AEF23001927C1 /* Debug */,
-				9DCF8867257AEF23001927C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9DD4F4E3251A2FC500ADCC25 /* Build configuration list for PBXNativeTarget "MorphicLauncher" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9DD4F4E4251A2FC500ADCC25 /* Debug */,
-				9DD4F4E5251A2FC500ADCC25 /* Release */,
+				9DC979FB2FC8A906008D411D /* Debug */,
+				9DC979FC2FC8A906008D411D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 31751B012444DE8900EEDF14 /* Project object */;
+	rootObject = 9DC979E62FC8A905008D411D /* Project object */;
 }
