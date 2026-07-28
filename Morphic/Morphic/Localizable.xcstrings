@@ -1,0 +1,3672 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "AboutBuildFormat": {
+      "comment": "[loc-id:05081f5508eb466a] About box build line. %@ = build number, supplied from code. Keep the parentheses. Short fragment.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(build %@)"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(Build %1$@)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(compilaci\u00F3n %1$@)"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u0627\u0644\u0628\u0646\u064A\u0629 %1$@)"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u0633\u0627\u062E\u062A %1$@)"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u0AAC\u0ABF\u0AB2\u0ACD\u0AA1 %1$@)"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u092C\u093F\u0932\u094D\u0921 %1$@)"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\uBE4C\uB4DC %1$@)"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u092C\u093F\u0932\u094D\u0921 %1$@)"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u0628\u0644\u0688 %1$@)"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(b\u1EA3n d\u1EF1ng %1$@)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uFF08\u5185\u90E8\u7248\u672C %1$@\uFF09"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u7D44\u5EFA %1$@)"
+          }
+        }
+      }
+    },
+    "AboutBuildUnknown": {
+      "comment": "[loc-id:cf2bae5b0b0842b5] About box build line shown when the build number is not available. Keep the parentheses. Short fragment.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(build unknown)"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(Build unbekannt)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(compilaci\u00F3n desconocida)"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u0627\u0644\u0628\u0646\u064A\u0629 \u063A\u064A\u0631 \u0645\u0639\u0631\u0648\u0641\u0629)"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u0633\u0627\u062E\u062A \u0646\u0627\u0645\u0634\u062E\u0635)"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u0AAC\u0ABF\u0AB2\u0ACD\u0AA1 \u0A85\u0A9C\u0ACD\u0A9E\u0ABE\u0AA4)"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u092C\u093F\u0932\u094D\u0921 \u0905\u091C\u094D\u091E\u093E\u0924)"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\uBE4C\uB4DC \uC54C \uC218 \uC5C6\uC74C)"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u092C\u093F\u0932\u094D\u0921 \u0905\u091C\u094D\u091E\u093E\u0924)"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u0628\u0644\u0688 \u0646\u0627\u0645\u0639\u0644\u0648\u0645)"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(b\u1EA3n d\u1EF1ng kh\u00F4ng x\u00E1c \u0111\u1ECBnh)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uFF08\u5185\u90E8\u7248\u672C\u672A\u77E5\uFF09"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(\u7D44\u5EFA\u672A\u77E5)"
+          }
+        }
+      }
+    },
+    "AboutMorphicMenuItem": {
+      "comment": "[loc-id:6fb35f822df942fc] Menu item (Morphic status-menu) that opens the About window. macOS convention has no trailing ellipsis (unlike Windows). \u0022Morphic\u0022 is a product name; do not translate it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About Morphic"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0639\u0646 \u0627\u0644\u0645\u0648\u0631\u0641\u064A\u0643..."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de Morphic..."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062F\u0631\u0628\u0627\u0631\u0647 \u0645\u0648\u0631\u0641\u06CC\u06A9..."
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0AB5\u0ABF\u0AB6\u0AC7..."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "\u092E\u0949\u0930\u094D\u092B\u093F\u0915 \u0915\u0947 \u092C\u093E\u0930\u0947 \u092E\u0947\u0902.."
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Morphic\uC5D0 \uB300\uD558\uC5EC..."
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u0949\u0930\u094D\u092B\u093F\u0915 \u092C\u0926\u094D\u0926\u0932..."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u06A9\u06D2 \u0628\u0627\u0631\u06D2 \u0645\u06CC\u06BA..."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gi\u1EDBi thi\u1EC7u v\u1EC1 Morphic..."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "\u5173\u4E8E Morphic (A)..."
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u95DC\u65BC Morphic..."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Info zu Morphic..."
+          }
+        }
+      }
+    },
+    "AboutVersionFormat": {
+      "comment": "[loc-id:6935ac4e1bda442a] About box version line. %1$@ = major version number, %2$@ = minor version number, supplied from code. Short fragment.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "version %1$@.%2$@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version %1$@.%2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "versi\u00F3n %1$@.%2$@"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0627\u0644\u0625\u0635\u062F\u0627\u0631 %1$@.%2$@"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0646\u0633\u062E\u0647 %1$@.%2$@"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0A86\u0AB5\u0AC3\u0AA4\u0ACD\u0AA4\u0ABF %1$@.%2$@"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0938\u0902\u0938\u094D\u0915\u0930\u0923 %1$@.%2$@"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uBC84\uC804 %1$@.%2$@"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0906\u0935\u0943\u0924\u094D\u0924\u0940 %1$@.%2$@"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0648\u0631\u0698\u0646 %1$@.%2$@"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "phi\u00EAn b\u1EA3n %1$@.%2$@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u7248\u672C %1$@.%2$@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u7248\u672C %1$@.%2$@"
+          }
+        }
+      }
+    },
+    "AboutWindowTitle": {
+      "comment": "[loc-id:c765e67d1a6947e3] Title bar of the About window. \u0022Morphic\u0022 is a product name; do not translate it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About Morphic"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0639\u0646 \u0627\u0644\u0645\u0648\u0631\u0641\u064A\u0643"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de Morphic"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062F\u0631\u0628\u0627\u0631\u0647 \u0645\u0648\u0631\u0641\u06CC\u06A9"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0AB5\u0ABF\u0AB6\u0AC7"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u0949\u0930\u094D\u092B\u093F\u0915 \u0915\u0947 \u092C\u093E\u0930\u0947 \u092E\u0947\u0902"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \uC18C\uAC1C"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u0949\u0930\u094D\u092B\u093F\u0915 \u092C\u0926\u094D\u0926\u0932"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u06A9\u06D2 \u0628\u0627\u0631\u06D2 \u0645\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gi\u1EDBi thi\u1EC7u v\u1EC1 Morphic"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u5173\u4E8E Morphic"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u95DC\u65BC Morphic"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Info zu Morphic"
+          }
+        }
+      }
+    },
+    "ColorFiltersAccessibleName": {
+      "comment": "[loc-id:a01691fe83984b2d] VoiceOver/accessibility label for the \u0022Color\u0022 toggle button on the MorphicBar; it turns the macOS Color Filters display feature on or off. Noun phrase naming the feature.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color filters"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farbfilter"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtros de color"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0639\u0648\u0627\u0645\u0644 \u062A\u0635\u0641\u064A\u0629 \u0627\u0644\u0623\u0644\u0648\u0627\u0646"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0641\u06CC\u0644\u062A\u0631\u0647\u0627\u06CC \u0631\u0646\u06AF"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AB0\u0A82\u0A97 \u0AAB\u0ABF\u0AB2\u0ACD\u0A9F\u0AB0\u0ACD\u0AB8"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0930\u0902\u0917 \u092B\u093C\u093F\u0932\u094D\u091F\u0930"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uC0C9\uC0C1 \uD544\uD130"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0930\u0902\u0917 \u092B\u093F\u0932\u094D\u091F\u0930"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0631\u0646\u06AF \u06A9\u06D2 \u0641\u0644\u0679\u0631\u0632"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B\u1ED9 l\u1ECDc m\u00E0u"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u989C\u8272\u6EE4\u955C"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u8272\u5F69\u6FFE\u93E1"
+          }
+        }
+      }
+    },
+    "ColorLabel": {
+      "comment": "[loc-id:56ca54ca1f8e406f] Short toggle-button label on the MorphicBar; turns macOS Color Filters on or off. Very short to fit the button.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0627\u0644\u0623\u0644\u0648\u0627\u0646"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0631\u0646\u06AF"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AB0\u0A82\u0A97"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0915\u0932\u0930 (\u0930\u0902\u0917)"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uC0C9\uC0C1"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0930\u0902\u0917"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0631\u0646\u06AF"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "M\u00E0u s\u1EAFc"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u989C\u8272"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u8272\u5F69"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farbe"
+          }
+        }
+      }
+    },
+    "ContrastAndColorHeader": {
+      "comment": "[loc-id:dabb3a55b0dc4d74] Header above the Contrast \u0026 Color group of toggle buttons on the MorphicBar.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contrast \u0026 Color"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontrast \u0026 Farbe"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contraste y color"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0627\u0644\u062A\u0628\u0627\u064A\u0646 \u0648\u0627\u0644\u0623\u0644\u0648\u0627\u0646"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u06A9\u0646\u062A\u0631\u0627\u0633\u062A \u0648 \u0631\u0646\u06AF"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0A95\u0ACB\u0AA8\u0ACD\u0A9F\u0ACD\u0AB0\u0ABE\u0AB8\u0ACD\u0A9F \u0A85\u0AA8\u0AC7 \u0AB0\u0A82\u0A97"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0915\u0902\u091F\u094D\u0930\u093E\u0938\u094D\u091F \u0914\u0930 \u0930\u0902\u0917"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uB300\uBE44 \uBC0F \uC0C9\uC0C1"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0915\u0949\u0928\u094D\u091F\u094D\u0930\u093E\u0938\u094D\u091F \u0906\u0923\u093F \u0930\u0902\u0917"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u06A9\u0646\u0679\u0631\u0627\u0633\u0679 \u0627\u0648\u0631 \u0631\u0646\u06AF"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0110\u1ED9 t\u01B0\u01A1ng ph\u1EA3n \u0026 M\u00E0u s\u1EAFc"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u5BF9\u6BD4\u5EA6\u548C\u989C\u8272"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u5C0D\u6BD4\u8207\u8272\u5F69"
+          }
+        }
+      }
+    },
+    "ContrastAutomationFailedMessage": {
+      "comment": "[loc-id:bbeecdb44a5cb52f] Notification toast body shown when Morphic could not toggle Increase Contrast automatically, asking the user to do it in Accessibility settings. \u0022Morphic\u0022 is a product name; \u0022Increase Contrast\u0022 is the macOS Accessibility setting (match Apple\u0027s wording).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic couldn\u2019t switch Increase Contrast automatically. Open Accessibility settings to toggle it."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic konnte \u201EKontrast erh\u00F6hen\u201C nicht automatisch umschalten. \u00D6ffnen Sie die Bedienungshilfen-Einstellungen, um die Option umzuschalten."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic no pudo cambiar Aumentar contraste autom\u00E1ticamente. Abre los ajustes de Accesibilidad para activarlo o desactivarlo."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062A\u0639\u0630\u0651\u0631 \u0639\u0644\u0649 Morphic \u062A\u0628\u062F\u064A\u0644 \u00AB\u0632\u064A\u0627\u062F\u0629 \u0627\u0644\u062A\u0628\u0627\u064A\u0646\u00BB \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627. \u0627\u0641\u062A\u062D \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u062A\u0633\u0647\u064A\u0644\u0627\u062A \u0627\u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0644\u062A\u0628\u062F\u064A\u0644\u0647\u0627."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0646\u062A\u0648\u0627\u0646\u0633\u062A \u00AB\u0627\u0641\u0632\u0627\u06CC\u0634 \u06A9\u0646\u062A\u0631\u0627\u0633\u062A\u00BB \u0631\u0627 \u0628\u0647\u200C\u0637\u0648\u0631 \u062E\u0648\u062F\u06A9\u0627\u0631 \u062A\u063A\u06CC\u06CC\u0631 \u062F\u0647\u062F. \u062A\u0646\u0638\u06CC\u0645\u0627\u062A \u062F\u0633\u062A\u0631\u0633\u200C\u067E\u0630\u06CC\u0631\u06CC \u0631\u0627 \u0628\u0627\u0632 \u06A9\u0646\u06CC\u062F \u062A\u0627 \u0622\u0646 \u0631\u0627 \u0631\u0648\u0634\u0646/\u062E\u0627\u0645\u0648\u0634 \u06A9\u0646\u06CC\u062F."
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0A86\u0AAA\u0AAE\u0AC7\u0AB3\u0AC7 Increase Contrast \u0AAC\u0AA6\u0AB2\u0AC0 \u0AB6\u0A95\u0ACD\u0AAF\u0AC1\u0A82 \u0AA8\u0AA5\u0AC0. \u0AA4\u0AC7\u0AA8\u0AC7 \u0A9F\u0AC9\u0A97\u0AB2 \u0A95\u0AB0\u0AB5\u0ABE \u0AAE\u0ABE\u0A9F\u0AC7 \u0A8D\u0A95\u0ACD\u0AB8\u0AC7\u0AB8\u0ABF\u0AAC\u0ABF\u0AB2\u0ABF\u0A9F\u0AC0 \u0AB8\u0AC7\u0A9F\u0ABF\u0A82\u0A97\u0ACD\u0AB8 \u0A96\u0ACB\u0AB2\u0ACB."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0938\u094D\u0935\u091A\u093E\u0932\u093F\u0924 \u0930\u0942\u092A \u0938\u0947 \u0915\u0902\u091F\u094D\u0930\u093E\u0938\u094D\u091F \u092C\u0922\u093C\u093E\u090F\u0901 \u0915\u094B \u0928\u0939\u0940\u0902 \u092C\u0926\u0932 \u0938\u0915\u093E\u0964 \u0907\u0938\u0947 \u091F\u0949\u0917\u0932 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F \u090F\u0915\u094D\u0938\u0947\u0938\u093F\u092C\u093F\u0932\u093F\u091F\u0940 \u0938\u0947\u091F\u093F\u0902\u0917\u094D\u0938 \u0916\u094B\u0932\u0947\u0902\u0964"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic\uC774 \uB300\uBE44 \uC99D\uAC00\uB97C \uC790\uB3D9\uC73C\uB85C \uC804\uD658\uD558\uC9C0 \uBABB\uD588\uC2B5\uB2C8\uB2E4. \uC190\uC26C\uC6B4 \uC0AC\uC6A9 \uC124\uC815\uC744 \uC5F4\uC5B4 \uCF1C\uAC70\uB098 \uB044\uC2ED\uC2DC\uC624."
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0938\u094D\u0935\u092F\u0902\u091A\u0932\u093F\u0924\u092A\u0923\u0947 Increase Contrast \u0938\u094D\u0935\u093F\u091A \u0915\u0930\u0942 \u0936\u0915\u0932\u0947 \u0928\u093E\u0939\u0940. \u0924\u0947 \u091F\u0949\u0917\u0932 \u0915\u0930\u0923\u094D\u092F\u093E\u0938\u093E\u0920\u0940 \u0905\u200D\u0945\u0915\u094D\u0938\u0947\u0938\u093F\u092C\u093F\u0932\u093F\u091F\u0940 \u0938\u0947\u091F\u093F\u0902\u0917\u094D\u091C \u0909\u0918\u0921\u093E."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u062E\u0648\u062F\u06A9\u0627\u0631 \u0637\u0648\u0631 \u067E\u0631 Increase Contrast \u06A9\u0648 \u062A\u0628\u062F\u06CC\u0644 \u0646\u06C1\u06CC\u06BA \u06A9\u0631 \u0633\u06A9\u0627\u06D4 \u0627\u0633\u06D2 \u0622\u0646 \u06CC\u0627 \u0622\u0641 \u06A9\u0631\u0646\u06D2 \u06A9\u06D2 \u0644\u06CC\u06D2 Accessibility \u062A\u0631\u062A\u06CC\u0628\u0627\u062A \u06A9\u06BE\u0648\u0644\u06CC\u06BA\u06D4"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic kh\u00F4ng th\u1EC3 t\u1EF1 \u0111\u1ED9ng chuy\u1EC3n \u0111\u1ED5i T\u0103ng \u0111\u1ED9 t\u01B0\u01A1ng ph\u1EA3n. H\u00E3y m\u1EDF c\u00E0i \u0111\u1EB7t Tr\u1EE3 n\u0103ng \u0111\u1EC3 b\u1EADt/t\u1EAFt t\u00EDnh n\u0103ng n\u00E0y."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u65E0\u6CD5\u81EA\u52A8\u5207\u6362\u201C\u589E\u52A0\u5BF9\u6BD4\u5EA6\u201D\u3002\u8BF7\u6253\u5F00\u201C\u8F85\u52A9\u529F\u80FD\u201D\u8BBE\u7F6E\u8FDB\u884C\u5207\u6362\u3002"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u7121\u6CD5\u81EA\u52D5\u5207\u63DB\u300C\u589E\u52A0\u5C0D\u6BD4\u300D\u3002\u8ACB\u958B\u555F\u300C\u8F14\u52A9\u4F7F\u7528\u300D\u8A2D\u5B9A\u9032\u884C\u5207\u63DB\u3002"
+          }
+        }
+      }
+    },
+    "ContrastLabel": {
+      "comment": "[loc-id:e16e7456d6be49ea] Short toggle-button label on the MorphicBar; turns the macOS Increase Contrast feature on or off. Very short to fit the button.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contrast"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0627\u0644\u062A\u0628\u0627\u064A\u0646"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contraste"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u06A9\u0646\u062A\u0631\u0627\u0633\u062A"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0A95\u0ACB\u0AA8\u0ACD\u0A9F\u0ACD\u0AB0\u0ABE\u0AB8\u0ACD\u0A9F"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0938\u094D\u0928\u093F\u092A (\u0915\u091F\u093E\u0935)"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uCF58\uD2B8\uB77C\uC2A4\uD2B8"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0915\u0949\u0928\u094D\u091F\u094D\u0930\u093E\u0938\u094D\u091F"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u06A9\u0646\u0679\u0631\u0627\u0633\u0679"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0110\u1ED9 t\u01B0\u01A1ng ph\u1EA3n"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u5BF9\u6BD4\u5EA6"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u9AD8\u5C0D\u6BD4"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontrast"
+          }
+        }
+      }
+    },
+    "CopyrightNoticeFormat": {
+      "comment": "[loc-id:374278d18ae04ef4] Copyright notice in the About box. %@ = the copyright year range, supplied from code (NOT part of the translation). \u0022Raising the Floor - US, Inc.\u0022 is a legal entity name; do not translate it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copyright %@ Raising the Floor - US, Inc."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copyright %1$@ Raising the Floor - US, Inc."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copyright %1$@ Raising the Floor - US, Inc."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062D\u0642\u0648\u0642 \u0627\u0644\u0637\u0628\u0639 \u0648\u0627\u0644\u0646\u0634\u0631 %1$@ Raising the Floor - US, Inc."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062D\u0642 \u062A\u06A9\u062B\u06CC\u0631 %1$@ Raising the Floor - US, Inc."
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0A95\u0AC9\u0AAA\u0ABF\u0AB0\u0ABE\u0A87\u0A9F %1$@ Raising the Floor - US, Inc."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0915\u0949\u092A\u0940\u0930\u093E\u0907\u091F %1$@ Raising the Floor - US, Inc."
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copyright %1$@ Raising the Floor - US, Inc."
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0915\u0949\u092A\u0940\u0930\u093E\u0907\u091F %1$@ Raising the Floor - US, Inc."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u06A9\u0627\u067E\u06CC \u0631\u0627\u0626\u0679 %1$@ Raising the Floor - US, Inc."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B\u1EA3n quy\u1EC1n %1$@ Raising the Floor - US, Inc."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u7248\u6743\u6240\u6709 %1$@ Raising the Floor - US, Inc."
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u8457\u4F5C\u6B0A\u6240\u6709 %1$@ Raising the Floor - US, Inc."
+          }
+        }
+      }
+    },
+    "DarkLabel": {
+      "comment": "[loc-id:ac529a4cc8564b09] Short toggle-button label on the MorphicBar; turns macOS Dark Mode on or off. Very short to fit the button.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dark"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u0638\u0644\u0645"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oscuro"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062A\u0627\u0631\u06CC\u06A9"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AA1\u0ABE\u0AB0\u0ACD\u0A95"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0915\u0932\u0930 \u0935\u093F\u091C\u093C\u0928 \u0905\u0902\u0924\u0930 \u0915\u0947 \u0905\u0928\u0941\u0930\u0942\u092A \u0930\u0902\u0917 \u092C\u0926\u0932\u0924\u093E \u0939\u0948\u0964 \u091F\u093E\u0907\u092A \u091A\u0941\u0928\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F, \u092C\u091F\u0928 \u092A\u0930 \u0930\u093E\u0907\u091F-\u0915\u094D\u0932\u093F\u0915 \u0915\u0930\u0947\u0902"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uB2E4\uD06C"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0921\u093E\u0930\u094D\u0915"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0627\u0646\u062F\u06BE\u06CC\u0631\u0627"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0110\u1ED9 t\u1ED1i"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u6DF1\u8272"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u6DF1\u8272\u6A21\u5F0F"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dunkel"
+          }
+        }
+      }
+    },
+    "DarkModeAccessibleName": {
+      "comment": "[loc-id:4976a5a59d1c4f77] VoiceOver/accessibility label for the \u0022Dark\u0022 toggle button on the MorphicBar; turns macOS Dark Mode on or off. Noun phrase naming the feature.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dark mode"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0627\u0644\u0648\u0636\u0639 \u0627\u0644\u0645\u0638\u0644\u0645"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modo oscuro"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062D\u0627\u0644\u062A \u062A\u0627\u0631\u06CC\u06A9"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AA1\u0ABE\u0AB0\u0ACD\u0A95 \u0AAE\u0ACB\u0AA1"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0921\u093E\u0930\u094D\u0915 \u092E\u094B\u0921 (\u0917\u0939\u0930\u0947 \u0930\u0902\u0917 \u0935\u093E\u0932\u093E \u092E\u094B\u0921)"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uB2E4\uD06C \uBAA8\uB4DC"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0921\u093E\u0930\u094D\u0915 \u092E\u094B\u0921"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0688\u0627\u0631\u06A9 \u0645\u0648\u0688"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ch\u1EBF \u0111\u1ED9 t\u1ED1i"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u6DF1\u8272\u6A21\u5F0F"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u6DF1\u8272\u6A21\u5F0F"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dunkler Modus"
+          }
+        }
+      }
+    },
+    "DecreaseTextSizeAccessibleName": {
+      "comment": "[loc-id:6c7259d06b6741b7] VoiceOver/accessibility label for the \u0022\u2013\u0022 button on the MorphicBar that decreases the system text/display size.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decrease size of text"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Textgr\u00F6\u00DFe verringern"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reducir el tama\u00F1o del texto"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062A\u0635\u063A\u064A\u0631 \u062D\u062C\u0645 \u0627\u0644\u0646\u0635"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u06A9\u0627\u0647\u0634 \u0627\u0646\u062F\u0627\u0632\u0647\u0654 \u0645\u062A\u0646"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0A9F\u0AC7\u0A95\u0ACD\u0AB8\u0ACD\u0A9F\u0AA8\u0AC1\u0A82 \u0A95\u0AA6 \u0A98\u0A9F\u0ABE\u0AA1\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u091F\u0947\u0915\u094D\u0938\u094D\u091F \u0915\u093E \u0906\u0915\u093E\u0930 \u0918\u091F\u093E\u090F\u0901"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uD14D\uC2A4\uD2B8 \uD06C\uAE30 \uC904\uC774\uAE30"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u091C\u0915\u0941\u0930\u093E\u091A\u093E \u0906\u0915\u093E\u0930 \u0915\u092E\u0940 \u0915\u0930\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u062A\u0646 \u06A9\u0627 \u0633\u0627\u0626\u0632 \u06A9\u0645 \u06A9\u0631\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gi\u1EA3m c\u1EE1 ch\u1EEF"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u51CF\u5C0F\u6587\u672C\u5927\u5C0F"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u7E2E\u5C0F\u6587\u5B57"
+          }
+        }
+      }
+    },
+    "HideMorphicBar": {
+      "comment": "[loc-id:22050fc8480045eb] Menu item that hides the MorphicBar. \u0022MorphicBar\u0022 is a product name; do not translate it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide MorphicBar"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0625\u062E\u0641\u0627\u0621 \u0634\u0631\u064A\u0637 \u0627\u0644\u0645\u0648\u0631\u0641\u064A\u0643"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar la barra de Morphic"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u0648\u0631\u0641\u06CC\u06A9 \u0628\u0627\u0631 \u0645\u0646"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MorphicBar \u0A9B\u0AC1\u0AAA\u0ABE\u0AB5\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u0949\u0930\u094D\u092B\u093F\u0915\u092C\u093E\u0930 \u091B\u0941\u092A\u093E\u090F\u0902"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MorphicBar \uC228\uAE30\uAE30"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MorphicBar \u0932\u092A\u0935\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MorphicBar \u0686\u06BE\u067E\u0627\u0626\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "\u1EA8n MorphicB\u1EA3"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "\u9690\u85CF MorphicBar"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u96B1\u85CF Morphic \u5DE5\u5177\u5217"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MorphicBar ausblenden"
+          }
+        }
+      }
+    },
+    "IncreaseContrastAccessibleName": {
+      "comment": "[loc-id:5ffc5f93cd63f449] VoiceOver/accessibility label for the \u0022Contrast\u0022 toggle button on the MorphicBar; turns the macOS Increase Contrast accessibility feature on or off. Noun phrase naming the feature.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Increase contrast"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontrast erh\u00F6hen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aumentar contraste"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0632\u064A\u0627\u062F\u0629 \u0627\u0644\u062A\u0628\u0627\u064A\u0646"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0627\u0641\u0632\u0627\u06CC\u0634 \u06A9\u0646\u062A\u0631\u0627\u0633\u062A"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0A95\u0ACB\u0AA8\u0ACD\u0A9F\u0ACD\u0AB0\u0ABE\u0AB8\u0ACD\u0A9F \u0AB5\u0AA7\u0ABE\u0AB0\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0915\u0902\u091F\u094D\u0930\u093E\u0938\u094D\u091F \u092C\u0922\u093C\u093E\u090F\u0901"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uB300\uBE44 \uC99D\uAC00"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0915\u0949\u0928\u094D\u091F\u094D\u0930\u093E\u0938\u094D\u091F \u0935\u093E\u0922\u0935\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u06A9\u0646\u0679\u0631\u0627\u0633\u0679 \u0628\u0691\u06BE\u0627\u0626\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "T\u0103ng \u0111\u1ED9 t\u01B0\u01A1ng ph\u1EA3n"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u589E\u52A0\u5BF9\u6BD4\u5EA6"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u589E\u52A0\u5C0D\u6BD4"
+          }
+        }
+      }
+    },
+    "IncreaseTextSizeAccessibleName": {
+      "comment": "[loc-id:5ec285d4c2a24299] VoiceOver/accessibility label for the \u0022\u002B\u0022 button on the MorphicBar that increases the system text/display size.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Increase size of text"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Textgr\u00F6\u00DFe vergr\u00F6\u00DFern"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aumentar el tama\u00F1o del texto"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062A\u0643\u0628\u064A\u0631 \u062D\u062C\u0645 \u0627\u0644\u0646\u0635"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0627\u0641\u0632\u0627\u06CC\u0634 \u0627\u0646\u062F\u0627\u0632\u0647\u0654 \u0645\u062A\u0646"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0A9F\u0AC7\u0A95\u0ACD\u0AB8\u0ACD\u0A9F\u0AA8\u0AC1\u0A82 \u0A95\u0AA6 \u0AB5\u0AA7\u0ABE\u0AB0\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u091F\u0947\u0915\u094D\u0938\u094D\u091F \u0915\u093E \u0906\u0915\u093E\u0930 \u092C\u0922\u093C\u093E\u090F\u0901"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uD14D\uC2A4\uD2B8 \uD06C\uAE30 \uB298\uB9AC\uAE30"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u091C\u0915\u0941\u0930\u093E\u091A\u093E \u0906\u0915\u093E\u0930 \u0935\u093E\u0922\u0935\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u062A\u0646 \u06A9\u0627 \u0633\u0627\u0626\u0632 \u0628\u0691\u06BE\u0627\u0626\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "T\u0103ng c\u1EE1 ch\u1EEF"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u589E\u5927\u6587\u672C\u5927\u5C0F"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u653E\u5927\u6587\u5B57"
+          }
+        }
+      }
+    },
+    "LearnMoreAboutMorphicLabel": {
+      "comment": "[loc-id:c488b9956ba1461e] Hyperlink text in the About box that opens the Morphic website. \u0022Morphic\u0022 is a product name; do not translate it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Learn More about Morphic"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062A\u0639\u0631\u0641 \u0623\u0643\u062B\u0631 \u0639\u0644\u0649 \u0627\u0644\u0645\u0648\u0631\u0641\u064A\u0643"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "M\u00E1s informaci\u00F3n acerca de Morphic"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062F\u0631\u0628\u0627\u0631\u0647 Morphic \u0628\u06CC\u0634\u062A\u0631 \u0628\u062F\u0627\u0646\u06CC\u062F"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0AB5\u0ABF\u0AB6\u0AC7 \u0AB5\u0AA7\u0AC1 \u0A9C\u0ABE\u0AA3\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u0949\u0930\u094D\u092B\u093F\u0915 \u0915\u0947 \u092C\u093E\u0930\u0947 \u092E\u0947\u0902 \u0914\u0930 \u091C\u093E\u0928\u0947\u0902"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic\uC5D0 \uB300\uD574 \uB354 \uC54C\uC544\uBCF4\uAE30"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u092C\u0926\u094D\u0926\u0932 \u0905\u0927\u093F\u0915 \u091C\u093E\u0923\u0942\u0928 \u0918\u094D\u092F\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u06A9\u06D2 \u0628\u0627\u0631\u06D2 \u0645\u06CC\u06BA \u0645\u0632\u06CC\u062F \u062C\u0627\u0646\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "T\u00ECm hi\u1EC3u th\u00EAm v\u1EC1 Morphic"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u4E86\u89E3\u66F4\u591A\u5173\u4E8E Morphic"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u77AD\u89E3\u66F4\u591A Morphic \u8AAA\u660E"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weitere Informationen zu Morphic"
+          }
+        }
+      }
+    },
+    "MagnifierHeader": {
+      "comment": "[loc-id:6a2b978525a24d26] Header above the Magnifier (screen zoom) group on the MorphicBar.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Magnifier"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0627\u0644\u0645\u0643\u0628\u0631"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Magnificador de pantalla"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0630\u0631\u0647\u200C\u0628\u06CC\u0646"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AAE\u0AC7\u0A97\u0ACD\u0AA8\u0ABF\u0AAB\u0ABE\u0AAF\u0AB0"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0906\u0935\u0930\u094D\u0927\u0915"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uB3CB\uBCF4\uAE30"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u0945\u0917\u094D\u0928\u093F\u092B\u093E\u092F\u0930"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u06CC\u06AF\u0646\u06CC\u0641\u0627\u0626\u0631"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "k\u00EDnh l\u00FAp"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u5C4F\u5E55\u653E\u5927\u5668"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u653E\u5927\u93E1"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildschirmlupe"
+          }
+        }
+      }
+    },
+    "MagnifierHideAccessibleName": {
+      "comment": "[loc-id:026b9d8170994374] VoiceOver/accessibility label for the Magnifier \u0022Hide\u0022 button; turns the macOS screen Magnifier/Zoom off.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Magnifier"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0625\u062E\u0641\u0627\u0621 \u0627\u0644\u0645\u0643\u0628\u0631"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar magnificador de pantalla"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u062E\u0641\u06CC \u06A9\u0631\u062F\u0646 \u0630\u0631\u0647 \u0628\u06CC\u0646"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AAE\u0AC7\u0A97\u0ACD\u0AA8\u0ABF\u0AAB\u0ABE\u0AAF\u0AB0 \u0A9B\u0AC1\u0AAA\u0ABE\u0AB5\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0906\u0935\u0930\u094D\u0927\u0915 \u091B\u093F\u092A\u093E\u090F\u0901"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uB3CB\uBCF4\uAE30 \uC228\uAE30\uAE30"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u0945\u0917\u094D\u0928\u093F\u092B\u093E\u092F\u0930 \u0932\u092A\u0935\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u06CC\u06AF\u0646\u06CC\u0641\u0627\u0626\u0631 \u0686\u06BE\u067E\u0627\u0626\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u1EA8n k\u00EDnh l\u00FAp"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u9690\u85CF\u5C4F\u5E55\u653E\u5927\u5668"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u96B1\u85CF\u653E\u5927\u93E1"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildschirmlupe ausblenden"
+          }
+        }
+      }
+    },
+    "MagnifierHideLabel": {
+      "comment": "[loc-id:eb2ceef519734c49] Short button label on the MorphicBar; turns the macOS screen Magnifier/Zoom OFF. Very short to fit the button.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0623\u062E\u0641\u0650"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u067E\u0646\u0647\u0627\u0646 \u06A9\u0631\u062F\u0646"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0A9B\u0AC1\u0AAA\u0ABE\u0AB5\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0939\u093E\u0908\u0921 (\u091B\u093F\u092A\u093E\u090F\u0902)"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uC228\uB2E4"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0932\u092A\u0935\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0686\u06BE\u067E\u0627\u0626\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u1EA8n"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u9690\u85CF"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u96B1\u85CF"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausblenden"
+          }
+        }
+      }
+    },
+    "MagnifierShowAccessibleName": {
+      "comment": "[loc-id:c334c9571557498e] VoiceOver/accessibility label for the Magnifier \u0022Show\u0022 button; turns the macOS screen Magnifier/Zoom on.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Magnifier"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0625\u0638\u0647\u0627\u0631 \u0627\u0644\u0645\u0643\u0628\u0631"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar magnificador de pantalla"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0646\u0645\u0627\u06CC\u0634 \u0630\u0631\u0647 \u0628\u06CC\u0646"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AAE\u0AC7\u0A97\u0ACD\u0AA8\u0ABF\u0AAB\u0ABE\u0AAF\u0AB0 \u0AAC\u0AA4\u0ABE\u0AB5\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0906\u0935\u0930\u094D\u0927\u0915 \u0926\u093F\u0916\u093E\u090F\u0901"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uB3CB\uBCF4\uAE30 \uD45C\uC2DC"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u0945\u0917\u094D\u0928\u093F\u092B\u093E\u092F\u0930 \u0926\u093E\u0916\u0935\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u06CC\u06AF\u0646\u06CC\u0641\u0627\u0626\u0631 \u062F\u06A9\u06BE\u0627\u0626\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hi\u1EC3n th\u1ECB k\u00EDnh l\u00FAp"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u663E\u793A\u5C4F\u5E55\u653E\u5927\u5668"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u986F\u793A\u653E\u5927\u93E1"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildschirmlupe einblenden"
+          }
+        }
+      }
+    },
+    "MagnifierShowLabel": {
+      "comment": "[loc-id:ef6641da0b5f4d62] Short button label on the MorphicBar; turns the macOS screen Magnifier/Zoom ON. Imperative verb, very short to fit the button.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0625\u0638\u0647\u0627\u0631"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0646\u0645\u0627\u06CC\u0634"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AAC\u0AA4\u0ABE\u0AB5\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0936\u094B (\u0926\u093F\u0916\u093E\u090F\u0901)"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uBCF4\uC5EC\uC8FC\uB2E4"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0926\u093E\u0916\u0935\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062F\u06A9\u0647\u0627\u0646\u0627"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hi\u1EC3n th\u1ECB"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u663E\u793A"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u986F\u793A"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einblenden"
+          }
+        }
+      }
+    },
+    "MagnifierZoomShortcutsDisabledMessage": {
+      "comment": "[loc-id:7d74a5049d7becd2] Notification toast body shown when the Magnifier can\u0027t work because the macOS \u201CUse keyboard shortcuts to zoom\u201D setting is off. \u201CUse keyboard shortcuts to zoom\u201D is the macOS Accessibility setting name; match Apple\u0027s wording.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Magnifier uses the macOS Zoom keyboard shortcuts, which are turned off. Turn on \u201CUse keyboard shortcuts to zoom\u201D in Accessibility settings, then try again."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Bildschirmlupe verwendet die macOS-Tastaturkurzbefehle zum Zoomen, die deaktiviert sind. Aktivieren Sie \u201ETastaturkurzbefehle zum Zoomen verwenden\u201C in den Bedienungshilfen-Einstellungen, und versuchen Sie es erneut."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La Lupa usa las funciones r\u00E1pidas de teclado del Zoom de macOS, que est\u00E1n desactivadas. Activa \u201CUsar funciones r\u00E1pidas de teclado para hacer zoom\u201D en los ajustes de Accesibilidad e int\u00E9ntalo de nuevo."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u064A\u0633\u062A\u062E\u062F\u0645 \u0627\u0644\u0645\u0643\u0628\u0631 \u0627\u062E\u062A\u0635\u0627\u0631\u0627\u062A \u0644\u0648\u062D\u0629 \u0645\u0641\u0627\u062A\u064A\u062D \u0627\u0644\u062A\u0643\u0628\u064A\u0631/\u0627\u0644\u062A\u0635\u063A\u064A\u0631 \u0641\u064A macOS\u060C \u0648\u0647\u064A \u0642\u064A\u062F \u0627\u0644\u0625\u064A\u0642\u0627\u0641. \u0642\u0645 \u0628\u062A\u0634\u063A\u064A\u0644 \u0022\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0627\u062E\u062A\u0635\u0627\u0631\u0627\u062A \u0644\u0648\u062D\u0629 \u0627\u0644\u0645\u0641\u0627\u062A\u064A\u062D \u0644\u0644\u062A\u0643\u0628\u064A\u0631/\u0627\u0644\u062A\u0635\u063A\u064A\u0631\u0022 \u0641\u064A \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u062A\u0633\u0647\u064A\u0644\u0627\u062A \u0627\u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645\u060C \u062B\u0645 \u062D\u0627\u0648\u0644 \u0645\u0631\u0629 \u0623\u062E\u0631\u0649."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0630\u0631\u0647\u200C\u0628\u06CC\u0646 \u0627\u0632 \u0645\u06CC\u0627\u0646\u200C\u0628\u0631\u0647\u0627\u06CC \u0635\u0641\u062D\u0647\u200C\u06A9\u0644\u06CC\u062F \u0628\u0632\u0631\u06AF\u200C\u0646\u0645\u0627\u06CC\u06CC macOS \u0627\u0633\u062A\u0641\u0627\u062F\u0647 \u0645\u06CC\u200C\u06A9\u0646\u062F \u06A9\u0647 \u062E\u0627\u0645\u0648\u0634 \u0647\u0633\u062A\u0646\u062F. \u06AF\u0632\u06CC\u0646\u0647\u0654 \u00AB\u0627\u0633\u062A\u0641\u0627\u062F\u0647 \u0627\u0632 \u0645\u06CC\u0627\u0646\u200C\u0628\u0631\u0647\u0627\u06CC \u0635\u0641\u062D\u0647\u200C\u06A9\u0644\u06CC\u062F \u0628\u0631\u0627\u06CC \u0628\u0632\u0631\u06AF\u200C\u0646\u0645\u0627\u06CC\u06CC\u00BB \u0631\u0627 \u062F\u0631 \u062A\u0646\u0638\u06CC\u0645\u0627\u062A \u062F\u0633\u062A\u0631\u0633\u200C\u067E\u0630\u06CC\u0631\u06CC \u0631\u0648\u0634\u0646 \u06A9\u0646\u06CC\u062F\u060C \u0633\u067E\u0633 \u062F\u0648\u0628\u0627\u0631\u0647 \u062A\u0644\u0627\u0634 \u06A9\u0646\u06CC\u062F."
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AAE\u0AC7\u0A97\u0ACD\u0AA8\u0ABF\u0AAB\u0ABE\u0AAF\u0AB0 macOS \u0A9D\u0AC2\u0AAE \u0A95\u0AC0\u0AAC\u0ACB\u0AB0\u0ACD\u0AA1 \u0AB6\u0AC9\u0AB0\u0ACD\u0A9F\u0A95\u0A9F\u0ACD\u0AB8\u0AA8\u0ACB \u0A89\u0AAA\u0AAF\u0ACB\u0A97 \u0A95\u0AB0\u0AC7 \u0A9B\u0AC7, \u0A9C\u0AC7 \u0AAC\u0A82\u0AA7 \u0A9B\u0AC7. \u0A8D\u0A95\u0ACD\u0AB8\u0AC7\u0AB8\u0ABF\u0AAC\u0ABF\u0AB2\u0ABF\u0A9F\u0AC0 \u0AB8\u0AC7\u0A9F\u0ABF\u0A82\u0A97\u0ACD\u0AB8\u0AAE\u0ABE\u0A82 \u201CUse keyboard shortcuts to zoom\u201D \u0A9A\u0ABE\u0AB2\u0AC1 \u0A95\u0AB0\u0ACB, \u0AAA\u0A9B\u0AC0 \u0AAB\u0AB0\u0AC0 \u0AAA\u0ACD\u0AB0\u0AAF\u0ABE\u0AB8 \u0A95\u0AB0\u0ACB."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u0948\u0917\u094D\u0928\u093F\u092B\u093C\u093E\u092F\u0930 macOS \u091C\u093C\u0942\u092E \u0915\u0940\u092C\u094B\u0930\u094D\u0921 \u0936\u0949\u0930\u094D\u091F\u0915\u091F \u0915\u093E \u0909\u092A\u092F\u094B\u0917 \u0915\u0930\u0924\u093E \u0939\u0948, \u091C\u094B \u092C\u0902\u0926 \u0939\u0948\u0902\u0964 \u090F\u0915\u094D\u0938\u0947\u0938\u093F\u092C\u093F\u0932\u093F\u091F\u0940 \u0938\u0947\u091F\u093F\u0902\u0917\u094D\u0938 \u092E\u0947\u0902 \u201C\u091C\u093C\u0942\u092E \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F \u0915\u0940\u092C\u094B\u0930\u094D\u0921 \u0936\u0949\u0930\u094D\u091F\u0915\u091F \u0915\u093E \u0909\u092A\u092F\u094B\u0917 \u0915\u0930\u0947\u0902\u201D \u091A\u093E\u0932\u0942 \u0915\u0930\u0947\u0902, \u092B\u093F\u0930 \u092A\u0941\u0928\u0903 \u092A\u094D\u0930\u092F\u093E\u0938 \u0915\u0930\u0947\u0902\u0964"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uB3CB\uBCF4\uAE30\uB294 \uD604\uC7AC \uAEBC\uC838 \uC788\uB294 macOS \uD655\uB300/\uCD95\uC18C \uD0A4\uBCF4\uB4DC \uB2E8\uCD95\uD0A4\uB97C \uC0AC\uC6A9\uD569\uB2C8\uB2E4. \uC190\uC26C\uC6B4 \uC0AC\uC6A9 \uC124\uC815\uC5D0\uC11C \u201C\uD655\uB300/\uCD95\uC18C\uD558\uB824\uBA74 \uD0A4\uBCF4\uB4DC \uB2E8\uCD95\uD0A4 \uC0AC\uC6A9\u201D\uC744 \uCF20 \uB2E4\uC74C \uB2E4\uC2DC \uC2DC\uB3C4\uD558\uC2ED\uC2DC\uC624."
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u0945\u0917\u094D\u0928\u093F\u092B\u093E\u092F\u0930 macOS \u091D\u0942\u092E \u0915\u0940\u092C\u094B\u0930\u094D\u0921 \u0936\u0949\u0930\u094D\u091F\u0915\u091F \u0935\u093E\u092A\u0930\u0924\u0947, \u091C\u0947 \u092C\u0902\u0926 \u0906\u0939\u0947\u0924. \u0905\u200D\u0945\u0915\u094D\u0938\u0947\u0938\u093F\u092C\u093F\u0932\u093F\u091F\u0940 \u0938\u0947\u091F\u093F\u0902\u0917\u094D\u091C\u092E\u0927\u094D\u092F\u0947 \u201CUse keyboard shortcuts to zoom\u201D \u091A\u093E\u0932\u0942 \u0915\u0930\u093E \u0906\u0923\u093F \u0928\u0902\u0924\u0930 \u092A\u0941\u0928\u094D\u0939\u093E \u092A\u094D\u0930\u092F\u0924\u094D\u0928 \u0915\u0930\u093E."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u06CC\u06AF\u0646\u06CC\u0641\u0627\u0626\u0631 macOS \u06A9\u06D2 Zoom \u06A9\u06CC \u0628\u0648\u0631\u0688 \u0634\u0627\u0631\u0679 \u06A9\u0679\u0633 \u0627\u0633\u062A\u0639\u0645\u0627\u0644 \u06A9\u0631\u062A\u0627 \u06C1\u06D2\u060C \u062C\u0648 \u0628\u0646\u062F \u06C1\u06CC\u06BA\u06D4 Accessibility \u06A9\u06CC \u062A\u0631\u062A\u06CC\u0628\u0627\u062A \u0645\u06CC\u06BA \u0022Use keyboard shortcuts to zoom\u0022 \u06A9\u0648 \u0622\u0646 \u06A9\u0631\u06CC\u06BA\u060C \u067E\u06BE\u0631 \u062F\u0648\u0628\u0627\u0631\u06C1 \u06A9\u0648\u0634\u0634 \u06A9\u0631\u06CC\u06BA\u06D4"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "K\u00EDnh l\u00FAp s\u1EED d\u1EE5ng ph\u00EDm t\u1EAFt Thu ph\u00F3ng c\u1EE7a macOS, hi\u1EC7n \u0111ang b\u1ECB t\u1EAFt. B\u1EADt \u201CS\u1EED d\u1EE5ng ph\u00EDm t\u1EAFt \u0111\u1EC3 thu ph\u00F3ng\u201D trong c\u00E0i \u0111\u1EB7t Tr\u1EE3 n\u0103ng, r\u1ED3i th\u1EED l\u1EA1i."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u653E\u5927\u955C\u4F7F\u7528 macOS\u201C\u7F29\u653E\u201D\u952E\u76D8\u5FEB\u6377\u952E\uFF0C\u4F46\u8FD9\u4E9B\u5FEB\u6377\u952E\u5DF2\u5173\u95ED\u3002\u8BF7\u5728\u201C\u8F85\u52A9\u529F\u80FD\u201D\u8BBE\u7F6E\u4E2D\u6253\u5F00\u201C\u4F7F\u7528\u952E\u76D8\u5FEB\u6377\u952E\u6765\u7F29\u653E\u201D\uFF0C\u7136\u540E\u91CD\u8BD5\u3002"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u653E\u5927\u93E1\u4F7F\u7528 macOS \u7684\u300C\u7E2E\u653E\u300D\u9375\u76E4\u5FEB\u901F\u9375\uFF0C\u4F46\u9019\u4E9B\u5FEB\u901F\u9375\u5DF2\u95DC\u9589\u3002\u8ACB\u5728\u300C\u8F14\u52A9\u4F7F\u7528\u300D\u8A2D\u5B9A\u4E2D\u958B\u555F\u300C\u4F7F\u7528\u9375\u76E4\u5FEB\u901F\u9375\u4F86\u7E2E\u653E\u300D\uFF0C\u7136\u5F8C\u518D\u8A66\u4E00\u6B21\u3002"
+          }
+        }
+      }
+    },
+    "MorphicForMacOSLabel": {
+      "comment": "[loc-id:0de5bf5c6aadb7fa] App-name line in the About box. \u0022Morphic\u0022 is a product name and \u0022macOS\u0022 is Apple\u0027s OS name; do not translate either.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic for macOS"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u0648\u0631\u0641\u064A\u0643 \u0644\u0640 macOS"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic para macOS"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MacOS \u0AAE\u0ABE\u0A9F\u0AC7 Morphic"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MacOS \u0915\u0947 \u0932\u093F\u090F \u092E\u0949\u0930\u094D\u092B\u093F\u0915"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS\uC6A9 Morphic"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS \u06A9\u06D2 \u0644\u06CC\u06D2 Morphic"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic cho macOs"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic\u7684macOS\u7248\u672C"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic macOS \u7248\u672C"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic f\u00FCr macOS"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0628\u0631\u0627\u06CC macOS"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS \u0938\u093E\u0920\u0940 Morphic"
+          }
+        }
+      }
+    },
+    "NightLabel": {
+      "comment": "[loc-id:7e348238323e48ee] Short toggle-button label on the MorphicBar; turns macOS Night Shift (warmer screen colors) on or off. Very short to fit the button.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Night"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0627\u0644\u0644\u064A\u0644"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noche"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0634\u0628"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AA8\u0ABE\u0A87\u0A9F"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0928\u093E\u0907\u091F (\u0930\u093E\u0924)"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uC57C\uAC04"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0928\u093E\u0907\u091F"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0631\u0627\u062A"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0110\u1ED9 t\u1ED1i"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u591C\u95F4"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u591C\u89BD"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nacht"
+          }
+        }
+      }
+    },
+    "NightShiftAccessibleName": {
+      "comment": "[loc-id:9d240cb79f4529c7] VoiceOver/accessibility label for the \u0022Night\u0022 toggle button on the MorphicBar; turns macOS Night Shift (warmer screen colors) on or off. Use Apple\u0027s localized name for the Night Shift feature where one exists.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Night Shift"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Night Shift"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Night Shift"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Night Shift"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Night Shift"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Night Shift"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Night Shift"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Night Shift"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Night Shift"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0646\u0627\u0626\u0679 \u0634\u0641\u0679"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Night Shift"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u591C\u89C8"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u591C\u89BD"
+          }
+        }
+      }
+    },
+    "OpenSettingsButtonLabel": {
+      "comment": "[loc-id:c9f066e22967cda4] Action button on a Morphic notification toast that opens the relevant macOS System Settings pane. Short imperative.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen \u00F6ffnen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Ajustes"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0641\u062A\u062D \u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0628\u0627\u0632 \u06A9\u0631\u062F\u0646 \u062A\u0646\u0638\u06CC\u0645\u0627\u062A"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AB8\u0AC7\u0A9F\u0ABF\u0A82\u0A97\u0ACD\u0AB8 \u0A96\u0ACB\u0AB2\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0938\u0947\u091F\u093F\u0902\u0917\u094D\u0938 \u0916\u094B\u0932\u0947\u0902"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uC124\uC815 \uC5F4\uAE30"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0938\u0947\u091F\u093F\u0902\u0917\u094D\u091C \u0909\u0918\u0921\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062A\u0631\u062A\u06CC\u0628\u0627\u062A \u06A9\u06BE\u0648\u0644\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "M\u1EDF C\u00E0i \u0111\u1EB7t"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u6253\u5F00\u8BBE\u7F6E"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u958B\u555F\u8A2D\u5B9A"
+          }
+        }
+      }
+    },
+    "QuitMorphic": {
+      "comment": "[loc-id:c69b02b6d1434895] Menu item that quits the Morphic app. \u0022Morphic\u0022 is a product name; do not translate it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quit Morphic"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0627\u0644\u062E\u0631\u0648\u062C \u0645\u0646 \u0627\u0644\u0645\u0648\u0631\u0641\u064A\u0643"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cerrar Morphic"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u0648\u0631\u0641\u06CC\u06A9 \u0631\u0627 \u062A\u0631\u06A9 \u06A9\u0646\u06CC\u062F"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0A9B\u0ACB\u0AA1\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "\u092E\u0949\u0930\u094D\u092B\u093F\u0915 \u091B\u094B\u0921\u093C\u094B"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \uC885\uB8CC"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u0949\u0930\u094D\u092B\u093F\u0915 \u0938\u094B\u0921\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Morphic \u0686\u06BE\u0648\u0691 \u062F\u0648"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "B\u1ECF Morphic"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "\u9000\u51FAMorphic (Q)"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u5F37\u5236\u7D50\u675F Morphic"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic beenden"
+          }
+        }
+      }
+    },
+    "ReadSelectedHeader": {
+      "comment": "[loc-id:91edb1a868534049] Header above the Read Selected (text-to-speech) control on the MorphicBar.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read Selected"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0625\u0642\u0631\u0623 \u0627\u0644\u0645\u062E\u062A\u0627\u0631"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leer la selecci\u00F3n"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0628\u0631\u06AF\u0632\u06CC\u062F\u0647 \u0631\u0627 \u0628\u062E\u0648\u0627\u0646\u06CC\u062F"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AAA\u0AB8\u0A82\u0AA6 \u0A95\u0AB0\u0AC7\u0AB2 \u0AB5\u0ABE\u0A82\u0A9A\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u091A\u0941\u0928\u0947 \u0939\u0941\u090F \u092A\u0922\u093C\u0947\u0902"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uC120\uD0DD \uD56D\uBAA9 \uC77D\uAE30"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0928\u093F\u0935\u0921\u0932\u0947\u0932\u0947 \u0935\u093E\u091A\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u0646\u062A\u062E\u0628 \u067E\u0691\u06BE\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0110\u1ECDc \u0111\u00E3 ch\u1ECDn"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u6717\u8BFB\u9009\u5B9A"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u6717\u8B80\u6240\u9078\u6587\u5B57"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auswahl vorlesen"
+          }
+        }
+      }
+    },
+    "ReadSelectedPlayAccessibleName": {
+      "comment": "[loc-id:20dc9650e6ce4cd4] VoiceOver/accessibility label for the Read Selected play/stop button on the MorphicBar; starts reading the user\u0027s selected text aloud.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read selected text"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0642\u0631\u0627\u0621\u0629 \u0627\u0644\u0646\u0635 \u0627\u0644\u0645\u062E\u062A\u0627\u0631"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leer el texto seleccionado"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u062A\u0646 \u0627\u0646\u062A\u062E\u0627\u0628 \u0634\u062F\u0647 \u0631\u0627 \u0628\u062E\u0648\u0627\u0646\u06CC\u062F"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AAA\u0AB8\u0A82\u0AA6 \u0A95\u0AB0\u0AC7\u0AB2 \u0A9F\u0AC7\u0A95\u0ACD\u0AB8\u0ACD\u0A9F \u0AB5\u0ABE\u0A82\u0A9A\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u091A\u0941\u0928\u0947 \u0939\u0941\u090F \u092A\u093E\u0920 \u092A\u0922\u093C\u0947\u0902"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uC120\uD0DD\uD55C \uD14D\uC2A4\uD2B8 \uC77D\uAE30"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0928\u093F\u0935\u0921\u0932\u0947\u0932\u093E \u092E\u091C\u0915\u0942\u0930 \u0935\u093E\u091A\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u0646\u062A\u062E\u0628 \u0645\u062A\u0646 \u067E\u0691\u06BE\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0110\u1ECDc v\u0103n b\u1EA3n \u0111\u00E3 ch\u1ECDn"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u6717\u8BFB\u9009\u5B9A\u6587\u672C"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u6717\u8B80\u6240\u9078\u6587\u5B57"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausgew\u00E4hlten Text vorlesen"
+          }
+        }
+      }
+    },
+    "ReadSelectedSpeakSelectionDisabledMessage": {
+      "comment": "[loc-id:18a693419f16d0dd] Notification toast body shown when Read Selected can\u0027t work because the macOS \u201CSpeak selection\u201D feature is turned off. Tells the user to enable it. \u201CSpeak selection\u201D is the macOS Accessibility setting name; match Apple\u0027s wording. \u0022Morphic\u0022/Read Selected are product features.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read Selected uses macOS \u201CSpeak selection,\u201D which is currently turned off. Turn it on in Accessibility settings, then try again."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u201EAuswahl vorlesen\u201C verwendet die macOS-Funktion \u201EAuswahl sprechen\u201C, die derzeit deaktiviert ist. Aktivieren Sie sie in den Bedienungshilfen-Einstellungen, und versuchen Sie es erneut."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leer selecci\u00F3n usa \u201CLeer selecci\u00F3n\u201D de macOS, que est\u00E1 desactivada. Act\u00EDvala en los ajustes de Accesibilidad y vuelve a intentarlo."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062A\u0633\u062A\u062E\u062F\u0645 \u00AB\u0642\u0631\u0627\u0621\u0629 \u0627\u0644\u0645\u062D\u062F\u062F\u00BB \u0645\u064A\u0632\u0629 \u00AB\u0646\u0637\u0642 \u0627\u0644\u062A\u062D\u062F\u064A\u062F\u00BB \u0641\u064A macOS\u060C \u0648\u0647\u064A \u0645\u062A\u0648\u0642\u0641\u0629 \u062D\u0627\u0644\u064A\u064B\u0627. \u0634\u063A\u0651\u0644\u0647\u0627 \u0641\u064A \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u062A\u0633\u0647\u064A\u0644\u0627\u062A \u0627\u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645\u060C \u062B\u0645 \u062D\u0627\u0648\u0644 \u0645\u0631\u0629 \u0623\u062E\u0631\u0649."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u00AB\u062E\u0648\u0627\u0646\u062F\u0646 \u0645\u0648\u0627\u0631\u062F \u0627\u0646\u062A\u062E\u0627\u0628\u200C\u0634\u062F\u0647\u00BB \u0627\u0632 \u0648\u06CC\u0698\u06AF\u06CC \u00ABSpeak selection\u00BB \u062F\u0631 macOS \u0627\u0633\u062A\u0641\u0627\u062F\u0647 \u0645\u06CC\u200C\u06A9\u0646\u062F \u06A9\u0647 \u062F\u0631 \u062D\u0627\u0644 \u062D\u0627\u0636\u0631 \u063A\u06CC\u0631\u0641\u0639\u0627\u0644 \u0627\u0633\u062A. \u0622\u0646 \u0631\u0627 \u062F\u0631 \u062A\u0646\u0638\u06CC\u0645\u0627\u062A \u062F\u0633\u062A\u0631\u0633\u200C\u067E\u0630\u06CC\u0631\u06CC \u0631\u0648\u0634\u0646 \u06A9\u0646\u06CC\u062F \u0648 \u062F\u0648\u0628\u0627\u0631\u0647 \u0627\u0645\u062A\u062D\u0627\u0646 \u06A9\u0646\u06CC\u062F."
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read Selected macOS \u201CSpeak selection\u201D \u0AA8\u0ACB \u0A89\u0AAA\u0AAF\u0ACB\u0A97 \u0A95\u0AB0\u0AC7 \u0A9B\u0AC7, \u0A9C\u0AC7 \u0AB9\u0ABE\u0AB2\u0AAE\u0ABE\u0A82 \u0AAC\u0A82\u0AA7 \u0A9B\u0AC7. \u0AA4\u0AC7\u0AA8\u0AC7 \u0A8D\u0A95\u0ACD\u0AB8\u0AC7\u0AB8\u0ABF\u0AAC\u0ABF\u0AB2\u0ABF\u0A9F\u0AC0 \u0AB8\u0AC7\u0A9F\u0ABF\u0A82\u0A97\u0ACD\u0AB8\u0AAE\u0ABE\u0A82 \u0A9A\u0ABE\u0AB2\u0AC1 \u0A95\u0AB0\u0ACB, \u0AAA\u0A9B\u0AC0 \u0AAB\u0AB0\u0AC0 \u0AAA\u0ACD\u0AB0\u0AAF\u0ABE\u0AB8 \u0A95\u0AB0\u0ACB."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u091A\u092F\u0928\u093F\u0924 \u092A\u0922\u093C\u0947\u0902 macOS \u201C\u091A\u092F\u0928 \u092C\u094B\u0932\u0947\u0902\u201D \u0915\u093E \u0909\u092A\u092F\u094B\u0917 \u0915\u0930\u0924\u093E \u0939\u0948, \u091C\u094B \u0935\u0930\u094D\u0924\u092E\u093E\u0928 \u092E\u0947\u0902 \u092C\u0902\u0926 \u0939\u0948\u0964 \u0907\u0938\u0947 \u090F\u0915\u094D\u0938\u0947\u0938\u093F\u092C\u093F\u0932\u093F\u091F\u0940 \u0938\u0947\u091F\u093F\u0902\u0917 \u092E\u0947\u0902 \u091A\u093E\u0932\u0942 \u0915\u0930\u0947\u0902, \u092B\u093F\u0930 \u0938\u0947 \u092A\u094D\u0930\u092F\u093E\u0938 \u0915\u0930\u0947\u0902\u0964"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uC120\uD0DD \uD56D\uBAA9 \uC77D\uAE30\uB294 macOS \u201C\uC120\uD0DD \uD56D\uBAA9 \uB9D0\uD558\uAE30\u201D\uB97C \uC0AC\uC6A9\uD558\uC9C0\uB9CC, \uD604\uC7AC \uAEBC\uC838 \uC788\uC2B5\uB2C8\uB2E4. \uC190\uC26C\uC6B4 \uC0AC\uC6A9 \uC124\uC815\uC5D0\uC11C \uCF20 \uB2E4\uC74C \uB2E4\uC2DC \uC2DC\uB3C4\uD558\uC138\uC694."
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0928\u093F\u0935\u0921\u0932\u0947\u0932\u0947 \u0935\u093E\u091A\u093E macOS \u091A\u0947 \u201CSpeak selection\u201D \u0935\u093E\u092A\u0930\u0924\u0947, \u091C\u0947 \u0938\u0927\u094D\u092F\u093E \u092C\u0902\u0926 \u0906\u0939\u0947. \u0924\u0947 \u0905\u200D\u0945\u0915\u094D\u0938\u0947\u0938\u093F\u092C\u093F\u0932\u093F\u091F\u0940 \u0938\u0947\u091F\u093F\u0902\u0917\u094D\u091C\u092E\u0927\u094D\u092F\u0947 \u091A\u093E\u0932\u0942 \u0915\u0930\u093E \u0906\u0923\u093F \u0928\u0902\u0924\u0930 \u092A\u0941\u0928\u094D\u0939\u093E \u092A\u094D\u0930\u092F\u0924\u094D\u0928 \u0915\u0930\u093E."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read Selected\u060C macOS \u06A9\u06CC \u201DSpeak selection\u201C \u0627\u0633\u062A\u0639\u0645\u0627\u0644 \u06A9\u0631\u062A\u0627 \u06C1\u06D2\u060C \u062C\u0648 \u0641\u06CC \u0627\u0644\u062D\u0627\u0644 \u0628\u0646\u062F \u06C1\u06D2\u06D4 \u0627\u0633\u06D2 Accessibility \u062A\u0631\u062A\u06CC\u0628\u0627\u062A \u0645\u06CC\u06BA \u0622\u0646 \u06A9\u0631\u06CC\u06BA\u060C \u067E\u06BE\u0631 \u062F\u0648\u0628\u0627\u0631\u06C1 \u06A9\u0648\u0634\u0634 \u06A9\u0631\u06CC\u06BA\u06D4"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u201C\u6717\u8BFB\u6240\u9009\u5185\u5BB9\u201D\u4F7F\u7528 macOS \u7684\u201C\u6717\u8BFB\u6240\u9009\u9879\u201D\u529F\u80FD\uFF0C\u8BE5\u529F\u80FD\u5F53\u524D\u5DF2\u5173\u95ED\u3002\u8BF7\u5728\u201C\u8F85\u52A9\u529F\u80FD\u201D\u8BBE\u7F6E\u4E2D\u5C06\u5176\u6253\u5F00\uFF0C\u7136\u540E\u518D\u8BD5\u4E00\u6B21\u3002"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u300C\u6717\u8B80\u9078\u53D6\u7BC4\u570D\u300D\u4F7F\u7528 macOS \u7684\u300C\u6717\u8B80\u6240\u9078\u7BC4\u570D\u300D\uFF0C\u4F46\u8A72\u529F\u80FD\u76EE\u524D\u5DF2\u95DC\u9589\u3002\u8ACB\u5728\u300C\u8F14\u52A9\u4F7F\u7528\u300D\u8A2D\u5B9A\u4E2D\u5C07\u5176\u958B\u555F\uFF0C\u7136\u5F8C\u518D\u8A66\u4E00\u6B21\u3002"
+          }
+        }
+      }
+    },
+    "ReadSelectedWrongWindowMessage": {
+      "comment": "[loc-id:c212af8ae8e964e7] Notification toast body shown when Read Selected may have read from the wrong window (the user\u0027s app didn\u0027t refocus in time). Two sentences; tells the user how to retry.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read Selected may have read the wrong window. Click into your text and try again."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u201EAuswahl vorlesen\u201C hat m\u00F6glicherweise aus dem falschen Fenster vorgelesen. Klicken Sie in Ihren Text, und versuchen Sie es erneut."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Es posible que Leer selecci\u00F3n haya le\u00EDdo la ventana equivocada. Haz clic en tu texto y vuelve a intentarlo."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0642\u062F \u062A\u0643\u0648\u0646 \u00AB\u0642\u0631\u0627\u0621\u0629 \u0627\u0644\u0645\u062D\u062F\u062F\u00BB \u0642\u0631\u0623\u062A \u0627\u0644\u0646\u0627\u0641\u0630\u0629 \u0627\u0644\u062E\u0637\u0623. \u0627\u0646\u0642\u0631 \u062F\u0627\u062E\u0644 \u0627\u0644\u0646\u0635 \u0648\u062D\u0627\u0648\u0644 \u0645\u0631\u0629 \u0623\u062E\u0631\u0649."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u0645\u06A9\u0646 \u0627\u0633\u062A \u00AB\u062E\u0648\u0627\u0646\u062F\u0646 \u0645\u062A\u0646 \u0627\u0646\u062A\u062E\u0627\u0628\u200C\u0634\u062F\u0647\u00BB \u067E\u0646\u062C\u0631\u0647\u0654 \u0627\u0634\u062A\u0628\u0627\u0647\u06CC \u0631\u0627 \u062E\u0648\u0627\u0646\u062F\u0647 \u0628\u0627\u0634\u062F. \u0631\u0648\u06CC \u0645\u062A\u0646 \u062E\u0648\u062F \u06A9\u0644\u06CC\u06A9 \u06A9\u0646\u06CC\u062F \u0648 \u062F\u0648\u0628\u0627\u0631\u0647 \u062A\u0644\u0627\u0634 \u06A9\u0646\u06CC\u062F."
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read Selected \u0A8F \u0A95\u0AA6\u0ABE\u0A9A \u0A96\u0ACB\u0A9F\u0AC0 \u0AB5\u0ABF\u0AA8\u0ACD\u0AA1\u0ACB \u0AB5\u0ABE\u0A82\u0A9A\u0AC0 \u0AB9\u0AB6\u0AC7. \u0AA4\u0AAE\u0ABE\u0AB0\u0ABE \u0A9F\u0AC7\u0A95\u0ACD\u0AB8\u0ACD\u0A9F\u0AAE\u0ABE\u0A82 \u0A95\u0ACD\u0AB2\u0ABF\u0A95 \u0A95\u0AB0\u0ACB \u0A85\u0AA8\u0AC7 \u0AAB\u0AB0\u0AC0 \u0AAA\u0ACD\u0AB0\u0AAF\u0ABE\u0AB8 \u0A95\u0AB0\u0ACB."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u091A\u092F\u0928\u093F\u0924 \u092A\u0922\u093C\u0947\u0902 \u0928\u0947 \u0936\u093E\u092F\u0926 \u0917\u0932\u0924 \u0935\u093F\u0902\u0921\u094B \u0915\u094B \u092A\u0922\u093C \u0932\u093F\u092F\u093E \u0939\u0948\u0964 \u0905\u092A\u0928\u0947 \u091F\u0947\u0915\u094D\u0938\u094D\u091F \u092E\u0947\u0902 \u0915\u094D\u0932\u093F\u0915 \u0915\u0930\u0947\u0902 \u0914\u0930 \u092B\u093F\u0930 \u0938\u0947 \u092A\u094D\u0930\u092F\u093E\u0938 \u0915\u0930\u0947\u0902\u0964"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uC120\uD0DD \uD56D\uBAA9 \uC77D\uAE30\uAC00 \uC798\uBABB\uB41C \uCC3D\uC744 \uC77D\uC5C8\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uD14D\uC2A4\uD2B8\uB97C \uD074\uB9AD\uD55C \uB2E4\uC74C \uB2E4\uC2DC \uC2DC\uB3C4\uD558\uC138\uC694."
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0928\u093F\u0935\u0921\u0932\u0947\u0932\u0947 \u0935\u093E\u091A\u093E \u0935\u0948\u0936\u093F\u0937\u094D\u091F\u094D\u092F\u093E\u0928\u0947 \u0915\u0926\u093E\u091A\u093F\u0924 \u091A\u0941\u0915\u0940\u091A\u0940 \u0935\u093F\u0902\u0921\u094B \u0935\u093E\u091A\u0932\u0940 \u0905\u0938\u0947\u0932. \u0924\u0941\u092E\u091A\u094D\u092F\u093E \u092E\u091C\u0915\u0941\u0930\u093E\u0924 \u0915\u094D\u0932\u093F\u0915 \u0915\u0930\u093E \u0906\u0923\u093F \u092A\u0941\u0928\u094D\u0939\u093E \u092A\u094D\u0930\u092F\u0924\u094D\u0928 \u0915\u0930\u093E."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u06C1\u0648 \u0633\u06A9\u062A\u0627 \u06C1\u06D2 Read Selected \u0646\u06D2 \u063A\u0644\u0637 \u0648\u0646\u0688\u0648 \u067E\u0691\u06BE \u0644\u06CC \u06C1\u0648\u06D4 \u0627\u067E\u0646\u06D2 \u0645\u062A\u0646 \u0645\u06CC\u06BA \u06A9\u0644\u06A9 \u06A9\u0631\u06CC\u06BA \u0627\u0648\u0631 \u062F\u0648\u0628\u0627\u0631\u06C1 \u06A9\u0648\u0634\u0634 \u06A9\u0631\u06CC\u06BA\u06D4"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0110\u1ECDc ph\u1EA7n \u0111\u00E3 ch\u1ECDn c\u00F3 th\u1EC3 \u0111\u00E3 \u0111\u1ECDc nh\u1EA7m c\u1EEDa s\u1ED5. B\u1EA5m v\u00E0o v\u0103n b\u1EA3n c\u1EE7a b\u1EA1n r\u1ED3i th\u1EED l\u1EA1i."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u201C\u6717\u8BFB\u6240\u9009\u5185\u5BB9\u201D\u53EF\u80FD\u8BFB\u53D6\u4E86\u9519\u8BEF\u7684\u7A97\u53E3\u3002\u8BF7\u5728\u6587\u672C\u4E2D\u5355\u51FB\uFF0C\u7136\u540E\u518D\u8BD5\u4E00\u6B21\u3002"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u300C\u6717\u8B80\u9078\u53D6\u7BC4\u570D\u300D\u53EF\u80FD\u6717\u8B80\u4E86\u932F\u8AA4\u7684\u8996\u7A97\u3002\u8ACB\u6309\u4E00\u4E0B\u60A8\u7684\u6587\u5B57\uFF0C\u7136\u5F8C\u518D\u8A66\u4E00\u6B21\u3002"
+          }
+        }
+      }
+    },
+    "RestartMorphicButtonLabel": {
+      "comment": "[loc-id:f83db7160a4585b3] Action button on a Morphic notification toast that relaunches the app. \u0022Morphic\u0022 is a product name; do not translate it. Short imperative.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restart Morphic"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic neu starten"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reiniciar Morphic"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0625\u0639\u0627\u062F\u0629 \u062A\u0634\u063A\u064A\u0644 Morphic"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0631\u0627\u0647\u200C\u0627\u0646\u062F\u0627\u0632\u06CC \u0645\u062C\u062F\u062F Morphic"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0AAB\u0AB0\u0AC0 \u0AB6\u0AB0\u0AC2 \u0A95\u0AB0\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0915\u094B \u092A\u0941\u0928\u0930\u093E\u0930\u0902\u092D \u0915\u0930\u0947\u0902"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \uB2E4\uC2DC \uC2DC\uC791"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0930\u0940\u0938\u094D\u091F\u093E\u0930\u094D\u091F \u0915\u0930\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u06A9\u0648 \u062F\u0648\u0628\u0627\u0631\u06C1 \u0634\u0631\u0648\u0639 \u06A9\u0631\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kh\u1EDFi \u0111\u1ED9ng l\u1EA1i Morphic"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u91CD\u65B0\u542F\u52A8 Morphic"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u91CD\u65B0\u555F\u52D5 Morphic"
+          }
+        }
+      }
+    },
+    "ScreenRecordingGrantedRestartMessage": {
+      "comment": "[loc-id:087e4f04ab021ac4] Notification toast body shown after the user grants Screen Recording permission, telling them to restart Morphic for it to take effect. \u0022Morphic\u0022 is a product name; \u0022Screen Recording\u0022 is the macOS privacy permission name (match Apple\u0027s wording).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Screen Recording was granted. Restart Morphic for the change to take effect."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Berechtigung f\u00FCr Bildschirmaufnahme wurde erteilt. Starten Sie Morphic neu, damit die \u00C4nderung wirksam wird."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se concedi\u00F3 el permiso de Grabaci\u00F3n de pantalla. Reinicia Morphic para que el cambio surta efecto."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062A\u0645 \u0645\u0646\u062D \u0625\u0630\u0646 \u00AB\u062A\u0633\u062C\u064A\u0644 \u0627\u0644\u0634\u0627\u0634\u0629\u00BB. \u0623\u0639\u062F \u062A\u0634\u063A\u064A\u0644 Morphic \u0644\u064A\u0635\u0628\u062D \u0627\u0644\u062A\u063A\u064A\u064A\u0631 \u0633\u0627\u0631\u064A \u0627\u0644\u0645\u0641\u0639\u0648\u0644."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u062C\u0648\u0632 \u00AB\u0636\u0628\u0637 \u0635\u0641\u062D\u0647\u200C\u0646\u0645\u0627\u06CC\u0634\u00BB \u062F\u0627\u062F\u0647 \u0634\u062F. \u0628\u0631\u0627\u06CC \u0627\u0639\u0645\u0627\u0644 \u062A\u063A\u06CC\u06CC\u0631\u060C Morphic \u0631\u0627 \u0631\u0627\u0647\u200C\u0627\u0646\u062F\u0627\u0632\u06CC \u0645\u062C\u062F\u062F \u06A9\u0646\u06CC\u062F."
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Screen Recording \u0AAE\u0A82\u0A9C\u0AC2\u0AB0 \u0A95\u0AB0\u0ABE\u0AAF\u0AC1\u0A82. \u0AAB\u0AC7\u0AB0\u0AAB\u0ABE\u0AB0 \u0A85\u0AAE\u0AB2\u0AAE\u0ABE\u0A82 \u0A86\u0AB5\u0AC7 \u0AA4\u0AC7 \u0AAE\u0ABE\u0A9F\u0AC7 Morphic \u0AAB\u0AB0\u0AC0 \u0AB6\u0AB0\u0AC2 \u0A95\u0AB0\u0ACB."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0938\u094D\u0915\u094D\u0930\u0940\u0928 \u0930\u093F\u0915\u0949\u0930\u094D\u0921\u093F\u0902\u0917 \u0915\u0940 \u0905\u0928\u0941\u092E\u0924\u093F \u0926\u0947 \u0926\u0940 \u0917\u0908 \u0939\u0948\u0964 \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u0928 \u0932\u093E\u0917\u0942 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F Morphic \u0915\u094B \u092A\u0941\u0928\u0930\u093E\u0930\u0902\u092D \u0915\u0930\u0947\u0902\u0964"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uD654\uBA74 \uAE30\uB85D\uC774 \uD5C8\uC6A9\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uBCC0\uACBD \uC0AC\uD56D\uC744 \uC801\uC6A9\uD558\uB824\uBA74 Morphic\uC744 \uB2E4\uC2DC \uC2DC\uC791\uD558\uC138\uC694."
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Screen Recording \u091A\u0940 \u092A\u0930\u0935\u093E\u0928\u0917\u0940 \u0926\u093F\u0932\u0940 \u0917\u0947\u0932\u0940 \u0906\u0939\u0947. \u092C\u0926\u0932 \u0932\u093E\u0917\u0942 \u0939\u094B\u0923\u094D\u092F\u093E\u0938\u093E\u0920\u0940 Morphic \u0930\u0940\u0938\u094D\u091F\u093E\u0930\u094D\u091F \u0915\u0930\u093E."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Screen Recording \u06A9\u06CC \u0627\u062C\u0627\u0632\u062A \u062F\u06D2 \u062F\u06CC \u06AF\u0626\u06CC\u06D4 \u062A\u0628\u062F\u06CC\u0644\u06CC \u06A9\u06D2 \u0646\u0627\u0641\u0630 \u06C1\u0648\u0646\u06D2 \u06A9\u06D2 \u0644\u06CC\u06D2 Morphic \u062F\u0648\u0628\u0627\u0631\u06C1 \u0634\u0631\u0648\u0639 \u06A9\u0631\u06CC\u06BA\u06D4"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quy\u1EC1n Ghi m\u00E0n h\u00ECnh \u0111\u00E3 \u0111\u01B0\u1EE3c c\u1EA5p. Kh\u1EDFi \u0111\u1ED9ng l\u1EA1i Morphic \u0111\u1EC3 thay \u0111\u1ED5i c\u00F3 hi\u1EC7u l\u1EF1c."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u5DF2\u6388\u4E88\u201C\u5C4F\u5E55\u5F55\u5236\u201D\u6743\u9650\u3002\u8BF7\u91CD\u542F Morphic \u4EE5\u4F7F\u66F4\u6539\u751F\u6548\u3002"
+          }
+        }
+      }
+    },
+    "SettingsDialogBlockingMessage": {
+      "comment": "[loc-id:82900dc9c0dd22cb] Notification toast body shown when Morphic can\u0027t change a setting because System Settings has a modal dialog open that Morphic won\u0027t close automatically. Asks the user to close it and retry. \u0022Morphic\u0022 is a product name; \u0022System Settings\u0022 is the macOS app name (match Apple\u0027s wording).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic is trying to change a setting, but System Settings has a dialog open that it can\u2019t close for you. Please close that dialog, then try again."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic versucht, eine Einstellung zu \u00E4ndern, aber in den Systemeinstellungen ist ein Dialogfeld ge\u00F6ffnet, das nicht automatisch geschlossen werden kann. Schlie\u00DFen Sie dieses Dialogfeld, und versuchen Sie es erneut."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic est\u00E1 intentando cambiar un ajuste, pero Ajustes del Sistema tiene un cuadro de di\u00E1logo abierto que no puede cerrar por ti. Cierra ese cuadro de di\u00E1logo y vuelve a intentarlo."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u064A\u062D\u0627\u0648\u0644 Morphic \u062A\u063A\u064A\u064A\u0631 \u0623\u062D\u062F \u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A\u060C \u0644\u0643\u0646 \u064A\u0648\u062C\u062F \u0645\u0631\u0628\u0639 \u062D\u0648\u0627\u0631 \u0645\u0641\u062A\u0648\u062D \u0641\u064A \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0627\u0644\u0646\u0638\u0627\u0645 \u064A\u062A\u0639\u0630\u0651\u0631 \u0639\u0644\u064A\u0647 \u0625\u063A\u0644\u0627\u0642\u0647 \u0646\u064A\u0627\u0628\u0629\u064B \u0639\u0646\u0643. \u064A\u064F\u0631\u062C\u0649 \u0625\u063A\u0644\u0627\u0642 \u0645\u0631\u0628\u0639 \u0627\u0644\u062D\u0648\u0627\u0631 \u0647\u0630\u0627\u060C \u062B\u0645 \u062D\u0627\u0648\u0644 \u0645\u0631\u0629 \u0623\u062E\u0631\u0649."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u062F\u0631 \u062A\u0644\u0627\u0634 \u0627\u0633\u062A \u06CC\u06A9 \u062A\u0646\u0638\u06CC\u0645 \u0631\u0627 \u062A\u063A\u06CC\u06CC\u0631 \u062F\u0647\u062F\u060C \u0627\u0645\u0627 \u062F\u0631 \u062A\u0646\u0638\u06CC\u0645\u0627\u062A \u0633\u06CC\u0633\u062A\u0645 \u06CC\u06A9 \u067E\u0646\u062C\u0631\u0647\u0654 \u06AF\u0641\u062A\u06AF\u0648 \u0628\u0627\u0632 \u0627\u0633\u062A \u06A9\u0647 \u0646\u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u062F \u0622\u0646 \u0631\u0627 \u0628\u0631\u0627\u06CC \u0634\u0645\u0627 \u0628\u0628\u0646\u062F\u062F. \u0644\u0637\u0641\u0627\u064B \u0622\u0646 \u067E\u0646\u062C\u0631\u0647 \u0631\u0627 \u0628\u0628\u0646\u062F\u06CC\u062F\u060C \u0633\u067E\u0633 \u062F\u0648\u0628\u0627\u0631\u0647 \u0627\u0645\u062A\u062D\u0627\u0646 \u06A9\u0646\u06CC\u062F."
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0AB8\u0AC7\u0A9F\u0ABF\u0A82\u0A97 \u0AAC\u0AA6\u0AB2\u0AB5\u0ABE\u0AA8\u0ACB \u0AAA\u0ACD\u0AB0\u0AAF\u0ABE\u0AB8 \u0A95\u0AB0\u0AC0 \u0AB0\u0AB9\u0ACD\u0AAF\u0AC1\u0A82 \u0A9B\u0AC7, \u0AAA\u0AB0\u0A82\u0AA4\u0AC1 System Settings \u0AAE\u0ABE\u0A82 \u0A8F\u0A95 \u0AA1\u0ABE\u0AAF\u0AB2\u0ACB\u0A97 \u0A96\u0AC1\u0AB2\u0ACD\u0AB2\u0ACB \u0A9B\u0AC7 \u0A9C\u0AC7\u0AA8\u0AC7 \u0AA4\u0AC7 \u0AA4\u0AAE\u0ABE\u0AB0\u0ABE \u0AAE\u0ABE\u0A9F\u0AC7 \u0AAC\u0A82\u0AA7 \u0A95\u0AB0\u0AC0 \u0AB6\u0A95\u0AA4\u0AC1\u0A82 \u0AA8\u0AA5\u0AC0. \u0A95\u0AC3\u0AAA\u0ABE \u0A95\u0AB0\u0AC0\u0AA8\u0AC7 \u0AA4\u0AC7 \u0AA1\u0ABE\u0AAF\u0AB2\u0ACB\u0A97 \u0AAC\u0A82\u0AA7 \u0A95\u0AB0\u0ACB, \u0AAA\u0A9B\u0AC0 \u0AAB\u0AB0\u0AC0 \u0AAA\u0ACD\u0AB0\u0AAF\u0ABE\u0AB8 \u0A95\u0AB0\u0ACB."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u090F\u0915 \u0938\u0947\u091F\u093F\u0902\u0917 \u092C\u0926\u0932\u0928\u0947 \u0915\u093E \u092A\u094D\u0930\u092F\u093E\u0938 \u0915\u0930 \u0930\u0939\u093E \u0939\u0948, \u0932\u0947\u0915\u093F\u0928 \u0938\u093F\u0938\u094D\u091F\u092E \u0938\u0947\u091F\u093F\u0902\u0917\u094D\u0938 \u092E\u0947\u0902 \u090F\u0915 \u0921\u093E\u092F\u0932\u0949\u0917 \u0916\u0941\u0932\u093E \u0939\u0948 \u091C\u093F\u0938\u0947 \u0935\u0939 \u0906\u092A\u0915\u0947 \u0932\u093F\u090F \u092C\u0902\u0926 \u0928\u0939\u0940\u0902 \u0915\u0930 \u0938\u0915\u0924\u093E\u0964 \u0915\u0943\u092A\u092F\u093E \u0909\u0938 \u0921\u093E\u092F\u0932\u0949\u0917 \u0915\u094B \u092C\u0902\u0926 \u0915\u0930\u0947\u0902, \u092B\u093F\u0930 \u092A\u0941\u0928\u0903 \u092A\u094D\u0930\u092F\u093E\u0938 \u0915\u0930\u0947\u0902\u0964"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic\uC774 \uC124\uC815\uC744 \uBCC0\uACBD\uD558\uB824\uACE0 \uD558\uC9C0\uB9CC, \uC2DC\uC2A4\uD15C \uC124\uC815\uC5D0 Morphic\uC774 \uB2EB\uC744 \uC218 \uC5C6\uB294 \uB300\uD654\uC0C1\uC790\uAC00 \uC5F4\uB824 \uC788\uC2B5\uB2C8\uB2E4. \uD574\uB2F9 \uB300\uD654\uC0C1\uC790\uB97C \uB2EB\uC740 \uB2E4\uC74C \uB2E4\uC2DC \uC2DC\uB3C4\uD558\uC2ED\uC2DC\uC624."
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u090F\u0915 \u0938\u0947\u091F\u093F\u0902\u0917 \u092C\u0926\u0932\u0923\u094D\u092F\u093E\u091A\u093E \u092A\u094D\u0930\u092F\u0924\u094D\u0928 \u0915\u0930\u0924 \u0906\u0939\u0947, \u092A\u0930\u0902\u0924\u0941 System Settings \u092E\u0927\u094D\u092F\u0947 \u090F\u0915 \u0921\u093E\u092F\u0932\u0949\u0917 \u0909\u0918\u0921\u093E \u0906\u0939\u0947 \u091C\u094B \u0924\u0947 \u0924\u0941\u092E\u091A\u094D\u092F\u093E\u0938\u093E\u0920\u0940 \u092C\u0902\u0926 \u0915\u0930\u0942 \u0936\u0915\u0924 \u0928\u093E\u0939\u0940. \u0915\u0943\u092A\u092F\u093E \u0924\u094B \u0921\u093E\u092F\u0932\u0949\u0917 \u092C\u0902\u0926 \u0915\u0930\u093E \u0906\u0923\u093F \u0928\u0902\u0924\u0930 \u092A\u0941\u0928\u094D\u0939\u093E \u092A\u094D\u0930\u092F\u0924\u094D\u0928 \u0915\u0930\u093E."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0627\u06CC\u06A9 \u062A\u0631\u062A\u06CC\u0628 \u062A\u0628\u062F\u06CC\u0644 \u06A9\u0631\u0646\u06D2 \u06A9\u06CC \u06A9\u0648\u0634\u0634 \u06A9\u0631 \u0631\u06C1\u0627 \u06C1\u06D2\u060C \u0644\u06CC\u06A9\u0646 System Settings \u0645\u06CC\u06BA \u0627\u06CC\u06A9 \u0688\u0627\u0626\u06CC\u0644\u0627\u06AF \u06A9\u06BE\u0644\u0627 \u06C1\u06D2 \u062C\u0633\u06D2 \u06CC\u06C1 \u0622\u067E \u06A9\u06D2 \u0644\u06CC\u06D2 \u0628\u0646\u062F \u0646\u06C1\u06CC\u06BA \u06A9\u0631 \u0633\u06A9\u062A\u0627\u06D4 \u0628\u0631\u0627\u06C1\u0650 \u06A9\u0631\u0645 \u0648\u06C1 \u0688\u0627\u0626\u06CC\u0644\u0627\u06AF \u0628\u0646\u062F \u06A9\u0631\u06CC\u06BA\u060C \u067E\u06BE\u0631 \u062F\u0648\u0628\u0627\u0631\u06C1 \u06A9\u0648\u0634\u0634 \u06A9\u0631\u06CC\u06BA\u06D4"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u0111ang c\u1ED1 thay \u0111\u1ED5i m\u1ED9t c\u00E0i \u0111\u1EB7t, nh\u01B0ng C\u00E0i \u0111\u1EB7t h\u1EC7 th\u1ED1ng c\u00F3 m\u1ED9t h\u1ED9p tho\u1EA1i \u0111ang m\u1EDF m\u00E0 Morphic kh\u00F4ng th\u1EC3 \u0111\u00F3ng gi\u00FAp b\u1EA1n. Vui l\u00F2ng \u0111\u00F3ng h\u1ED9p tho\u1EA1i \u0111\u00F3, r\u1ED3i th\u1EED l\u1EA1i."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u6B63\u5728\u5C1D\u8BD5\u66F4\u6539\u4E00\u9879\u8BBE\u7F6E\uFF0C\u4F46\u201C\u7CFB\u7EDF\u8BBE\u7F6E\u201D\u4E2D\u6253\u5F00\u4E86\u4E00\u4E2A\u5BF9\u8BDD\u6846\uFF0CMorphic \u65E0\u6CD5\u4E3A\u4F60\u5173\u95ED\u3002\u8BF7\u5173\u95ED\u8BE5\u5BF9\u8BDD\u6846\uFF0C\u7136\u540E\u91CD\u8BD5\u3002"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic \u6B63\u5728\u5617\u8A66\u8B8A\u66F4\u8A2D\u5B9A\uFF0C\u4F46\u300C\u7CFB\u7D71\u8A2D\u5B9A\u300D\u6709\u958B\u555F\u7684\u5C0D\u8A71\u6846\uFF0CMorphic \u7121\u6CD5\u4EE3\u60A8\u95DC\u9589\u3002\u8ACB\u95DC\u9589\u8A72\u5C0D\u8A71\u6846\uFF0C\u7136\u5F8C\u518D\u8A66\u4E00\u6B21\u3002"
+          }
+        }
+      }
+    },
+    "ShowMorphicBar": {
+      "comment": "[loc-id:1d5d59c4f84147cd] Menu item that shows the MorphicBar. \u0022MorphicBar\u0022 is a product name; do not translate it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show MorphicBar"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0625\u0638\u0647\u0627\u0631 \u0634\u0631\u064A\u0637 \u0627\u0644\u0645\u0648\u0631\u0641\u064A\u062A\u0634"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mostrar la barra de Morphic"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0646\u0645\u0627\u06CC\u0634 \u0646\u0648\u0627\u0631 \u0645\u0648\u0631\u0641\u06CC\u06A9"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MorphicBar \u0AAC\u0AA4\u0ABE\u0AB5\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u0949\u0930\u094D\u092B\u093F\u0915\u092C\u093E\u0930 \u0926\u093F\u0916\u093E\u090F\u0901"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MorphicBar \uBCF4\uC5EC\uC8FC\uB2E4"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u0949\u0930\u094D\u092B\u093F\u0915\u092C\u093E\u0930 \u0926\u093E\u0916\u0935\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MorphicBar \u062F\u06A9\u06BE\u0627\u0626\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hi\u1EC3n th\u1ECB MorphicBar"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "\u663E\u793A MorphicBar"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u986F\u793A Morphic \u5DE5\u5177\u5217"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MorphicBar anzeigen"
+          }
+        }
+      }
+    },
+    "ShowSettingsButtonLabel": {
+      "comment": "[loc-id:2f09d076f1da3ab2] Action button on a Morphic notification toast that brings System Settings to the front so the user can see/close a dialog. Short imperative.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Settings"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen anzeigen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Ajustes"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0625\u0638\u0647\u0627\u0631 \u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0646\u0645\u0627\u06CC\u0634 \u062A\u0646\u0638\u06CC\u0645\u0627\u062A"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0AB8\u0AC7\u0A9F\u0ABF\u0A82\u0A97\u0ACD\u0AB8 \u0AAC\u0AA4\u0ABE\u0AB5\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0938\u0947\u091F\u093F\u0902\u0917\u094D\u0938 \u0926\u093F\u0916\u093E\u090F\u0901"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uC124\uC815 \uBCF4\uAE30"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0938\u0947\u091F\u093F\u0902\u0917\u094D\u091C \u0926\u093E\u0916\u0935\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062A\u0631\u062A\u06CC\u0628\u0627\u062A \u062F\u06A9\u06BE\u0627\u0626\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hi\u1EC3n th\u1ECB C\u00E0i \u0111\u1EB7t"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u663E\u793A\u7CFB\u7EDF\u8BBE\u7F6E"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u986F\u793A\u8A2D\u5B9A"
+          }
+        }
+      }
+    },
+    "SizeOfTextHeader": {
+      "comment": "[loc-id:2793a67f04774c33] Header above the text-size (\u002B/\u2013) buttons on the MorphicBar.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Size of Text"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Textgr\u00F6\u00DFe"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tama\u00F1o del texto"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062D\u062C\u0645 \u0627\u0644\u0646\u0635"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0627\u0646\u062F\u0627\u0632\u0647\u0654 \u0645\u062A\u0646"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0A9F\u0AC7\u0A95\u0ACD\u0AB8\u0ACD\u0A9F\u0AA8\u0AC1\u0A82 \u0A95\u0AA6"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u091F\u0947\u0915\u094D\u0938\u094D\u091F \u0915\u093E \u0906\u0915\u093E\u0930"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uD14D\uC2A4\uD2B8 \uD06C\uAE30"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u092E\u091C\u0915\u0941\u0930\u093E\u091A\u093E \u0906\u0915\u093E\u0930"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0645\u062A\u0646 \u06A9\u0627 \u0633\u0627\u0626\u0632"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "C\u1EE1 ch\u1EEF"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u6587\u672C\u5927\u5C0F"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u6587\u5B57\u5927\u5C0F"
+          }
+        }
+      }
+    },
+    "SnipAccessibleName": {
+      "comment": "[loc-id:dfd49d019d6441f0] VoiceOver/accessibility label for the Snip \u0022Copy\u0022 button on the MorphicBar; captures part of the screen to the clipboard.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snip and copy part of the screen"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildschirmausschnitt erfassen und kopieren"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recortar y copiar parte de la pantalla"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0628\u0631\u0634 \u0648 \u06A9\u067E\u06CC \u0628\u062E\u0634\u06CC \u0627\u0632 \u0635\u0641\u062D\u0647\u200C\u0646\u0645\u0627\u06CC\u0634"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0938\u094D\u0915\u094D\u0930\u0940\u0928 \u0915\u093E \u0939\u093F\u0938\u094D\u0938\u093E \u0938\u094D\u0928\u093F\u092A \u0915\u0930\u0947\u0902 \u0914\u0930 \u0915\u0949\u092A\u0940 \u0915\u0930\u0947\u0902"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uD654\uBA74 \uC77C\uBD80 \uCEA1\uCC98 \uBC0F \uBCF5\uC0AC"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0938\u094D\u0915\u094D\u0930\u0940\u0928\u091A\u093E \u092D\u093E\u0917 \u0938\u094D\u0928\u093F\u092A \u0915\u0930\u093E \u0906\u0923\u093F \u0915\u0949\u092A\u0940 \u0915\u0930\u093E"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0627\u0633\u06A9\u0631\u06CC\u0646 \u06A9\u06D2 \u062D\u0635\u06D2 \u06A9\u0648 \u062A\u0631\u0627\u0634\u06CC\u06BA \u0627\u0648\u0631 \u06A9\u0627\u067E\u06CC \u06A9\u0631\u06CC\u06BA"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ch\u1EE5p v\u00E0 sao ch\u00E9p m\u1ED9t ph\u1EA7n m\u00E0n h\u00ECnh"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u622A\u53D6\u5E76\u590D\u5236\u5C4F\u5E55\u7684\u4E00\u90E8\u5206"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u526A\u53D6\u4E26\u8907\u88FD\u90E8\u5206\u87A2\u5E55\u756B\u9762"
+          }
+        }
+      }
+    },
+    "SnipCopyLabel": {
+      "comment": "[loc-id:ea4debfd136f421f] Short button label on the MorphicBar; snips (captures) part of the screen and copies it to the clipboard. Very short to fit the button.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "\u0646\u0633\u062E"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u06A9\u067E\u06CC"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "\u0A95\u0ACB\u0AAA\u0AC0 \u0A95\u0AB0\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0915\u0949\u092A\u0940 (\u092A\u094D\u0930\u0924\u093F\u0932\u093F\u092A\u093F)"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uBCF5\uC0AC"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "\u0915\u0949\u092A\u0940"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u06A9\u0627\u067E\u06CC"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sao ch\u00E9p"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u590D\u5236"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u8907\u88FD"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopieren"
+          }
+        }
+      }
+    },
+    "SnipHeader": {
+      "comment": "[loc-id:af6dfa97a5784f1c] Header above the Snip (screen capture) button on the MorphicBar.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snip"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0642\u0635"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recortar"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0628\u0631\u0634"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0A95\u0ABE\u0AAA\u0ACB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0938\u094D\u0928\u093F\u092A (\u0915\u091F\u093E\u0935)"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uC790\uB974\uB2E4"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0938\u094D\u0928\u093F\u092A"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0633\u0646\u06CC\u067E"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "C\u1EAFt"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u622A\u5C4F"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u64F7\u53D6\u756B\u9762"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausschnitt"
+          }
+        }
+      }
+    },
+    "SnipScreenRecordingRequiredMessage": {
+      "comment": "[loc-id:278b18f84fe30f3f] Notification toast body shown when the Snip feature needs Screen Recording permission, telling the user to grant it and restart. \u0022Snip\u0022 is a Morphic feature; \u0022System Settings\u0022/\u0022Screen Recording\u0022 are macOS names (match Apple\u0027s wording).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snip requires Screen Recording. Grant it in System Settings, then restart Morphic."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "F\u00FCr \u201EAusschnitt\u201C ist die Bildschirmaufnahme erforderlich. Erteilen Sie die Berechtigung in den Systemeinstellungen und starten Sie Morphic neu."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recorte requiere Grabaci\u00F3n de pantalla. Conc\u00E9dela en Ajustes del Sistema y reinicia Morphic."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u062A\u062A\u0637\u0644\u0628 \u0645\u064A\u0632\u0629 \u0627\u0644\u0627\u0642\u062A\u0637\u0627\u0639 \u0625\u0630\u0646 \u00AB\u062A\u0633\u062C\u064A\u0644 \u0627\u0644\u0634\u0627\u0634\u0629\u00BB. \u0627\u0645\u0646\u062D\u0647 \u0641\u064A \u00AB\u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0627\u0644\u0646\u0638\u0627\u0645\u00BB\u060C \u062B\u0645 \u0623\u0639\u062F \u062A\u0634\u063A\u064A\u0644 Morphic."
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snip \u0AA8\u0AC7 Screen Recording \u0A9C\u0AB0\u0AC2\u0AB0\u0AC0 \u0A9B\u0AC7. \u0AA4\u0AC7\u0AA8\u0AC7 System Settings \u0AAE\u0ABE\u0A82 \u0AAE\u0A82\u0A9C\u0AC2\u0AB0 \u0A95\u0AB0\u0ACB, \u0AAA\u0A9B\u0AC0 Morphic \u0AAB\u0AB0\u0AC0 \u0AB6\u0AB0\u0AC2 \u0A95\u0AB0\u0ACB."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0938\u094D\u0928\u093F\u092A \u0915\u0947 \u0932\u093F\u090F \u0938\u094D\u0915\u094D\u0930\u0940\u0928 \u0930\u093F\u0915\u0949\u0930\u094D\u0921\u093F\u0902\u0917 \u0915\u0940 \u0906\u0935\u0936\u094D\u092F\u0915\u0924\u093E \u0939\u0948\u0964 \u0907\u0938\u0947 \u0938\u093F\u0938\u094D\u091F\u092E \u0938\u0947\u091F\u093F\u0902\u0917 \u092E\u0947\u0902 \u0905\u0928\u0941\u092E\u0924\u093F \u0926\u0947\u0902, \u092B\u093F\u0930 Morphic \u0915\u094B \u092A\u0941\u0928\u0930\u093E\u0930\u0902\u092D \u0915\u0930\u0947\u0902\u0964"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\uCEA1\uCC98\uC5D0\uB294 \uD654\uBA74 \uAE30\uB85D\uC774 \uD544\uC694\uD569\uB2C8\uB2E4. \uC2DC\uC2A4\uD15C \uC124\uC815\uC5D0\uC11C \uD5C8\uC6A9\uD55C \uB2E4\uC74C Morphic\uC744 \uB2E4\uC2DC \uC2DC\uC791\uD558\uC138\uC694."
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u0938\u094D\u0928\u093F\u092A\u0938\u093E\u0920\u0940 Screen Recording \u0906\u0935\u0936\u094D\u092F\u0915 \u0906\u0939\u0947. System Settings \u092E\u0927\u094D\u092F\u0947 \u0924\u094D\u092F\u093E\u091A\u0940 \u092A\u0930\u0935\u093E\u0928\u0917\u0940 \u0926\u094D\u092F\u093E \u0906\u0923\u093F \u0928\u0902\u0924\u0930 Morphic \u0930\u0940\u0938\u094D\u091F\u093E\u0930\u094D\u091F \u0915\u0930\u093E."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snip \u06A9\u06D2 \u0644\u06CC\u06D2 \u0627\u0633\u06A9\u0631\u06CC\u0646 \u0631\u06CC\u06A9\u0627\u0631\u0688\u0646\u06AF \u0636\u0631\u0648\u0631\u06CC \u06C1\u06D2\u06D4 \u0627\u0633\u06D2 \u0633\u0633\u0679\u0645 \u0633\u06CC\u0679\u0646\u06AF\u0632 \u0645\u06CC\u06BA \u0627\u062C\u0627\u0632\u062A \u062F\u06CC\u06BA\u060C \u067E\u06BE\u0631 Morphic \u06A9\u0648 \u062F\u0648\u0628\u0627\u0631\u06C1 \u0634\u0631\u0648\u0639 \u06A9\u0631\u06CC\u06BA\u06D4"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "T\u00EDnh n\u0103ng C\u1EAFt y\u00EAu c\u1EA7u quy\u1EC1n Ghi m\u00E0n h\u00ECnh. H\u00E3y c\u1EA5p quy\u1EC1n n\u00E0y trong C\u00E0i \u0111\u1EB7t h\u1EC7 th\u1ED1ng, sau \u0111\u00F3 kh\u1EDFi \u0111\u1ED9ng l\u1EA1i Morphic."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u622A\u56FE\u9700\u8981\u201C\u5C4F\u5E55\u5F55\u5236\u201D\u6743\u9650\u3002\u8BF7\u5728\u201C\u7CFB\u7EDF\u8BBE\u7F6E\u201D\u4E2D\u6388\u4E88\u8BE5\u6743\u9650\uFF0C\u7136\u540E\u91CD\u542F Morphic\u3002"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\u300C\u526A\u53D6\u300D\u9700\u8981\u300C\u87A2\u5E55\u9304\u88FD\u300D\u6B0A\u9650\u3002\u8ACB\u5728\u300C\u7CFB\u7D71\u8A2D\u5B9A\u300D\u4E2D\u6388\u4E88\u8A72\u6B0A\u9650\uFF0C\u7136\u5F8C\u91CD\u65B0\u555F\u52D5 Morphic\u3002"
+          }
+        }
+      }
+    },
+    "StatusItemAccessibleName": {
+      "comment": "[loc-id:d39f23870b34e469] VoiceOver/accessibility label for the Morphic menu-bar (status) icon. \u0022Morphic\u0022 is the product name; do not translate it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic"
+          }
+        },
+        "gu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic"
+          }
+        },
+        "mr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morphic"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
