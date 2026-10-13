@@ -55,7 +55,13 @@ internal class SystemSettingsAccessibilityCategoryPane: SystemSettingsGroupUIEle
         case .display:
             return "Display"
         case .spokenContent:
-            return "Spoken Content"
+            if #available(macOS 26.0, *) {
+                // macOS 26.0 and newer (the pane was renamed "Read & Speak" in macOS 26.0)
+                return "Read & Speak"
+            } else {
+                // macOS 13.x through 15.x
+                return "Spoken Content"
+            }
         case .voiceOver:
             return "VoiceOver"
         case .zoom:
@@ -67,11 +73,32 @@ internal class SystemSettingsAccessibilityCategoryPane: SystemSettingsGroupUIEle
         // NOTE: this function will navigate to the (sub)category specified as "pane", populating the right side of the main splitview with the requested pane; it will then return the top-level group from that pane (i.e. the child of the right side of the split view, after navigation); this returned result may effectively be the same group UI element which was used by this class for navigation, due to the way that SwiftUI and System Settings swaps out panels in relation to the AX framework, so the caller should always re-navigate from the root (or from a known-synced state)
 
         // STEP 1: find the category through its identifier; this will get the AXButton element
+        //
+        // NOTE: right after the Accessibility category was selected in the sidebar, System Settings can report the category's window title before the category's contents are in the accessibility tree (observed on macOS 27.0 after every sidebar selection, and on macOS 26 when the previous pane had the same window title) -- in which case the group we were handed may still be the previous pane's; so we poll for the button, re-fetching the right-hand group each time, for up to our wait time
         let categoryIdentifier = SystemSettingsAccessibilityCategoryPane.identifierForCategory(pane)
         //
+        let categoryContentsAreLoaded: Bool = await AsyncUtils.wait(atMost: waitAtMost) {
+            guard let mainSplitViewGroups = try? self.systemSettingsMainWindow.findMainSplitViewLeftAndRightGroups() else {
+                // the split view may be mid-transition; try again on the next poll
+                return false
+            }
+            let detailsGroupUIElement = mainSplitViewGroups.1
+            return (try? detailsGroupUIElement.accessibilityUiElement.descendant(identifier: categoryIdentifier)) != nil
+        }
+        guard categoryContentsAreLoaded == true else {
+            // the category's contents never appeared
+            throw SystemSettingsApp.NavigationError.unspecified
+        }
+        //
+        let detailsGroupUIElementForCategory: GroupUIElement
+        do {
+            (_, detailsGroupUIElementForCategory) = try self.systemSettingsMainWindow.findMainSplitViewLeftAndRightGroups()
+        } catch let error {
+            throw error
+        }
         let categoryButtonA11yUiElement: MorphicA11yUIElement?
         do {
-            categoryButtonA11yUiElement = try self.groupUIElement.accessibilityUiElement.descendant(identifier: categoryIdentifier)
+            categoryButtonA11yUiElement = try detailsGroupUIElementForCategory.accessibilityUiElement.descendant(identifier: categoryIdentifier)
         } catch let error {
             throw error
         }

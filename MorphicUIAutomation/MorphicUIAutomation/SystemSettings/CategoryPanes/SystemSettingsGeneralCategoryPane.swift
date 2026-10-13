@@ -51,24 +51,48 @@ internal class SystemSettingsGeneralCategoryPane: SystemSettingsGroupUIElementWr
     public func navigateTo(_ pane: CategoryPane, waitAtMost: TimeInterval) async throws -> GroupUIElement {
         // NOTE: this function will navigate to the (sub)category specified as "pane", populating the right side of the main splitview with the requested pane; it will then return the top-level group from that pane (i.e. the child of the right side of the split view, after navigation); this returned result may effectively be the same group UI element which was used by this class for navigation, due to the way that SwiftUI and System Settings swaps out panels in relation to the AX framework, so the caller should always re-navigate from the root (or from a known-synced state)
 
-        // STEP 1: find the category through its identifier; this will get the ASButton element
+        // STEP 1: find the category through its label; this will get the AXButton element
+        //
+        // NOTE: on macOS 15.0 and newer the General pane's window title is empty, so the main window's title-based wait completes immediately (and on macOS 27.0 the pane's contents can lag its title after any sidebar selection) -- so the group we were handed may still be the previous pane's; we poll for the button, re-fetching the right-hand group each time, for up to our wait time
         let categoryLabel = SystemSettingsGeneralCategoryPane.labelForCategory(pane)
         //
-        let categoryButtonA11yUiElement: MorphicA11yUIElement?
-        do {
-            categoryButtonA11yUiElement = try self.groupUIElement.accessibilityUiElement.dangerousFirstDescendant(where: {
+        let findCategoryButton: (GroupUIElement) throws -> MorphicA11yUIElement? = { groupUIElement in
+            return try groupUIElement.accessibilityUiElement.dangerousFirstDescendant(where: {
                 guard $0.role == .button else {
                     return false
                 }
-                
+
                 // NOTE: in our testing, the button label in this dialog is represented as the description value (i.e. not the title, and not the title ui element's value)
                 // NOTE: if we cannot get the title of the label, we intentionally ignore the issue
                 guard let buttonLabel: String = try? $0.value(forAttribute: .description) else {
                     return false
                 }
-                
+
                 return buttonLabel == categoryLabel
             })
+        }
+        //
+        let categoryContentsAreLoaded: Bool = await AsyncUtils.wait(atMost: waitAtMost) {
+            guard let mainSplitViewGroups = try? self.systemSettingsMainWindow.findMainSplitViewLeftAndRightGroups() else {
+                // the split view may be mid-transition; try again on the next poll
+                return false
+            }
+            return (try? findCategoryButton(mainSplitViewGroups.1)) != nil
+        }
+        guard categoryContentsAreLoaded == true else {
+            // the category's contents never appeared
+            throw SystemSettingsApp.NavigationError.unspecified
+        }
+        //
+        let detailsGroupUIElementForCategory: GroupUIElement
+        do {
+            (_, detailsGroupUIElementForCategory) = try self.systemSettingsMainWindow.findMainSplitViewLeftAndRightGroups()
+        } catch let error {
+            throw error
+        }
+        let categoryButtonA11yUiElement: MorphicA11yUIElement?
+        do {
+            categoryButtonA11yUiElement = try findCategoryButton(detailsGroupUIElementForCategory)
         } catch let error {
             throw error
         }

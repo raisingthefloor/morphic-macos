@@ -43,21 +43,44 @@ internal class SystemSettingsMainWindow {
     }
 
     private static func identifierForCategory(_ category: CategoryPane) -> String {
-        switch category {
-        case .accessibility:
-            return "com.apple.Accessibility-Settings.extension"
-        case .appearance:
-            return "com.apple.Appearance-Settings.extension"
-        case .displays:
-            return "com.apple.Displays-Settings.extension"
-        case .general:
-            return "com.apple.systempreferences.GeneralSettings"
-        case .keyboard:
-            return "com.apple.Keyboard-Settings.extension"
-        case .mouse:
-            return "com.apple.Mouse-Settings.extension"
-        case .trackpad:
-            return "com.apple.Trackpad-Settings.extension"
+        if #available(macOS 27.0, *) {
+            // macOS 27.0 and newer
+            //
+            // NOTE: starting with macOS 27.0, the sidebar rows are identified by System Settings' own identifiers; the Settings extensions' bundle identifiers (which we use for macOS 13.x through 26.x) no longer appear anywhere in the accessibility tree
+            switch category {
+            case .accessibility:
+                return "com.apple.settings.accessibility"
+            case .appearance:
+                return "com.apple.settings.appearance"
+            case .displays:
+                return "com.apple.settings.displayAndBrightness"
+            case .general:
+                return "com.apple.settings.general"
+            case .keyboard:
+                return "com.apple.settings.keyboard"
+            case .mouse:
+                return "com.apple.settings.mouse"
+            case .trackpad:
+                return "com.apple.settings.trackpad"
+            }
+        } else {
+            // macOS 13.x through 26.x
+            switch category {
+            case .accessibility:
+                return "com.apple.Accessibility-Settings.extension"
+            case .appearance:
+                return "com.apple.Appearance-Settings.extension"
+            case .displays:
+                return "com.apple.Displays-Settings.extension"
+            case .general:
+                return "com.apple.systempreferences.GeneralSettings"
+            case .keyboard:
+                return "com.apple.Keyboard-Settings.extension"
+            case .mouse:
+                return "com.apple.Mouse-Settings.extension"
+            case .trackpad:
+                return "com.apple.Trackpad-Settings.extension"
+            }
         }
     }
     
@@ -159,10 +182,28 @@ internal class SystemSettingsMainWindow {
         if categoryRowIsSelected == true {
             // row is already selected; navigate to the category's root (using the "Back" button) if necessary
             // NOTE: we do not account for this time in our "max wait time"; we may want to reconsider how we provide/interpret timeout values
-            var backButtonIsVisible: Bool
+            var backButtonIsVisible: Bool = false
             var backButtonPressCount = 0
             let maxAllowedBackButtonPressCount = 8 // as a sanity check, we won't try pressing Back more than this many times
             repeat {
+                if #available(macOS 14.0, *) {
+                    // macOS 14.0 and newer
+                    //
+                    // NOTE: on macOS 14.0 and newer the Back button is history-based (and on macOS 27.0 and newer it is always present in the toolbar), so pressing it while already at the category's main pane would navigate to a different category; if the window title already matches, there is nothing to navigate back from
+                    // NOTE: skipped when the required title is empty (General on macOS 15.0 and newer), since an empty title would match any pane; that case keeps the pre-existing behavior of pressing Back first
+                    if requiredWindowTitle.isEmpty == false {
+                        let windowTitleAlreadyMatches: Bool
+                        do {
+                            windowTitleAlreadyMatches = try self.windowTitleMatches(requiredWindowTitle)
+                        } catch let error {
+                            throw error
+                        }
+                        if windowTitleAlreadyMatches == true {
+                            break
+                        }
+                    }
+                }
+
                 let toolbarBackButton: ButtonUIElement?
                 do {
                     toolbarBackButton = try self.findToolbarBackButton()
@@ -311,16 +352,24 @@ internal class SystemSettingsMainWindow {
         do {
             if #available(macOS 14.0, *) {
                 // macOS 14.0 and newer
+                //
+                // NOTE: the Back button is an AXButton normally but an AXMenuButton once System Settings has navigation history (a long press shows that history), and macOS 27.0 renamed it (identifier "chevron.backward", label "Go Back"); so we accept either role and match on the identifier or on the label
                 backButtonA11yUIElement = try toolbarUIElement.accessibilityUiElement.dangerousFirstDescendant(where: {
-                    guard $0.role == .button else {
+                    guard $0.role == .button || $0.role == .menuButton else {
                         return false
+                    }
+
+                    if let identifier: String = try? $0.value(forAttribute: .identifier) {
+                        if identifier == "go back" || identifier == "chevron.backward" {
+                            return true
+                        }
                     }
                     
                     guard let buttonLabel: String = try? $0.value(forAttribute: .description) else {
                         return false
                     }
                     
-                    return buttonLabel == "Back"
+                    return buttonLabel == "Back" || buttonLabel == "Go Back"
                 })
             } else {
                 // macOS 13.x

@@ -43,7 +43,29 @@ struct VersionUtils {
         
         return majorVersionAsString + "." + buildAsString
     }
-    
+
+    // parses a macOS version string of the form "major", "major.minor" or "major.minor.patch" (e.g. "13.0" or "15.0.1"); returns nil for anything else
+    static func operatingSystemVersion(fromString versionAsString: String) -> OperatingSystemVersion? {
+        let components = versionAsString.split(separator: ".", omittingEmptySubsequences: false)
+        guard components.count >= 1 && components.count <= 3 else {
+            return nil
+        }
+
+        var componentsAsInts: [Int] = []
+        for component in components {
+            guard let componentAsInt = Int(component), componentAsInt >= 0 else {
+                return nil
+            }
+            componentsAsInts.append(componentAsInt)
+        }
+
+        return OperatingSystemVersion(
+            majorVersion: componentsAsInts[0],
+            minorVersion: componentsAsInts.count >= 2 ? componentsAsInts[1] : 0,
+            patchVersion: componentsAsInts.count >= 3 ? componentsAsInts[2] : 0
+        )
+    }
+
     enum CompareVersionResult {
         case lessThan
         case greaterThan

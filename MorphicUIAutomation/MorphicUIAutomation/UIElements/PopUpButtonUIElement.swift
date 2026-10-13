@@ -51,33 +51,52 @@ public class PopUpButtonUIElement : UIElement {
         let waitAbsoluteDeadline = ProcessInfo.processInfo.systemUptime + waitAtMost
 
         // pop up the menu
+        // NOTE: the SwiftUI implementation of AXPopUpButton doesn't seem to support .showMenu properly: on some macOS versions the action is rejected, and on macOS 27.0 it is accepted but no menu appears (only .press opens the menu); so we try .showMenu first and, if it was rejected or produced no menu within a short grace period, we try .press
+        var didPress = false
         do {
             try self.accessibilityUiElement.perform(action: .showMenu)
         } catch {
-            // if "showMenu" was not accepted, then try ".press" instead; the SwiftUI implementation of AXPopUpButton doesn't seem to support .showMenu properly
+            // if "showMenu" was not accepted, then try ".press" instead
             // TODO: ideally we would capture the "action not available" error here to trigger the call to "press", and would otherwise pass through the original error
             do {
                 try self.accessibilityUiElement.perform(action: .press)
             } catch let error {
                 throw error
             }
+            didPress = true
         }
 
         // wait for the menu to pop up
         var remainingWaitTimeInterval = max(waitAbsoluteDeadline - ProcessInfo.processInfo.systemUptime, 0)
         //
         var menuUIElement: MenuUIElement? = nil
-        let _ = try await AsyncUtils.wait(atMost: remainingWaitTimeInterval) {
+        let findMenu: () throws -> Bool = {
             let menuA11yUIElementAsOptional = try self.accessibilityUiElement.dangerousFirstDescendant(where: { a11yUIElement in
                 a11yUIElement.role == .menu
             })
-            
+
             guard let menuA11yUIElement = menuA11yUIElementAsOptional else {
                 return false
             }
-            
+
             menuUIElement = MenuUIElement(accessibilityUiElement: menuA11yUIElement)
             return true
+        }
+        if didPress == false {
+            // give .showMenu a moment to produce the menu; if it does not (macOS 27.0), fall back to .press
+            let showMenuGracePeriod: TimeInterval = 1.0
+            let _ = try await AsyncUtils.wait(atMost: min(remainingWaitTimeInterval, showMenuGracePeriod), for: findMenu)
+            if menuUIElement == nil {
+                do {
+                    try self.accessibilityUiElement.perform(action: .press)
+                } catch let error {
+                    throw error
+                }
+                remainingWaitTimeInterval = max(waitAbsoluteDeadline - ProcessInfo.processInfo.systemUptime, 0)
+            }
+        }
+        if menuUIElement == nil {
+            let _ = try await AsyncUtils.wait(atMost: remainingWaitTimeInterval, for: findMenu)
         }
         guard let menuUIElement = menuUIElement else {
             // timeout while getting our pop-up menu ui element

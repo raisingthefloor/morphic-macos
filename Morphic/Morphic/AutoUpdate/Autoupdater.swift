@@ -28,7 +28,7 @@ internal struct Autoupdater {
     
     internal static func startCheckingForUpdates(url: URL) {
         AppcastXmlDownloaderParser.requestAppcastXmlFile(url) {
-            version, url, error in
+            version, url, minimumSystemVersion, error in
             //
             guard error == nil else {
                 // error; abort and we'll try again the next time
@@ -39,6 +39,16 @@ internal struct Autoupdater {
                   let url = url else {
                 // error; abort and we'll try again the next time
                 return
+            }
+
+            // if the release declares the oldest macOS it runs on, only offer it when this Mac meets that requirement (otherwise we would offer the user a release which cannot be installed here)
+            // NOTE: a value we cannot parse is treated as "requirement not met", out of caution
+            if let minimumSystemVersion = minimumSystemVersion {
+                guard let minimumOperatingSystemVersion = VersionUtils.operatingSystemVersion(fromString: minimumSystemVersion),
+                      ProcessInfo.processInfo.isOperatingSystemAtLeast(minimumOperatingSystemVersion) == true else {
+                    // this release requires a newer version of macOS than we are running; no update to offer
+                    return
+                }
             }
 
             // compare version to our current version
@@ -74,11 +84,13 @@ internal struct Autoupdater {
 fileprivate class AppcastXmlDownloaderParser: NSObject, XMLParserDelegate {
     var version: String?
     var url: URL?
-    
+    // the oldest macOS version the release runs on (optional element; absent = no restriction)
+    var minimumSystemVersion: String?
+
     var inXmlElement: Bool = false
     var xmlElementContents: String? = nil
     
-    public static func requestAppcastXmlFile(_ url: URL, completionHandler: @escaping (_ version: String?, _ url: URL?, _ error: Error?) -> Void) {
+    public static func requestAppcastXmlFile(_ url: URL, completionHandler: @escaping (_ version: String?, _ url: URL?, _ minimumSystemVersion: String?, _ error: Error?) -> Void) {
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = "GET"
         
@@ -87,20 +99,20 @@ fileprivate class AppcastXmlDownloaderParser: NSObject, XMLParserDelegate {
             //
             guard error == nil else {
                 // error; abort and we'll try again the next time
-                completionHandler(nil, nil, error)
+                completionHandler(nil, nil, nil, error)
                 return
             }
             let httpStatusCode = (response as? HTTPURLResponse)?.statusCode
             guard httpStatusCode == 200 else {
                 // error; abort and we'll try again the next time
                 // NOTE: we return a dummy NSError but would prefer to return a URLError wrapping the HTTP status code
-                completionHandler(nil, nil, NSError())
+                completionHandler(nil, nil, nil, NSError())
                 return
             }
             guard let data = data else {
                 // error; abort and we'll try again the next time
                 // NOTE: we return a dummy NSError but would prefer to return a URLError wrapping the HTTP status code
-                completionHandler(nil, nil, NSError())
+                completionHandler(nil, nil, nil, NSError())
                 return
             }
             
@@ -112,12 +124,12 @@ fileprivate class AppcastXmlDownloaderParser: NSObject, XMLParserDelegate {
             guard parseSuccess == true else {
                 // error; abort and we'll try again the next time
                 // NOTE: we return a dummy NSError but would prefer to return a URLError wrapping the HTTP status code
-                completionHandler(nil, nil, NSError())
+                completionHandler(nil, nil, nil, NSError())
                 return
             }
             //
             DispatchQueue.main.async {
-                completionHandler(xmlParserDelegate.version, xmlParserDelegate.url, xmlParser.parserError)
+                completionHandler(xmlParserDelegate.version, xmlParserDelegate.url, xmlParserDelegate.minimumSystemVersion, xmlParser.parserError)
             }
         }
         downloadAppcastXmlTask.resume()
@@ -143,6 +155,8 @@ fileprivate class AppcastXmlDownloaderParser: NSObject, XMLParserDelegate {
             if let urlAsString = self.xmlElementContents?.trimmingCharacters(in: whitespaceTrimCharacters) {
                 self.url = URL(string: urlAsString)
             }
+        case "minimumSystemVersion":
+            self.minimumSystemVersion = self.xmlElementContents?.trimmingCharacters(in: whitespaceTrimCharacters)
         default:
             // nothing to do
             break

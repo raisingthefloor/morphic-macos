@@ -194,10 +194,35 @@ public class SystemSettingsGroupUIElementWrapper {
 
     //
     
-    public func pressButton(forButtonWithLabel buttonLabel: A11yUIButtonLabel) throws {
+    public func pressButton(forButtonWithLabel buttonLabel: A11yUIButtonLabel, waitAtMost: TimeInterval = 2.0) async throws {
         // STEP 1: find the button by its text
+        //
+        // NOTE: right after a category was selected in the sidebar, System Settings can report the category's window title before the category's contents are in the accessibility tree (observed on macOS 27.0), in which case the group we were handed may still be the previous pane's; so we poll for the button, re-fetching the right-hand group each time, for up to our wait time
+        let a11yUILabel = buttonLabel.a11yUILabel()
+        let buttonIsPresent: Bool = await AsyncUtils.wait(atMost: waitAtMost) {
+            guard let mainSplitViewGroups = try? self.systemSettingsMainWindow.findMainSplitViewLeftAndRightGroups() else {
+                // the split view may be mid-transition; try again on the next poll
+                return false
+            }
+            let buttonA11yUIElement = try? mainSplitViewGroups.1.accessibilityUiElement.dangerousFirstDescendant(where: {
+                guard $0.role == .button, let description: String = try? $0.value(forAttribute: .description) else {
+                    return false
+                }
+                return description == a11yUILabel
+            })
+            return buttonA11yUIElement != nil
+        }
+        guard buttonIsPresent == true else {
+            // the button never appeared
+            throw SystemSettingsApp.NavigationError.unspecified
+        }
+        do {
+            (_, self.groupUIElement) = try self.systemSettingsMainWindow.findMainSplitViewLeftAndRightGroups()
+        } catch let error {
+            throw error
+        }
         let a11yUIElement = try self.findA11yUIElementForLabel(buttonLabel, requiredRole: .button)
-        
+
         // STEP 2: convert the button to a ButtonUIElement and press it
         let buttonUIElement = ButtonUIElement(accessibilityUiElement: a11yUIElement)
         do {

@@ -331,7 +331,7 @@ public class SystemSettingsApp {
             // find the "Night Shift..." button and press it
             let displaysCategoryPane = SystemSettingsDisplaysCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: displaysCategoryGroupUIElement)
             do {
-                _ = try displaysCategoryPane.pressButton(forButtonWithLabel: SystemSettingsDisplaysCategoryPane.Button.nightShift)
+                _ = try await displaysCategoryPane.pressButton(forButtonWithLabel: SystemSettingsDisplaysCategoryPane.Button.nightShift)
             } catch let error {
                 throw error
             }
@@ -362,7 +362,7 @@ public class SystemSettingsApp {
             // find the "Keyboard Shortcuts..." button and press it
             let keyboardCategoryPane = SystemSettingsKeyboardCategoryPane(systemSettingsMainWindow: systemSettingsMainWindow, groupUIElement: keyboardCategoryGroupUIElement)
             do {
-                _ = try keyboardCategoryPane.pressButton(forButtonWithLabel: SystemSettingsKeyboardCategoryPane.Button.keyboardShortcuts)
+                _ = try await keyboardCategoryPane.pressButton(forButtonWithLabel: SystemSettingsKeyboardCategoryPane.Button.keyboardShortcuts)
             } catch let error {
                 throw error
             }

@@ -26,6 +26,9 @@ variables:
   value: '**/Morphic.xcworkspace'
 - name: finalVersion
   value: '1.$(Build.BuildNumber)'
+# the oldest macOS this release runs on (keep equal to MACOSX_DEPLOYMENT_TARGET); published in the appcast, and Morphic 1.9 and newer only offer an update whose minimumSystemVersion the running macOS meets
+- name: minimumSystemVersion
+  value: '13.0'
 # This means the pipeline will configure all signing options
 - name: signingOption
   value: 'default' # this setting uses the builtin project configuration options for signing
@@ -272,6 +275,7 @@ stages:
               <?xml version="1.0" encoding="utf-8"?>
               <item>
                   <version>1.$(Build.BuildNumber)</version>
+                  <minimumSystemVersion>$(minimumSystemVersion)</minimumSystemVersion>
                   <url>${S3_PUBLISHED_HTTP_URL}/${S3_PKG_OBJECT_NAME}</url>
               </item>
               EOF

@@ -437,7 +437,7 @@ private extension MorphicDisplay.DisplayMode {
     
     var stringRepresentation: String {
         var str = "\(widthInVirtualPixels)x\(heightInVirtualPixels)"
-        if widthInPixels != widthInVirtualPixels || heightInPixels != heightInPixels{
+        if widthInPixels != widthInVirtualPixels || heightInPixels != heightInVirtualPixels {
             str += " (\(widthInPixels)x\(heightInPixels))"
         }
         if let refresh = integerRefresh{
